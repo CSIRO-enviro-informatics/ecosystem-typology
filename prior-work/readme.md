@@ -28,20 +28,21 @@ The GA Digital Earth Australia LCCS data is used as the **basis for reporting SE
 
 [https://sites.google.com/site/environmentontology/home](https://sites.google.com/site/environmentontology/home)
 
-Ontology for environmental systems, entities and properties. 
-Part of the [OBO Foundry](http://obofoundry.org/) - a consistent system of biomedical ontologies. The following are some potential starting points: 
+Ontology for environmental systems, entities and properties.
+Part of the [OBO Foundry](http://obofoundry.org/) - a consistent system of biomedical ontologies. The following are some potential starting points:
 
 - [biome](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428)
 - [aquatic ecosystem](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001787)
 - [terrestrial ecosystem](https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01001790)
 - [wetland ecosystem](https://www.ebi.ac.uk/ols/ontologies/envo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FENVO_01001209&lang=en&viewMode=All&siblings=false)
 
-OBO ontologies follow a consistent _genus-differentia_ pattern for subclassing, of the form 
+OBO ontologies follow a consistent _genus-differentia_ pattern for subclassing, of the form
 
 - An **X** is a **G** that **D**
 - G should be in the same ontology
 - D is discriminating characteristics that differentiate Xs from _other_ Gs
 
-See [Guidelines for writing definitions in ontologies](https://philpapers.org/archive/SEPGFW.pdf) for the gory detail 
+See [Guidelines for writing definitions in ontologies](https://philpapers.org/archive/SEPGFW.pdf) for the gory detail
 
-Note that a class _may_ be a sub-class of more than one parent class, implying that the intersection of the parent classes is non-empty
+Note that a class _may_ be a sub-class of more than one parent class, implying that the intersection of the parent classes is non-empty.
+For example, [biome](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000428) is a subclass of both [system](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002577)/[ecosystem](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001110) and [object](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000030)/[biosphere](http://www.ebi.ac.uk/ols4/ontologies/envo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000817)
