@@ -39,48 +39,56 @@ The classification levels are managed using XKOS. """ ;
 .
 iucn:AbyssalPlains
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.3> ;
   rdfs:label "Abyssal plains" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.3" ;
 .
 iucn:AbyssopelagicOceanWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.4> ;
   rdfs:label "Abyssopelagic ocean waters" ;
   rdfs:subClassOf iucn:PelagicOceanWaters ;
   skos:notation "M2.4" ;
 .
 iucn:AerobicCaves
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S1.1> ;
   rdfs:label "Aerobic caves" ;
   rdfs:subClassOf iucn:SubterraneanLithic ;
   skos:notation "S1.1" ;
 .
 iucn:AnchialineCaves
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.1> ;
   rdfs:label "Anchialine caves" ;
   rdfs:subClassOf iucn:SubterraneanTidal ;
   skos:notation "SM1.1" ;
 .
 iucn:AnchialinePools
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.2> ;
   rdfs:label "Anchialine pools" ;
   rdfs:subClassOf iucn:SubterraneanTidal ;
   skos:notation "SM1.2" ;
 .
 iucn:AnnualCroplands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.1> ;
   rdfs:label "Annual croplands" ;
   rdfs:subClassOf iucn:IntensiveLandUse ;
   skos:notation "T7.1" ;
 .
 iucn:AnthropogenicMarine
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M4> ;
   rdfs:label "Anthropogenic marine biome" ;
   rdfs:subClassOf iucn:Marine ;
   skos:notation "M4" ;
 .
 iucn:AnthropogenicShorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT3> ;
   rdfs:label "Anthropogenic shorelines biome" ;
   rdfs:subClassOf iucn:Marine ;
   rdfs:subClassOf iucn:Terrestrial ;
@@ -88,12 +96,14 @@ iucn:AnthropogenicShorelines
 .
 iucn:AnthropogenicSubterranean
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/S2> ;
   rdfs:label "Anthropogenic subterranean voids biome" ;
   rdfs:subClassOf iucn:Subterranean ;
   skos:notation "S2" ;
 .
 iucn:AnthropogenicSubterraneanFreshwaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SF2> ;
   rdfs:label "Anthropogenic subterranean freshwaters biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   rdfs:subClassOf iucn:Subterranean ;
@@ -101,30 +111,35 @@ iucn:AnthropogenicSubterraneanFreshwaters
 .
 iucn:AnthropogenicSubterraneanVoids
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S2.1> ;
   rdfs:label "Anthropogenic subterranean voids" ;
   rdfs:subClassOf iucn:AnthropogenicSubterranean ;
   skos:notation "S2.1" ;
 .
 iucn:AridDesert
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.5> ;
   rdfs:label "Hyper-arid deserts" ;
   rdfs:subClassOf iucn:Deserts ;
   skos:notation "T5.5" ;
 .
 iucn:ArtificialShorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT3.1> ;
   rdfs:label "Artificial shorelines" ;
   rdfs:subClassOf iucn:AnthropogenicShorelines ;
   skos:notation "MT3.1" ;
 .
 iucn:ArtificialWetlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F3> ;
   rdfs:label "Artificial wetlands biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   skos:notation "F3" ;
 .
 iucn:Atmospheric
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/A> ;
   rdfs:label "Atmospheric" ;
   skos:definition "The Atmospheric Realm includes all connected gaseous regions above the surface of the earth." ;
   skos:notation "A" ;
@@ -132,6 +147,7 @@ iucn:Atmospheric
 .
 iucn:BathypelagicOceanWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.3> ;
   rdfs:label "Bathypelagic ocean waters" ;
   rdfs:subClassOf iucn:PelagicOceanWaters ;
   skos:notation "M2.3" ;
@@ -169,12 +185,14 @@ iucn:Biome
 .
 iucn:BoulderCobbleShores
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.4> ;
   rdfs:label "Boulder and cobble shores" ;
   rdfs:subClassOf iucn:Shorelines ;
   skos:notation "MT1.4" ;
 .
 iucn:BrackishTidal
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MFT1> ;
   rdfs:label "Brackish tidal biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   rdfs:subClassOf iucn:Marine ;
@@ -183,66 +201,77 @@ iucn:BrackishTidal
 .
 iucn:CBE
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.7> ;
   rdfs:label "Chemosynthetic-based-ecosystems (CBE)" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.7" ;
 .
 iucn:CanalsDitchesDrains
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.5> ;
   rdfs:label "Canals, ditches and drains" ;
   rdfs:subClassOf iucn:ArtificialWetlands ;
   skos:notation "F3.5" ;
 .
 iucn:CliffsScreesOutcrops
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.2> ;
   rdfs:label "Polar/alpine cliffs, screes, outcrops and lava flows" ;
   rdfs:subClassOf iucn:Cryogenic ;
   skos:notation "T6.2" ;
 .
 iucn:CoastalRiverDeltas
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.1> ;
   rdfs:label "Coastal river deltas" ;
   rdfs:subClassOf iucn:BrackishTidal ;
   skos:notation "MFT1.1" ;
 .
 iucn:CoastalSaltmarshesReedbeds
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.3> ;
   rdfs:label "Coastal saltmarshes and reedbeds" ;
   rdfs:subClassOf iucn:BrackishTidal ;
   skos:notation "MFT1.3" ;
 .
 iucn:CoastalShrublandsGrasslands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT2.1> ;
   rdfs:label "Coastal shrublands and grasslands" ;
   rdfs:subClassOf iucn:SupralittoralCoastal ;
   skos:notation "MT2.1" ;
 .
 iucn:ConstructedLacustrineWetlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.2> ;
   rdfs:label "Constructed lacustrine wetlands" ;
   rdfs:subClassOf iucn:ArtificialWetlands ;
   skos:notation "F3.2" ;
 .
 iucn:ContinentalIslandSlopes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.1> ;
   rdfs:label "Continental and island slopes" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.1" ;
 .
 iucn:CoolDesert
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.4> ;
   rdfs:label "Cool deserts and semi-deserts" ;
   rdfs:subClassOf iucn:Deserts ;
   skos:notation "T5.4" ;
 .
 iucn:CoolTemperateHeath
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.3> ;
   rdfs:label "Cool temperate heathlands" ;
   rdfs:subClassOf iucn:Shrublands ;
   skos:notation "T3.3" ;
 .
 iucn:CoolTemperateRainforests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.3> ;
   rdfs:label "Oceanic cool temperate rainforests" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.3" ;
@@ -259,120 +288,140 @@ iucn:CoreRealm
 .
 iucn:Cryogenic
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T6> ;
   rdfs:label "Polar/alpine (cryogenic) biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T6" ;
 .
 iucn:DeciduousTemperateForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.2> ;
   rdfs:label "Deciduous temperate forests" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.2" ;
 .
 iucn:DeepSeaFloors
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M3> ;
   rdfs:label "Deep sea floors biome" ;
   rdfs:subClassOf iucn:Marine ;
   skos:notation "M3" ;
 .
 iucn:DeepwaterBiogenicBeds
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.5> ;
   rdfs:label "Deepwater biogenic beds" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.5" ;
 .
 iucn:DeepwaterCoastalInlets
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.1> ;
   rdfs:label "Deepwater coastal inlets" ;
   rdfs:subClassOf iucn:TransitionalWaters ;
   skos:notation "FM1.1" ;
 .
 iucn:Deserts
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T5> ;
   rdfs:label "Deserts and semi-deserts biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T5" ;
 .
 iucn:EndolithicSystems
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S1.2> ;
   rdfs:label "Endolithic systems" ;
   rdfs:subClassOf iucn:SubterraneanLithic ;
   skos:notation "S1.2" ;
 .
 iucn:EphemeralFreshwaterLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.5> ;
   rdfs:label "Ephemeral freshwater lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.5" ;
 .
 iucn:EphemeralSaltLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.7> ;
   rdfs:label "Ephemeral salt lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.7" ;
 .
 iucn:EpipelagicOceanWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.1> ;
   rdfs:label "Epipelagic ocean waters" ;
   rdfs:subClassOf iucn:PelagicOceanWaters ;
   skos:notation "M2.1" ;
 .
 iucn:EpisodicAridFloodplains
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.5> ;
   rdfs:label "Episodic arid floodplains" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.5" ;
 .
 iucn:EpisodicAridRivers
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.6> ;
   rdfs:label "Episodic arid rivers" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.6" ;
 .
 iucn:EstuariesBays
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.2> ;
   rdfs:label "Permanently open riverine estuaries and bays" ;
   rdfs:subClassOf iucn:TransitionalWaters ;
   skos:notation "FM1.2" ;
 .
 iucn:Fens
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.7> ;
   rdfs:label "Boreal and temperate fens" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.7" ;
 .
 iucn:FloodedMinesVoids
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF2.2> ;
   rdfs:label "Flooded mines and other voids" ;
   rdfs:subClassOf iucn:AnthropogenicSubterraneanFreshwaters ;
   skos:notation "SF2.2" ;
 .
 iucn:ForestedWetlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.2> ;
   rdfs:label "Subtropical/temperate forested wetlands" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.2" ;
 .
 iucn:ForestsAndWoodlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T2> ;
   rdfs:label "Temperate-boreal forests and woodlands biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T2" ;
 .
 iucn:FreezeThawLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.4> ;
   rdfs:label "Freeze-thaw freshwater lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.4" ;
 .
 iucn:FreezeThawRivers
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.3> ;
   rdfs:label "Freeze-thaw rivers and streams" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.3" ;
 .
 iucn:Freshwater
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/F> ;
   rdfs:label "Freshwater" ;
   skos:definition "The Freshwater Realm includes all permanent and temporary freshwater bodies as well as saline water bodies that are not directly connected to the oceans, and are characterised by water regimes defined by frequency, duration, flow velocity, depth and extent of inundation." ;
   skos:notation "F" ;
@@ -382,12 +431,14 @@ The freshwater realm transitions to palustrine wetlands, subterranean freshwater
 .
 iucn:FreshwaterAquafarms
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.4> ;
   rdfs:label "Freshwater aquafarms" ;
   rdfs:subClassOf iucn:ArtificialWetlands ;
   skos:notation "F3.4" ;
 .
 iucn:FreshwaterMarine
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/FM> ;
   rdfs:label "Freshwater-Marine" ;
   skos:definition "The freshwater-marine transitional realm is occupied by brackish aquatic ecosystems on marine coasts. It shares features of the freshwater and the marine realms, and transitions to brackish tidal systems." ;
   skos:notation "FM" ;
@@ -509,90 +560,105 @@ iucn:FunctionalGroup
 .
 iucn:GeothermalPools
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.9> ;
   rdfs:label "Geothermal pools and wetlands" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.9" ;
 .
 iucn:GroundwaterEcosystems
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF1.2> ;
   rdfs:label "Groundwater ecosystems" ;
   rdfs:subClassOf iucn:SubterraneanFreshwaters ;
   skos:notation "SF1.2" ;
 .
 iucn:HadalTrenchesTroughs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.6> ;
   rdfs:label "Hadal trenches and troughs" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.6" ;
 .
 iucn:HighMontaneWoodlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.1> ;
   rdfs:label "Boreal and temperate high montane forests and woodlands" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.1" ;
 .
 iucn:HummockSavannas
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.3> ;
   rdfs:label "Hummock savannas" ;
   rdfs:subClassOf iucn:Savannas ;
   skos:notation "T4.3" ;
 .
 iucn:IceSheets
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.1> ;
   rdfs:label "Ice sheets, glaciers and perennial snowfields" ;
   rdfs:subClassOf iucn:Cryogenic ;
   skos:notation "T6.1" ;
 .
 iucn:IntensiveLandUse
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T7> ;
   rdfs:label "Intensive land-use biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T7" ;
 .
 iucn:IntertidalForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.2> ;
   rdfs:label "Intertidal forests and shrublands" ;
   rdfs:subClassOf iucn:BrackishTidal ;
   skos:notation "MFT1.2" ;
 .
 iucn:KelpForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.2> ;
   rdfs:label "Kelp forests" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.2" ;
 .
 iucn:Lakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F2> ;
   rdfs:label "Lakes biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   skos:notation "F2" ;
 .
 iucn:LakesLagoons
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.3> ;
   rdfs:label "Intermittently closed and open lakes and lagoons" ;
   rdfs:subClassOf iucn:TransitionalWaters ;
   skos:notation "FM1.3" ;
 .
 iucn:LargeLowlandRivers
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.7> ;
   rdfs:label "Large lowland rivers" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.7" ;
 .
 iucn:LargePermanentLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.1> ;
   rdfs:label "Large permanent freshwater lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.1" ;
 .
 iucn:LargeReservoirs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.1> ;
   rdfs:label "Large reservoirs" ;
   rdfs:subClassOf iucn:ArtificialWetlands ;
   skos:notation "F3.1" ;
 .
 iucn:Marine
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/M> ;
   rdfs:label "Marine" ;
   skos:definition "The Marine Realm includes all connected saline ocean waters characterised by waves, tides and currents." ;
   skos:notation "M" ;
@@ -602,18 +668,21 @@ The marine realm transitions to shoreline and supralittoral, subterranean tidal,
 .
 iucn:MarineAnimalForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.5> ;
   rdfs:label "Photo-limited marine animal forests" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.5" ;
 .
 iucn:MarineAquafarms
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M4.2> ;
   rdfs:label "Marine aquafarms" ;
   rdfs:subClassOf iucn:AnthropogenicMarine ;
   skos:notation "M4.2" ;
 .
 iucn:MarineFreshwaterTerrestrial
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/MFT> ;
   rdfs:label "Marine-Freshwater-Terrestrial" ;
   skos:definition """The interface of marine and terrestrial seepage is sometimes influenced by seepage or outflow of freshwater, supporting intertidal wetlands and deltaic systems.
 
@@ -622,12 +691,14 @@ It shares features of the freshwater, marine and terrestrial core realms.""" ;
 .
 iucn:MarineShelf
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M1> ;
   rdfs:label "Marine shelf biome" ;
   rdfs:subClassOf iucn:Marine ;
   skos:notation "M1" ;
 .
 iucn:MarineTerrestrial
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/MT> ;
   rdfs:label "Marine-Terrestrial" ;
   skos:definition """The marine-terrestrial transitional realm is characterised by steep environmental gradients in desiccation, salinity and wave and tide disturbance, occupied by contrasting shoreline ecosystems.
 
@@ -636,24 +707,28 @@ It shares features of the marine and terrestrial core realms.""" ;
 .
 iucn:MesopelagicOceanWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.2> ;
   rdfs:label "Mesopelagic ocean water" ;
   rdfs:subClassOf iucn:PelagicOceanWaters ;
   skos:notation "M2.2" ;
 .
 iucn:MuddyShorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.2> ;
   rdfs:label "Muddy Shorelines" ;
   rdfs:subClassOf iucn:Shorelines ;
   skos:notation "MT1.2" ;
 .
 iucn:OldFields
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.5> ;
   rdfs:label "Derived semi-natural pastures and old fields" ;
   rdfs:subClassOf iucn:IntensiveLandUse ;
   skos:notation "T7.5" ;
 .
 iucn:PalustrineWetlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/TF1> ;
   rdfs:label "Palustrine wetlands biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   rdfs:subClassOf iucn:Terrestrial ;
@@ -661,72 +736,84 @@ iucn:PalustrineWetlands
 .
 iucn:PasturesAndFields
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.2> ;
   rdfs:label "Sown pastures and fields" ;
   rdfs:subClassOf iucn:IntensiveLandUse ;
   skos:notation "T7.2" ;
 .
 iucn:PeatBogs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.6> ;
   rdfs:label "Boreal, temperate and montane peat bogs" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.6" ;
 .
 iucn:PelagicOceanWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M2> ;
   rdfs:label "Pelagic ocean waters biome" ;
   rdfs:subClassOf iucn:Marine ;
   skos:notation "M2" ;
 .
 iucn:PermanentLowlandRivers
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.2> ;
   rdfs:label "Permanent lowland rivers" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.2" ;
 .
 iucn:PermanentMarshes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.3> ;
   rdfs:label "Permanent marshes" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.3" ;
 .
 iucn:PermanentSaltLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.6> ;
   rdfs:label "Permanent salt and soda lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.6" ;
 .
 iucn:PermanentUplandStreams
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.1> ;
   rdfs:label "Permanent upland streams" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.1" ;
 .
 iucn:PhoticCoralReefs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.3> ;
   rdfs:label "Photic coral reefs" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.3" ;
 .
 iucn:Plantations
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.3> ;
   rdfs:label "Plantations" ;
   rdfs:subClassOf iucn:IntensiveLandUse ;
   skos:notation "T7.3" ;
 .
 iucn:PyricHumidForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.5> ;
   rdfs:label "Temperate pyric humid forests" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.5" ;
 .
 iucn:PyricSclerophyllForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.6> ;
   rdfs:label "Temperate pyric sclerophyll forests and woodlands" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.6" ;
 .
 iucn:PyricTussockSavannas
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.2> ;
   rdfs:label "Pyric tussock savannas" ;
   rdfs:subClassOf iucn:Savannas ;
   skos:notation "T4.2" ;
@@ -750,132 +837,154 @@ iucn:Realm
 .
 iucn:RhodolithBeds
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.10> ;
   rdfs:label "Rhodolith/Maërl beds" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.10" ;
 .
 iucn:RicePaddies
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.3> ;
   rdfs:label "Rice paddies" ;
   rdfs:subClassOf iucn:ArtificialWetlands ;
   skos:notation "F3.3" ;
 .
 iucn:RiversStreams
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F1> ;
   rdfs:label "Rivers and streams biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   skos:notation "F1" ;
 .
 iucn:RockyPavements
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.4> ;
   rdfs:label "Young rocky pavements, lava flows and screes" ;
   rdfs:subClassOf iucn:Shrublands ;
   skos:notation "T3.4" ;
 .
 iucn:RockyShorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.1> ;
   rdfs:label "Rocky Shorelines" ;
   rdfs:subClassOf iucn:Shorelines ;
   skos:notation "MT1.1" ;
 .
 iucn:SandyShorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.3> ;
   rdfs:label "Sandy Shorelines" ;
   rdfs:subClassOf iucn:Shorelines ;
   skos:notation "MT1.3" ;
 .
 iucn:Savannas
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T4> ;
   rdfs:label "Savannas and grasslands biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T4" ;
 .
 iucn:SclerophyllHotDesert
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.3> ;
   rdfs:label "Sclerophyll hot deserts and semi-deserts" ;
   rdfs:subClassOf iucn:Deserts ;
   skos:notation "T5.3" ;
 .
 iucn:SeaCaves
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.3> ;
   rdfs:label "Sea caves" ;
   rdfs:subClassOf iucn:SubterraneanTidal ;
   skos:notation "SM1.3" ;
 .
 iucn:SeaIce
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.5> ;
   rdfs:label "Sea ice" ;
   rdfs:subClassOf iucn:PelagicOceanWaters ;
   skos:notation "M2.5" ;
 .
 iucn:SeabirdPinnipedColonies
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT2.2> ;
   rdfs:label "Large seabird and pinniped colonies" ;
   rdfs:subClassOf iucn:SupralittoralCoastal ;
   skos:notation "MT2.2" ;
 .
 iucn:SeagrassMeadows
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.1> ;
   rdfs:label "Seagrass meadows" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.1" ;
 .
 iucn:SeamountsRidgesPlateaus
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.4> ;
   rdfs:label "Seamounts, ridges and plateaus" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.4" ;
 .
 iucn:SeasonalFloodplainMarshes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.4> ;
   rdfs:label "Seasonal floodplain marshes" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.4" ;
 .
 iucn:SeasonalLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.3> ;
   rdfs:label "Seasonal freshwater lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.3" ;
 .
 iucn:SeasonalLowlandRivers
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.5> ;
   rdfs:label "Seasonal lowland rivers" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.5" ;
 .
 iucn:SeasonalUplandStreams
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.4> ;
   rdfs:label "Seasonal upland streams" ;
   rdfs:subClassOf iucn:RiversStreams ;
   skos:notation "F1.4" ;
 .
 iucn:SeasonallyDryHeath
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.2> ;
   rdfs:label "Seasonally dry temperate heath and shrublands" ;
   rdfs:subClassOf iucn:Shrublands ;
   skos:notation "T3.2" ;
 .
 iucn:SeasonallyDryShrublands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.1> ;
   rdfs:label "Seasonally dry tropical shrublands" ;
   rdfs:subClassOf iucn:Shrublands ;
   skos:notation "T3.1" ;
 .
 iucn:SemiDesert
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.1> ;
   rdfs:label "Semi-desert steppe" ;
   rdfs:subClassOf iucn:Deserts ;
   skos:notation "T5.1" ;
 .
 iucn:ShellfishBedsReefs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.4> ;
   rdfs:label "Shellfish beds and reefs" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.4" ;
 .
 iucn:Shorelines
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT1> ;
   rdfs:label "Shorelines biome" ;
   rdfs:subClassOf iucn:Marine ;
   rdfs:subClassOf iucn:Terrestrial ;
@@ -883,42 +992,49 @@ iucn:Shorelines
 .
 iucn:Shrublands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T3> ;
   rdfs:label "Shrublands and shrubby woodlands biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T3" ;
 .
 iucn:SmallPermanentLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.2> ;
   rdfs:label "Small permanent freshwater lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.2" ;
 .
 iucn:SpringsOases
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.8> ;
   rdfs:label "Artesian springs and oases" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.8" ;
 .
 iucn:SubglacialLakes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.10> ;
   rdfs:label "Subglacial lakes" ;
   rdfs:subClassOf iucn:Lakes ;
   skos:notation "F2.10" ;
 .
 iucn:SubmarineCanyons
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.2> ;
   rdfs:label "Submarine canyons" ;
   rdfs:subClassOf iucn:DeepSeaFloors ;
   skos:notation "M3.2" ;
 .
 iucn:SubmergedArtificialStructures
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M4.1> ;
   rdfs:label "Submerged artificial structures" ;
   rdfs:subClassOf iucn:AnthropogenicMarine ;
   skos:notation "M4.1" ;
 .
 iucn:Subterranean
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/S> ;
   rdfs:label "Subterranean" ;
   skos:definition "The Subterranean realm includes the earth’s crust and subsurface voids characterised by an absence or very low intensity of sunlight." ;
   skos:notation "S" ;
@@ -928,6 +1044,7 @@ The subterranean realm transitions to subterranean freshwater and subterranean t
 .
 iucn:SubterraneanFreshwater
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/SF> ;
   rdfs:label "Subterranean-Freshwater" ;
   skos:definition """Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.
 
@@ -936,6 +1053,7 @@ It shares features of the freshwater, and subterranean core realms.""" ;
 .
 iucn:SubterraneanFreshwaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SF1> ;
   rdfs:label "Subterranean freshwaters biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   rdfs:subClassOf iucn:Subterranean ;
@@ -943,12 +1061,14 @@ iucn:SubterraneanFreshwaters
 .
 iucn:SubterraneanLithic
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/S1> ;
   rdfs:label "Subterranean lithic biome" ;
   rdfs:subClassOf iucn:Subterranean ;
   skos:notation "S1" ;
 .
 iucn:SubterraneanMarine
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/SM> ;
   rdfs:label "Subterranean-Marine" ;
   skos:definition """Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.
 
@@ -957,6 +1077,7 @@ It shares features of the marine, and subterranean core realms.""" ;
 .
 iucn:SubterraneanTidal
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SM1> ;
   rdfs:label "Subterranean tidal biome" ;
   rdfs:subClassOf iucn:Marine ;
   rdfs:subClassOf iucn:Subterranean ;
@@ -964,30 +1085,35 @@ iucn:SubterraneanTidal
 .
 iucn:SubtidalMudPlains
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.8> ;
   rdfs:label "Subtidal mud plains" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.8" ;
 .
 iucn:SubtidalRockyReefs
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.6> ;
   rdfs:label "Subtidal rocky reefs" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.6" ;
 .
 iucn:SubtidalSandBeds
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.7> ;
   rdfs:label "Subtidal sand beds" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.7" ;
 .
 iucn:SucculentThornyDesert
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.2> ;
   rdfs:label "Succulent or Thorny deserts and semi-deserts" ;
   rdfs:subClassOf iucn:Deserts ;
   skos:notation "T5.2" ;
 .
 iucn:SupralittoralCoastal
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT2> ;
   rdfs:label "Supralittoral coastal biome" ;
   rdfs:subClassOf iucn:Marine ;
   rdfs:subClassOf iucn:Terrestrial ;
@@ -995,24 +1121,28 @@ iucn:SupralittoralCoastal
 .
 iucn:TemperateAlpineGrasslands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.4> ;
   rdfs:label "Temperate alpine grasslands and shrublands" ;
   rdfs:subClassOf iucn:Cryogenic ;
   skos:notation "T6.4" ;
 .
 iucn:TemperateSubhumidGrasslands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.5> ;
   rdfs:label "Temperate subhumid grasslands" ;
   rdfs:subClassOf iucn:Savannas ;
   skos:notation "T4.5" ;
 .
 iucn:TemperateWoodlands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.4> ;
   rdfs:label "Temperate woodlands" ;
   rdfs:subClassOf iucn:Savannas ;
   skos:notation "T4.4" ;
 .
 iucn:Terrestrial
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/T> ;
   rdfs:label "Terrestrial" ;
   skos:definition "The Terrestrial realm includes all dry land, its vegetation cover, proximate atmosphere and substrate (soils, rocks) to the rooting depth of plants, and associated animals and microbes." ;
   skos:notation "T" ;
@@ -1022,6 +1152,7 @@ The terrestrial realm transitions to palustrine wetlands, shoreline and supralit
 .
 iucn:TerrestrialFreshwater
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/realms/TF> ;
   rdfs:label "Terrestrial-Freshwater" ;
   skos:definition """The interface between terrestrial and freshwater realms is occupied by palustrine wetlands, some of which accumulate peat under impeded substrate drainage.
 
@@ -1042,6 +1173,7 @@ iucn:TransitionalRealm
 .
 iucn:TransitionalWaters
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/FM1> ;
   rdfs:label "Semi-confined transitional waters biome" ;
   rdfs:subClassOf iucn:Freshwater ;
   rdfs:subClassOf iucn:Marine ;
@@ -1049,84 +1181,98 @@ iucn:TransitionalWaters
 .
 iucn:TrophicSavannas
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.1> ;
   rdfs:label "Trophic savannas" ;
   rdfs:subClassOf iucn:Savannas ;
   skos:notation "T4.1" ;
 .
 iucn:TropicalAlpineGrasslands
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.5> ;
   rdfs:label "Tropical alpine grasslands and herbfields" ;
   rdfs:subClassOf iucn:Cryogenic ;
   skos:notation "T6.5" ;
 .
 iucn:TropicalDryForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.2> ;
   rdfs:label "Tropical/Subtropical dry forests and thickets" ;
   rdfs:subClassOf iucn:TropicalSubtropicalForests ;
   skos:notation "T1.2" ;
 .
 iucn:TropicalFloodedForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.1> ;
   rdfs:label "Tropical flooded forests and peat forests" ;
   rdfs:subClassOf iucn:PalustrineWetlands ;
   skos:notation "TF1.1" ;
 .
 iucn:TropicalHeathForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.4> ;
   rdfs:label "Tropical heath forests" ;
   rdfs:subClassOf iucn:TropicalSubtropicalForests ;
   skos:notation "T1.4" ;
 .
 iucn:TropicalLowlandRainforests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.1> ;
   rdfs:label "Tropical/Subtropical lowland rainforests" ;
   rdfs:subClassOf iucn:TropicalSubtropicalForests ;
   skos:notation "T1.1" ;
 .
 iucn:TropicalMontaneRainforests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.3> ;
   rdfs:label "Tropical/Subtropical montane rainforests" ;
   rdfs:subClassOf iucn:TropicalSubtropicalForests ;
   skos:notation "T1.3" ;
 .
 iucn:TropicalSubtropicalForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T1> ;
   rdfs:label "Tropical-subtropical forests biome" ;
   rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "T1" ;
 .
 iucn:Tundra
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.3> ;
   rdfs:label "Polar tundra and deserts" ;
   rdfs:subClassOf iucn:Cryogenic ;
   skos:notation "T6.3" ;
 .
 iucn:UndergroundStreamsPools
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF1.1> ;
   rdfs:label "Underground streams and pools" ;
   rdfs:subClassOf iucn:SubterraneanFreshwaters ;
   skos:notation "SF1.1" ;
 .
 iucn:UpwellingZones
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.9> ;
   rdfs:label "Upwelling zones" ;
   rdfs:subClassOf iucn:MarineShelf ;
   skos:notation "M1.9" ;
 .
 iucn:UrbanAndIndustrial
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.4> ;
   rdfs:label "Urban and industrial ecosystems" ;
   rdfs:subClassOf iucn:IntensiveLandUse ;
   skos:notation "T7.4" ;
 .
 iucn:WarmTemperateForests
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.4> ;
   rdfs:label "Warm temperate laurophyll forests" ;
   rdfs:subClassOf iucn:ForestsAndWoodlands ;
   skos:notation "T2.4" ;
 .
 iucn:WaterPipes
   a owl:Class ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF2.1> ;
   rdfs:label "Water pipes and subterranean canals" ;
   rdfs:subClassOf iucn:AnthropogenicSubterraneanFreshwaters ;
   skos:notation "SF2.1" ;
