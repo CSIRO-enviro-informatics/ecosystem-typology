@@ -1,0 +1,1123 @@
+# baseURI: http://w3id.org/env/iucn-get/
+# imports: http://purl.org/dc/terms/
+# imports: http://rdf-vocabulary.ddialliance.org/xkos
+# imports: http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/geopolitical.owl
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: https://schema.org/version/latest/schemaorg-current-https.ttl
+# prefix: iucn
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iucn: <http://w3id.org/env/iucn-get/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix resource: <http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+iucn:
+  a owl:Ontology ;
+  a skos:ConceptScheme ;
+  dcterms:created "2023-11-22"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:description """RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3
+
+Each Realm, Biome and Functional Group is implemented as an OWL Class. 
+Sub-classing is used to organize the IUCN hierarchy. 
+
+The classification levels are managed using XKOS. """ ;
+  dcterms:isFormatOf <https://global-ecosystems.org/explore> ;
+  dcterms:license <https://creativecommons.org/public-domain/cc0/> ;
+  dcterms:references <https://doi.org/10.1038/s41586-022-05318-4> ;
+  dcterms:source <https://doi.org/10.1038/s41586-022-05318-4> ;
+  owl:imports dcterms: ;
+  owl:imports <http://rdf-vocabulary.ddialliance.org/xkos> ;
+  owl:imports <http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/geopolitical.owl> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <https://schema.org/version/latest/schemaorg-current-https.ttl> ;
+.
+iucn:AbyssalPlains
+  a owl:Class ;
+  rdfs:label "Abyssal plains" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.3" ;
+.
+iucn:AbyssopelagicOceanWaters
+  a owl:Class ;
+  rdfs:label "Abyssopelagic ocean waters" ;
+  rdfs:subClassOf iucn:PelagicOceanWaters ;
+  skos:notation "M2.4" ;
+.
+iucn:AerobicCaves
+  a owl:Class ;
+  rdfs:label "Aerobic caves" ;
+  rdfs:subClassOf iucn:SubterraneanLithic ;
+  skos:notation "S1.1" ;
+.
+iucn:AnchialineCaves
+  a owl:Class ;
+  rdfs:label "Anchialine caves" ;
+  rdfs:subClassOf iucn:SubterraneanTidal ;
+  skos:notation "SM1.1" ;
+.
+iucn:AnchialinePools
+  a owl:Class ;
+  rdfs:label "Anchialine pools" ;
+  rdfs:subClassOf iucn:SubterraneanTidal ;
+  skos:notation "SM1.2" ;
+.
+iucn:AnnualCroplands
+  a owl:Class ;
+  rdfs:label "Annual croplands" ;
+  rdfs:subClassOf iucn:IntensiveLandUse ;
+  skos:notation "T7.1" ;
+.
+iucn:AnthropogenicMarine
+  a owl:Class ;
+  rdfs:label "Anthropogenic marine biome" ;
+  rdfs:subClassOf iucn:Marine ;
+  skos:notation "M4" ;
+.
+iucn:AnthropogenicShorelines
+  a owl:Class ;
+  rdfs:label "Anthropogenic shorelines biome" ;
+  rdfs:subClassOf iucn:MarineTerrestrial ;
+  skos:notation "MT3" ;
+.
+iucn:AnthropogenicSubterranean
+  a owl:Class ;
+  rdfs:label "Anthropogenic subterranean voids biome" ;
+  rdfs:subClassOf iucn:Subterranean ;
+  skos:notation "S2" ;
+.
+iucn:AnthropogenicSubterraneanFreshwaters
+  a owl:Class ;
+  rdfs:label "Anthropogenic subterranean freshwaters biome" ;
+  rdfs:subClassOf iucn:SubterraneanFreshwater ;
+  skos:notation "SF2" ;
+.
+iucn:AnthropogenicSubterraneanVoids
+  a owl:Class ;
+  rdfs:label "Anthropogenic subterranean voids" ;
+  rdfs:subClassOf iucn:AnthropogenicSubterranean ;
+  skos:notation "S2.1" ;
+.
+iucn:AridDesert
+  a owl:Class ;
+  rdfs:label "Hyper-arid deserts" ;
+  rdfs:subClassOf iucn:Deserts ;
+  skos:notation "T5.5" ;
+.
+iucn:ArtificialShorelines
+  a owl:Class ;
+  rdfs:label "Artificial shorelines" ;
+  rdfs:subClassOf iucn:AnthropogenicShorelines ;
+  skos:notation "MT3.1" ;
+.
+iucn:ArtificialWetlands
+  a owl:Class ;
+  rdfs:label "Artificial wetlands biome" ;
+  rdfs:subClassOf iucn:Freshwater ;
+  skos:notation "F3" ;
+.
+iucn:Atmospheric
+  a owl:Class ;
+  rdfs:label "Atmospheric" ;
+  skos:definition "The Atmospheric Realm includes all connected gaseous regions above the surface of the earth." ;
+  skos:notation "A" ;
+  skos:note "Resolution of the lower levels of the Atmospheric Realm is deferred, because its biota is poorly understood, sparse, itinerant and represented mainly by dispersive life stages. " ;
+.
+iucn:BathypelagicOceanWaters
+  a owl:Class ;
+  rdfs:label "Bathypelagic ocean waters" ;
+  rdfs:subClassOf iucn:PelagicOceanWaters ;
+  skos:notation "M2.3" ;
+.
+iucn:Biome
+  a xkos:ClassificationLevel ;
+  xkos:depth "2"^^xsd:positiveInteger ;
+  rdfs:label "Biome" ;
+  skos:definition "A component of a realm united by broad features of ecosystem structure and one or a few common major ecological drivers that regulate major ecological functions, derived from the top-down by subdivision of realms (level 1)." ;
+  skos:member iucn:AnthropogenicMarine ;
+  skos:member iucn:AnthropogenicShorelines ;
+  skos:member iucn:AnthropogenicSubterranean ;
+  skos:member iucn:AnthropogenicSubterraneanFreshwaters ;
+  skos:member iucn:ArtificialWetlands ;
+  skos:member iucn:BrackishTidal ;
+  skos:member iucn:Cryogenic ;
+  skos:member iucn:DeepSeaFloors ;
+  skos:member iucn:Deserts ;
+  skos:member iucn:ForestsAndWoodlands ;
+  skos:member iucn:IntensiveLandUse ;
+  skos:member iucn:Lakes ;
+  skos:member iucn:MarineShelf ;
+  skos:member iucn:PalustrineWetlands ;
+  skos:member iucn:PelagicOceanWaters ;
+  skos:member iucn:RiversStreams ;
+  skos:member iucn:Savannas ;
+  skos:member iucn:Shorelines ;
+  skos:member iucn:Shrublands ;
+  skos:member iucn:SubterraneanFreshwaters ;
+  skos:member iucn:SubterraneanLithic ;
+  skos:member iucn:SubterraneanTidal ;
+  skos:member iucn:SupralittoralCoastal ;
+  skos:member iucn:TransitionalWaters ;
+  skos:member iucn:TropicalSubtropicalForests ;
+.
+iucn:BoulderCobbleShores
+  a owl:Class ;
+  rdfs:label "Boulder and cobble shores" ;
+  rdfs:subClassOf iucn:Shorelines ;
+  skos:notation "MT1.4" ;
+.
+iucn:BrackishTidal
+  a owl:Class ;
+  rdfs:label "Brackish tidal biome" ;
+  rdfs:subClassOf iucn:MarineFreshwaterTerrestrial ;
+  skos:notation "MFT1" ;
+.
+iucn:CBE
+  a owl:Class ;
+  rdfs:label "Chemosynthetic-based-ecosystems (CBE)" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.7" ;
+.
+iucn:CanalsDitchesDrains
+  a owl:Class ;
+  rdfs:label "Canals, ditches and drains" ;
+  rdfs:subClassOf iucn:ArtificialWetlands ;
+  skos:notation "F3.5" ;
+.
+iucn:CliffsScreesOutcrops
+  a owl:Class ;
+  rdfs:label "Polar/alpine cliffs, screes, outcrops and lava flows" ;
+  rdfs:subClassOf iucn:Cryogenic ;
+  skos:notation "T6.2" ;
+.
+iucn:CoastalRiverDeltas
+  a owl:Class ;
+  rdfs:label "Coastal river deltas" ;
+  rdfs:subClassOf iucn:BrackishTidal ;
+  skos:notation "MFT1.1" ;
+.
+iucn:CoastalSaltmarshesReedbeds
+  a owl:Class ;
+  rdfs:label "Coastal saltmarshes and reedbeds" ;
+  rdfs:subClassOf iucn:BrackishTidal ;
+  skos:notation "MFT1.3" ;
+.
+iucn:CoastalShrublandsGrasslands
+  a owl:Class ;
+  rdfs:label "Coastal shrublands and grasslands" ;
+  rdfs:subClassOf iucn:SupralittoralCoastal ;
+  skos:notation "MT2.1" ;
+.
+iucn:ConstructedLacustrineWetlands
+  a owl:Class ;
+  rdfs:label "Constructed lacustrine wetlands" ;
+  rdfs:subClassOf iucn:ArtificialWetlands ;
+  skos:notation "F3.2" ;
+.
+iucn:ContinentalIslandSlopes
+  a owl:Class ;
+  rdfs:label "Continental and island slopes" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.1" ;
+.
+iucn:CoolDesert
+  a owl:Class ;
+  rdfs:label "Cool deserts and semi-deserts" ;
+  rdfs:subClassOf iucn:Deserts ;
+  skos:notation "T5.4" ;
+.
+iucn:CoolTemperateHeath
+  a owl:Class ;
+  rdfs:label "Cool temperate heathlands" ;
+  rdfs:subClassOf iucn:Shrublands ;
+  skos:notation "T3.3" ;
+.
+iucn:CoolTemperateRainforests
+  a owl:Class ;
+  rdfs:label "Oceanic cool temperate rainforests" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.3" ;
+.
+iucn:CoreRealm
+  a xkos:ClassificationLevel ;
+  xkos:depth "1"^^xsd:positiveInteger ;
+  rdfs:label "Core realm" ;
+  skos:member iucn:Atmospheric ;
+  skos:member iucn:Freshwater ;
+  skos:member iucn:Marine ;
+  skos:member iucn:Subterranean ;
+  skos:member iucn:Terrestrial ;
+.
+iucn:Cryogenic
+  a owl:Class ;
+  rdfs:label "Polar/alpine (cryogenic) biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T6" ;
+.
+iucn:DeciduousTemperateForests
+  a owl:Class ;
+  rdfs:label "Deciduous temperate forests" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.2" ;
+.
+iucn:DeepSeaFloors
+  a owl:Class ;
+  rdfs:label "Deep sea floors biome" ;
+  rdfs:subClassOf iucn:Marine ;
+  skos:notation "M3" ;
+.
+iucn:DeepwaterBiogenicBeds
+  a owl:Class ;
+  rdfs:label "Deepwater biogenic beds" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.5" ;
+.
+iucn:DeepwaterCoastalInlets
+  a owl:Class ;
+  rdfs:label "Deepwater coastal inlets" ;
+  rdfs:subClassOf iucn:TransitionalWaters ;
+  skos:notation "FM1.1" ;
+.
+iucn:Deserts
+  a owl:Class ;
+  rdfs:label "Deserts and semi-deserts biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T5" ;
+.
+iucn:EndolithicSystems
+  a owl:Class ;
+  rdfs:label "Endolithic systems" ;
+  rdfs:subClassOf iucn:SubterraneanLithic ;
+  skos:notation "S1.2" ;
+.
+iucn:EphemeralFreshwaterLakes
+  a owl:Class ;
+  rdfs:label "Ephemeral freshwater lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.5" ;
+.
+iucn:EphemeralSaltLakes
+  a owl:Class ;
+  rdfs:label "Ephemeral salt lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.7" ;
+.
+iucn:EpipelagicOceanWaters
+  a owl:Class ;
+  rdfs:label "Epipelagic ocean waters" ;
+  rdfs:subClassOf iucn:PelagicOceanWaters ;
+  skos:notation "M2.1" ;
+.
+iucn:EpisodicAridFloodplains
+  a owl:Class ;
+  rdfs:label "Episodic arid floodplains" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.5" ;
+.
+iucn:EpisodicAridRivers
+  a owl:Class ;
+  rdfs:label "Episodic arid rivers" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.6" ;
+.
+iucn:EstuariesBays
+  a owl:Class ;
+  rdfs:label "Permanently open riverine estuaries and bays" ;
+  rdfs:subClassOf iucn:TransitionalWaters ;
+  skos:notation "FM1.2" ;
+.
+iucn:Fens
+  a owl:Class ;
+  rdfs:label "Boreal and temperate fens" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.7" ;
+.
+iucn:FloodedMinesVoids
+  a owl:Class ;
+  rdfs:label "Flooded mines and other voids" ;
+  rdfs:subClassOf iucn:AnthropogenicSubterraneanFreshwaters ;
+  skos:notation "SF2.2" ;
+.
+iucn:ForestedWetlands
+  a owl:Class ;
+  rdfs:label "Subtropical/temperate forested wetlands" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.2" ;
+.
+iucn:ForestsAndWoodlands
+  a owl:Class ;
+  rdfs:label "Temperate-boreal forests and woodlands biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T2" ;
+.
+iucn:FreezeThawLakes
+  a owl:Class ;
+  rdfs:label "Freeze-thaw freshwater lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.4" ;
+.
+iucn:FreezeThawRivers
+  a owl:Class ;
+  rdfs:label "Freeze-thaw rivers and streams" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.3" ;
+.
+iucn:Freshwater
+  a owl:Class ;
+  rdfs:label "Freshwater" ;
+  skos:definition "The Freshwater Realm includes all permanent and temporary freshwater bodies as well as saline water bodies that are not directly connected to the oceans, and are characterised by water regimes defined by frequency, duration, flow velocity, depth and extent of inundation." ;
+  skos:notation "F" ;
+  skos:note """Although some authorities describe this same unit as ‘inland water bodies’, we follow a conventional interpretation that includes saline water bodies as ‘freshwater’ for nomenclatural brevity and to avoid implications that freshwaters are always distant from the coast. Flow regimes are critical to the structure and function of freshwater ecosystems. They regulate allochthonous inputs of water and nutrients from catchments, as well as inundation and drying regimes and turbulence. Catchment geomorphology, substrates and climate are key components of the ambient environment that regulate resource inputs and disturbance regimes. Trophic complexity increases with the size and connectivity of the water body. Biota of the benthos and the water column are closely associated with flow regimes and catchments in the diverse expressions of freshwater ecosystems.
+
+The freshwater realm transitions to palustrine wetlands, subterranean freshwater systems, brackish aquatic and brackish tidal systems.""" ;
+.
+iucn:FreshwaterAquafarms
+  a owl:Class ;
+  rdfs:label "Freshwater aquafarms" ;
+  rdfs:subClassOf iucn:ArtificialWetlands ;
+  skos:notation "F3.4" ;
+.
+iucn:FreshwaterMarine
+  a owl:Class ;
+  rdfs:label "Freshwater-Marine" ;
+  skos:definition "The freshwater-marine transitional realm is occupied by brackish aquatic ecosystems on marine coasts. It shares features of the freshwater and the marine realms, and transitions to brackish tidal systems." ;
+  skos:notation "FM" ;
+.
+iucn:FunctionalGroup
+  a xkos:ClassificationLevel ;
+  xkos:depth "3"^^xsd:positiveInteger ;
+  rdfs:label "Ecosystem functional group" ;
+  skos:member iucn:AbyssalPlains ;
+  skos:member iucn:AbyssopelagicOceanWaters ;
+  skos:member iucn:AerobicCaves ;
+  skos:member iucn:AnchialineCaves ;
+  skos:member iucn:AnchialinePools ;
+  skos:member iucn:AnnualCroplands ;
+  skos:member iucn:AnthropogenicSubterraneanVoids ;
+  skos:member iucn:AridDesert ;
+  skos:member iucn:ArtificialShorelines ;
+  skos:member iucn:BathypelagicOceanWaters ;
+  skos:member iucn:BoulderCobbleShores ;
+  skos:member iucn:CBE ;
+  skos:member iucn:CanalsDitchesDrains ;
+  skos:member iucn:CliffsScreesOutcrops ;
+  skos:member iucn:CoastalRiverDeltas ;
+  skos:member iucn:CoastalSaltmarshesReedbeds ;
+  skos:member iucn:CoastalShrublandsGrasslands ;
+  skos:member iucn:ConstructedLacustrineWetlands ;
+  skos:member iucn:ContinentalIslandSlopes ;
+  skos:member iucn:CoolDesert ;
+  skos:member iucn:CoolTemperateHeath ;
+  skos:member iucn:CoolTemperateRainforests ;
+  skos:member iucn:DeciduousTemperateForests ;
+  skos:member iucn:DeepwaterBiogenicBeds ;
+  skos:member iucn:DeepwaterCoastalInlets ;
+  skos:member iucn:EndolithicSystems ;
+  skos:member iucn:EphemeralFreshwaterLakes ;
+  skos:member iucn:EphemeralSaltLakes ;
+  skos:member iucn:EpipelagicOceanWaters ;
+  skos:member iucn:EpisodicAridFloodplains ;
+  skos:member iucn:EpisodicAridRivers ;
+  skos:member iucn:EstuariesBays ;
+  skos:member iucn:Fens ;
+  skos:member iucn:FloodedMinesVoids ;
+  skos:member iucn:ForestedWetlands ;
+  skos:member iucn:FreezeThawLakes ;
+  skos:member iucn:FreezeThawRivers ;
+  skos:member iucn:FreshwaterAquafarms ;
+  skos:member iucn:GeothermalPools ;
+  skos:member iucn:GroundwaterEcosystems ;
+  skos:member iucn:HadalTrenchesTroughs ;
+  skos:member iucn:HighMontaneWoodlands ;
+  skos:member iucn:HummockSavannas ;
+  skos:member iucn:IceSheets ;
+  skos:member iucn:IntertidalForests ;
+  skos:member iucn:KelpForests ;
+  skos:member iucn:LakesLagoons ;
+  skos:member iucn:LargeLowlandRivers ;
+  skos:member iucn:LargePermanentLakes ;
+  skos:member iucn:LargeReservoirs ;
+  skos:member iucn:MarineAnimalForests ;
+  skos:member iucn:MarineAquafarms ;
+  skos:member iucn:MesopelagicOceanWaters ;
+  skos:member iucn:MuddyShorelines ;
+  skos:member iucn:OldFields ;
+  skos:member iucn:PasturesAndFields ;
+  skos:member iucn:PeatBogs ;
+  skos:member iucn:PermanentLowlandRivers ;
+  skos:member iucn:PermanentMarshes ;
+  skos:member iucn:PermanentSaltLakes ;
+  skos:member iucn:PermanentUplandStreams ;
+  skos:member iucn:PhoticCoralReefs ;
+  skos:member iucn:Plantations ;
+  skos:member iucn:PyricHumidForests ;
+  skos:member iucn:PyricSclerophyllForests ;
+  skos:member iucn:PyricTussockSavannas ;
+  skos:member iucn:RhodolithBeds ;
+  skos:member iucn:RicePaddies ;
+  skos:member iucn:RockyPavements ;
+  skos:member iucn:RockyShorelines ;
+  skos:member iucn:SandyShorelines ;
+  skos:member iucn:SclerophyllHotDesert ;
+  skos:member iucn:SeaCaves ;
+  skos:member iucn:SeaIce ;
+  skos:member iucn:SeabirdPinnipedColonies ;
+  skos:member iucn:SeagrassMeadows ;
+  skos:member iucn:SeamountsRidgesPlateaus ;
+  skos:member iucn:SeasonalFloodplainMarshes ;
+  skos:member iucn:SeasonalLakes ;
+  skos:member iucn:SeasonalLowlandRivers ;
+  skos:member iucn:SeasonalUplandStreams ;
+  skos:member iucn:SeasonallyDryHeath ;
+  skos:member iucn:SeasonallyDryShrublands ;
+  skos:member iucn:SemiDesert ;
+  skos:member iucn:ShellfishBedsReefs ;
+  skos:member iucn:SmallPermanentLakes ;
+  skos:member iucn:SpringsOases ;
+  skos:member iucn:SubglacialLakes ;
+  skos:member iucn:SubmarineCanyons ;
+  skos:member iucn:SubmergedArtificialStructures ;
+  skos:member iucn:SubtidalMudPlains ;
+  skos:member iucn:SubtidalRockyReefs ;
+  skos:member iucn:SubtidalSandBeds ;
+  skos:member iucn:SucculentThornyDesert ;
+  skos:member iucn:TemperateAlpineGrasslands ;
+  skos:member iucn:TemperateSubhumidGrasslands ;
+  skos:member iucn:TemperateWoodlands ;
+  skos:member iucn:TrophicSavannas ;
+  skos:member iucn:TropicalAlpineGrasslands ;
+  skos:member iucn:TropicalDryForests ;
+  skos:member iucn:TropicalFloodedForests ;
+  skos:member iucn:TropicalHeathForests ;
+  skos:member iucn:TropicalLowlandRainforests ;
+  skos:member iucn:TropicalMontaneRainforests ;
+  skos:member iucn:Tundra ;
+  skos:member iucn:UndergroundStreamsPools ;
+  skos:member iucn:UpwellingZones ;
+  skos:member iucn:UrbanAndIndustrial ;
+  skos:member iucn:WarmTemperateForests ;
+  skos:member iucn:WaterPipes ;
+.
+iucn:GeothermalPools
+  a owl:Class ;
+  rdfs:label "Geothermal pools and wetlands" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.9" ;
+.
+iucn:GroundwaterEcosystems
+  a owl:Class ;
+  rdfs:label "Groundwater ecosystems" ;
+  rdfs:subClassOf iucn:SubterraneanFreshwaters ;
+  skos:notation "SF1.2" ;
+.
+iucn:HadalTrenchesTroughs
+  a owl:Class ;
+  rdfs:label "Hadal trenches and troughs" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.6" ;
+.
+iucn:HighMontaneWoodlands
+  a owl:Class ;
+  rdfs:label "Boreal and temperate high montane forests and woodlands" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.1" ;
+.
+iucn:HummockSavannas
+  a owl:Class ;
+  rdfs:label "Hummock savannas" ;
+  rdfs:subClassOf iucn:Savannas ;
+  skos:notation "T4.3" ;
+.
+iucn:IceSheets
+  a owl:Class ;
+  rdfs:label "Ice sheets, glaciers and perennial snowfields" ;
+  rdfs:subClassOf iucn:Cryogenic ;
+  skos:notation "T6.1" ;
+.
+iucn:IntensiveLandUse
+  a owl:Class ;
+  rdfs:label "Intensive land-use biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T7" ;
+.
+iucn:IntertidalForests
+  a owl:Class ;
+  rdfs:label "Intertidal forests and shrublands" ;
+  rdfs:subClassOf iucn:BrackishTidal ;
+  skos:notation "MFT1.2" ;
+.
+iucn:KelpForests
+  a owl:Class ;
+  rdfs:label "Kelp forests" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.2" ;
+.
+iucn:Lakes
+  a owl:Class ;
+  rdfs:label "Lakes biome" ;
+  rdfs:subClassOf iucn:Freshwater ;
+  skos:notation "F2" ;
+.
+iucn:LakesLagoons
+  a owl:Class ;
+  rdfs:label "Intermittently closed and open lakes and lagoons" ;
+  rdfs:subClassOf iucn:TransitionalWaters ;
+  skos:notation "FM1.3" ;
+.
+iucn:LargeLowlandRivers
+  a owl:Class ;
+  rdfs:label "Large lowland rivers" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.7" ;
+.
+iucn:LargePermanentLakes
+  a owl:Class ;
+  rdfs:label "Large permanent freshwater lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.1" ;
+.
+iucn:LargeReservoirs
+  a owl:Class ;
+  rdfs:label "Large reservoirs" ;
+  rdfs:subClassOf iucn:ArtificialWetlands ;
+  skos:notation "F3.1" ;
+.
+iucn:Marine
+  a owl:Class ;
+  rdfs:label "Marine" ;
+  skos:definition "The Marine Realm includes all connected saline ocean waters characterised by waves, tides and currents." ;
+  skos:notation "M" ;
+  skos:note """These processes transport resources and biota over short temporal and local spatial scales (waves) to global circulation over centuries (deep ocean currents). The availability of light and nutrients diminishes along depth gradients. Oxygen may be locally limited in zones of high heterotrophic activity. Salient ambient environmental factors include substrate type (hard vs soft), which influences the traits of benthic fauna and geomorphology, which influences the movement of deep currents and local or regional upwelling. Upwelling is critical to the supply of nutrients to euphotic waters, and hence productivity and trophic complexity. Primary productivity is contributed mainly by planktonic algae, but benthic macrophytes can make important contributions on parts of the marine shelf. Trophic interactions are critical to the structure of many marine ecosystems through top-down regulation.
+
+The marine realm transitions to shoreline and supralittoral, subterranean tidal, brackish aquatic and brackish tidal systems.""" ;
+.
+iucn:MarineAnimalForests
+  a owl:Class ;
+  rdfs:label "Photo-limited marine animal forests" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.5" ;
+.
+iucn:MarineAquafarms
+  a owl:Class ;
+  rdfs:label "Marine aquafarms" ;
+  rdfs:subClassOf iucn:AnthropogenicMarine ;
+  skos:notation "M4.2" ;
+.
+iucn:MarineFreshwaterTerrestrial
+  a owl:Class ;
+  rdfs:label "Marine-Freshwater-Terrestrial" ;
+  skos:definition """The interface of marine and terrestrial seepage is sometimes influenced by seepage or outflow of freshwater, supporting intertidal wetlands and deltaic systems.
+
+It shares features of the freshwater, marine and terrestrial core realms.""" ;
+  skos:notation "MFT" ;
+.
+iucn:MarineShelf
+  a owl:Class ;
+  rdfs:label "Marine shelf biome" ;
+  rdfs:subClassOf iucn:Marine ;
+  skos:notation "M1" ;
+.
+iucn:MarineTerrestrial
+  a owl:Class ;
+  rdfs:label "Marine-Terrestrial" ;
+  skos:definition """The marine-terrestrial transitional realm is characterised by steep environmental gradients in desiccation, salinity and wave and tide disturbance, occupied by contrasting shoreline ecosystems.
+
+It shares features of the marine and terrestrial core realms.""" ;
+  skos:notation "MT" ;
+.
+iucn:MesopelagicOceanWaters
+  a owl:Class ;
+  rdfs:label "Mesopelagic ocean water" ;
+  rdfs:subClassOf iucn:PelagicOceanWaters ;
+  skos:notation "M2.2" ;
+.
+iucn:MuddyShorelines
+  a owl:Class ;
+  rdfs:label "Muddy Shorelines" ;
+  rdfs:subClassOf iucn:Shorelines ;
+  skos:notation "MT1.2" ;
+.
+iucn:OldFields
+  a owl:Class ;
+  rdfs:label "Derived semi-natural pastures and old fields" ;
+  rdfs:subClassOf iucn:IntensiveLandUse ;
+  skos:notation "T7.5" ;
+.
+iucn:PalustrineWetlands
+  a owl:Class ;
+  rdfs:label "Palustrine wetlands biome" ;
+  rdfs:subClassOf iucn:TerrestrialFreshwater ;
+  skos:notation "TF1" ;
+.
+iucn:PasturesAndFields
+  a owl:Class ;
+  rdfs:label "Sown pastures and fields" ;
+  rdfs:subClassOf iucn:IntensiveLandUse ;
+  skos:notation "T7.2" ;
+.
+iucn:PeatBogs
+  a owl:Class ;
+  rdfs:label "Boreal, temperate and montane peat bogs" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.6" ;
+.
+iucn:PelagicOceanWaters
+  a owl:Class ;
+  rdfs:label "Pelagic ocean waters biome" ;
+  rdfs:subClassOf iucn:Marine ;
+  skos:notation "M2" ;
+.
+iucn:PermanentLowlandRivers
+  a owl:Class ;
+  rdfs:label "Permanent lowland rivers" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.2" ;
+.
+iucn:PermanentMarshes
+  a owl:Class ;
+  rdfs:label "Permanent marshes" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.3" ;
+.
+iucn:PermanentSaltLakes
+  a owl:Class ;
+  rdfs:label "Permanent salt and soda lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.6" ;
+.
+iucn:PermanentUplandStreams
+  a owl:Class ;
+  rdfs:label "Permanent upland streams" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.1" ;
+.
+iucn:PhoticCoralReefs
+  a owl:Class ;
+  rdfs:label "Photic coral reefs" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.3" ;
+.
+iucn:Plantations
+  a owl:Class ;
+  rdfs:label "Plantations" ;
+  rdfs:subClassOf iucn:IntensiveLandUse ;
+  skos:notation "T7.3" ;
+.
+iucn:PyricHumidForests
+  a owl:Class ;
+  rdfs:label "Temperate pyric humid forests" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.5" ;
+.
+iucn:PyricSclerophyllForests
+  a owl:Class ;
+  rdfs:label "Temperate pyric sclerophyll forests and woodlands" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.6" ;
+.
+iucn:PyricTussockSavannas
+  a owl:Class ;
+  rdfs:label "Pyric tussock savannas" ;
+  rdfs:subClassOf iucn:Savannas ;
+  skos:notation "T4.2" ;
+.
+iucn:Realm
+  a xkos:ClassificationLevel ;
+  xkos:depth "1"^^xsd:positiveInteger ;
+  rdfs:label "Realm" ;
+  skos:definition "One of five major components of the biosphere that differ fundamentally in ecosystem organisation and function: terrestrial, freshwater, marine, subterranean, atmospheric and combinations of these (transitional realms). Because variation in nature is continuous, we also include transitional realms, where the realms meet and have their own unique organisation and function." ;
+  skos:member iucn:Atmospheric ;
+  skos:member iucn:Freshwater ;
+  skos:member iucn:FreshwaterMarine ;
+  skos:member iucn:Marine ;
+  skos:member iucn:MarineFreshwaterTerrestrial ;
+  skos:member iucn:MarineTerrestrial ;
+  skos:member iucn:Subterranean ;
+  skos:member iucn:SubterraneanFreshwater ;
+  skos:member iucn:SubterraneanMarine ;
+  skos:member iucn:Terrestrial ;
+  skos:member iucn:TerrestrialFreshwater ;
+.
+iucn:RhodolithBeds
+  a owl:Class ;
+  rdfs:label "Rhodolith/Maërl beds" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.10" ;
+.
+iucn:RicePaddies
+  a owl:Class ;
+  rdfs:label "Rice paddies" ;
+  rdfs:subClassOf iucn:ArtificialWetlands ;
+  skos:notation "F3.3" ;
+.
+iucn:RiversStreams
+  a owl:Class ;
+  rdfs:label "Rivers and streams biome" ;
+  rdfs:subClassOf iucn:Freshwater ;
+  skos:notation "F1" ;
+.
+iucn:RockyPavements
+  a owl:Class ;
+  rdfs:label "Young rocky pavements, lava flows and screes" ;
+  rdfs:subClassOf iucn:Shrublands ;
+  skos:notation "T3.4" ;
+.
+iucn:RockyShorelines
+  a owl:Class ;
+  rdfs:label "Rocky Shorelines" ;
+  rdfs:subClassOf iucn:Shorelines ;
+  skos:notation "MT1.1" ;
+.
+iucn:SandyShorelines
+  a owl:Class ;
+  rdfs:label "Sandy Shorelines" ;
+  rdfs:subClassOf iucn:Shorelines ;
+  skos:notation "MT1.3" ;
+.
+iucn:Savannas
+  a owl:Class ;
+  rdfs:label "Savannas and grasslands biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T4" ;
+.
+iucn:SclerophyllHotDesert
+  a owl:Class ;
+  rdfs:label "Sclerophyll hot deserts and semi-deserts" ;
+  rdfs:subClassOf iucn:Deserts ;
+  skos:notation "T5.3" ;
+.
+iucn:SeaCaves
+  a owl:Class ;
+  rdfs:label "Sea caves" ;
+  rdfs:subClassOf iucn:SubterraneanTidal ;
+  skos:notation "SM1.3" ;
+.
+iucn:SeaIce
+  a owl:Class ;
+  rdfs:label "Sea ice" ;
+  rdfs:subClassOf iucn:PelagicOceanWaters ;
+  skos:notation "M2.5" ;
+.
+iucn:SeabirdPinnipedColonies
+  a owl:Class ;
+  rdfs:label "Large seabird and pinniped colonies" ;
+  rdfs:subClassOf iucn:SupralittoralCoastal ;
+  skos:notation "MT2.2" ;
+.
+iucn:SeagrassMeadows
+  a owl:Class ;
+  rdfs:label "Seagrass meadows" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.1" ;
+.
+iucn:SeamountsRidgesPlateaus
+  a owl:Class ;
+  rdfs:label "Seamounts, ridges and plateaus" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.4" ;
+.
+iucn:SeasonalFloodplainMarshes
+  a owl:Class ;
+  rdfs:label "Seasonal floodplain marshes" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.4" ;
+.
+iucn:SeasonalLakes
+  a owl:Class ;
+  rdfs:label "Seasonal freshwater lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.3" ;
+.
+iucn:SeasonalLowlandRivers
+  a owl:Class ;
+  rdfs:label "Seasonal lowland rivers" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.5" ;
+.
+iucn:SeasonalUplandStreams
+  a owl:Class ;
+  rdfs:label "Seasonal upland streams" ;
+  rdfs:subClassOf iucn:RiversStreams ;
+  skos:notation "F1.4" ;
+.
+iucn:SeasonallyDryHeath
+  a owl:Class ;
+  rdfs:label "Seasonally dry temperate heath and shrublands" ;
+  rdfs:subClassOf iucn:Shrublands ;
+  skos:notation "T3.2" ;
+.
+iucn:SeasonallyDryShrublands
+  a owl:Class ;
+  rdfs:label "Seasonally dry tropical shrublands" ;
+  rdfs:subClassOf iucn:Shrublands ;
+  skos:notation "T3.1" ;
+.
+iucn:SemiDesert
+  a owl:Class ;
+  rdfs:label "Semi-desert steppe" ;
+  rdfs:subClassOf iucn:Deserts ;
+  skos:notation "T5.1" ;
+.
+iucn:ShellfishBedsReefs
+  a owl:Class ;
+  rdfs:label "Shellfish beds and reefs" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.4" ;
+.
+iucn:Shorelines
+  a owl:Class ;
+  rdfs:label "Shorelines biome" ;
+  rdfs:subClassOf iucn:MarineTerrestrial ;
+  skos:notation "MT1" ;
+.
+iucn:Shrublands
+  a owl:Class ;
+  rdfs:label "Shrublands and shrubby woodlands biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T3" ;
+.
+iucn:SmallPermanentLakes
+  a owl:Class ;
+  rdfs:label "Small permanent freshwater lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.2" ;
+.
+iucn:SpringsOases
+  a owl:Class ;
+  rdfs:label "Artesian springs and oases" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.8" ;
+.
+iucn:SubglacialLakes
+  a owl:Class ;
+  rdfs:label "Subglacial lakes" ;
+  rdfs:subClassOf iucn:Lakes ;
+  skos:notation "F2.10" ;
+.
+iucn:SubmarineCanyons
+  a owl:Class ;
+  rdfs:label "Submarine canyons" ;
+  rdfs:subClassOf iucn:DeepSeaFloors ;
+  skos:notation "M3.2" ;
+.
+iucn:SubmergedArtificialStructures
+  a owl:Class ;
+  rdfs:label "Submerged artificial structures" ;
+  rdfs:subClassOf iucn:AnthropogenicMarine ;
+  skos:notation "M4.1" ;
+.
+iucn:Subterranean
+  a owl:Class ;
+  rdfs:label "Subterranean" ;
+  skos:definition "The Subterranean realm includes the earth’s crust and subsurface voids characterised by an absence or very low intensity of sunlight." ;
+  skos:notation "S" ;
+  skos:note """Energy is therefore a major resource driver in these ecosystems, although other resources such as water and carbon, may sometimes be limiting. The ambient environment is relatively stable, although extreme temperatures occur in local areas influenced by vulcanism and substrate type influences availability of nutrients and seepage of moisture. Disturbances are rare and limited to mass movement or subterranean fires restricted to coal, oil or gas strata, with combustion rates limited by oxygen. Subterranean trophic webs are truncated, lacking photoautotrophs, herbivores and large predators. The microbial biota is a key feature in the expression of different subterranean ecosystems.
+
+The subterranean realm transitions to subterranean freshwater and subterranean tidal systems.""" ;
+.
+iucn:SubterraneanFreshwater
+  a owl:Class ;
+  rdfs:label "Subterranean-Freshwater" ;
+  skos:definition """Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.
+
+It shares features of the freshwater, and subterranean core realms.""" ;
+  skos:notation "SF" ;
+.
+iucn:SubterraneanFreshwaters
+  a owl:Class ;
+  rdfs:label "Subterranean freshwaters biome" ;
+  rdfs:subClassOf iucn:SubterraneanFreshwater ;
+  skos:notation "SF1" ;
+.
+iucn:SubterraneanLithic
+  a owl:Class ;
+  rdfs:label "Subterranean lithic biome" ;
+  rdfs:subClassOf iucn:Subterranean ;
+  skos:notation "S1" ;
+.
+iucn:SubterraneanMarine
+  a owl:Class ;
+  rdfs:label "Subterranean-Marine" ;
+  skos:definition """Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.
+
+It shares features of the marine, and subterranean core realms.""" ;
+  skos:notation "SM" ;
+.
+iucn:SubterraneanTidal
+  a owl:Class ;
+  rdfs:label "Subterranean tidal biome" ;
+  rdfs:subClassOf iucn:SubterraneanMarine ;
+  skos:notation "SM1" ;
+.
+iucn:SubtidalMudPlains
+  a owl:Class ;
+  rdfs:label "Subtidal mud plains" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.8" ;
+.
+iucn:SubtidalRockyReefs
+  a owl:Class ;
+  rdfs:label "Subtidal rocky reefs" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.6" ;
+.
+iucn:SubtidalSandBeds
+  a owl:Class ;
+  rdfs:label "Subtidal sand beds" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.7" ;
+.
+iucn:SucculentThornyDesert
+  a owl:Class ;
+  rdfs:label "Succulent or Thorny deserts and semi-deserts" ;
+  rdfs:subClassOf iucn:Deserts ;
+  skos:notation "T5.2" ;
+.
+iucn:SupralittoralCoastal
+  a owl:Class ;
+  rdfs:label "Supralittoral coastal biome" ;
+  rdfs:subClassOf iucn:MarineTerrestrial ;
+  skos:notation "MT2" ;
+.
+iucn:TemperateAlpineGrasslands
+  a owl:Class ;
+  rdfs:label "Temperate alpine grasslands and shrublands" ;
+  rdfs:subClassOf iucn:Cryogenic ;
+  skos:notation "T6.4" ;
+.
+iucn:TemperateSubhumidGrasslands
+  a owl:Class ;
+  rdfs:label "Temperate subhumid grasslands" ;
+  rdfs:subClassOf iucn:Savannas ;
+  skos:notation "T4.5" ;
+.
+iucn:TemperateWoodlands
+  a owl:Class ;
+  rdfs:label "Temperate woodlands" ;
+  rdfs:subClassOf iucn:Savannas ;
+  skos:notation "T4.4" ;
+.
+iucn:Terrestrial
+  a owl:Class ;
+  rdfs:label "Terrestrial" ;
+  skos:definition "The Terrestrial realm includes all dry land, its vegetation cover, proximate atmosphere and substrate (soils, rocks) to the rooting depth of plants, and associated animals and microbes." ;
+  skos:notation "T" ;
+  skos:note """Water and nutrients are the principal resource drivers, with energy, oxygen and carbon rarely limiting. Temperature and its variability on interannual, seasonal and diurnal time scales, is a major ambient environmental driver, with ecosystem function and structure responding to global latitudinal and altitudinal climatic gradients. Fire is a major ecosystem driver, essentially unique to the terrestrial realm, although it may occur rarely in the subterranean realm. Gradients in these key resources, ambient environmental factors and disturbance regimes influence biotic interactions, with the strength of competition, predation and pathogenicity varying greatly across the realm. Human activity is a key driver through structural manipulations associated with land use, but also through movement of biota and anthropogenic climate change. The complexity of trophic webs is similarly variable, with vegetation a key feature in the expression of different ecosystem types within the realm.
+
+The terrestrial realm transitions to palustrine wetlands, shoreline and supralittoral and brackish tidal systems.""" ;
+.
+iucn:TerrestrialFreshwater
+  a owl:Class ;
+  rdfs:label "Terrestrial-Freshwater" ;
+  skos:definition """The interface between terrestrial and freshwater realms is occupied by palustrine wetlands, some of which accumulate peat under impeded substrate drainage.
+
+It shares features of the freshwater and terrestrial core realms.""" ;
+  skos:notation "TF" ;
+.
+iucn:TransitionalRealm
+  a xkos:ClassificationLevel ;
+  xkos:depth "1"^^xsd:positiveInteger ;
+  rdfs:label "Transitional realm" ;
+  skos:definition "Transitional realms accommodate continuous variation among the core units." ;
+  skos:member iucn:FreshwaterMarine ;
+  skos:member iucn:MarineFreshwaterTerrestrial ;
+  skos:member iucn:MarineTerrestrial ;
+  skos:member iucn:SubterraneanFreshwater ;
+  skos:member iucn:SubterraneanMarine ;
+  skos:member iucn:TerrestrialFreshwater ;
+.
+iucn:TransitionalWaters
+  a owl:Class ;
+  rdfs:label "Semi-confined transitional waters biome" ;
+  rdfs:subClassOf iucn:FreshwaterMarine ;
+  skos:notation "FM1" ;
+.
+iucn:TrophicSavannas
+  a owl:Class ;
+  rdfs:label "Trophic savannas" ;
+  rdfs:subClassOf iucn:Savannas ;
+  skos:notation "T4.1" ;
+.
+iucn:TropicalAlpineGrasslands
+  a owl:Class ;
+  rdfs:label "Tropical alpine grasslands and herbfields" ;
+  rdfs:subClassOf iucn:Cryogenic ;
+  skos:notation "T6.5" ;
+.
+iucn:TropicalDryForests
+  a owl:Class ;
+  rdfs:label "Tropical/Subtropical dry forests and thickets" ;
+  rdfs:subClassOf iucn:TropicalSubtropicalForests ;
+  skos:notation "T1.2" ;
+.
+iucn:TropicalFloodedForests
+  a owl:Class ;
+  rdfs:label "Tropical flooded forests and peat forests" ;
+  rdfs:subClassOf iucn:PalustrineWetlands ;
+  skos:notation "TF1.1" ;
+.
+iucn:TropicalHeathForests
+  a owl:Class ;
+  rdfs:label "Tropical heath forests" ;
+  rdfs:subClassOf iucn:TropicalSubtropicalForests ;
+  skos:notation "T1.4" ;
+.
+iucn:TropicalLowlandRainforests
+  a owl:Class ;
+  rdfs:label "Tropical/Subtropical lowland rainforests" ;
+  rdfs:subClassOf iucn:TropicalSubtropicalForests ;
+  skos:notation "T1.1" ;
+.
+iucn:TropicalMontaneRainforests
+  a owl:Class ;
+  rdfs:label "Tropical/Subtropical montane rainforests" ;
+  rdfs:subClassOf iucn:TropicalSubtropicalForests ;
+  skos:notation "T1.3" ;
+.
+iucn:TropicalSubtropicalForests
+  a owl:Class ;
+  rdfs:label "Tropical-subtropical forests biome" ;
+  rdfs:subClassOf iucn:Terrestrial ;
+  skos:notation "T1" ;
+.
+iucn:Tundra
+  a owl:Class ;
+  rdfs:label "Polar tundra and deserts" ;
+  rdfs:subClassOf iucn:Cryogenic ;
+  skos:notation "T6.3" ;
+.
+iucn:UndergroundStreamsPools
+  a owl:Class ;
+  rdfs:label "Underground streams and pools" ;
+  rdfs:subClassOf iucn:SubterraneanFreshwaters ;
+  skos:notation "SF1.1" ;
+.
+iucn:UpwellingZones
+  a owl:Class ;
+  rdfs:label "Upwelling zones" ;
+  rdfs:subClassOf iucn:MarineShelf ;
+  skos:notation "M1.9" ;
+.
+iucn:UrbanAndIndustrial
+  a owl:Class ;
+  rdfs:label "Urban and industrial ecosystems" ;
+  rdfs:subClassOf iucn:IntensiveLandUse ;
+  skos:notation "T7.4" ;
+.
+iucn:WarmTemperateForests
+  a owl:Class ;
+  rdfs:label "Warm temperate laurophyll forests" ;
+  rdfs:subClassOf iucn:ForestsAndWoodlands ;
+  skos:notation "T2.4" ;
+.
+iucn:WaterPipes
+  a owl:Class ;
+  rdfs:label "Water pipes and subterranean canals" ;
+  rdfs:subClassOf iucn:AnthropogenicSubterraneanFreshwaters ;
+  skos:notation "SF2.1" ;
+.
