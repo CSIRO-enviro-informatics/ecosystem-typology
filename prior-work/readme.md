@@ -6,6 +6,18 @@
 
 Recognises the _dynamic_ nature of ecosystems, under natural conditions, that provide a consistent flow of services.
 
+## VAST / AquaVAST
+
+Thackway
+
+- I: Residual
+- II: Modified
+- III(a): Transformed
+- III(b): Transformed
+- IV: Replaced-Adventive
+- V: Replaced-Managed
+- VI: Removed
+
 ## IUCN Global Ecosystem Typology
 
 [https://global-ecosystems.org/](https://global-ecosystems.org/)
