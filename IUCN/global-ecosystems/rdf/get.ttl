@@ -82,7 +82,8 @@ iucn:AnthropogenicMarine
 iucn:AnthropogenicShorelines
   a owl:Class ;
   rdfs:label "Anthropogenic shorelines biome" ;
-  rdfs:subClassOf iucn:MarineTerrestrial ;
+  rdfs:subClassOf iucn:Marine ;
+  rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "MT3" ;
 .
 iucn:AnthropogenicSubterranean
@@ -94,7 +95,8 @@ iucn:AnthropogenicSubterranean
 iucn:AnthropogenicSubterraneanFreshwaters
   a owl:Class ;
   rdfs:label "Anthropogenic subterranean freshwaters biome" ;
-  rdfs:subClassOf iucn:SubterraneanFreshwater ;
+  rdfs:subClassOf iucn:Freshwater ;
+  rdfs:subClassOf iucn:Subterranean ;
   skos:notation "SF2" ;
 .
 iucn:AnthropogenicSubterraneanVoids
@@ -174,7 +176,9 @@ iucn:BoulderCobbleShores
 iucn:BrackishTidal
   a owl:Class ;
   rdfs:label "Brackish tidal biome" ;
-  rdfs:subClassOf iucn:MarineFreshwaterTerrestrial ;
+  rdfs:subClassOf iucn:Freshwater ;
+  rdfs:subClassOf iucn:Marine ;
+  rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "MFT1" ;
 .
 iucn:CBE
@@ -651,7 +655,8 @@ iucn:OldFields
 iucn:PalustrineWetlands
   a owl:Class ;
   rdfs:label "Palustrine wetlands biome" ;
-  rdfs:subClassOf iucn:TerrestrialFreshwater ;
+  rdfs:subClassOf iucn:Freshwater ;
+  rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "TF1" ;
 .
 iucn:PasturesAndFields
@@ -872,7 +877,8 @@ iucn:ShellfishBedsReefs
 iucn:Shorelines
   a owl:Class ;
   rdfs:label "Shorelines biome" ;
-  rdfs:subClassOf iucn:MarineTerrestrial ;
+  rdfs:subClassOf iucn:Marine ;
+  rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "MT1" ;
 .
 iucn:Shrublands
@@ -931,7 +937,8 @@ It shares features of the freshwater, and subterranean core realms.""" ;
 iucn:SubterraneanFreshwaters
   a owl:Class ;
   rdfs:label "Subterranean freshwaters biome" ;
-  rdfs:subClassOf iucn:SubterraneanFreshwater ;
+  rdfs:subClassOf iucn:Freshwater ;
+  rdfs:subClassOf iucn:Subterranean ;
   skos:notation "SF1" ;
 .
 iucn:SubterraneanLithic
@@ -951,7 +958,8 @@ It shares features of the marine, and subterranean core realms.""" ;
 iucn:SubterraneanTidal
   a owl:Class ;
   rdfs:label "Subterranean tidal biome" ;
-  rdfs:subClassOf iucn:SubterraneanMarine ;
+  rdfs:subClassOf iucn:Marine ;
+  rdfs:subClassOf iucn:Subterranean ;
   skos:notation "SM1" ;
 .
 iucn:SubtidalMudPlains
@@ -981,7 +989,8 @@ iucn:SucculentThornyDesert
 iucn:SupralittoralCoastal
   a owl:Class ;
   rdfs:label "Supralittoral coastal biome" ;
-  rdfs:subClassOf iucn:MarineTerrestrial ;
+  rdfs:subClassOf iucn:Marine ;
+  rdfs:subClassOf iucn:Terrestrial ;
   skos:notation "MT2" ;
 .
 iucn:TemperateAlpineGrasslands
@@ -1034,7 +1043,8 @@ iucn:TransitionalRealm
 iucn:TransitionalWaters
   a owl:Class ;
   rdfs:label "Semi-confined transitional waters biome" ;
-  rdfs:subClassOf iucn:FreshwaterMarine ;
+  rdfs:subClassOf iucn:Freshwater ;
+  rdfs:subClassOf iucn:Marine ;
   skos:notation "FM1" ;
 .
 iucn:TrophicSavannas
