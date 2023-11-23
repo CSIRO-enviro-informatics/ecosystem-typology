@@ -6,6 +6,14 @@
 
 Recognises the _dynamic_ nature of ecosystems, under natural conditions, that provide a consistent flow of services.
 
+## Australian Land Use and Management classification (ALUM)
+
+The Australian Land Use and Management (ALUM) Classification system provides a nationally consistent method to collect and present land use information for a wide range of users across Australia. The latest version (Version 8) of the classification conforms to the Australian Spatial Data Infrastructure (ASDI) standard for land use datasets and is also available as an environmental vocabulary service or glossary.
+
+[ALUM Version 8](https://www.agriculture.gov.au/abares/aclump/land-use/alum-classification)
+
+[Mapping from ALUM8 &rarr; IUCN GET](https://github.com/CSIRO-enviro-informatics/ecosystem-typology/files/13446193/ALUMv8.xlsx)
+
 ## VAST / AquaVAST
 
 Thackway
