@@ -1,0 +1,1145 @@
+{
+  "@graph" : [ {
+    "@id" : "http://w3id.org/env/iucn-get/",
+    "@type" : [ "skos:ConceptScheme", "owl:Ontology" ],
+    "created" : "2023-11-22",
+    "creator" : "https://orcid.org/0000-0002-3884-3420",
+    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3\r\n\r\nEach Realm, Biome and Functional Group is implemented as an OWL Class. \r\nSub-classing is used to organize the IUCN hierarchy. \r\n\r\nThe classification levels are managed using XKOS. ",
+    "isFormatOf" : "https://global-ecosystems.org/explore",
+    "license" : "https://creativecommons.org/public-domain/cc0/",
+    "modified" : "2023-11-23",
+    "references" : "https://doi.org/10.1038/s41586-022-05318-4",
+    "source" : "https://doi.org/10.1038/s41586-022-05318-4",
+    "imports" : [ "resource:geopolitical.owl", "http://www.w3.org/2004/02/skos/core", "http://purl.org/dc/terms/", "http://rdf-vocabulary.ddialliance.org/xkos", "https://schema.org/version/latest/schemaorg-current-https.ttl" ]
+  }, {
+    "@id" : "iucn:A",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/A",
+    "definition" : "The Atmospheric Realm includes all connected gaseous regions above the surface of the earth.",
+    "notation" : "A",
+    "note" : "Resolution of the lower levels of the Atmospheric Realm is deferred, because its biota is poorly understood, sparse, itinerant and represented mainly by dispersive life stages. ",
+    "prefLabel" : "Atmospheric"
+  }, {
+    "@id" : "iucn:Biome",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "2",
+    "definition" : "A component of a realm united by broad features of ecosystem structure and one or a few common major ecological drivers that regulate major ecological functions, derived from the top-down by subdivision of realms (level 1).",
+    "member" : [ "iucn:DeepSeaFloors", "iucn:Cryogenic", "iucn:SupralittoralCoastal", "iucn:SubterraneanLithic", "iucn:SubterraneanTidal", "iucn:Savannas", "iucn:AnthropogenicSubterranean", "iucn:BrackishTidal", "iucn:IntensiveLandUse", "iucn:PelagicOceanWaters", "iucn:ArtificialWetlands", "iucn:Deserts", "iucn:ForestsAndWoodlands", "iucn:Shrublands", "iucn:MarineShelf", "iucn:AnthropogenicSubterraneanFreshwaters", "iucn:SubterraneanFreshwaters", "iucn:TransitionalWaters", "iucn:Shorelines", "iucn:TropicalSubtropicalForests", "iucn:RiversStreams", "iucn:AnthropogenicShorelines", "iucn:PalustrineWetlands", "iucn:Lakes", "iucn:AnthropogenicMarine" ],
+    "prefLabel" : "Biome"
+  }, {
+    "@id" : "iucn:CoreRealm",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "1",
+    "member" : [ "iucn:Subterranean", "iucn:Marine", "iucn:Freshwater", "iucn:Atmospheric", "iucn:Terrestrial" ],
+    "prefLabel" : "Core realm"
+  }, {
+    "@id" : "iucn:F",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/F",
+    "definition" : "The Freshwater Realm includes all permanent and temporary freshwater bodies as well as saline water bodies that are not directly connected to the oceans, and are characterised by water regimes defined by frequency, duration, flow velocity, depth and extent of inundation.",
+    "notation" : "F",
+    "note" : "Although some authorities describe this same unit as ‘inland water bodies’, we follow a conventional interpretation that includes saline water bodies as ‘freshwater’ for nomenclatural brevity and to avoid implications that freshwaters are always distant from the coast. Flow regimes are critical to the structure and function of freshwater ecosystems. They regulate allochthonous inputs of water and nutrients from catchments, as well as inundation and drying regimes and turbulence. Catchment geomorphology, substrates and climate are key components of the ambient environment that regulate resource inputs and disturbance regimes. Trophic complexity increases with the size and connectivity of the water body. Biota of the benthos and the water column are closely associated with flow regimes and catchments in the diverse expressions of freshwater ecosystems.\r\n\r\nThe freshwater realm transitions to palustrine wetlands, subterranean freshwater systems, brackish aquatic and brackish tidal systems.",
+    "prefLabel" : "Freshwater"
+  }, {
+    "@id" : "iucn:F1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F1",
+    "broader" : "iucn:Freshwater",
+    "notation" : "F1",
+    "prefLabel" : "Rivers and streams biome"
+  }, {
+    "@id" : "iucn:F1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.1",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.1",
+    "prefLabel" : "Permanent upland streams"
+  }, {
+    "@id" : "iucn:F1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.2",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.2",
+    "prefLabel" : "Permanent lowland rivers"
+  }, {
+    "@id" : "iucn:F1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.3",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.3",
+    "prefLabel" : "Freeze-thaw rivers and streams"
+  }, {
+    "@id" : "iucn:F1.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.4",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.4",
+    "prefLabel" : "Seasonal upland streams"
+  }, {
+    "@id" : "iucn:F1.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.5",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.5",
+    "prefLabel" : "Seasonal lowland rivers"
+  }, {
+    "@id" : "iucn:F1.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.6",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.6",
+    "prefLabel" : "Episodic arid rivers"
+  }, {
+    "@id" : "iucn:F1.7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.7",
+    "broader" : "iucn:RiversStreams",
+    "notation" : "F1.7",
+    "prefLabel" : "Large lowland rivers"
+  }, {
+    "@id" : "iucn:F2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F2",
+    "broader" : "iucn:Freshwater",
+    "notation" : "F2",
+    "prefLabel" : "Lakes biome"
+  }, {
+    "@id" : "iucn:F2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.1",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.1",
+    "prefLabel" : "Large permanent freshwater lakes"
+  }, {
+    "@id" : "iucn:F2.10",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.10",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.10",
+    "prefLabel" : "Subglacial lakes"
+  }, {
+    "@id" : "iucn:F2.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.2",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.2",
+    "prefLabel" : "Small permanent freshwater lakes"
+  }, {
+    "@id" : "iucn:F2.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.3",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.3",
+    "prefLabel" : "Seasonal freshwater lakes"
+  }, {
+    "@id" : "iucn:F2.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.4",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.4",
+    "prefLabel" : "Freeze-thaw freshwater lakes"
+  }, {
+    "@id" : "iucn:F2.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.5",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.5",
+    "prefLabel" : "Ephemeral freshwater lakes"
+  }, {
+    "@id" : "iucn:F2.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.6",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.6",
+    "prefLabel" : "Permanent salt and soda lakes"
+  }, {
+    "@id" : "iucn:F2.7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.7",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.7",
+    "prefLabel" : "Ephemeral salt lakes"
+  }, {
+    "@id" : "iucn:F2.8",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.8",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.8",
+    "prefLabel" : "Artesian springs and oases"
+  }, {
+    "@id" : "iucn:F2.9",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.9",
+    "broader" : "iucn:Lakes",
+    "notation" : "F2.9",
+    "prefLabel" : "Geothermal pools and wetlands"
+  }, {
+    "@id" : "iucn:F3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F3",
+    "broader" : "iucn:Freshwater",
+    "notation" : "F3",
+    "prefLabel" : "Artificial wetlands biome"
+  }, {
+    "@id" : "iucn:F3.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.1",
+    "broader" : "iucn:ArtificialWetlands",
+    "notation" : "F3.1",
+    "prefLabel" : "Large reservoirs"
+  }, {
+    "@id" : "iucn:F3.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.2",
+    "broader" : "iucn:ArtificialWetlands",
+    "notation" : "F3.2",
+    "prefLabel" : "Constructed lacustrine wetlands"
+  }, {
+    "@id" : "iucn:F3.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.3",
+    "broader" : "iucn:ArtificialWetlands",
+    "notation" : "F3.3",
+    "prefLabel" : "Rice paddies"
+  }, {
+    "@id" : "iucn:F3.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.4",
+    "broader" : "iucn:ArtificialWetlands",
+    "notation" : "F3.4",
+    "prefLabel" : "Freshwater aquafarms"
+  }, {
+    "@id" : "iucn:F3.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.5",
+    "broader" : "iucn:ArtificialWetlands",
+    "notation" : "F3.5",
+    "prefLabel" : "Canals, ditches and drains"
+  }, {
+    "@id" : "iucn:FM",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/FM",
+    "definition" : "The freshwater-marine transitional realm is occupied by brackish aquatic ecosystems on marine coasts. It shares features of the freshwater and the marine realms, and transitions to brackish tidal systems.",
+    "notation" : "FM",
+    "prefLabel" : "Freshwater-Marine"
+  }, {
+    "@id" : "iucn:FM1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/FM1",
+    "broader" : [ "iucn:Marine", "iucn:Freshwater" ],
+    "notation" : "FM1",
+    "prefLabel" : "Semi-confined transitional waters biome"
+  }, {
+    "@id" : "iucn:FM1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.1",
+    "broader" : "iucn:TransitionalWaters",
+    "notation" : "FM1.1",
+    "prefLabel" : "Deepwater coastal inlets"
+  }, {
+    "@id" : "iucn:FM1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.2",
+    "broader" : "iucn:TransitionalWaters",
+    "notation" : "FM1.2",
+    "prefLabel" : "Permanently open riverine estuaries and bays"
+  }, {
+    "@id" : "iucn:FM1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.3",
+    "broader" : "iucn:TransitionalWaters",
+    "notation" : "FM1.3",
+    "prefLabel" : "Intermittently closed and open lakes and lagoons"
+  }, {
+    "@id" : "iucn:FunctionalGroup",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "3",
+    "member" : [ "iucn:TropicalFloodedForests", "iucn:SeagrassMeadows", "iucn:CBE", "iucn:MesopelagicOceanWaters", "iucn:SeasonallyDryShrublands", "iucn:EstuariesBays", "iucn:TropicalMontaneRainforests", "iucn:PermanentSaltLakes", "iucn:FreezeThawLakes", "iucn:SemiDesert", "iucn:FloodedMinesVoids", "iucn:Fens", "iucn:TrophicSavannas", "iucn:SubtidalRockyReefs", "iucn:PeatBogs", "iucn:CoastalRiverDeltas", "iucn:SubtidalMudPlains", "iucn:TropicalAlpineGrasslands", "iucn:LargeReservoirs", "iucn:SubmarineCanyons", "iucn:PyricTussockSavannas", "iucn:SeasonallyDryHeath", "iucn:FreshwaterAquafarms", "iucn:ContinentalIslandSlopes", "iucn:SeabirdPinnipedColonies", "iucn:PermanentMarshes", "iucn:GroundwaterEcosystems", "iucn:TemperateWoodlands", "iucn:CliffsScreesOutcrops", "iucn:ArtificialShorelines", "iucn:SandyShorelines", "iucn:RhodolithBeds", "iucn:ShellfishBedsReefs", "iucn:PhoticCoralReefs", "iucn:PermanentUplandStreams", "iucn:CanalsDitchesDrains", "iucn:MarineAnimalForests", "iucn:SeasonalUplandStreams", "iucn:LargePermanentLakes", "iucn:AbyssalPlains", "iucn:AnchialineCaves", "iucn:LargeLowlandRivers", "iucn:DeciduousTemperateForests", "iucn:DeepwaterBiogenicBeds", "iucn:PyricHumidForests", "iucn:MarineAquafarms", "iucn:EpisodicAridFloodplains", "iucn:EpipelagicOceanWaters", "iucn:FreezeThawRivers", "iucn:UrbanAndIndustrial", "iucn:EphemeralFreshwaterLakes", "iucn:BathypelagicOceanWaters", "iucn:AridDesert", "iucn:HummockSavannas", "iucn:AerobicCaves", "iucn:DeepwaterCoastalInlets", "iucn:CoastalSaltmarshesReedbeds", "iucn:WaterPipes", "iucn:GeothermalPools", "iucn:EphemeralSaltLakes", "iucn:AnthropogenicSubterraneanVoids", "iucn:SubglacialLakes", "iucn:Tundra", "iucn:SucculentThornyDesert", "iucn:TropicalLowlandRainforests", "iucn:AnchialinePools", "iucn:KelpForests", "iucn:SpringsOases", "iucn:SubmergedArtificialStructures", "iucn:TemperateSubhumidGrasslands", "iucn:HighMontaneWoodlands", "iucn:SeaCaves", "iucn:CoolDesert", "iucn:TemperateAlpineGrasslands", "iucn:RockyPavements", "iucn:SclerophyllHotDesert", "iucn:Plantations", "iucn:LakesLagoons", "iucn:SeamountsRidgesPlateaus", "iucn:OldFields", "iucn:UpwellingZones", "iucn:CoastalShrublandsGrasslands", "iucn:RicePaddies", "iucn:IceSheets", "iucn:SeasonalLowlandRivers", "iucn:IntertidalForests", "iucn:HadalTrenchesTroughs", "iucn:SeasonalLakes", "iucn:ForestedWetlands", "iucn:ConstructedLacustrineWetlands", "iucn:SubtidalSandBeds", "iucn:TropicalHeathForests", "iucn:BoulderCobbleShores", "iucn:UndergroundStreamsPools", "iucn:PasturesAndFields", "iucn:CoolTemperateHeath", "iucn:RockyShorelines", "iucn:SmallPermanentLakes", "iucn:CoolTemperateRainforests", "iucn:MuddyShorelines", "iucn:WarmTemperateForests", "iucn:TropicalDryForests", "iucn:SeaIce", "iucn:PermanentLowlandRivers", "iucn:EndolithicSystems", "iucn:SeasonalFloodplainMarshes", "iucn:EpisodicAridRivers", "iucn:AbyssopelagicOceanWaters", "iucn:PyricSclerophyllForests", "iucn:AnnualCroplands" ],
+    "prefLabel" : "Ecosystem functional group"
+  }, {
+    "@id" : "iucn:M",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/M",
+    "definition" : "The Marine Realm includes all connected saline ocean waters characterised by waves, tides and currents.",
+    "notation" : "M",
+    "note" : "These processes transport resources and biota over short temporal and local spatial scales (waves) to global circulation over centuries (deep ocean currents). The availability of light and nutrients diminishes along depth gradients. Oxygen may be locally limited in zones of high heterotrophic activity. Salient ambient environmental factors include substrate type (hard vs soft), which influences the traits of benthic fauna and geomorphology, which influences the movement of deep currents and local or regional upwelling. Upwelling is critical to the supply of nutrients to euphotic waters, and hence productivity and trophic complexity. Primary productivity is contributed mainly by planktonic algae, but benthic macrophytes can make important contributions on parts of the marine shelf. Trophic interactions are critical to the structure of many marine ecosystems through top-down regulation.\r\n\r\nThe marine realm transitions to shoreline and supralittoral, subterranean tidal, brackish aquatic and brackish tidal systems.",
+    "prefLabel" : "Marine"
+  }, {
+    "@id" : "iucn:M1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M1",
+    "broader" : "iucn:Marine",
+    "notation" : "M1",
+    "prefLabel" : "Marine shelf biome"
+  }, {
+    "@id" : "iucn:M1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.1",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.1",
+    "prefLabel" : "Seagrass meadows"
+  }, {
+    "@id" : "iucn:M1.10",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.10",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.10",
+    "prefLabel" : "Rhodolith/Maërl beds"
+  }, {
+    "@id" : "iucn:M1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.2",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.2",
+    "prefLabel" : "Kelp forests"
+  }, {
+    "@id" : "iucn:M1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.3",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.3",
+    "prefLabel" : "Photic coral reefs"
+  }, {
+    "@id" : "iucn:M1.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.4",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.4",
+    "prefLabel" : "Shellfish beds and reefs"
+  }, {
+    "@id" : "iucn:M1.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.5",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.5",
+    "prefLabel" : "Photo-limited marine animal forests"
+  }, {
+    "@id" : "iucn:M1.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.6",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.6",
+    "prefLabel" : "Subtidal rocky reefs"
+  }, {
+    "@id" : "iucn:M1.7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.7",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.7",
+    "prefLabel" : "Subtidal sand beds"
+  }, {
+    "@id" : "iucn:M1.8",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.8",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.8",
+    "prefLabel" : "Subtidal mud plains"
+  }, {
+    "@id" : "iucn:M1.9",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.9",
+    "broader" : "iucn:MarineShelf",
+    "notation" : "M1.9",
+    "prefLabel" : "Upwelling zones"
+  }, {
+    "@id" : "iucn:M2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M2",
+    "broader" : "iucn:Marine",
+    "notation" : "M2",
+    "prefLabel" : "Pelagic ocean waters biome"
+  }, {
+    "@id" : "iucn:M2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.1",
+    "broader" : "iucn:PelagicOceanWaters",
+    "notation" : "M2.1",
+    "prefLabel" : "Epipelagic ocean waters"
+  }, {
+    "@id" : "iucn:M2.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.2",
+    "broader" : "iucn:PelagicOceanWaters",
+    "notation" : "M2.2",
+    "prefLabel" : "Mesopelagic ocean water"
+  }, {
+    "@id" : "iucn:M2.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.3",
+    "broader" : "iucn:PelagicOceanWaters",
+    "notation" : "M2.3",
+    "prefLabel" : "Bathypelagic ocean waters"
+  }, {
+    "@id" : "iucn:M2.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.4",
+    "broader" : "iucn:PelagicOceanWaters",
+    "notation" : "M2.4",
+    "prefLabel" : "Abyssopelagic ocean waters"
+  }, {
+    "@id" : "iucn:M2.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.5",
+    "broader" : "iucn:PelagicOceanWaters",
+    "notation" : "M2.5",
+    "prefLabel" : "Sea ice"
+  }, {
+    "@id" : "iucn:M3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M3",
+    "broader" : "iucn:Marine",
+    "notation" : "M3",
+    "prefLabel" : "Deep sea floors biome"
+  }, {
+    "@id" : "iucn:M3.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.1",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.1",
+    "prefLabel" : "Continental and island slopes"
+  }, {
+    "@id" : "iucn:M3.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.2",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.2",
+    "prefLabel" : "Submarine canyons"
+  }, {
+    "@id" : "iucn:M3.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.3",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.3",
+    "prefLabel" : "Abyssal plains"
+  }, {
+    "@id" : "iucn:M3.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.4",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.4",
+    "prefLabel" : "Seamounts, ridges and plateaus"
+  }, {
+    "@id" : "iucn:M3.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.5",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.5",
+    "prefLabel" : "Deepwater biogenic beds"
+  }, {
+    "@id" : "iucn:M3.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.6",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.6",
+    "prefLabel" : "Hadal trenches and troughs"
+  }, {
+    "@id" : "iucn:M3.7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.7",
+    "broader" : "iucn:DeepSeaFloors",
+    "notation" : "M3.7",
+    "prefLabel" : "Chemosynthetic-based-ecosystems (CBE)"
+  }, {
+    "@id" : "iucn:M4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M4",
+    "broader" : "iucn:Marine",
+    "notation" : "M4",
+    "prefLabel" : "Anthropogenic marine biome"
+  }, {
+    "@id" : "iucn:M4.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M4.1",
+    "broader" : "iucn:AnthropogenicMarine",
+    "notation" : "M4.1",
+    "prefLabel" : "Submerged artificial structures"
+  }, {
+    "@id" : "iucn:M4.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/M4.2",
+    "broader" : "iucn:AnthropogenicMarine",
+    "notation" : "M4.2",
+    "prefLabel" : "Marine aquafarms"
+  }, {
+    "@id" : "iucn:MFT",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/MFT",
+    "definition" : "The interface of marine and terrestrial seepage is sometimes influenced by seepage or outflow of freshwater, supporting intertidal wetlands and deltaic systems.\r\n\r\nIt shares features of the freshwater, marine and terrestrial core realms.",
+    "notation" : "MFT",
+    "prefLabel" : "Marine-Freshwater-Terrestrial"
+  }, {
+    "@id" : "iucn:MFT1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MFT1",
+    "broader" : [ "iucn:Terrestrial", "iucn:Marine", "iucn:Freshwater" ],
+    "notation" : "MFT1",
+    "prefLabel" : "Brackish tidal biome"
+  }, {
+    "@id" : "iucn:MFT1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.1",
+    "broader" : "iucn:BrackishTidal",
+    "notation" : "MFT1.1",
+    "prefLabel" : "Coastal river deltas"
+  }, {
+    "@id" : "iucn:MFT1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.2",
+    "broader" : "iucn:BrackishTidal",
+    "notation" : "MFT1.2",
+    "prefLabel" : "Intertidal forests and shrublands"
+  }, {
+    "@id" : "iucn:MFT1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.3",
+    "broader" : "iucn:BrackishTidal",
+    "notation" : "MFT1.3",
+    "prefLabel" : "Coastal saltmarshes and reedbeds"
+  }, {
+    "@id" : "iucn:MT",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/MT",
+    "definition" : "The marine-terrestrial transitional realm is characterised by steep environmental gradients in desiccation, salinity and wave and tide disturbance, occupied by contrasting shoreline ecosystems.\r\n\r\nIt shares features of the marine and terrestrial core realms.",
+    "notation" : "MT",
+    "prefLabel" : "Marine-Terrestrial"
+  }, {
+    "@id" : "iucn:MT1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT1",
+    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "notation" : "MT1",
+    "prefLabel" : "Shorelines biome"
+  }, {
+    "@id" : "iucn:MT1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.1",
+    "broader" : "iucn:Shorelines",
+    "notation" : "MT1.1",
+    "prefLabel" : "Rocky Shorelines"
+  }, {
+    "@id" : "iucn:MT1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.2",
+    "broader" : "iucn:Shorelines",
+    "notation" : "MT1.2",
+    "prefLabel" : "Muddy Shorelines"
+  }, {
+    "@id" : "iucn:MT1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.3",
+    "broader" : "iucn:Shorelines",
+    "notation" : "MT1.3",
+    "prefLabel" : "Sandy Shorelines"
+  }, {
+    "@id" : "iucn:MT1.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.4",
+    "broader" : "iucn:Shorelines",
+    "notation" : "MT1.4",
+    "prefLabel" : "Boulder and cobble shores"
+  }, {
+    "@id" : "iucn:MT2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT2",
+    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "notation" : "MT2",
+    "prefLabel" : "Supralittoral coastal biome"
+  }, {
+    "@id" : "iucn:MT2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT2.1",
+    "broader" : "iucn:SupralittoralCoastal",
+    "notation" : "MT2.1",
+    "prefLabel" : "Coastal shrublands and grasslands"
+  }, {
+    "@id" : "iucn:MT2.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT2.2",
+    "broader" : "iucn:SupralittoralCoastal",
+    "notation" : "MT2.2",
+    "prefLabel" : "Large seabird and pinniped colonies"
+  }, {
+    "@id" : "iucn:MT3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT3",
+    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "notation" : "MT3",
+    "prefLabel" : "Anthropogenic shorelines biome"
+  }, {
+    "@id" : "iucn:MT3.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT3.1",
+    "broader" : "iucn:AnthropogenicShorelines",
+    "notation" : "MT3.1",
+    "prefLabel" : "Artificial shorelines"
+  }, {
+    "@id" : "iucn:Realm",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "1",
+    "definition" : "One of five major components of the biosphere that differ fundamentally in ecosystem organisation and function: terrestrial, freshwater, marine, subterranean, atmospheric and combinations of these (transitional realms). Because variation in nature is continuous, we also include transitional realms, where the realms meet and have their own unique organisation and function.",
+    "member" : [ "iucn:Terrestrial", "iucn:SubterraneanFreshwater", "iucn:MarineTerrestrial", "iucn:SubterraneanMarine", "iucn:MarineFreshwaterTerrestrial", "iucn:FreshwaterMarine", "iucn:Marine", "iucn:Atmospheric", "iucn:Subterranean", "iucn:TerrestrialFreshwater", "iucn:Freshwater" ],
+    "prefLabel" : "Realm"
+  }, {
+    "@id" : "iucn:S",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/S",
+    "definition" : "The Subterranean realm includes the earth’s crust and subsurface voids characterised by an absence or very low intensity of sunlight.",
+    "notation" : "S",
+    "note" : "Energy is therefore a major resource driver in these ecosystems, although other resources such as water and carbon, may sometimes be limiting. The ambient environment is relatively stable, although extreme temperatures occur in local areas influenced by vulcanism and substrate type influences availability of nutrients and seepage of moisture. Disturbances are rare and limited to mass movement or subterranean fires restricted to coal, oil or gas strata, with combustion rates limited by oxygen. Subterranean trophic webs are truncated, lacking photoautotrophs, herbivores and large predators. The microbial biota is a key feature in the expression of different subterranean ecosystems.\r\n\r\nThe subterranean realm transitions to subterranean freshwater and subterranean tidal systems.",
+    "prefLabel" : "Subterranean"
+  }, {
+    "@id" : "iucn:S1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/S1",
+    "broader" : "iucn:Subterranean",
+    "notation" : "S1",
+    "prefLabel" : "Subterranean lithic biome"
+  }, {
+    "@id" : "iucn:S1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/S1.1",
+    "broader" : "iucn:SubterraneanLithic",
+    "notation" : "S1.1",
+    "prefLabel" : "Aerobic caves"
+  }, {
+    "@id" : "iucn:S1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/S1.2",
+    "broader" : "iucn:SubterraneanLithic",
+    "notation" : "S1.2",
+    "prefLabel" : "Endolithic systems"
+  }, {
+    "@id" : "iucn:S2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/S2",
+    "broader" : "iucn:Subterranean",
+    "notation" : "S2",
+    "prefLabel" : "Anthropogenic subterranean voids biome"
+  }, {
+    "@id" : "iucn:S2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/S2.1",
+    "broader" : "iucn:AnthropogenicSubterranean",
+    "notation" : "S2.1",
+    "prefLabel" : "Anthropogenic subterranean voids"
+  }, {
+    "@id" : "iucn:SF",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/SF",
+    "definition" : "Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.\r\n\r\nIt shares features of the freshwater, and subterranean core realms.",
+    "notation" : "SF",
+    "prefLabel" : "Subterranean-Freshwater"
+  }, {
+    "@id" : "iucn:SF1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SF1",
+    "broader" : [ "iucn:Subterranean", "iucn:Freshwater" ],
+    "notation" : "SF1",
+    "prefLabel" : "Subterranean freshwaters biome"
+  }, {
+    "@id" : "iucn:SF1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF1.1",
+    "broader" : "iucn:SubterraneanFreshwaters",
+    "notation" : "SF1.1",
+    "prefLabel" : "Underground streams and pools"
+  }, {
+    "@id" : "iucn:SF1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF1.2",
+    "broader" : "iucn:SubterraneanFreshwaters",
+    "notation" : "SF1.2",
+    "prefLabel" : "Groundwater ecosystems"
+  }, {
+    "@id" : "iucn:SF2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SF2",
+    "broader" : [ "iucn:Subterranean", "iucn:Freshwater" ],
+    "notation" : "SF2",
+    "prefLabel" : "Anthropogenic subterranean freshwaters biome"
+  }, {
+    "@id" : "iucn:SF2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF2.1",
+    "broader" : "iucn:AnthropogenicSubterraneanFreshwaters",
+    "notation" : "SF2.1",
+    "prefLabel" : "Water pipes and subterranean canals"
+  }, {
+    "@id" : "iucn:SF2.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF2.2",
+    "broader" : "iucn:AnthropogenicSubterraneanFreshwaters",
+    "notation" : "SF2.2",
+    "prefLabel" : "Flooded mines and other voids"
+  }, {
+    "@id" : "iucn:SM",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/SM",
+    "definition" : "Unique ecosystems also occur where the subterranean realm meets the interface of freshwater and marine realms, respectively.\r\n\r\nIt shares features of the marine, and subterranean core realms.",
+    "notation" : "SM",
+    "prefLabel" : "Subterranean-Marine"
+  }, {
+    "@id" : "iucn:SM1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SM1",
+    "broader" : [ "iucn:Subterranean", "iucn:Marine" ],
+    "notation" : "SM1",
+    "prefLabel" : "Subterranean tidal biome"
+  }, {
+    "@id" : "iucn:SM1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.1",
+    "broader" : "iucn:SubterraneanTidal",
+    "notation" : "SM1.1",
+    "prefLabel" : "Anchialine caves"
+  }, {
+    "@id" : "iucn:SM1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.2",
+    "broader" : "iucn:SubterraneanTidal",
+    "notation" : "SM1.2",
+    "prefLabel" : "Anchialine pools"
+  }, {
+    "@id" : "iucn:SM1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.3",
+    "broader" : "iucn:SubterraneanTidal",
+    "notation" : "SM1.3",
+    "prefLabel" : "Sea caves"
+  }, {
+    "@id" : "iucn:T",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/T",
+    "definition" : "The Terrestrial realm includes all dry land, its vegetation cover, proximate atmosphere and substrate (soils, rocks) to the rooting depth of plants, and associated animals and microbes.",
+    "notation" : "T",
+    "note" : "Water and nutrients are the principal resource drivers, with energy, oxygen and carbon rarely limiting. Temperature and its variability on interannual, seasonal and diurnal time scales, is a major ambient environmental driver, with ecosystem function and structure responding to global latitudinal and altitudinal climatic gradients. Fire is a major ecosystem driver, essentially unique to the terrestrial realm, although it may occur rarely in the subterranean realm. Gradients in these key resources, ambient environmental factors and disturbance regimes influence biotic interactions, with the strength of competition, predation and pathogenicity varying greatly across the realm. Human activity is a key driver through structural manipulations associated with land use, but also through movement of biota and anthropogenic climate change. The complexity of trophic webs is similarly variable, with vegetation a key feature in the expression of different ecosystem types within the realm.\r\n\r\nThe terrestrial realm transitions to palustrine wetlands, shoreline and supralittoral and brackish tidal systems.",
+    "prefLabel" : "Terrestrial"
+  }, {
+    "@id" : "iucn:T1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T1",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T1",
+    "prefLabel" : "Tropical-subtropical forests biome"
+  }, {
+    "@id" : "iucn:T1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.1",
+    "broader" : "iucn:TropicalSubtropicalForests",
+    "notation" : "T1.1",
+    "prefLabel" : "Tropical/Subtropical lowland rainforests"
+  }, {
+    "@id" : "iucn:T1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.2",
+    "broader" : "iucn:TropicalSubtropicalForests",
+    "notation" : "T1.2",
+    "prefLabel" : "Tropical/Subtropical dry forests and thickets"
+  }, {
+    "@id" : "iucn:T1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.3",
+    "broader" : "iucn:TropicalSubtropicalForests",
+    "notation" : "T1.3",
+    "prefLabel" : "Tropical/Subtropical montane rainforests"
+  }, {
+    "@id" : "iucn:T1.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.4",
+    "broader" : "iucn:TropicalSubtropicalForests",
+    "notation" : "T1.4",
+    "prefLabel" : "Tropical heath forests"
+  }, {
+    "@id" : "iucn:T2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T2",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T2",
+    "prefLabel" : "Temperate-boreal forests and woodlands biome"
+  }, {
+    "@id" : "iucn:T2.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.1",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.1",
+    "prefLabel" : "Boreal and temperate high montane forests and woodlands"
+  }, {
+    "@id" : "iucn:T2.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.2",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.2",
+    "prefLabel" : "Deciduous temperate forests"
+  }, {
+    "@id" : "iucn:T2.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.3",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.3",
+    "prefLabel" : "Oceanic cool temperate rainforests"
+  }, {
+    "@id" : "iucn:T2.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.4",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.4",
+    "prefLabel" : "Warm temperate laurophyll forests"
+  }, {
+    "@id" : "iucn:T2.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.5",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.5",
+    "prefLabel" : "Temperate pyric humid forests"
+  }, {
+    "@id" : "iucn:T2.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.6",
+    "broader" : "iucn:ForestsAndWoodlands",
+    "notation" : "T2.6",
+    "prefLabel" : "Temperate pyric sclerophyll forests and woodlands"
+  }, {
+    "@id" : "iucn:T3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T3",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T3",
+    "prefLabel" : "Shrublands and shrubby woodlands biome"
+  }, {
+    "@id" : "iucn:T3.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.1",
+    "broader" : "iucn:Shrublands",
+    "notation" : "T3.1",
+    "prefLabel" : "Seasonally dry tropical shrublands"
+  }, {
+    "@id" : "iucn:T3.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.2",
+    "broader" : "iucn:Shrublands",
+    "notation" : "T3.2",
+    "prefLabel" : "Seasonally dry temperate heath and shrublands"
+  }, {
+    "@id" : "iucn:T3.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.3",
+    "broader" : "iucn:Shrublands",
+    "notation" : "T3.3",
+    "prefLabel" : "Cool temperate heathlands"
+  }, {
+    "@id" : "iucn:T3.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.4",
+    "broader" : "iucn:Shrublands",
+    "notation" : "T3.4",
+    "prefLabel" : "Young rocky pavements, lava flows and screes"
+  }, {
+    "@id" : "iucn:T4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T4",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T4",
+    "prefLabel" : "Savannas and grasslands biome"
+  }, {
+    "@id" : "iucn:T4.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.1",
+    "broader" : "iucn:Savannas",
+    "notation" : "T4.1",
+    "prefLabel" : "Trophic savannas"
+  }, {
+    "@id" : "iucn:T4.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.2",
+    "broader" : "iucn:Savannas",
+    "notation" : "T4.2",
+    "prefLabel" : "Pyric tussock savannas"
+  }, {
+    "@id" : "iucn:T4.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.3",
+    "broader" : "iucn:Savannas",
+    "notation" : "T4.3",
+    "prefLabel" : "Hummock savannas"
+  }, {
+    "@id" : "iucn:T4.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.4",
+    "broader" : "iucn:Savannas",
+    "notation" : "T4.4",
+    "prefLabel" : "Temperate woodlands"
+  }, {
+    "@id" : "iucn:T4.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.5",
+    "broader" : "iucn:Savannas",
+    "notation" : "T4.5",
+    "prefLabel" : "Temperate subhumid grasslands"
+  }, {
+    "@id" : "iucn:T5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T5",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T5",
+    "prefLabel" : "Deserts and semi-deserts biome"
+  }, {
+    "@id" : "iucn:T5.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.1",
+    "broader" : "iucn:Deserts",
+    "notation" : "T5.1",
+    "prefLabel" : "Semi-desert steppe"
+  }, {
+    "@id" : "iucn:T5.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.2",
+    "broader" : "iucn:Deserts",
+    "notation" : "T5.2",
+    "prefLabel" : "Succulent or Thorny deserts and semi-deserts"
+  }, {
+    "@id" : "iucn:T5.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.3",
+    "broader" : "iucn:Deserts",
+    "notation" : "T5.3",
+    "prefLabel" : "Sclerophyll hot deserts and semi-deserts"
+  }, {
+    "@id" : "iucn:T5.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.4",
+    "broader" : "iucn:Deserts",
+    "notation" : "T5.4",
+    "prefLabel" : "Cool deserts and semi-deserts"
+  }, {
+    "@id" : "iucn:T5.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.5",
+    "broader" : "iucn:Deserts",
+    "notation" : "T5.5",
+    "prefLabel" : "Hyper-arid deserts"
+  }, {
+    "@id" : "iucn:T6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T6",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T6",
+    "prefLabel" : "Polar/alpine (cryogenic) biome"
+  }, {
+    "@id" : "iucn:T6.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.1",
+    "broader" : "iucn:Cryogenic",
+    "notation" : "T6.1",
+    "prefLabel" : "Ice sheets, glaciers and perennial snowfields"
+  }, {
+    "@id" : "iucn:T6.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.2",
+    "broader" : "iucn:Cryogenic",
+    "notation" : "T6.2",
+    "prefLabel" : "Polar/alpine cliffs, screes, outcrops and lava flows"
+  }, {
+    "@id" : "iucn:T6.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.3",
+    "broader" : "iucn:Cryogenic",
+    "notation" : "T6.3",
+    "prefLabel" : "Polar tundra and deserts"
+  }, {
+    "@id" : "iucn:T6.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.4",
+    "broader" : "iucn:Cryogenic",
+    "notation" : "T6.4",
+    "prefLabel" : "Temperate alpine grasslands and shrublands"
+  }, {
+    "@id" : "iucn:T6.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.5",
+    "broader" : "iucn:Cryogenic",
+    "notation" : "T6.5",
+    "prefLabel" : "Tropical alpine grasslands and herbfields"
+  }, {
+    "@id" : "iucn:T7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T7",
+    "broader" : "iucn:Terrestrial",
+    "notation" : "T7",
+    "prefLabel" : "Intensive land-use biome"
+  }, {
+    "@id" : "iucn:T7.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.1",
+    "broader" : "iucn:IntensiveLandUse",
+    "notation" : "T7.1",
+    "prefLabel" : "Annual croplands"
+  }, {
+    "@id" : "iucn:T7.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.2",
+    "broader" : "iucn:IntensiveLandUse",
+    "notation" : "T7.2",
+    "prefLabel" : "Sown pastures and fields"
+  }, {
+    "@id" : "iucn:T7.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.3",
+    "broader" : "iucn:IntensiveLandUse",
+    "notation" : "T7.3",
+    "prefLabel" : "Plantations"
+  }, {
+    "@id" : "iucn:T7.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.4",
+    "broader" : "iucn:IntensiveLandUse",
+    "notation" : "T7.4",
+    "prefLabel" : "Urban and industrial ecosystems"
+  }, {
+    "@id" : "iucn:T7.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.5",
+    "broader" : "iucn:IntensiveLandUse",
+    "notation" : "T7.5",
+    "prefLabel" : "Derived semi-natural pastures and old fields"
+  }, {
+    "@id" : "iucn:TF",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/realms/TF",
+    "definition" : "The interface between terrestrial and freshwater realms is occupied by palustrine wetlands, some of which accumulate peat under impeded substrate drainage.\r\n\r\nIt shares features of the freshwater and terrestrial core realms.",
+    "notation" : "TF",
+    "prefLabel" : "Terrestrial-Freshwater"
+  }, {
+    "@id" : "iucn:TF1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/biomes/TF1",
+    "broader" : [ "iucn:Terrestrial", "iucn:Freshwater" ],
+    "notation" : "TF1",
+    "prefLabel" : "Palustrine wetlands biome"
+  }, {
+    "@id" : "iucn:TF1.1",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.1",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.1",
+    "prefLabel" : "Tropical flooded forests and peat forests"
+  }, {
+    "@id" : "iucn:TF1.2",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.2",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.2",
+    "prefLabel" : "Subtropical/temperate forested wetlands"
+  }, {
+    "@id" : "iucn:TF1.3",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.3",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.3",
+    "prefLabel" : "Permanent marshes"
+  }, {
+    "@id" : "iucn:TF1.4",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.4",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.4",
+    "prefLabel" : "Seasonal floodplain marshes"
+  }, {
+    "@id" : "iucn:TF1.5",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.5",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.5",
+    "prefLabel" : "Episodic arid floodplains"
+  }, {
+    "@id" : "iucn:TF1.6",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.6",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.6",
+    "prefLabel" : "Boreal, temperate and montane peat bogs"
+  }, {
+    "@id" : "iucn:TF1.7",
+    "@type" : "skos:Concept",
+    "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.7",
+    "broader" : "iucn:PalustrineWetlands",
+    "notation" : "TF1.7",
+    "prefLabel" : "Boreal and temperate fens"
+  }, {
+    "@id" : "iucn:TransitionalRealm",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "1",
+    "definition" : "Transitional realms accommodate continuous variation among the core units.",
+    "member" : [ "iucn:MarineFreshwaterTerrestrial", "iucn:MarineTerrestrial", "iucn:SubterraneanMarine", "iucn:SubterraneanFreshwater", "iucn:FreshwaterMarine", "iucn:TerrestrialFreshwater" ],
+    "prefLabel" : "Transitional realm"
+  } ],
+  "@context" : {
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "isFormatOf" : {
+      "@id" : "http://purl.org/dc/terms/isFormatOf",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "references" : {
+      "@id" : "http://purl.org/dc/terms/references",
+      "@type" : "@id"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#member",
+      "@type" : "@id"
+    },
+    "depth" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#depth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "resource" : "http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/",
+    "iucn" : "http://w3id.org/env/iucn-get/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}
