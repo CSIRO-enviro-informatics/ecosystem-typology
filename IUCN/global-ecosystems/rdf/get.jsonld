@@ -4,7 +4,7 @@
     "@type" : [ "skos:ConceptScheme", "owl:Ontology" ],
     "created" : "2023-11-22",
     "creator" : "https://orcid.org/0000-0002-3884-3420",
-    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3\r\n\r\nEach Realm, Biome and Functional Group is implemented as an OWL Class. \r\nSub-classing is used to organize the IUCN hierarchy. \r\n\r\nThe classification levels are managed using XKOS. ",
+    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 \r\n\r\nEach Realm, Biome and Functional Group is implemented as an OWL Class. \r\nSub-classing is used to organize the IUCN hierarchy. \r\n\r\nThe classification levels are managed using XKOS. ",
     "isFormatOf" : "https://global-ecosystems.org/explore",
     "license" : "https://creativecommons.org/public-domain/cc0/",
     "modified" : "2023-11-23",
@@ -24,14 +24,8 @@
     "@type" : "xkos:ClassificationLevel",
     "depth" : "2",
     "definition" : "A component of a realm united by broad features of ecosystem structure and one or a few common major ecological drivers that regulate major ecological functions, derived from the top-down by subdivision of realms (level 1).",
-    "member" : [ "iucn:DeepSeaFloors", "iucn:Cryogenic", "iucn:SupralittoralCoastal", "iucn:SubterraneanLithic", "iucn:SubterraneanTidal", "iucn:Savannas", "iucn:AnthropogenicSubterranean", "iucn:BrackishTidal", "iucn:IntensiveLandUse", "iucn:PelagicOceanWaters", "iucn:ArtificialWetlands", "iucn:Deserts", "iucn:ForestsAndWoodlands", "iucn:Shrublands", "iucn:MarineShelf", "iucn:AnthropogenicSubterraneanFreshwaters", "iucn:SubterraneanFreshwaters", "iucn:TransitionalWaters", "iucn:Shorelines", "iucn:TropicalSubtropicalForests", "iucn:RiversStreams", "iucn:AnthropogenicShorelines", "iucn:PalustrineWetlands", "iucn:Lakes", "iucn:AnthropogenicMarine" ],
+    "member" : [ "iucn:T3", "iucn:MT2", "iucn:T6", "iucn:F1", "iucn:M1", "iucn:F2", "iucn:M4", "iucn:T1", "iucn:T4", "iucn:S1", "iucn:MT3", "iucn:T7", "iucn:SF1", "iucn:M2", "iucn:F3", "iucn:SM1", "iucn:T2", "iucn:MT1", "iucn:T5", "iucn:S2", "iucn:TF1", "iucn:SF2", "iucn:FM1", "iucn:M3", "iucn:MFT1" ],
     "prefLabel" : "Biome"
-  }, {
-    "@id" : "iucn:CoreRealm",
-    "@type" : "xkos:ClassificationLevel",
-    "depth" : "1",
-    "member" : [ "iucn:Subterranean", "iucn:Marine", "iucn:Freshwater", "iucn:Atmospheric", "iucn:Terrestrial" ],
-    "prefLabel" : "Core realm"
   }, {
     "@id" : "iucn:F",
     "@type" : "skos:Concept",
@@ -254,7 +248,7 @@
     "@id" : "iucn:FunctionalGroup",
     "@type" : "xkos:ClassificationLevel",
     "depth" : "3",
-    "member" : [ "iucn:TropicalFloodedForests", "iucn:SeagrassMeadows", "iucn:CBE", "iucn:MesopelagicOceanWaters", "iucn:SeasonallyDryShrublands", "iucn:EstuariesBays", "iucn:TropicalMontaneRainforests", "iucn:PermanentSaltLakes", "iucn:FreezeThawLakes", "iucn:SemiDesert", "iucn:FloodedMinesVoids", "iucn:Fens", "iucn:TrophicSavannas", "iucn:SubtidalRockyReefs", "iucn:PeatBogs", "iucn:CoastalRiverDeltas", "iucn:SubtidalMudPlains", "iucn:TropicalAlpineGrasslands", "iucn:LargeReservoirs", "iucn:SubmarineCanyons", "iucn:PyricTussockSavannas", "iucn:SeasonallyDryHeath", "iucn:FreshwaterAquafarms", "iucn:ContinentalIslandSlopes", "iucn:SeabirdPinnipedColonies", "iucn:PermanentMarshes", "iucn:GroundwaterEcosystems", "iucn:TemperateWoodlands", "iucn:CliffsScreesOutcrops", "iucn:ArtificialShorelines", "iucn:SandyShorelines", "iucn:RhodolithBeds", "iucn:ShellfishBedsReefs", "iucn:PhoticCoralReefs", "iucn:PermanentUplandStreams", "iucn:CanalsDitchesDrains", "iucn:MarineAnimalForests", "iucn:SeasonalUplandStreams", "iucn:LargePermanentLakes", "iucn:AbyssalPlains", "iucn:AnchialineCaves", "iucn:LargeLowlandRivers", "iucn:DeciduousTemperateForests", "iucn:DeepwaterBiogenicBeds", "iucn:PyricHumidForests", "iucn:MarineAquafarms", "iucn:EpisodicAridFloodplains", "iucn:EpipelagicOceanWaters", "iucn:FreezeThawRivers", "iucn:UrbanAndIndustrial", "iucn:EphemeralFreshwaterLakes", "iucn:BathypelagicOceanWaters", "iucn:AridDesert", "iucn:HummockSavannas", "iucn:AerobicCaves", "iucn:DeepwaterCoastalInlets", "iucn:CoastalSaltmarshesReedbeds", "iucn:WaterPipes", "iucn:GeothermalPools", "iucn:EphemeralSaltLakes", "iucn:AnthropogenicSubterraneanVoids", "iucn:SubglacialLakes", "iucn:Tundra", "iucn:SucculentThornyDesert", "iucn:TropicalLowlandRainforests", "iucn:AnchialinePools", "iucn:KelpForests", "iucn:SpringsOases", "iucn:SubmergedArtificialStructures", "iucn:TemperateSubhumidGrasslands", "iucn:HighMontaneWoodlands", "iucn:SeaCaves", "iucn:CoolDesert", "iucn:TemperateAlpineGrasslands", "iucn:RockyPavements", "iucn:SclerophyllHotDesert", "iucn:Plantations", "iucn:LakesLagoons", "iucn:SeamountsRidgesPlateaus", "iucn:OldFields", "iucn:UpwellingZones", "iucn:CoastalShrublandsGrasslands", "iucn:RicePaddies", "iucn:IceSheets", "iucn:SeasonalLowlandRivers", "iucn:IntertidalForests", "iucn:HadalTrenchesTroughs", "iucn:SeasonalLakes", "iucn:ForestedWetlands", "iucn:ConstructedLacustrineWetlands", "iucn:SubtidalSandBeds", "iucn:TropicalHeathForests", "iucn:BoulderCobbleShores", "iucn:UndergroundStreamsPools", "iucn:PasturesAndFields", "iucn:CoolTemperateHeath", "iucn:RockyShorelines", "iucn:SmallPermanentLakes", "iucn:CoolTemperateRainforests", "iucn:MuddyShorelines", "iucn:WarmTemperateForests", "iucn:TropicalDryForests", "iucn:SeaIce", "iucn:PermanentLowlandRivers", "iucn:EndolithicSystems", "iucn:SeasonalFloodplainMarshes", "iucn:EpisodicAridRivers", "iucn:AbyssopelagicOceanWaters", "iucn:PyricSclerophyllForests", "iucn:AnnualCroplands" ],
+    "member" : [ "iucn:M1.8", "iucn:F3.2", "iucn:M2.2", "iucn:M1.9", "iucn:M3.7", "iucn:T5.2", "iucn:F2.4", "iucn:F1.2", "iucn:TF1.2", "iucn:SM1.3", "iucn:T1.3", "iucn:T7.5", "iucn:MT1.1", "iucn:MFT1.3", "iucn:M1.2", "iucn:FM1.3", "iucn:T6.1", "iucn:TF1.6", "iucn:MT1.4", "iucn:M1.6", "iucn:T6.5", "iucn:T3.2", "iucn:T3.4", "iucn:M2.1", "iucn:F3.4", "iucn:F2.1", "iucn:M3.6", "iucn:F2.2", "iucn:T2.2", "iucn:T2.4", "iucn:M2.5", "iucn:T7.2", "iucn:SF1.2", "iucn:SM1.1", "iucn:T1.1", "iucn:T7.3", "iucn:F2.8", "iucn:T4.5", "iucn:T6.3", "iucn:S1.1", "iucn:F1.6", "iucn:T3.1", "iucn:M3.4", "iucn:SF2.2", "iucn:M2.3", "iucn:MT2.1", "iucn:T5.3", "iucn:F2.6", "iucn:SF1.1", "iucn:T2.6", "iucn:M4.1", "iucn:T4.2", "iucn:F2.5", "iucn:F1.3", "iucn:TF1.3", "iucn:FM1.1", "iucn:M1.3", "iucn:M3.1", "iucn:M1.10", "iucn:TF1.7", "iucn:M1.7", "iucn:F3.1", "iucn:T5.1", "iucn:F2.3", "iucn:T2.3", "iucn:T5.5", "iucn:T2.5", "iucn:MFT1.1", "iucn:F1.1", "iucn:TF1.1", "iucn:SM1.2", "iucn:T1.2", "iucn:MT1.2", "iucn:T7.4", "iucn:MFT1.2", "iucn:M1.1", "iucn:F2.9", "iucn:FM1.2", "iucn:TF1.5", "iucn:MT1.3", "iucn:M1.5", "iucn:T6.4", "iucn:S1.2", "iucn:T3.3", "iucn:F3.3", "iucn:F3.5", "iucn:M3.5", "iucn:T2.1", "iucn:T7.1", "iucn:M2.4", "iucn:MT2.2", "iucn:T5.4", "iucn:F2.10", "iucn:S2.1", "iucn:F2.7", "iucn:T4.1", "iucn:M4.2", "iucn:T4.3", "iucn:F1.4", "iucn:TF1.4", "iucn:T4.4", "iucn:T6.2", "iucn:T1.4", "iucn:F1.5", "iucn:F1.7", "iucn:M1.4", "iucn:M3.2", "iucn:MT3.1", "iucn:M3.3", "iucn:SF2.1" ],
     "prefLabel" : "Ecosystem functional group"
   }, {
     "@id" : "iucn:M",
@@ -577,7 +571,7 @@
     "@type" : "xkos:ClassificationLevel",
     "depth" : "1",
     "definition" : "One of five major components of the biosphere that differ fundamentally in ecosystem organisation and function: terrestrial, freshwater, marine, subterranean, atmospheric and combinations of these (transitional realms). Because variation in nature is continuous, we also include transitional realms, where the realms meet and have their own unique organisation and function.",
-    "member" : [ "iucn:Terrestrial", "iucn:SubterraneanFreshwater", "iucn:MarineTerrestrial", "iucn:SubterraneanMarine", "iucn:MarineFreshwaterTerrestrial", "iucn:FreshwaterMarine", "iucn:Marine", "iucn:Atmospheric", "iucn:Subterranean", "iucn:TerrestrialFreshwater", "iucn:Freshwater" ],
+    "member" : [ "iucn:T", "iucn:M", "iucn:A", "iucn:F", "iucn:S" ],
     "prefLabel" : "Realm"
   }, {
     "@id" : "iucn:S",
@@ -1069,7 +1063,7 @@
     "@type" : "xkos:ClassificationLevel",
     "depth" : "1",
     "definition" : "Transitional realms accommodate continuous variation among the core units.",
-    "member" : [ "iucn:MarineFreshwaterTerrestrial", "iucn:MarineTerrestrial", "iucn:SubterraneanMarine", "iucn:SubterraneanFreshwater", "iucn:FreshwaterMarine", "iucn:TerrestrialFreshwater" ],
+    "member" : [ "iucn:SF", "iucn:MFT", "iucn:FM", "iucn:TF", "iucn:SM", "iucn:MT" ],
     "prefLabel" : "Transitional realm"
   } ],
   "@context" : {
@@ -1090,9 +1084,6 @@
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/terms/description"
     },
     "imports" : {
       "@id" : "http://www.w3.org/2002/07/owl#imports",
@@ -1117,6 +1108,9 @@
     "license" : {
       "@id" : "http://purl.org/dc/terms/license",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
     },
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
