@@ -23,10 +23,11 @@ iucn:
   dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:description """RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 
 
-Each Realm, Biome and Functional Group is implemented as an OWL Class. 
-Sub-classing is used to organize the IUCN hierarchy. 
+Each Realm, Biome and Functional Group is implemented as an SKOS Concept. 
+SKOS 'has broader' is used to organize the IUCN hierarchy. 
+The classification levels are managed using XKOS. 
 
-The classification levels are managed using XKOS. """ ;
+The baseURI is currently set to http://w3id.org/env/iucn-get/ however this is merely a placeholder. """ ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore> ;
   dcterms:license <https://creativecommons.org/public-domain/cc0/> ;
   dcterms:modified "2023-11-23"^^xsd:date ;
@@ -90,175 +91,175 @@ The freshwater realm transitions to palustrine wetlands, subterranean freshwater
 iucn:F1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F1> ;
-  skos:broader iucn:Freshwater ;
+  skos:broader iucn:F ;
   skos:notation "F1" ;
   skos:prefLabel "Rivers and streams biome" ;
 .
 <http://w3id.org/env/iucn-get/F1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.1> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.1" ;
   skos:prefLabel "Permanent upland streams" ;
 .
 <http://w3id.org/env/iucn-get/F1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.2> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.2" ;
   skos:prefLabel "Permanent lowland rivers" ;
 .
 <http://w3id.org/env/iucn-get/F1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.3> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.3" ;
   skos:prefLabel "Freeze-thaw rivers and streams" ;
 .
 <http://w3id.org/env/iucn-get/F1.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.4> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.4" ;
   skos:prefLabel "Seasonal upland streams" ;
 .
 <http://w3id.org/env/iucn-get/F1.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.5> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.5" ;
   skos:prefLabel "Seasonal lowland rivers" ;
 .
 <http://w3id.org/env/iucn-get/F1.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.6> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.6" ;
   skos:prefLabel "Episodic arid rivers" ;
 .
 <http://w3id.org/env/iucn-get/F1.7>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F1.7> ;
-  skos:broader iucn:RiversStreams ;
+  skos:broader iucn:F1 ;
   skos:notation "F1.7" ;
   skos:prefLabel "Large lowland rivers" ;
 .
 iucn:F2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F2> ;
-  skos:broader iucn:Freshwater ;
+  skos:broader iucn:F ;
   skos:notation "F2" ;
   skos:prefLabel "Lakes biome" ;
 .
 <http://w3id.org/env/iucn-get/F2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.1> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.1" ;
   skos:prefLabel "Large permanent freshwater lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.10>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.10> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.10" ;
   skos:prefLabel "Subglacial lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.2> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.2" ;
   skos:prefLabel "Small permanent freshwater lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.3> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.3" ;
   skos:prefLabel "Seasonal freshwater lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.4> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.4" ;
   skos:prefLabel "Freeze-thaw freshwater lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.5> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.5" ;
   skos:prefLabel "Ephemeral freshwater lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.6> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.6" ;
   skos:prefLabel "Permanent salt and soda lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.7>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.7> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.7" ;
   skos:prefLabel "Ephemeral salt lakes" ;
 .
 <http://w3id.org/env/iucn-get/F2.8>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.8> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.8" ;
   skos:prefLabel "Artesian springs and oases" ;
 .
 <http://w3id.org/env/iucn-get/F2.9>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F2.9> ;
-  skos:broader iucn:Lakes ;
+  skos:broader iucn:F2 ;
   skos:notation "F2.9" ;
   skos:prefLabel "Geothermal pools and wetlands" ;
 .
 iucn:F3
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/F3> ;
-  skos:broader iucn:Freshwater ;
+  skos:broader iucn:F ;
   skos:notation "F3" ;
   skos:prefLabel "Artificial wetlands biome" ;
 .
 <http://w3id.org/env/iucn-get/F3.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.1> ;
-  skos:broader iucn:ArtificialWetlands ;
+  skos:broader iucn:F3 ;
   skos:notation "F3.1" ;
   skos:prefLabel "Large reservoirs" ;
 .
 <http://w3id.org/env/iucn-get/F3.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.2> ;
-  skos:broader iucn:ArtificialWetlands ;
+  skos:broader iucn:F3 ;
   skos:notation "F3.2" ;
   skos:prefLabel "Constructed lacustrine wetlands" ;
 .
 <http://w3id.org/env/iucn-get/F3.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.3> ;
-  skos:broader iucn:ArtificialWetlands ;
+  skos:broader iucn:F3 ;
   skos:notation "F3.3" ;
   skos:prefLabel "Rice paddies" ;
 .
 <http://w3id.org/env/iucn-get/F3.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.4> ;
-  skos:broader iucn:ArtificialWetlands ;
+  skos:broader iucn:F3 ;
   skos:notation "F3.4" ;
   skos:prefLabel "Freshwater aquafarms" ;
 .
 <http://w3id.org/env/iucn-get/F3.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/F3.5> ;
-  skos:broader iucn:ArtificialWetlands ;
+  skos:broader iucn:F3 ;
   skos:notation "F3.5" ;
   skos:prefLabel "Canals, ditches and drains" ;
 .
@@ -272,29 +273,29 @@ iucn:FM
 iucn:FM1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/FM1> ;
-  skos:broader iucn:Freshwater ;
-  skos:broader iucn:Marine ;
+  skos:broader iucn:F ;
+  skos:broader iucn:M ;
   skos:notation "FM1" ;
   skos:prefLabel "Semi-confined transitional waters biome" ;
 .
 <http://w3id.org/env/iucn-get/FM1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.1> ;
-  skos:broader iucn:TransitionalWaters ;
+  skos:broader iucn:FM1 ;
   skos:notation "FM1.1" ;
   skos:prefLabel "Deepwater coastal inlets" ;
 .
 <http://w3id.org/env/iucn-get/FM1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.2> ;
-  skos:broader iucn:TransitionalWaters ;
+  skos:broader iucn:FM1 ;
   skos:notation "FM1.2" ;
   skos:prefLabel "Permanently open riverine estuaries and bays" ;
 .
 <http://w3id.org/env/iucn-get/FM1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/FM1.3> ;
-  skos:broader iucn:TransitionalWaters ;
+  skos:broader iucn:FM1 ;
   skos:notation "FM1.3" ;
   skos:prefLabel "Intermittently closed and open lakes and lagoons" ;
 .
@@ -426,196 +427,196 @@ The marine realm transitions to shoreline and supralittoral, subterranean tidal,
 iucn:M1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M1> ;
-  skos:broader iucn:Marine ;
+  skos:broader iucn:M ;
   skos:notation "M1" ;
   skos:prefLabel "Marine shelf biome" ;
 .
 <http://w3id.org/env/iucn-get/M1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.1> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.1" ;
   skos:prefLabel "Seagrass meadows" ;
 .
 <http://w3id.org/env/iucn-get/M1.10>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.10> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.10" ;
   skos:prefLabel "Rhodolith/Maërl beds" ;
 .
 <http://w3id.org/env/iucn-get/M1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.2> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.2" ;
   skos:prefLabel "Kelp forests" ;
 .
 <http://w3id.org/env/iucn-get/M1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.3> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.3" ;
   skos:prefLabel "Photic coral reefs" ;
 .
 <http://w3id.org/env/iucn-get/M1.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.4> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.4" ;
   skos:prefLabel "Shellfish beds and reefs" ;
 .
 <http://w3id.org/env/iucn-get/M1.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.5> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.5" ;
   skos:prefLabel "Photo-limited marine animal forests" ;
 .
 <http://w3id.org/env/iucn-get/M1.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.6> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.6" ;
   skos:prefLabel "Subtidal rocky reefs" ;
 .
 <http://w3id.org/env/iucn-get/M1.7>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.7> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.7" ;
   skos:prefLabel "Subtidal sand beds" ;
 .
 <http://w3id.org/env/iucn-get/M1.8>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.8> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.8" ;
   skos:prefLabel "Subtidal mud plains" ;
 .
 <http://w3id.org/env/iucn-get/M1.9>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M1.9> ;
-  skos:broader iucn:MarineShelf ;
+  skos:broader iucn:M1 ;
   skos:notation "M1.9" ;
   skos:prefLabel "Upwelling zones" ;
 .
 iucn:M2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M2> ;
-  skos:broader iucn:Marine ;
+  skos:broader iucn:M ;
   skos:notation "M2" ;
   skos:prefLabel "Pelagic ocean waters biome" ;
 .
 <http://w3id.org/env/iucn-get/M2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.1> ;
-  skos:broader iucn:PelagicOceanWaters ;
+  skos:broader iucn:M2 ;
   skos:notation "M2.1" ;
   skos:prefLabel "Epipelagic ocean waters" ;
 .
 <http://w3id.org/env/iucn-get/M2.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.2> ;
-  skos:broader iucn:PelagicOceanWaters ;
+  skos:broader iucn:M2 ;
   skos:notation "M2.2" ;
   skos:prefLabel "Mesopelagic ocean water" ;
 .
 <http://w3id.org/env/iucn-get/M2.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.3> ;
-  skos:broader iucn:PelagicOceanWaters ;
+  skos:broader iucn:M2 ;
   skos:notation "M2.3" ;
   skos:prefLabel "Bathypelagic ocean waters" ;
 .
 <http://w3id.org/env/iucn-get/M2.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.4> ;
-  skos:broader iucn:PelagicOceanWaters ;
+  skos:broader iucn:M2 ;
   skos:notation "M2.4" ;
   skos:prefLabel "Abyssopelagic ocean waters" ;
 .
 <http://w3id.org/env/iucn-get/M2.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M2.5> ;
-  skos:broader iucn:PelagicOceanWaters ;
+  skos:broader iucn:M2 ;
   skos:notation "M2.5" ;
   skos:prefLabel "Sea ice" ;
 .
 iucn:M3
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M3> ;
-  skos:broader iucn:Marine ;
+  skos:broader iucn:M ;
   skos:notation "M3" ;
   skos:prefLabel "Deep sea floors biome" ;
 .
 <http://w3id.org/env/iucn-get/M3.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.1> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.1" ;
   skos:prefLabel "Continental and island slopes" ;
 .
 <http://w3id.org/env/iucn-get/M3.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.2> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.2" ;
   skos:prefLabel "Submarine canyons" ;
 .
 <http://w3id.org/env/iucn-get/M3.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.3> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.3" ;
   skos:prefLabel "Abyssal plains" ;
 .
 <http://w3id.org/env/iucn-get/M3.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.4> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.4" ;
   skos:prefLabel "Seamounts, ridges and plateaus" ;
 .
 <http://w3id.org/env/iucn-get/M3.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.5> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.5" ;
   skos:prefLabel "Deepwater biogenic beds" ;
 .
 <http://w3id.org/env/iucn-get/M3.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.6> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.6" ;
   skos:prefLabel "Hadal trenches and troughs" ;
 .
 <http://w3id.org/env/iucn-get/M3.7>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M3.7> ;
-  skos:broader iucn:DeepSeaFloors ;
+  skos:broader iucn:M3 ;
   skos:notation "M3.7" ;
   skos:prefLabel "Chemosynthetic-based-ecosystems (CBE)" ;
 .
 iucn:M4
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/M4> ;
-  skos:broader iucn:Marine ;
+  skos:broader iucn:M ;
   skos:notation "M4" ;
   skos:prefLabel "Anthropogenic marine biome" ;
 .
 <http://w3id.org/env/iucn-get/M4.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M4.1> ;
-  skos:broader iucn:AnthropogenicMarine ;
+  skos:broader iucn:M4 ;
   skos:notation "M4.1" ;
   skos:prefLabel "Submerged artificial structures" ;
 .
 <http://w3id.org/env/iucn-get/M4.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/M4.2> ;
-  skos:broader iucn:AnthropogenicMarine ;
+  skos:broader iucn:M4 ;
   skos:notation "M4.2" ;
   skos:prefLabel "Marine aquafarms" ;
 .
@@ -631,30 +632,30 @@ It shares features of the freshwater, marine and terrestrial core realms.""" ;
 iucn:MFT1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MFT1> ;
-  skos:broader iucn:Freshwater ;
-  skos:broader iucn:Marine ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:F ;
+  skos:broader iucn:M ;
+  skos:broader iucn:T ;
   skos:notation "MFT1" ;
   skos:prefLabel "Brackish tidal biome" ;
 .
 <http://w3id.org/env/iucn-get/MFT1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.1> ;
-  skos:broader iucn:BrackishTidal ;
+  skos:broader iucn:MFT1 ;
   skos:notation "MFT1.1" ;
   skos:prefLabel "Coastal river deltas" ;
 .
 <http://w3id.org/env/iucn-get/MFT1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.2> ;
-  skos:broader iucn:BrackishTidal ;
+  skos:broader iucn:MFT1 ;
   skos:notation "MFT1.2" ;
   skos:prefLabel "Intertidal forests and shrublands" ;
 .
 <http://w3id.org/env/iucn-get/MFT1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MFT1.3> ;
-  skos:broader iucn:BrackishTidal ;
+  skos:broader iucn:MFT1 ;
   skos:notation "MFT1.3" ;
   skos:prefLabel "Coastal saltmarshes and reedbeds" ;
 .
@@ -670,73 +671,73 @@ It shares features of the marine and terrestrial core realms.""" ;
 iucn:MT1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT1> ;
-  skos:broader iucn:Marine ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:M ;
+  skos:broader iucn:T ;
   skos:notation "MT1" ;
   skos:prefLabel "Shorelines biome" ;
 .
 <http://w3id.org/env/iucn-get/MT1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.1> ;
-  skos:broader iucn:Shorelines ;
+  skos:broader iucn:MT1 ;
   skos:notation "MT1.1" ;
   skos:prefLabel "Rocky Shorelines" ;
 .
 <http://w3id.org/env/iucn-get/MT1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.2> ;
-  skos:broader iucn:Shorelines ;
+  skos:broader iucn:MT1 ;
   skos:notation "MT1.2" ;
   skos:prefLabel "Muddy Shorelines" ;
 .
 <http://w3id.org/env/iucn-get/MT1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.3> ;
-  skos:broader iucn:Shorelines ;
+  skos:broader iucn:MT1 ;
   skos:notation "MT1.3" ;
   skos:prefLabel "Sandy Shorelines" ;
 .
 <http://w3id.org/env/iucn-get/MT1.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT1.4> ;
-  skos:broader iucn:Shorelines ;
+  skos:broader iucn:MT1 ;
   skos:notation "MT1.4" ;
   skos:prefLabel "Boulder and cobble shores" ;
 .
 iucn:MT2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT2> ;
-  skos:broader iucn:Marine ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:M ;
+  skos:broader iucn:T ;
   skos:notation "MT2" ;
   skos:prefLabel "Supralittoral coastal biome" ;
 .
 <http://w3id.org/env/iucn-get/MT2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT2.1> ;
-  skos:broader iucn:SupralittoralCoastal ;
+  skos:broader iucn:MT2 ;
   skos:notation "MT2.1" ;
   skos:prefLabel "Coastal shrublands and grasslands" ;
 .
 <http://w3id.org/env/iucn-get/MT2.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT2.2> ;
-  skos:broader iucn:SupralittoralCoastal ;
+  skos:broader iucn:MT2 ;
   skos:notation "MT2.2" ;
   skos:prefLabel "Large seabird and pinniped colonies" ;
 .
 iucn:MT3
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/MT3> ;
-  skos:broader iucn:Marine ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:M ;
+  skos:broader iucn:T ;
   skos:notation "MT3" ;
   skos:prefLabel "Anthropogenic shorelines biome" ;
 .
 <http://w3id.org/env/iucn-get/MT3.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/MT3.1> ;
-  skos:broader iucn:AnthropogenicShorelines ;
+  skos:broader iucn:MT3 ;
   skos:notation "MT3.1" ;
   skos:prefLabel "Artificial shorelines" ;
 .
@@ -764,35 +765,35 @@ The subterranean realm transitions to subterranean freshwater and subterranean t
 iucn:S1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/S1> ;
-  skos:broader iucn:Subterranean ;
+  skos:broader iucn:S ;
   skos:notation "S1" ;
   skos:prefLabel "Subterranean lithic biome" ;
 .
 <http://w3id.org/env/iucn-get/S1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S1.1> ;
-  skos:broader iucn:SubterraneanLithic ;
+  skos:broader iucn:S1 ;
   skos:notation "S1.1" ;
   skos:prefLabel "Aerobic caves" ;
 .
 <http://w3id.org/env/iucn-get/S1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S1.2> ;
-  skos:broader iucn:SubterraneanLithic ;
+  skos:broader iucn:S1 ;
   skos:notation "S1.2" ;
   skos:prefLabel "Endolithic systems" ;
 .
 iucn:S2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/S2> ;
-  skos:broader iucn:Subterranean ;
+  skos:broader iucn:S ;
   skos:notation "S2" ;
   skos:prefLabel "Anthropogenic subterranean voids biome" ;
 .
 <http://w3id.org/env/iucn-get/S2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/S2.1> ;
-  skos:broader iucn:AnthropogenicSubterranean ;
+  skos:broader iucn:S2 ;
   skos:notation "S2.1" ;
   skos:prefLabel "Anthropogenic subterranean voids" ;
 .
@@ -808,44 +809,44 @@ It shares features of the freshwater, and subterranean core realms.""" ;
 iucn:SF1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SF1> ;
-  skos:broader iucn:Freshwater ;
-  skos:broader iucn:Subterranean ;
+  skos:broader iucn:F ;
+  skos:broader iucn:S ;
   skos:notation "SF1" ;
   skos:prefLabel "Subterranean freshwaters biome" ;
 .
 <http://w3id.org/env/iucn-get/SF1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF1.1> ;
-  skos:broader iucn:SubterraneanFreshwaters ;
+  skos:broader iucn:SF1 ;
   skos:notation "SF1.1" ;
   skos:prefLabel "Underground streams and pools" ;
 .
 <http://w3id.org/env/iucn-get/SF1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF1.2> ;
-  skos:broader iucn:SubterraneanFreshwaters ;
+  skos:broader iucn:SF1 ;
   skos:notation "SF1.2" ;
   skos:prefLabel "Groundwater ecosystems" ;
 .
 iucn:SF2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SF2> ;
-  skos:broader iucn:Freshwater ;
-  skos:broader iucn:Subterranean ;
+  skos:broader iucn:F ;
+  skos:broader iucn:S ;
   skos:notation "SF2" ;
   skos:prefLabel "Anthropogenic subterranean freshwaters biome" ;
 .
 <http://w3id.org/env/iucn-get/SF2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF2.1> ;
-  skos:broader iucn:AnthropogenicSubterraneanFreshwaters ;
+  skos:broader iucn:SF2 ;
   skos:notation "SF2.1" ;
   skos:prefLabel "Water pipes and subterranean canals" ;
 .
 <http://w3id.org/env/iucn-get/SF2.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SF2.2> ;
-  skos:broader iucn:AnthropogenicSubterraneanFreshwaters ;
+  skos:broader iucn:SF2 ;
   skos:notation "SF2.2" ;
   skos:prefLabel "Flooded mines and other voids" ;
 .
@@ -861,29 +862,29 @@ It shares features of the marine, and subterranean core realms.""" ;
 iucn:SM1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/SM1> ;
-  skos:broader iucn:Marine ;
-  skos:broader iucn:Subterranean ;
+  skos:broader iucn:M ;
+  skos:broader iucn:S ;
   skos:notation "SM1" ;
   skos:prefLabel "Subterranean tidal biome" ;
 .
 <http://w3id.org/env/iucn-get/SM1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.1> ;
-  skos:broader iucn:SubterraneanTidal ;
+  skos:broader iucn:SM1 ;
   skos:notation "SM1.1" ;
   skos:prefLabel "Anchialine caves" ;
 .
 <http://w3id.org/env/iucn-get/SM1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.2> ;
-  skos:broader iucn:SubterraneanTidal ;
+  skos:broader iucn:SM1 ;
   skos:notation "SM1.2" ;
   skos:prefLabel "Anchialine pools" ;
 .
 <http://w3id.org/env/iucn-get/SM1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/SM1.3> ;
-  skos:broader iucn:SubterraneanTidal ;
+  skos:broader iucn:SM1 ;
   skos:notation "SM1.3" ;
   skos:prefLabel "Sea caves" ;
 .
@@ -900,287 +901,287 @@ The terrestrial realm transitions to palustrine wetlands, shoreline and supralit
 iucn:T1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T1> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T1" ;
   skos:prefLabel "Tropical-subtropical forests biome" ;
 .
 <http://w3id.org/env/iucn-get/T1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.1> ;
-  skos:broader iucn:TropicalSubtropicalForests ;
+  skos:broader iucn:T1 ;
   skos:notation "T1.1" ;
   skos:prefLabel "Tropical/Subtropical lowland rainforests" ;
 .
 <http://w3id.org/env/iucn-get/T1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.2> ;
-  skos:broader iucn:TropicalSubtropicalForests ;
+  skos:broader iucn:T1 ;
   skos:notation "T1.2" ;
   skos:prefLabel "Tropical/Subtropical dry forests and thickets" ;
 .
 <http://w3id.org/env/iucn-get/T1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.3> ;
-  skos:broader iucn:TropicalSubtropicalForests ;
+  skos:broader iucn:T1 ;
   skos:notation "T1.3" ;
   skos:prefLabel "Tropical/Subtropical montane rainforests" ;
 .
 <http://w3id.org/env/iucn-get/T1.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T1.4> ;
-  skos:broader iucn:TropicalSubtropicalForests ;
+  skos:broader iucn:T1 ;
   skos:notation "T1.4" ;
   skos:prefLabel "Tropical heath forests" ;
 .
 iucn:T2
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T2> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T2" ;
   skos:prefLabel "Temperate-boreal forests and woodlands biome" ;
 .
 <http://w3id.org/env/iucn-get/T2.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.1> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.1" ;
   skos:prefLabel "Boreal and temperate high montane forests and woodlands" ;
 .
 <http://w3id.org/env/iucn-get/T2.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.2> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.2" ;
   skos:prefLabel "Deciduous temperate forests" ;
 .
 <http://w3id.org/env/iucn-get/T2.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.3> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.3" ;
   skos:prefLabel "Oceanic cool temperate rainforests" ;
 .
 <http://w3id.org/env/iucn-get/T2.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.4> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.4" ;
   skos:prefLabel "Warm temperate laurophyll forests" ;
 .
 <http://w3id.org/env/iucn-get/T2.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.5> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.5" ;
   skos:prefLabel "Temperate pyric humid forests" ;
 .
 <http://w3id.org/env/iucn-get/T2.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T2.6> ;
-  skos:broader iucn:ForestsAndWoodlands ;
+  skos:broader iucn:T2 ;
   skos:notation "T2.6" ;
   skos:prefLabel "Temperate pyric sclerophyll forests and woodlands" ;
 .
 iucn:T3
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T3> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T3" ;
   skos:prefLabel "Shrublands and shrubby woodlands biome" ;
 .
 <http://w3id.org/env/iucn-get/T3.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.1> ;
-  skos:broader iucn:Shrublands ;
+  skos:broader iucn:T3 ;
   skos:notation "T3.1" ;
   skos:prefLabel "Seasonally dry tropical shrublands" ;
 .
 <http://w3id.org/env/iucn-get/T3.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.2> ;
-  skos:broader iucn:Shrublands ;
+  skos:broader iucn:T3 ;
   skos:notation "T3.2" ;
   skos:prefLabel "Seasonally dry temperate heath and shrublands" ;
 .
 <http://w3id.org/env/iucn-get/T3.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.3> ;
-  skos:broader iucn:Shrublands ;
+  skos:broader iucn:T3 ;
   skos:notation "T3.3" ;
   skos:prefLabel "Cool temperate heathlands" ;
 .
 <http://w3id.org/env/iucn-get/T3.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T3.4> ;
-  skos:broader iucn:Shrublands ;
+  skos:broader iucn:T3 ;
   skos:notation "T3.4" ;
   skos:prefLabel "Young rocky pavements, lava flows and screes" ;
 .
 iucn:T4
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T4> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T4" ;
   skos:prefLabel "Savannas and grasslands biome" ;
 .
 <http://w3id.org/env/iucn-get/T4.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.1> ;
-  skos:broader iucn:Savannas ;
+  skos:broader iucn:T4 ;
   skos:notation "T4.1" ;
   skos:prefLabel "Trophic savannas" ;
 .
 <http://w3id.org/env/iucn-get/T4.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.2> ;
-  skos:broader iucn:Savannas ;
+  skos:broader iucn:T4 ;
   skos:notation "T4.2" ;
   skos:prefLabel "Pyric tussock savannas" ;
 .
 <http://w3id.org/env/iucn-get/T4.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.3> ;
-  skos:broader iucn:Savannas ;
+  skos:broader iucn:T4 ;
   skos:notation "T4.3" ;
   skos:prefLabel "Hummock savannas" ;
 .
 <http://w3id.org/env/iucn-get/T4.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.4> ;
-  skos:broader iucn:Savannas ;
+  skos:broader iucn:T4 ;
   skos:notation "T4.4" ;
   skos:prefLabel "Temperate woodlands" ;
 .
 <http://w3id.org/env/iucn-get/T4.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T4.5> ;
-  skos:broader iucn:Savannas ;
+  skos:broader iucn:T4 ;
   skos:notation "T4.5" ;
   skos:prefLabel "Temperate subhumid grasslands" ;
 .
 iucn:T5
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T5> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T5" ;
   skos:prefLabel "Deserts and semi-deserts biome" ;
 .
 <http://w3id.org/env/iucn-get/T5.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.1> ;
-  skos:broader iucn:Deserts ;
+  skos:broader iucn:T5 ;
   skos:notation "T5.1" ;
   skos:prefLabel "Semi-desert steppe" ;
 .
 <http://w3id.org/env/iucn-get/T5.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.2> ;
-  skos:broader iucn:Deserts ;
+  skos:broader iucn:T5 ;
   skos:notation "T5.2" ;
   skos:prefLabel "Succulent or Thorny deserts and semi-deserts" ;
 .
 <http://w3id.org/env/iucn-get/T5.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.3> ;
-  skos:broader iucn:Deserts ;
+  skos:broader iucn:T5 ;
   skos:notation "T5.3" ;
   skos:prefLabel "Sclerophyll hot deserts and semi-deserts" ;
 .
 <http://w3id.org/env/iucn-get/T5.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.4> ;
-  skos:broader iucn:Deserts ;
+  skos:broader iucn:T5 ;
   skos:notation "T5.4" ;
   skos:prefLabel "Cool deserts and semi-deserts" ;
 .
 <http://w3id.org/env/iucn-get/T5.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T5.5> ;
-  skos:broader iucn:Deserts ;
+  skos:broader iucn:T5 ;
   skos:notation "T5.5" ;
   skos:prefLabel "Hyper-arid deserts" ;
 .
 iucn:T6
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T6> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T6" ;
   skos:prefLabel "Polar/alpine (cryogenic) biome" ;
 .
 <http://w3id.org/env/iucn-get/T6.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.1> ;
-  skos:broader iucn:Cryogenic ;
+  skos:broader iucn:T6 ;
   skos:notation "T6.1" ;
   skos:prefLabel "Ice sheets, glaciers and perennial snowfields" ;
 .
 <http://w3id.org/env/iucn-get/T6.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.2> ;
-  skos:broader iucn:Cryogenic ;
+  skos:broader iucn:T6 ;
   skos:notation "T6.2" ;
   skos:prefLabel "Polar/alpine cliffs, screes, outcrops and lava flows" ;
 .
 <http://w3id.org/env/iucn-get/T6.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.3> ;
-  skos:broader iucn:Cryogenic ;
+  skos:broader iucn:T6 ;
   skos:notation "T6.3" ;
   skos:prefLabel "Polar tundra and deserts" ;
 .
 <http://w3id.org/env/iucn-get/T6.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.4> ;
-  skos:broader iucn:Cryogenic ;
+  skos:broader iucn:T6 ;
   skos:notation "T6.4" ;
   skos:prefLabel "Temperate alpine grasslands and shrublands" ;
 .
 <http://w3id.org/env/iucn-get/T6.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T6.5> ;
-  skos:broader iucn:Cryogenic ;
+  skos:broader iucn:T6 ;
   skos:notation "T6.5" ;
   skos:prefLabel "Tropical alpine grasslands and herbfields" ;
 .
 iucn:T7
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/T7> ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:T ;
   skos:notation "T7" ;
   skos:prefLabel "Intensive land-use biome" ;
 .
 <http://w3id.org/env/iucn-get/T7.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.1> ;
-  skos:broader iucn:IntensiveLandUse ;
+  skos:broader iucn:T7 ;
   skos:notation "T7.1" ;
   skos:prefLabel "Annual croplands" ;
 .
 <http://w3id.org/env/iucn-get/T7.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.2> ;
-  skos:broader iucn:IntensiveLandUse ;
+  skos:broader iucn:T7 ;
   skos:notation "T7.2" ;
   skos:prefLabel "Sown pastures and fields" ;
 .
 <http://w3id.org/env/iucn-get/T7.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.3> ;
-  skos:broader iucn:IntensiveLandUse ;
+  skos:broader iucn:T7 ;
   skos:notation "T7.3" ;
   skos:prefLabel "Plantations" ;
 .
 <http://w3id.org/env/iucn-get/T7.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.4> ;
-  skos:broader iucn:IntensiveLandUse ;
+  skos:broader iucn:T7 ;
   skos:notation "T7.4" ;
   skos:prefLabel "Urban and industrial ecosystems" ;
 .
 <http://w3id.org/env/iucn-get/T7.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/T7.5> ;
-  skos:broader iucn:IntensiveLandUse ;
+  skos:broader iucn:T7 ;
   skos:notation "T7.5" ;
   skos:prefLabel "Derived semi-natural pastures and old fields" ;
 .
@@ -1196,57 +1197,57 @@ It shares features of the freshwater and terrestrial core realms.""" ;
 iucn:TF1
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/biomes/TF1> ;
-  skos:broader iucn:Freshwater ;
-  skos:broader iucn:Terrestrial ;
+  skos:broader iucn:F ;
+  skos:broader iucn:T ;
   skos:notation "TF1" ;
   skos:prefLabel "Palustrine wetlands biome" ;
 .
 <http://w3id.org/env/iucn-get/TF1.1>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.1> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.1" ;
   skos:prefLabel "Tropical flooded forests and peat forests" ;
 .
 <http://w3id.org/env/iucn-get/TF1.2>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.2> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.2" ;
   skos:prefLabel "Subtropical/temperate forested wetlands" ;
 .
 <http://w3id.org/env/iucn-get/TF1.3>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.3> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.3" ;
   skos:prefLabel "Permanent marshes" ;
 .
 <http://w3id.org/env/iucn-get/TF1.4>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.4> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.4" ;
   skos:prefLabel "Seasonal floodplain marshes" ;
 .
 <http://w3id.org/env/iucn-get/TF1.5>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.5> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.5" ;
   skos:prefLabel "Episodic arid floodplains" ;
 .
 <http://w3id.org/env/iucn-get/TF1.6>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.6> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.6" ;
   skos:prefLabel "Boreal, temperate and montane peat bogs" ;
 .
 <http://w3id.org/env/iucn-get/TF1.7>
   a skos:Concept ;
   dcterms:isFormatOf <https://global-ecosystems.org/explore/groups/TF1.7> ;
-  skos:broader iucn:PalustrineWetlands ;
+  skos:broader iucn:TF1 ;
   skos:notation "TF1.7" ;
   skos:prefLabel "Boreal and temperate fens" ;
 .

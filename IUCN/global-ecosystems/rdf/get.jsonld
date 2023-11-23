@@ -4,7 +4,7 @@
     "@type" : [ "skos:ConceptScheme", "owl:Ontology" ],
     "created" : "2023-11-22",
     "creator" : "https://orcid.org/0000-0002-3884-3420",
-    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 \r\n\r\nEach Realm, Biome and Functional Group is implemented as an OWL Class. \r\nSub-classing is used to organize the IUCN hierarchy. \r\n\r\nThe classification levels are managed using XKOS. ",
+    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 \r\n\r\nEach Realm, Biome and Functional Group is implemented as an SKOS Concept. \r\nSKOS 'has broader' is used to organize the IUCN hierarchy. \r\nThe classification levels are managed using XKOS. \r\n\r\nThe baseURI is currently set to http://w3id.org/env/iucn-get/ however this is merely a placeholder. ",
     "isFormatOf" : "https://global-ecosystems.org/explore",
     "license" : "https://creativecommons.org/public-domain/cc0/",
     "modified" : "2023-11-23",
@@ -38,175 +38,175 @@
     "@id" : "iucn:F1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F1",
-    "broader" : "iucn:Freshwater",
+    "broader" : "iucn:F",
     "notation" : "F1",
     "prefLabel" : "Rivers and streams biome"
   }, {
     "@id" : "iucn:F1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.1",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.1",
     "prefLabel" : "Permanent upland streams"
   }, {
     "@id" : "iucn:F1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.2",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.2",
     "prefLabel" : "Permanent lowland rivers"
   }, {
     "@id" : "iucn:F1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.3",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.3",
     "prefLabel" : "Freeze-thaw rivers and streams"
   }, {
     "@id" : "iucn:F1.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.4",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.4",
     "prefLabel" : "Seasonal upland streams"
   }, {
     "@id" : "iucn:F1.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.5",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.5",
     "prefLabel" : "Seasonal lowland rivers"
   }, {
     "@id" : "iucn:F1.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.6",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.6",
     "prefLabel" : "Episodic arid rivers"
   }, {
     "@id" : "iucn:F1.7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F1.7",
-    "broader" : "iucn:RiversStreams",
+    "broader" : "iucn:F1",
     "notation" : "F1.7",
     "prefLabel" : "Large lowland rivers"
   }, {
     "@id" : "iucn:F2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F2",
-    "broader" : "iucn:Freshwater",
+    "broader" : "iucn:F",
     "notation" : "F2",
     "prefLabel" : "Lakes biome"
   }, {
     "@id" : "iucn:F2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.1",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.1",
     "prefLabel" : "Large permanent freshwater lakes"
   }, {
     "@id" : "iucn:F2.10",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.10",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.10",
     "prefLabel" : "Subglacial lakes"
   }, {
     "@id" : "iucn:F2.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.2",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.2",
     "prefLabel" : "Small permanent freshwater lakes"
   }, {
     "@id" : "iucn:F2.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.3",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.3",
     "prefLabel" : "Seasonal freshwater lakes"
   }, {
     "@id" : "iucn:F2.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.4",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.4",
     "prefLabel" : "Freeze-thaw freshwater lakes"
   }, {
     "@id" : "iucn:F2.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.5",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.5",
     "prefLabel" : "Ephemeral freshwater lakes"
   }, {
     "@id" : "iucn:F2.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.6",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.6",
     "prefLabel" : "Permanent salt and soda lakes"
   }, {
     "@id" : "iucn:F2.7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.7",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.7",
     "prefLabel" : "Ephemeral salt lakes"
   }, {
     "@id" : "iucn:F2.8",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.8",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.8",
     "prefLabel" : "Artesian springs and oases"
   }, {
     "@id" : "iucn:F2.9",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F2.9",
-    "broader" : "iucn:Lakes",
+    "broader" : "iucn:F2",
     "notation" : "F2.9",
     "prefLabel" : "Geothermal pools and wetlands"
   }, {
     "@id" : "iucn:F3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/F3",
-    "broader" : "iucn:Freshwater",
+    "broader" : "iucn:F",
     "notation" : "F3",
     "prefLabel" : "Artificial wetlands biome"
   }, {
     "@id" : "iucn:F3.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.1",
-    "broader" : "iucn:ArtificialWetlands",
+    "broader" : "iucn:F3",
     "notation" : "F3.1",
     "prefLabel" : "Large reservoirs"
   }, {
     "@id" : "iucn:F3.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.2",
-    "broader" : "iucn:ArtificialWetlands",
+    "broader" : "iucn:F3",
     "notation" : "F3.2",
     "prefLabel" : "Constructed lacustrine wetlands"
   }, {
     "@id" : "iucn:F3.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.3",
-    "broader" : "iucn:ArtificialWetlands",
+    "broader" : "iucn:F3",
     "notation" : "F3.3",
     "prefLabel" : "Rice paddies"
   }, {
     "@id" : "iucn:F3.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.4",
-    "broader" : "iucn:ArtificialWetlands",
+    "broader" : "iucn:F3",
     "notation" : "F3.4",
     "prefLabel" : "Freshwater aquafarms"
   }, {
     "@id" : "iucn:F3.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/F3.5",
-    "broader" : "iucn:ArtificialWetlands",
+    "broader" : "iucn:F3",
     "notation" : "F3.5",
     "prefLabel" : "Canals, ditches and drains"
   }, {
@@ -220,28 +220,28 @@
     "@id" : "iucn:FM1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/FM1",
-    "broader" : [ "iucn:Marine", "iucn:Freshwater" ],
+    "broader" : [ "iucn:M", "iucn:F" ],
     "notation" : "FM1",
     "prefLabel" : "Semi-confined transitional waters biome"
   }, {
     "@id" : "iucn:FM1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.1",
-    "broader" : "iucn:TransitionalWaters",
+    "broader" : "iucn:FM1",
     "notation" : "FM1.1",
     "prefLabel" : "Deepwater coastal inlets"
   }, {
     "@id" : "iucn:FM1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.2",
-    "broader" : "iucn:TransitionalWaters",
+    "broader" : "iucn:FM1",
     "notation" : "FM1.2",
     "prefLabel" : "Permanently open riverine estuaries and bays"
   }, {
     "@id" : "iucn:FM1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/FM1.3",
-    "broader" : "iucn:TransitionalWaters",
+    "broader" : "iucn:FM1",
     "notation" : "FM1.3",
     "prefLabel" : "Intermittently closed and open lakes and lagoons"
   }, {
@@ -262,196 +262,196 @@
     "@id" : "iucn:M1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M1",
-    "broader" : "iucn:Marine",
+    "broader" : "iucn:M",
     "notation" : "M1",
     "prefLabel" : "Marine shelf biome"
   }, {
     "@id" : "iucn:M1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.1",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.1",
     "prefLabel" : "Seagrass meadows"
   }, {
     "@id" : "iucn:M1.10",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.10",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.10",
     "prefLabel" : "Rhodolith/Maërl beds"
   }, {
     "@id" : "iucn:M1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.2",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.2",
     "prefLabel" : "Kelp forests"
   }, {
     "@id" : "iucn:M1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.3",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.3",
     "prefLabel" : "Photic coral reefs"
   }, {
     "@id" : "iucn:M1.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.4",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.4",
     "prefLabel" : "Shellfish beds and reefs"
   }, {
     "@id" : "iucn:M1.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.5",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.5",
     "prefLabel" : "Photo-limited marine animal forests"
   }, {
     "@id" : "iucn:M1.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.6",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.6",
     "prefLabel" : "Subtidal rocky reefs"
   }, {
     "@id" : "iucn:M1.7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.7",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.7",
     "prefLabel" : "Subtidal sand beds"
   }, {
     "@id" : "iucn:M1.8",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.8",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.8",
     "prefLabel" : "Subtidal mud plains"
   }, {
     "@id" : "iucn:M1.9",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M1.9",
-    "broader" : "iucn:MarineShelf",
+    "broader" : "iucn:M1",
     "notation" : "M1.9",
     "prefLabel" : "Upwelling zones"
   }, {
     "@id" : "iucn:M2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M2",
-    "broader" : "iucn:Marine",
+    "broader" : "iucn:M",
     "notation" : "M2",
     "prefLabel" : "Pelagic ocean waters biome"
   }, {
     "@id" : "iucn:M2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.1",
-    "broader" : "iucn:PelagicOceanWaters",
+    "broader" : "iucn:M2",
     "notation" : "M2.1",
     "prefLabel" : "Epipelagic ocean waters"
   }, {
     "@id" : "iucn:M2.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.2",
-    "broader" : "iucn:PelagicOceanWaters",
+    "broader" : "iucn:M2",
     "notation" : "M2.2",
     "prefLabel" : "Mesopelagic ocean water"
   }, {
     "@id" : "iucn:M2.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.3",
-    "broader" : "iucn:PelagicOceanWaters",
+    "broader" : "iucn:M2",
     "notation" : "M2.3",
     "prefLabel" : "Bathypelagic ocean waters"
   }, {
     "@id" : "iucn:M2.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.4",
-    "broader" : "iucn:PelagicOceanWaters",
+    "broader" : "iucn:M2",
     "notation" : "M2.4",
     "prefLabel" : "Abyssopelagic ocean waters"
   }, {
     "@id" : "iucn:M2.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M2.5",
-    "broader" : "iucn:PelagicOceanWaters",
+    "broader" : "iucn:M2",
     "notation" : "M2.5",
     "prefLabel" : "Sea ice"
   }, {
     "@id" : "iucn:M3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M3",
-    "broader" : "iucn:Marine",
+    "broader" : "iucn:M",
     "notation" : "M3",
     "prefLabel" : "Deep sea floors biome"
   }, {
     "@id" : "iucn:M3.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.1",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.1",
     "prefLabel" : "Continental and island slopes"
   }, {
     "@id" : "iucn:M3.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.2",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.2",
     "prefLabel" : "Submarine canyons"
   }, {
     "@id" : "iucn:M3.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.3",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.3",
     "prefLabel" : "Abyssal plains"
   }, {
     "@id" : "iucn:M3.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.4",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.4",
     "prefLabel" : "Seamounts, ridges and plateaus"
   }, {
     "@id" : "iucn:M3.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.5",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.5",
     "prefLabel" : "Deepwater biogenic beds"
   }, {
     "@id" : "iucn:M3.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.6",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.6",
     "prefLabel" : "Hadal trenches and troughs"
   }, {
     "@id" : "iucn:M3.7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M3.7",
-    "broader" : "iucn:DeepSeaFloors",
+    "broader" : "iucn:M3",
     "notation" : "M3.7",
     "prefLabel" : "Chemosynthetic-based-ecosystems (CBE)"
   }, {
     "@id" : "iucn:M4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/M4",
-    "broader" : "iucn:Marine",
+    "broader" : "iucn:M",
     "notation" : "M4",
     "prefLabel" : "Anthropogenic marine biome"
   }, {
     "@id" : "iucn:M4.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M4.1",
-    "broader" : "iucn:AnthropogenicMarine",
+    "broader" : "iucn:M4",
     "notation" : "M4.1",
     "prefLabel" : "Submerged artificial structures"
   }, {
     "@id" : "iucn:M4.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/M4.2",
-    "broader" : "iucn:AnthropogenicMarine",
+    "broader" : "iucn:M4",
     "notation" : "M4.2",
     "prefLabel" : "Marine aquafarms"
   }, {
@@ -465,28 +465,28 @@
     "@id" : "iucn:MFT1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MFT1",
-    "broader" : [ "iucn:Terrestrial", "iucn:Marine", "iucn:Freshwater" ],
+    "broader" : [ "iucn:T", "iucn:M", "iucn:F" ],
     "notation" : "MFT1",
     "prefLabel" : "Brackish tidal biome"
   }, {
     "@id" : "iucn:MFT1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.1",
-    "broader" : "iucn:BrackishTidal",
+    "broader" : "iucn:MFT1",
     "notation" : "MFT1.1",
     "prefLabel" : "Coastal river deltas"
   }, {
     "@id" : "iucn:MFT1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.2",
-    "broader" : "iucn:BrackishTidal",
+    "broader" : "iucn:MFT1",
     "notation" : "MFT1.2",
     "prefLabel" : "Intertidal forests and shrublands"
   }, {
     "@id" : "iucn:MFT1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MFT1.3",
-    "broader" : "iucn:BrackishTidal",
+    "broader" : "iucn:MFT1",
     "notation" : "MFT1.3",
     "prefLabel" : "Coastal saltmarshes and reedbeds"
   }, {
@@ -500,70 +500,70 @@
     "@id" : "iucn:MT1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT1",
-    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "broader" : [ "iucn:T", "iucn:M" ],
     "notation" : "MT1",
     "prefLabel" : "Shorelines biome"
   }, {
     "@id" : "iucn:MT1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.1",
-    "broader" : "iucn:Shorelines",
+    "broader" : "iucn:MT1",
     "notation" : "MT1.1",
     "prefLabel" : "Rocky Shorelines"
   }, {
     "@id" : "iucn:MT1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.2",
-    "broader" : "iucn:Shorelines",
+    "broader" : "iucn:MT1",
     "notation" : "MT1.2",
     "prefLabel" : "Muddy Shorelines"
   }, {
     "@id" : "iucn:MT1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.3",
-    "broader" : "iucn:Shorelines",
+    "broader" : "iucn:MT1",
     "notation" : "MT1.3",
     "prefLabel" : "Sandy Shorelines"
   }, {
     "@id" : "iucn:MT1.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT1.4",
-    "broader" : "iucn:Shorelines",
+    "broader" : "iucn:MT1",
     "notation" : "MT1.4",
     "prefLabel" : "Boulder and cobble shores"
   }, {
     "@id" : "iucn:MT2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT2",
-    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "broader" : [ "iucn:T", "iucn:M" ],
     "notation" : "MT2",
     "prefLabel" : "Supralittoral coastal biome"
   }, {
     "@id" : "iucn:MT2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT2.1",
-    "broader" : "iucn:SupralittoralCoastal",
+    "broader" : "iucn:MT2",
     "notation" : "MT2.1",
     "prefLabel" : "Coastal shrublands and grasslands"
   }, {
     "@id" : "iucn:MT2.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT2.2",
-    "broader" : "iucn:SupralittoralCoastal",
+    "broader" : "iucn:MT2",
     "notation" : "MT2.2",
     "prefLabel" : "Large seabird and pinniped colonies"
   }, {
     "@id" : "iucn:MT3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/MT3",
-    "broader" : [ "iucn:Terrestrial", "iucn:Marine" ],
+    "broader" : [ "iucn:T", "iucn:M" ],
     "notation" : "MT3",
     "prefLabel" : "Anthropogenic shorelines biome"
   }, {
     "@id" : "iucn:MT3.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/MT3.1",
-    "broader" : "iucn:AnthropogenicShorelines",
+    "broader" : "iucn:MT3",
     "notation" : "MT3.1",
     "prefLabel" : "Artificial shorelines"
   }, {
@@ -585,35 +585,35 @@
     "@id" : "iucn:S1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/S1",
-    "broader" : "iucn:Subterranean",
+    "broader" : "iucn:S",
     "notation" : "S1",
     "prefLabel" : "Subterranean lithic biome"
   }, {
     "@id" : "iucn:S1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/S1.1",
-    "broader" : "iucn:SubterraneanLithic",
+    "broader" : "iucn:S1",
     "notation" : "S1.1",
     "prefLabel" : "Aerobic caves"
   }, {
     "@id" : "iucn:S1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/S1.2",
-    "broader" : "iucn:SubterraneanLithic",
+    "broader" : "iucn:S1",
     "notation" : "S1.2",
     "prefLabel" : "Endolithic systems"
   }, {
     "@id" : "iucn:S2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/S2",
-    "broader" : "iucn:Subterranean",
+    "broader" : "iucn:S",
     "notation" : "S2",
     "prefLabel" : "Anthropogenic subterranean voids biome"
   }, {
     "@id" : "iucn:S2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/S2.1",
-    "broader" : "iucn:AnthropogenicSubterranean",
+    "broader" : "iucn:S2",
     "notation" : "S2.1",
     "prefLabel" : "Anthropogenic subterranean voids"
   }, {
@@ -627,42 +627,42 @@
     "@id" : "iucn:SF1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SF1",
-    "broader" : [ "iucn:Subterranean", "iucn:Freshwater" ],
+    "broader" : [ "iucn:S", "iucn:F" ],
     "notation" : "SF1",
     "prefLabel" : "Subterranean freshwaters biome"
   }, {
     "@id" : "iucn:SF1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF1.1",
-    "broader" : "iucn:SubterraneanFreshwaters",
+    "broader" : "iucn:SF1",
     "notation" : "SF1.1",
     "prefLabel" : "Underground streams and pools"
   }, {
     "@id" : "iucn:SF1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF1.2",
-    "broader" : "iucn:SubterraneanFreshwaters",
+    "broader" : "iucn:SF1",
     "notation" : "SF1.2",
     "prefLabel" : "Groundwater ecosystems"
   }, {
     "@id" : "iucn:SF2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SF2",
-    "broader" : [ "iucn:Subterranean", "iucn:Freshwater" ],
+    "broader" : [ "iucn:S", "iucn:F" ],
     "notation" : "SF2",
     "prefLabel" : "Anthropogenic subterranean freshwaters biome"
   }, {
     "@id" : "iucn:SF2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF2.1",
-    "broader" : "iucn:AnthropogenicSubterraneanFreshwaters",
+    "broader" : "iucn:SF2",
     "notation" : "SF2.1",
     "prefLabel" : "Water pipes and subterranean canals"
   }, {
     "@id" : "iucn:SF2.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SF2.2",
-    "broader" : "iucn:AnthropogenicSubterraneanFreshwaters",
+    "broader" : "iucn:SF2",
     "notation" : "SF2.2",
     "prefLabel" : "Flooded mines and other voids"
   }, {
@@ -676,28 +676,28 @@
     "@id" : "iucn:SM1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/SM1",
-    "broader" : [ "iucn:Subterranean", "iucn:Marine" ],
+    "broader" : [ "iucn:S", "iucn:M" ],
     "notation" : "SM1",
     "prefLabel" : "Subterranean tidal biome"
   }, {
     "@id" : "iucn:SM1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.1",
-    "broader" : "iucn:SubterraneanTidal",
+    "broader" : "iucn:SM1",
     "notation" : "SM1.1",
     "prefLabel" : "Anchialine caves"
   }, {
     "@id" : "iucn:SM1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.2",
-    "broader" : "iucn:SubterraneanTidal",
+    "broader" : "iucn:SM1",
     "notation" : "SM1.2",
     "prefLabel" : "Anchialine pools"
   }, {
     "@id" : "iucn:SM1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/SM1.3",
-    "broader" : "iucn:SubterraneanTidal",
+    "broader" : "iucn:SM1",
     "notation" : "SM1.3",
     "prefLabel" : "Sea caves"
   }, {
@@ -712,287 +712,287 @@
     "@id" : "iucn:T1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T1",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T1",
     "prefLabel" : "Tropical-subtropical forests biome"
   }, {
     "@id" : "iucn:T1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.1",
-    "broader" : "iucn:TropicalSubtropicalForests",
+    "broader" : "iucn:T1",
     "notation" : "T1.1",
     "prefLabel" : "Tropical/Subtropical lowland rainforests"
   }, {
     "@id" : "iucn:T1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.2",
-    "broader" : "iucn:TropicalSubtropicalForests",
+    "broader" : "iucn:T1",
     "notation" : "T1.2",
     "prefLabel" : "Tropical/Subtropical dry forests and thickets"
   }, {
     "@id" : "iucn:T1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.3",
-    "broader" : "iucn:TropicalSubtropicalForests",
+    "broader" : "iucn:T1",
     "notation" : "T1.3",
     "prefLabel" : "Tropical/Subtropical montane rainforests"
   }, {
     "@id" : "iucn:T1.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T1.4",
-    "broader" : "iucn:TropicalSubtropicalForests",
+    "broader" : "iucn:T1",
     "notation" : "T1.4",
     "prefLabel" : "Tropical heath forests"
   }, {
     "@id" : "iucn:T2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T2",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T2",
     "prefLabel" : "Temperate-boreal forests and woodlands biome"
   }, {
     "@id" : "iucn:T2.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.1",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.1",
     "prefLabel" : "Boreal and temperate high montane forests and woodlands"
   }, {
     "@id" : "iucn:T2.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.2",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.2",
     "prefLabel" : "Deciduous temperate forests"
   }, {
     "@id" : "iucn:T2.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.3",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.3",
     "prefLabel" : "Oceanic cool temperate rainforests"
   }, {
     "@id" : "iucn:T2.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.4",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.4",
     "prefLabel" : "Warm temperate laurophyll forests"
   }, {
     "@id" : "iucn:T2.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.5",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.5",
     "prefLabel" : "Temperate pyric humid forests"
   }, {
     "@id" : "iucn:T2.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T2.6",
-    "broader" : "iucn:ForestsAndWoodlands",
+    "broader" : "iucn:T2",
     "notation" : "T2.6",
     "prefLabel" : "Temperate pyric sclerophyll forests and woodlands"
   }, {
     "@id" : "iucn:T3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T3",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T3",
     "prefLabel" : "Shrublands and shrubby woodlands biome"
   }, {
     "@id" : "iucn:T3.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.1",
-    "broader" : "iucn:Shrublands",
+    "broader" : "iucn:T3",
     "notation" : "T3.1",
     "prefLabel" : "Seasonally dry tropical shrublands"
   }, {
     "@id" : "iucn:T3.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.2",
-    "broader" : "iucn:Shrublands",
+    "broader" : "iucn:T3",
     "notation" : "T3.2",
     "prefLabel" : "Seasonally dry temperate heath and shrublands"
   }, {
     "@id" : "iucn:T3.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.3",
-    "broader" : "iucn:Shrublands",
+    "broader" : "iucn:T3",
     "notation" : "T3.3",
     "prefLabel" : "Cool temperate heathlands"
   }, {
     "@id" : "iucn:T3.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T3.4",
-    "broader" : "iucn:Shrublands",
+    "broader" : "iucn:T3",
     "notation" : "T3.4",
     "prefLabel" : "Young rocky pavements, lava flows and screes"
   }, {
     "@id" : "iucn:T4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T4",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T4",
     "prefLabel" : "Savannas and grasslands biome"
   }, {
     "@id" : "iucn:T4.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.1",
-    "broader" : "iucn:Savannas",
+    "broader" : "iucn:T4",
     "notation" : "T4.1",
     "prefLabel" : "Trophic savannas"
   }, {
     "@id" : "iucn:T4.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.2",
-    "broader" : "iucn:Savannas",
+    "broader" : "iucn:T4",
     "notation" : "T4.2",
     "prefLabel" : "Pyric tussock savannas"
   }, {
     "@id" : "iucn:T4.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.3",
-    "broader" : "iucn:Savannas",
+    "broader" : "iucn:T4",
     "notation" : "T4.3",
     "prefLabel" : "Hummock savannas"
   }, {
     "@id" : "iucn:T4.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.4",
-    "broader" : "iucn:Savannas",
+    "broader" : "iucn:T4",
     "notation" : "T4.4",
     "prefLabel" : "Temperate woodlands"
   }, {
     "@id" : "iucn:T4.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T4.5",
-    "broader" : "iucn:Savannas",
+    "broader" : "iucn:T4",
     "notation" : "T4.5",
     "prefLabel" : "Temperate subhumid grasslands"
   }, {
     "@id" : "iucn:T5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T5",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T5",
     "prefLabel" : "Deserts and semi-deserts biome"
   }, {
     "@id" : "iucn:T5.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.1",
-    "broader" : "iucn:Deserts",
+    "broader" : "iucn:T5",
     "notation" : "T5.1",
     "prefLabel" : "Semi-desert steppe"
   }, {
     "@id" : "iucn:T5.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.2",
-    "broader" : "iucn:Deserts",
+    "broader" : "iucn:T5",
     "notation" : "T5.2",
     "prefLabel" : "Succulent or Thorny deserts and semi-deserts"
   }, {
     "@id" : "iucn:T5.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.3",
-    "broader" : "iucn:Deserts",
+    "broader" : "iucn:T5",
     "notation" : "T5.3",
     "prefLabel" : "Sclerophyll hot deserts and semi-deserts"
   }, {
     "@id" : "iucn:T5.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.4",
-    "broader" : "iucn:Deserts",
+    "broader" : "iucn:T5",
     "notation" : "T5.4",
     "prefLabel" : "Cool deserts and semi-deserts"
   }, {
     "@id" : "iucn:T5.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T5.5",
-    "broader" : "iucn:Deserts",
+    "broader" : "iucn:T5",
     "notation" : "T5.5",
     "prefLabel" : "Hyper-arid deserts"
   }, {
     "@id" : "iucn:T6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T6",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T6",
     "prefLabel" : "Polar/alpine (cryogenic) biome"
   }, {
     "@id" : "iucn:T6.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.1",
-    "broader" : "iucn:Cryogenic",
+    "broader" : "iucn:T6",
     "notation" : "T6.1",
     "prefLabel" : "Ice sheets, glaciers and perennial snowfields"
   }, {
     "@id" : "iucn:T6.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.2",
-    "broader" : "iucn:Cryogenic",
+    "broader" : "iucn:T6",
     "notation" : "T6.2",
     "prefLabel" : "Polar/alpine cliffs, screes, outcrops and lava flows"
   }, {
     "@id" : "iucn:T6.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.3",
-    "broader" : "iucn:Cryogenic",
+    "broader" : "iucn:T6",
     "notation" : "T6.3",
     "prefLabel" : "Polar tundra and deserts"
   }, {
     "@id" : "iucn:T6.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.4",
-    "broader" : "iucn:Cryogenic",
+    "broader" : "iucn:T6",
     "notation" : "T6.4",
     "prefLabel" : "Temperate alpine grasslands and shrublands"
   }, {
     "@id" : "iucn:T6.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T6.5",
-    "broader" : "iucn:Cryogenic",
+    "broader" : "iucn:T6",
     "notation" : "T6.5",
     "prefLabel" : "Tropical alpine grasslands and herbfields"
   }, {
     "@id" : "iucn:T7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/T7",
-    "broader" : "iucn:Terrestrial",
+    "broader" : "iucn:T",
     "notation" : "T7",
     "prefLabel" : "Intensive land-use biome"
   }, {
     "@id" : "iucn:T7.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.1",
-    "broader" : "iucn:IntensiveLandUse",
+    "broader" : "iucn:T7",
     "notation" : "T7.1",
     "prefLabel" : "Annual croplands"
   }, {
     "@id" : "iucn:T7.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.2",
-    "broader" : "iucn:IntensiveLandUse",
+    "broader" : "iucn:T7",
     "notation" : "T7.2",
     "prefLabel" : "Sown pastures and fields"
   }, {
     "@id" : "iucn:T7.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.3",
-    "broader" : "iucn:IntensiveLandUse",
+    "broader" : "iucn:T7",
     "notation" : "T7.3",
     "prefLabel" : "Plantations"
   }, {
     "@id" : "iucn:T7.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.4",
-    "broader" : "iucn:IntensiveLandUse",
+    "broader" : "iucn:T7",
     "notation" : "T7.4",
     "prefLabel" : "Urban and industrial ecosystems"
   }, {
     "@id" : "iucn:T7.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/T7.5",
-    "broader" : "iucn:IntensiveLandUse",
+    "broader" : "iucn:T7",
     "notation" : "T7.5",
     "prefLabel" : "Derived semi-natural pastures and old fields"
   }, {
@@ -1006,56 +1006,56 @@
     "@id" : "iucn:TF1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/biomes/TF1",
-    "broader" : [ "iucn:Terrestrial", "iucn:Freshwater" ],
+    "broader" : [ "iucn:T", "iucn:F" ],
     "notation" : "TF1",
     "prefLabel" : "Palustrine wetlands biome"
   }, {
     "@id" : "iucn:TF1.1",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.1",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.1",
     "prefLabel" : "Tropical flooded forests and peat forests"
   }, {
     "@id" : "iucn:TF1.2",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.2",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.2",
     "prefLabel" : "Subtropical/temperate forested wetlands"
   }, {
     "@id" : "iucn:TF1.3",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.3",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.3",
     "prefLabel" : "Permanent marshes"
   }, {
     "@id" : "iucn:TF1.4",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.4",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.4",
     "prefLabel" : "Seasonal floodplain marshes"
   }, {
     "@id" : "iucn:TF1.5",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.5",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.5",
     "prefLabel" : "Episodic arid floodplains"
   }, {
     "@id" : "iucn:TF1.6",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.6",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.6",
     "prefLabel" : "Boreal, temperate and montane peat bogs"
   }, {
     "@id" : "iucn:TF1.7",
     "@type" : "skos:Concept",
     "isFormatOf" : "https://global-ecosystems.org/explore/groups/TF1.7",
-    "broader" : "iucn:PalustrineWetlands",
+    "broader" : "iucn:TF1",
     "notation" : "TF1.7",
     "prefLabel" : "Boreal and temperate fens"
   }, {
@@ -1067,8 +1067,9 @@
     "prefLabel" : "Transitional realm"
   } ],
   "@context" : {
-    "prefLabel" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
     },
     "notation" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#notation"
@@ -1077,9 +1078,8 @@
       "@id" : "http://purl.org/dc/terms/isFormatOf",
       "@type" : "@id"
     },
-    "broader" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
-      "@type" : "@id"
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
     },
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified",
@@ -1097,6 +1097,9 @@
       "@id" : "http://purl.org/dc/terms/created",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/terms/source",
       "@type" : "@id"
@@ -1108,9 +1111,6 @@
     "license" : {
       "@id" : "http://purl.org/dc/terms/license",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/terms/description"
     },
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
