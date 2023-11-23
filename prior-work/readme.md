@@ -16,8 +16,8 @@ The Australian Land Use and Management (ALUM) Classification system provides a n
 
 ## VAST / AquaVAST
 
-Thackway
-
+Categories: 
+- 0. Bare
 - I: Residual
 - II: Modified
 - III(a): Transformed
@@ -25,6 +25,11 @@ Thackway
 - IV: Replaced-Adventive
 - V: Replaced-Managed
 - VI: Removed
+
+Used for Map showing the Vegetation Assets, States and Transitions (VAST) classification of Australian vegetation. Underpinning data sourced from the Australian Bureau of Agricultural and Resource Economics and Sciences, National Scale Vegetation Assets, States and Transitions (2008).
+
+[2016 SoE Land VAST classification of Australian vegetation](https://data.gov.au/dataset/ds-dga-f093534a-cd3d-4284-a084-0dfabb399272/details)
+
 
 ## IUCN Global Ecosystem Typology
 
