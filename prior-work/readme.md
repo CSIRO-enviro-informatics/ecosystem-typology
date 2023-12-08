@@ -12,12 +12,14 @@ The Australian Land Use and Management (ALUM) Classification system provides a n
 
 [ALUM Version 8](https://www.agriculture.gov.au/abares/aclump/land-use/alum-classification)
 
+[Australian Land Use and Management Classification @ RVA](https://vocabs.ardc.edu.au/viewById/193)
+
 [Mapping from ALUM8 &rarr; IUCN GET](https://github.com/CSIRO-enviro-informatics/ecosystem-typology/files/13446193/ALUMv8.xlsx)
 
 ## VAST / AquaVAST
 
 Categories: 
-- 0. Bare
+- 0: Bare
 - I: Residual
 - II: Modified
 - III(a): Transformed
@@ -30,6 +32,7 @@ Used for Map showing the Vegetation Assets, States and Transitions (VAST) classi
 
 [2016 SoE Land VAST classification of Australian vegetation](https://data.gov.au/dataset/ds-dga-f093534a-cd3d-4284-a084-0dfabb399272/details)
 
+Can't find actual definitions of the categories. 
 
 ## IUCN Global Ecosystem Typology
 
@@ -40,13 +43,27 @@ The recommended typology for reporting ecosystems accounts under the [SEEA frame
 
 ## NVIS
 
-[https://www.environment.gov.au/land/native-vegetation/national-vegetation-information-system](https://www.environment.gov.au/land/native-vegetation/national-vegetation-information-system)
+[NVIS @ DCCEEW](https://www.dcceew.gov.au/environment/land/native-vegetation/national-vegetation-information-syste)
 
 Established and probably the most comprehensive source of information on Australian ecosystem extent
 
+[NVIS Growth Form @ RVA](https://vocabs.ardc.edu.au/viewById/174) 
+
+[Australian Vegetation Attribute Manual Version 7.0](https://www.dcceew.gov.au/environment/land/publications/australian-vegetation-attribute-manual-version-7)
+
+[ASLS Vegetation classifiers @ RVA](https://vocabs.ardc.edu.au/viewById/636)
+
 ## LCCS
 
-[https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)
+[LCCS @ FAO](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)
+
+[LAND COVER CLASSIFICATION SYSTEM (LCCS): CLASSIFICATION CONCEPTS AND USER MANUAL](https://www.fao.org/3/x0596e/x0596e00.htm) 
+
+in particular
+[2. THE CONCEPTUAL BASIS](https://www.fao.org/3/x0596e/x0596e01f.htm#p381_40252)
+
+Also see FAOstat Land Cover item types
+[FAOSTAT_data_12-7-2023.csv](https://github.com/CSIRO-enviro-informatics/ecosystem-typology/files/13594902/FAOSTAT_data_12-7-2023.csv)
 
 The GA Digital Earth Australia LCCS data is used as the **basis for reporting SEEA land accounts**. Ecosystem accounts (in Glenn's view) should at least consider the relationship between land cover and ecosystem extent.
 
