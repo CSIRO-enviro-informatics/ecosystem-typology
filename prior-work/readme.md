@@ -34,6 +34,12 @@ Used for Map showing the Vegetation Assets, States and Transitions (VAST) classi
 
 Can't find actual definitions of the categories. 
 
+## IUCN Red List of Ecosystems Categories
+
+[Guidelines for the application of IUCN Red List of Ecosystems Categories and Criteria](https://portals.iucn.org/library/sites/library/files/documents/2016-010.pdf)
+
+![IUCN-redlist-ecosystems](https://github.com/CSIRO-enviro-informatics/ecosystem-typology/assets/608303/cd58a310-57e2-427d-ac0c-3f7b41f91237)
+
 ## IUCN Global Ecosystem Typology
 
 [https://global-ecosystems.org/](https://global-ecosystems.org/)
