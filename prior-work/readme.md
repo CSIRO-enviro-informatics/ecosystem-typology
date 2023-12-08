@@ -22,8 +22,7 @@ Categories:
 - 0: Bare
 - I: Residual
 - II: Modified
-- III(a): Transformed
-- III(b): Transformed
+- III: Transformed
 - IV: Replaced-Adventive
 - V: Replaced-Managed
 - VI: Removed
