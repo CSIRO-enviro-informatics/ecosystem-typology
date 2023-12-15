@@ -18,7 +18,10 @@ The Australian Land Use and Management (ALUM) Classification system provides a n
 
 ## VAST / AquaVAST
 
-Categories: 
+[Reporting vegetation condition using the Vegetation Assets, States and Transitions (VAST) framework](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1442-8903.2006.00292.x)
+
+Categories:
+
 - 0: Bare
 - I: Residual
 - II: Modified
@@ -31,8 +34,6 @@ Used for Map showing the Vegetation Assets, States and Transitions (VAST) classi
 
 [2016 SoE Land VAST classification of Australian vegetation](https://data.gov.au/dataset/ds-dga-f093534a-cd3d-4284-a084-0dfabb399272/details)
 
-Can't find actual definitions of the categories. 
-
 ## IUCN Red List of Ecosystems Categories
 
 [Guidelines for the application of IUCN Red List of Ecosystems Categories and Criteria](https://portals.iucn.org/library/sites/library/files/documents/2016-010.pdf)
@@ -42,6 +43,7 @@ Can't find actual definitions of the categories.
 ## IUCN Global Ecosystem Typology
 
 [https://global-ecosystems.org/](https://global-ecosystems.org/)
+
 - [Source Paper](https://www.nature.com/articles/s41586-022-05318-4)
 
 The recommended typology for reporting ecosystems accounts under the [SEEA framework](https://seea.un.org/ecosystem-accounting/) and has been **used in Europe and the US** for this purpose.
@@ -52,7 +54,7 @@ The recommended typology for reporting ecosystems accounts under the [SEEA frame
 
 Established and probably the most comprehensive source of information on Australian ecosystem extent
 
-[NVIS Growth Form @ RVA](https://vocabs.ardc.edu.au/viewById/174) 
+[NVIS Growth Form @ RVA](https://vocabs.ardc.edu.au/viewById/174)
 
 [Australian Vegetation Attribute Manual Version 7.0](https://www.dcceew.gov.au/environment/land/publications/australian-vegetation-attribute-manual-version-7)
 
@@ -62,7 +64,7 @@ Established and probably the most comprehensive source of information on Austral
 
 [LCCS @ FAO](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)
 
-[LAND COVER CLASSIFICATION SYSTEM (LCCS): CLASSIFICATION CONCEPTS AND USER MANUAL](https://www.fao.org/3/x0596e/x0596e00.htm) 
+[LAND COVER CLASSIFICATION SYSTEM (LCCS): CLASSIFICATION CONCEPTS AND USER MANUAL](https://www.fao.org/3/x0596e/x0596e00.htm)
 
 in particular
 [2. THE CONCEPTUAL BASIS](https://www.fao.org/3/x0596e/x0596e01f.htm#p381_40252)
