@@ -18,7 +18,7 @@ The Australian Land Use and Management (ALUM) Classification system provides a n
 
 ## VAST / AquaVAST
 
-[Reporting vegetation condition using the Vegetation Assets, States and Transitions (VAST) framework](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1442-8903.2006.00292.x)
+[Reporting vegetation condition using the Vegetation Assets, States and Transitions (VAST) framework](https://doi.org/10.1111/j.1442-8903.2006.00292.x)
 
 Categories:
 
@@ -29,6 +29,8 @@ Categories:
 - IV: Replaced-Adventive
 - V: Replaced-Managed
 - VI: Removed
+
+![Vegetation Assets, States and Transitions with columns representing states and shifts between them defined as transitions.](../VAST/emr_292_f1.gif)
 
 Used for Map showing the Vegetation Assets, States and Transitions (VAST) classification of Australian vegetation. Underpinning data sourced from the Australian Bureau of Agricultural and Resource Economics and Sciences, National Scale Vegetation Assets, States and Transitions (2008).
 
@@ -45,6 +47,7 @@ Used for Map showing the Vegetation Assets, States and Transitions (VAST) classi
 [https://global-ecosystems.org/](https://global-ecosystems.org/)
 
 - [Source Paper](https://www.nature.com/articles/s41586-022-05318-4)
+- [SKOS representation (partial)](../IUCN/GET/rdf/)
 
 The recommended typology for reporting ecosystems accounts under the [SEEA framework](https://seea.un.org/ecosystem-accounting/) and has been **used in Europe and the US** for this purpose.
 
