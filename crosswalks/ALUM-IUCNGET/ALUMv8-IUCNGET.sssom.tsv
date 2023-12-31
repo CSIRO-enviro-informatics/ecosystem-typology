@@ -1,0 +1,203 @@
+#creator_id: "https://orcid.org/0000-0002-3884-3420"
+#curie_map: 
+#  alum8: "http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/"
+#  get: "https://global-ecosystems.org/explore/"
+#  semapv: "https://w3id.org/semapv/vocab/"
+#  skos: "http://www.w3.org/2004/02/skos/core"
+#license: "https://creativecommons.org/publicdomain/zero/1.0/"
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	confidence	comment
+alum8:Nature_conservation	Nature conservation			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Strict_nature_reserves	Strict nature reserves			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Wilderness_area	Wilderness area			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:National_park	National park			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Natural_feature_protection	Natural feature protection			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Habitat_or_species_management_area	Habitat/species management area			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Protected_landscape	Protected landscape			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Other_conserved_area	Other conserved area			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Managed_resource_protection	Managed resource protection				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Biodiversity	Biodiversity			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Surface_water_supply	Surface water supply			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Groundwater	Groundwater			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Landscape	Landscape			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Traditional_Indigenous_uses	Traditional Indigenous uses			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Other_minimal_use	Other minimal use				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Defence_landnatural_areas	Defence land - natural areas			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Stock_route	Stock route			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Residual_native_cover	Residual native cover			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Rehabilitation	Rehabilitation			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Grazing_native_vegetation	Grazing native vegetation				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Production_native_forests	Production native forests				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Wood_production_forestry	Wood production forestry			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Other_forest_production	Other forest production			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Plantation_forests	Plantation forests				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Hardwood_plantation_forestry	Hardwood plantation forestry	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Softwood_plantation_forestry	Softwood plantation forestry	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Other_forest_plantation	Other forest plantation	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Environmental_forest_plantation	Environmental forest plantation	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Grazing_modified_pastures	Grazing modified pastures				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Native_or_exotic_pasture_mosaic	Native/exotic pasture mosaic	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Woody_fodder_plants_	Woody fodder plants 	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Pasture_legumes	Pasture legumes	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Pasture_legume_or_grass_mixtures	Pasture legume/grass mixtures	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Sown_grasses	Sown grasses	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Cropping	Cropping				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Cereals	Cereals	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Beverage_and_spice_crops	Beverage and spice crops	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Hay_and_silage_	Hay and silage 	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Oilseeds	Oilseeds	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Sugar	Sugar	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Cotton	Cotton	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Alkaloid_poppies	Alkaloid poppies	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Pulses	Pulses	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Perennial_horticulture	Perennial horticulture				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Tree_fruits	Tree fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Olives	Olives	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Tree_nuts	Tree nuts	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Vine_fruits	Vine fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Shrub_berries_and_fruits	Shrub berries and fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Perennial_flowers_and_bulbs	Perennial flowers and bulbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Perennial_vegetables_and_herbs	Perennial vegetables and herbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Citrus	Citrus	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Grapes	Grapes	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Seasonal_horticulture	Seasonal horticulture				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Seasonal_fruits_	Seasonal fruits 	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Seasonal_flowers_and_bulbs	Seasonal flowers and bulbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Seasonal_vegetables_and_herbs	Seasonal vegetables and herbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Land_in_transition	Land in transition				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Degraded_land	Degraded land			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_land	Abandoned land			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Land_under_rehabilitation	Land under rehabilitation			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:No_defined_use	No defined use			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_perennial_horticulture	Abandoned perennial horticulture			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_plantation_forests	Irrigated plantation forests				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_hardwood_plantation_forestry	Irrigated hardwood plantation forestry	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_softwood_plantation_forestry	Irrigated softwood plantation forestry	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_other_forest_plantation	Irrigated other forest plantation	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_environmental_forest_plantation	Irrigated environmental forest plantation	skos:broadMatch	get:groups/T7.3	T7.3 Plantations	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Grazing_irrigated_modified_pastures	Grazing irrigated modified pastures				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_woody_fodder_plants	Irrigated woody fodder plants	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_pasture_legumes	Irrigated pasture legumes	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_legume_or_grass_mixtures	Irrigated legume/grass mixtures	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_sown_grasses	Irrigated sown grasses	skos:broadMatch	get:groups/T7.2	T7.2 Sown pastures and fields	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_cropping	Irrigated cropping				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_cereals	Irrigated cereals	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_beverage_and_spice_crops	Irrigated beverage and spice crops	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_hay_and_silage_	Irrigated hay and silage 	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_oilseeds	Irrigated oilseeds	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_sugar	Irrigated sugar	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_cotton	Irrigated cotton	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_alkaloid_poppies	Irrigated alkaloid poppies	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_pulses	Irrigated pulses	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_rice	Irrigated rice	skos:exactMatch	get:groups/F3.3	F3.3 Rice paddies	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_perennial_horticulture	Irrigated perennial horticulture				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_tree_fruits	Irrigated tree fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_olives	Irrigated olives	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_tree_nuts	Irrigated tree nuts	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_vine_fruits	Irrigated vine fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_shrub_berries_and_fruits	Irrigated shrub berries and fruits	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated__perennial_flowers_and_bulbs	Irrigated  perennial flowers and bulbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_perennial_vegetables_and_herbs	Irrigated perennial vegetables and herbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_citrus	Irrigated citrus	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_grapes	Irrigated grapes	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_seasonal_horticulture	Irrigated seasonal horticulture				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_seasonal_fruits_	Irrigated seasonal fruits 	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_seasonal_flowers_and_bulbs	Irrigated seasonal flowers and bulbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_seasonal_vegetables_and_herbs	Irrigated seasonal vegetables and herbs	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_turf_farming	Irrigated turf farming	skos:broadMatch	get:groups/T7.1	T7.1 Croplands	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_land_in_transition	Irrigated land in transition				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Degraded_irrigated_land	Degraded irrigated land			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_irrigated_land	Abandoned irrigated land			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Irrigated_land_under_rehabilitation	Irrigated land under rehabilitation			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:No_defined_useirrigation	No defined use - irrigation			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_irrigated_perennial_horticulture	Abandoned irrigated perennial horticulture			NVIS	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Intensive_horticulture	Intensive horticulture				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Production_nurseries	Production nurseries	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Shadehouses	Shadehouses	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Glasshouses	Glasshouses	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Glasshouseshydroponic	Glasshouses - hydroponic	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_intensive_horticulture	Abandoned intensive horticulture	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Intensive_animal_production	Intensive animal production				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Dairy_sheds_and_yards	Dairy sheds and yards	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Feedlots	Feedlots	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Poultry_farms	Poultry farms	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Piggeries	Piggeries	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Aquaculture	Aquaculture	skos:exactMatch	get:groups/F3.4	F3.4 Freshwater aquafarms	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Horse_studs	Horse studs	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Saleyards_or_stockyards_	Saleyards/stockyards 	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_intensive_animal_production	Abandoned intensive animal production	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Manufacturing_and_industrial	Manufacturing and industrial				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:General_purpose_factory	General purpose factory	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Food_processing_factory	Food processing factory	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Major_industrial_complex	Major industrial complex	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Bulk_grain_storage	Bulk grain storage	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abattoirs	Abattoirs	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Oil_refinery	Oil refinery	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Sawmill	Sawmill	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Abandoned_manufacturing_and_industrial	Abandoned manufacturing and industrial	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Residential_and_farm_infrastructure	Residential and farm infrastructure				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Urban_residential	Urban residential	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Rural_residential_with_agriculture	Rural residential with agriculture	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Rural_residential_without_agriculture	Rural residential without agriculture	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Remote_communities	Remote communities	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Farm_buildings_or_infrastructure	Farm buildings/infrastructure	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Services	Services				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Commercial_services	Commercial services	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Public_services	Public services	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Recreation_and_culture	Recreation and culture	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Defence_facilitiesurban	Defence facilities - urban	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Research_facilities	Research facilities	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Utilities	Utilities				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Fuel_powered_electricity_generation	Fuel powered electricity generation	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Hydro_electricity_generation	Hydro electricity generation	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Wind_electricity_generation	Wind electricity generation	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Solar_electricity_generation	Solar electricity generation	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Electricity_substations_and_transmission	Electricity substations and transmission	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+"alum8:Gas_treatment,_storage_and_transmission"	"Gas treatment, storage and transmission"	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Water_extraction_and_transmission	Water extraction and transmission	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Transport_and_communication	Transport and communication				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Airports_or_aerodromes	Airports/aerodromes	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Roads	Roads	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Railways	Railways	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Ports_and_water_transport	Ports and water transport	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Navigation_and_communication	Navigation and communication	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Mining	Mining				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Mines	Mines	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Quarries	Quarries	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Tailings	Tailings	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Extractive_Industry_not_in_use	Extractive Industry not in use	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Waste_treatment_and_disposal	Waste treatment and disposal				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Effluent_pond	Effluent pond	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Landfill	Landfill	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Solid_garbage	Solid garbage	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Incinerators	Incinerators	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Sewage_or_sewerage	Sewage/sewerage	skos:broadMatch	get:groups/T7.4	T7.4 Urban and industrial ecosystems	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lake	Lake				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lakeconservation	Lake - conservation	skos:broadMatch	get:biomes/F2	F2 Lakes	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lakeproduction	Lake - production	skos:broadMatch	get:biomes/F2	F2 Lakes	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lakeintensive_use	Lake - intensive use	skos:broadMatch	get:biomes/F2	F2 Lakes	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lakesaline	Lake - saline	skos:narrowMatch	get:groups/F2.6	F2.6 Permanent salt and soda lakes	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Lakesaline	Lake - saline	skos:narrowMatch	get:groups/F2.7	F2.7 Ephemeral salt lakes	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Reservoir_or_dam	Reservoir/dam				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Reservoir	Reservoir	skos:broadMatch	get:groups/F3.1	F3.1 Large reservoirs	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Water_storageintensive_use_or_farm_dams	Water storage - intensive use/farm dams	skos:broadMatch	get:groups/F3.1	F3.1 Large reservoirs	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Evaporation_basin	Evaporation basin	skos:broadMatch	get:groups/F3.1	F3.1 Large reservoirs	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:River	River				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Riverconservation	River - conservation	skos:broadMatch	get:biomes/F1	F1 Rivers and streams	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Riverproduction	River - production	skos:broadMatch	get:biomes/F1	F1 Rivers and streams	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Riverintensive_use	River - intensive use	skos:broadMatch	get:biomes/F1	F1 Rivers and streams	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Channel_or_aqueduct	Channel/aqueduct				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Supply_channel_or_aqueduct	Supply channel/aqueduct	skos:broadMatch	get:groups/F3.5	"F3.5 Canals, ditches and drains"	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Drainage_channel_or_aqueduct	Drainage channel/aqueduct	skos:broadMatch	get:groups/F3.5	"F3.5 Canals, ditches and drains"	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Stormwater	Stormwater	skos:broadMatch	get:groups/F3.5	"F3.5 Canals, ditches and drains"	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Marsh_or_wetland	Marsh/wetland				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Marsh_or_wetlandconservation	Marsh/wetland - conservation	skos:broadMatch	get:biomes/TF1	TF1 Palustrine wetlands biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Marsh_or_wetlandproduction	Marsh/wetland - production	skos:broadMatch	get:biomes/TF1	TF1 Palustrine wetlands biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Marsh_or_wetlandintensive_use	Marsh/wetland - intensive use	skos:broadMatch	get:biomes/TF1	TF1 Palustrine wetlands biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Marsh_or_wetlandsaline	Marsh/wetland - saline	skos:exactMatch	get:groups/MFT1.3	MFT1.3 Coastal saltmarshes and reedbeds	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_waters	Estuary/coastal waters				semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersconservation	Estuary/coastal waters - conservation	skos:narrowMatch	get:biomes/FM1	FM1 Semi-confined transitional waters biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersconservation	Estuary/coastal waters - conservation	skos:narrowMatch	get:groups/MFT1.1	MFT1.1 Coastal river deltas	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersproduction	Estuary/coastal waters - production	skos:narrowMatch	get:biomes/FM1	FM1 Semi-confined transitional waters biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersproduction	Estuary/coastal waters - production	skos:narrowMatch	get:groups/MFT1.1	MFT1.1 Coastal river deltas	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersintensive_use	Estuary/coastal waters - intensive use	skos:narrowMatch	get:biomes/FM1	FM1 Semi-confined transitional waters biome	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
+alum8:Estuary_or_coastal_watersintensive_use	Estuary/coastal waters - intensive use	skos:narrowMatch	get:groups/MFT1.1	MFT1.1 Coastal river deltas	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	Dec-23		
