@@ -1,0 +1,69 @@
+# baseURI: http://w3id.org/env/crosswalk/alum2get/
+# imports: file:///C:/dev/ecosystem-typology/ABARES/ALUM8/rdf/abares-australian-land-use-and-management-classification-version-8.ttl
+# imports: http://purl.org/dc/terms/
+# imports: http://rdf-vocabulary.ddialliance.org/xkos
+# imports: http://w3id.org/env/iucn-get/
+# imports: http://www.w3.org/2004/02/skos/core
+# prefix: ag
+
+@prefix ag: <http://w3id.org/env/crosswalk/alum2get/> .
+@prefix alum8: <http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix get: <https://global-ecosystems.org/explore/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unnamed: <http://example.org/unnamed#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ag:
+  a xkos:Correspondence ;
+  a owl:Ontology ;
+  dcterms:created "2024-01-03"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:creator <mailto:craig.macfarlane@csiro.au> ;
+  dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dcterms:source <https://github.com/CSIRO-enviro-informatics/ecosystem-typology/blob/main/crosswalks/ALUM-IUCNGET/ALUMv8-IUCNGET.xlsx> ;
+  xkos:compares alum8: ;
+  xkos:compares get: ;
+  owl:imports <file:///C:/dev/ecosystem-typology/ABARES/ALUM8/rdf/abares-australian-land-use-and-management-classification-version-8.ttl> ;
+  owl:imports dcterms: ;
+  owl:imports <http://rdf-vocabulary.ddialliance.org/xkos> ;
+  owl:imports <http://w3id.org/env/iucn-get/> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  skos:prefLabel "Correspondence table: ALUMv8 to IUCN GET" ;
+.
+ag:Plantation-forests
+  a xkos:ConceptAssociation ;
+  xkos:sourceConcept alum8:Environmental-forest-plantation ;
+  xkos:sourceConcept alum8:Hardwood-plantation-forestry ;
+  xkos:sourceConcept alum8:Other-forest-plantation ;
+  xkos:sourceConcept alum8:Softwood-plantation-forestry ;
+  xkos:targetConcept <http://w3id.org/env/iucn-get/T7.3> ;
+  skos:prefLabel "Correspondence item: Plantation-forests" ;
+.
+ag:Grazing-modified-pastures
+  a xkos:ConceptAssociation ;
+  xkos:sourceConcept alum8:Native-or-exotic-pasture-mosaic ;
+  xkos:sourceConcept alum8:Woody-fodder-plants ;
+  xkos:sourceConcept alum8:Pasture-legumes ;
+  xkos:sourceConcept alum8:Pasture-legume-or-grass-mixtures ;
+  xkos:sourceConcept alum8:Sown-grasses ;
+  xkos:targetConcept <http://w3id.org/env/iucn-get/T7.2> ;
+  skos:prefLabel "Correspondence item: Grazing-modified-pastures" ;
+.
+ag:Cropping
+  a xkos:ConceptAssociation ;
+  xkos:sourceConcept alum8:Cereals ;
+  xkos:sourceConcept alum8:Beverage-and-spice-crops ;
+  xkos:sourceConcept alum8:Hay-and-silage ;
+  xkos:sourceConcept alum8:Oilseeds ;
+  xkos:sourceConcept alum8:Sugar ;
+  xkos:sourceConcept alum8:Cotton ;
+  xkos:sourceConcept alum8:Alkaloid-poppies ;
+  xkos:sourceConcept alum8:Pulses ;
+  xkos:targetConcept <http://w3id.org/env/iucn-get/T7.1> ;
+  skos:prefLabel "Correspondence item: Cropping" ;
+.
