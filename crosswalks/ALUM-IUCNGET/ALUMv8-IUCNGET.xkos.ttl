@@ -8,11 +8,14 @@
 
 @prefix ag: <http://w3id.org/env/crosswalk/alum2get/> .
 @prefix alum8: <http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix get: <https://global-ecosystems.org/explore/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix unnamed: <http://example.org/unnamed#> .
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
@@ -22,8 +25,14 @@ ag:
   a xkos:Correspondence ;
   a owl:Ontology ;
   dcterms:created "2024-01-03"^^xsd:date ;
+  dcterms:issued "2024-01-13"^^xsd:date ;
   dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:creator <mailto:craig.macfarlane@csiro.au> ;
+  dcterms:publisher <https://ror.org/03qn8fb07> ;
+  prov:qualifiedAttribution [
+    prov:agent <https://ror.org/03qn8fb07> ;
+    dcat:hadRole <https://standards.iso.org/iso/19115/resources/Codelists/gml/CI_RoleCode.xml#custodian> ;
+  ] ;
   dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
   dcterms:source <https://github.com/CSIRO-enviro-informatics/ecosystem-typology/blob/main/crosswalks/ALUM-IUCNGET/ALUMv8-IUCNGET.xlsx> ;
   xkos:compares alum8: ;
@@ -43,6 +52,18 @@ ag:Plantation-forests
   xkos:sourceConcept alum8:Softwood-plantation-forestry ;
   xkos:targetConcept <http://w3id.org/env/iucn-get/T7.3> ;
   skos:prefLabel "Correspondence item: Plantation-forests" ;
+  prov:qualifiedAttribution [
+    prov:agent <mailto:craig.macfarlane@csiro.au> ;
+    dcat:hadRole <https://id.loc.gov/vocabulary/relators/anl> ;
+    dcterms:date "2023-12-01"^^xsd:date ;
+    prov:used semapv:ManualMappingCuration ;
+  ] ;
+  prov:qualifiedAttribution [
+    prov:agent <https://orcid.org/0000-0002-2934-5497> ;
+    dcat:hadRole <http://id.loc.gov/vocabulary/relators/rev> ;
+    rdfs:comment "Anna Richards reviewed and approved this correspondence" ;
+    dcterms:date "2023-12-21"^^xsd:date ;
+  ] ;
 .
 ag:Grazing-modified-pastures
   a xkos:ConceptAssociation ;
