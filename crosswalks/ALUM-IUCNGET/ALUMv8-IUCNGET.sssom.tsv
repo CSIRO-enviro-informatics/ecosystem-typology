@@ -1,11 +1,11 @@
-"#creator_id: 'https://orcid.org/0000-0002-3884-3420'"									
+#creator_id: 'https://orcid.org/0000-0002-3884-3420'									
 #curie_map: 									
-"#  alum8: 'http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/'"									
-"#  get: 'https://global-ecosystems.org/explore/'"									
-"#  semapv: 'https://w3id.org/semapv/vocab/'"									
-"#  skos: 'http://www.w3.org/2004/02/skos/core'"									
-"# xkos: 'http://rdf-vocabulary.ddialliance.org/xkos#'"									
-"#license: 'https://creativecommons.org/publicdomain/zero/1.0/'"									
+#  alum8: 'http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/'									
+#  get: 'https://global-ecosystems.org/explore/'									
+#  semapv: 'https://w3id.org/semapv/vocab/'									
+#  skos: 'http://www.w3.org/2004/02/skos/core'									
+#  xkos: 'http://rdf-vocabulary.ddialliance.org/xkos#'									
+#license: 'https://creativecommons.org/publicdomain/zero/1.0/'									
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	confidence	comment
 alum8:Nature-conservation	Nature conservation			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	23-Dec		
 alum8:Strict-nature-reserves	Strict nature reserves			Administrative	semapv:ManualMappingCuration	mailto:Craig.Macfarlane@csiro.au	23-Dec		
