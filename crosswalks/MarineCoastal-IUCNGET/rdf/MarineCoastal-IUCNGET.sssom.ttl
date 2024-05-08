@@ -28,6 +28,10 @@
   dcterms:title "Crosswalk - Marine/Coastal to IUCN GET" ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports <https://w3id.org/sssom/schema/> ;
+  sssom:mappings nesp2get:Shelf-unvegetated-sediments-a ;
+  sssom:mappings nesp2get:Shelf-unvegetated-sediments-b ;
+  sssom:mappings nesp2get:Shelf-unvegetated-sediments-c ;
+  sssom:mappings nesp2get:Shelf-unvegetated-sediments-d ;
 .
 nesp2get:Shelf-unvegetated-sediments-a
   a sssom:Mapping ;
