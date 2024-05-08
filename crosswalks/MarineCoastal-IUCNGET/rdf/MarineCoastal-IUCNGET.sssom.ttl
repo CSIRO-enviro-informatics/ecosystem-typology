@@ -1,0 +1,106 @@
+# baseURI: http://w3id.org/env/crosswalk/NESP2GET
+# imports: http://purl.org/dc/elements/1.1/
+# imports: https://w3id.org/sssom/schema/
+
+@prefix crosswalk: <https://w3id.org/env/crosswalk/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix get: <https://global-ecosystems.org/explore/> .
+@prefix group: <https://global-ecosystems.org/explore/groups/> .
+@prefix nesp: <https://w3id.org/env/nesp/> .
+@prefix nesp2get: <http://w3id.org/env/crosswalk/NESP2GET/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix status: <https://w3id.org/sssom/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/env/crosswalk/NESP2GET>
+  a owl:Ontology ;
+  a sssom:MappingSet ;
+  dcterms:created "2024-05-08"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:title "Crosswalk - Marine/Coastal to IUCN GET" ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
+  owl:imports <https://w3id.org/sssom/schema/> ;
+.
+nesp2get:Shelf-unvegetated-sediments-a
+  a sssom:Mapping ;
+  dcterms:created "2024-01-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/M1.4> ;
+  rdf:predicate skos:narrowMatch ;
+  rdf:subject nesp:Shelf-unvegetated-sediments ;
+  rdfs:comment "see email from Toni Cannard for review comments" ;
+  rdfs:label "Shelf unvegetated sediments - mapping a" ;
+  sssom:confidence 0.25 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "Shellfish beds and reefs" ;
+  sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
+  sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
+  sssom:status status:reviewed ;
+  sssom:subject_label "Shelf unvegetated sediments" ;
+.
+nesp2get:Shelf-unvegetated-sediments-b
+  a sssom:Mapping ;
+  dcterms:created "2024-01-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/M1.7> ;
+  rdf:predicate skos:narrowMatch ;
+  rdf:subject nesp:Shelf-unvegetated-sediments ;
+  rdfs:comment "see email from Toni Cannard for review comments" ;
+  rdfs:label "Shelf unvegetated sediments - mapping b" ;
+  sssom:confidence 0.25 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "Subtidal sand beds" ;
+  sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
+  sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
+  sssom:status status:reviewed ;
+  sssom:subject_label "Shelf unvegetated sediments" ;
+.
+nesp2get:Shelf-unvegetated-sediments-c
+  a sssom:Mapping ;
+  dcterms:created "2024-01-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/M1.8> ;
+  rdf:predicate skos:narrowMatch ;
+  rdf:subject nesp:Shelf-unvegetated-sediments ;
+  rdfs:comment "see email from Toni Cannard for review comments" ;
+  rdfs:label "Shelf unvegetated sediments - mapping c" ;
+  sssom:confidence 0.25 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "Subtidal mud plains" ;
+  sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
+  sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
+  sssom:status status:reviewed ;
+  sssom:subject_label "Shelf unvegetated sediments" ;
+.
+nesp2get:Shelf-unvegetated-sediments-d
+  a sssom:Mapping ;
+  dcterms:created "2024-01-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/M1.10> ;
+  rdf:predicate skos:narrowMatch ;
+  rdf:subject nesp:Shelf-unvegetated-sediments ;
+  rdfs:comment "see email from Toni Cannard for review comments" ;
+  rdfs:label "Shelf unvegetated sediments - mapping d" ;
+  sssom:confidence 0.25 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "Rhodolith/Maërl beds" ;
+  sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
+  sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
+  sssom:status status:reviewed ;
+  sssom:subject_label "Shelf unvegetated sediments" ;
+.
+sssom:status
+  a owl:ObjectProperty ;
+.
