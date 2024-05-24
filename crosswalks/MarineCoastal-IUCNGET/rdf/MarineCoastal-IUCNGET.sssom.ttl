@@ -48,7 +48,7 @@ nesp2get:Shelf-unvegetated-sediments-a
   sssom:object_label "Shellfish beds and reefs" ;
   sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
   sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
-  sssom:status status:reviewed ;
+  crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:Shelf-unvegetated-sediments-b
@@ -66,7 +66,7 @@ nesp2get:Shelf-unvegetated-sediments-b
   sssom:object_label "Subtidal sand beds" ;
   sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
   sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
-  sssom:status status:reviewed ;
+  crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:Shelf-unvegetated-sediments-c
@@ -84,7 +84,7 @@ nesp2get:Shelf-unvegetated-sediments-c
   sssom:object_label "Subtidal mud plains" ;
   sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
   sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
-  sssom:status status:reviewed ;
+  crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:Shelf-unvegetated-sediments-d
@@ -102,9 +102,9 @@ nesp2get:Shelf-unvegetated-sediments-d
   sssom:object_label "Rhodolith/Maërl beds" ;
   sssom:reviewer_id <https://orcid.org/0000-0002-2568-5945> ;
   sssom:reviewer_id <https://orcid.org/0000-0003-4254-8683> ;
-  sssom:status status:reviewed ;
+  crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
-sssom:status
+crosswalk:status
   a owl:ObjectProperty ;
 .
