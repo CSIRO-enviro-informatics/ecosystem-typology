@@ -16,14 +16,14 @@
     "predicate" : "skos:narrowMatch",
     "subject" : "nesp:Shelf-unvegetated-sediments",
     "comment" : "see email from Toni Cannard for review comments",
-    "label" : "Shelf unvegetated sediments - mapping a",
+    "label" : "Shelf unvegetated sediments - mapping to IUCN GET - a",
     "crosswalk:status" : {
       "@id" : "status:reviewed"
     },
     "confidence" : "0.25",
     "creator_label" : "Craig Macfarlane",
     "mapping_justification" : "semapv:ManualMappingCuration",
-    "object_label" : "Shellfish beds and reefs",
+    "object_label" : "M1.4 Shellfish beds and reefs",
     "reviewer_id" : [ "orcid:0000-0002-2568-5945", "orcid:0000-0003-4254-8683" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
@@ -35,14 +35,14 @@
     "predicate" : "skos:narrowMatch",
     "subject" : "nesp:Shelf-unvegetated-sediments",
     "comment" : "see email from Toni Cannard for review comments",
-    "label" : "Shelf unvegetated sediments - mapping b",
+    "label" : "Shelf unvegetated sediments - mapping to IUCN GET - b",
     "crosswalk:status" : {
       "@id" : "status:reviewed"
     },
     "confidence" : "0.25",
     "creator_label" : "Craig Macfarlane",
     "mapping_justification" : "semapv:ManualMappingCuration",
-    "object_label" : "Subtidal sand beds",
+    "object_label" : "M1.7 Subtidal sand beds",
     "reviewer_id" : [ "orcid:0000-0003-4254-8683", "orcid:0000-0002-2568-5945" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
@@ -54,14 +54,14 @@
     "predicate" : "skos:narrowMatch",
     "subject" : "nesp:Shelf-unvegetated-sediments",
     "comment" : "see email from Toni Cannard for review comments",
-    "label" : "Shelf unvegetated sediments - mapping c",
+    "label" : "Shelf unvegetated sediments - mapping to IUCN GET - c",
     "crosswalk:status" : {
       "@id" : "status:reviewed"
     },
     "confidence" : "0.25",
     "creator_label" : "Craig Macfarlane",
     "mapping_justification" : "semapv:ManualMappingCuration",
-    "object_label" : "Subtidal mud plains",
+    "object_label" : "M1.8 Subtidal mud plains",
     "reviewer_id" : [ "orcid:0000-0002-2568-5945", "orcid:0000-0003-4254-8683" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
@@ -73,14 +73,14 @@
     "predicate" : "skos:narrowMatch",
     "subject" : "nesp:Shelf-unvegetated-sediments",
     "comment" : "see email from Toni Cannard for review comments",
-    "label" : "Shelf unvegetated sediments - mapping d",
+    "label" : "Shelf unvegetated sediments - mapping to IUCN GET - d",
     "crosswalk:status" : {
       "@id" : "status:reviewed"
     },
     "confidence" : "0.25",
     "creator_label" : "Craig Macfarlane",
     "mapping_justification" : "semapv:ManualMappingCuration",
-    "object_label" : "Rhodolith/Maërl beds",
+    "object_label" : "M1.10 Rhodolith/Maërl beds",
     "reviewer_id" : [ "orcid:0000-0003-4254-8683", "orcid:0000-0002-2568-5945" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
@@ -112,8 +112,8 @@
       "@type" : "@id"
     },
     "status" : "https://w3id.org/sssom/status/",
-    "object_label" : {
-      "@id" : "https://w3id.org/sssom/object_label"
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "object" : {
       "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
@@ -121,6 +121,9 @@
     },
     "subject_label" : {
       "@id" : "https://w3id.org/sssom/subject_label"
+    },
+    "object_label" : {
+      "@id" : "https://w3id.org/sssom/object_label"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -139,9 +142,6 @@
     "reviewer_id" : {
       "@id" : "https://w3id.org/sssom/reviewer_id",
       "@type" : "@id"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "confidence" : {
       "@id" : "https://w3id.org/sssom/confidence",
