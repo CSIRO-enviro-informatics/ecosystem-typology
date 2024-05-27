@@ -8,7 +8,7 @@
     "imports" : [ "sssom:schema/", "http://purl.org/dc/elements/1.1/" ],
     "mappings" : [ "nesp2get:Shelf-unvegetated-sediments-b", "nesp2get:Shelf-unvegetated-sediments-c", "nesp2get:Shelf-unvegetated-sediments-d", "nesp2get:Shelf-unvegetated-sediments-a" ]
   }, {
-    "@id" : "nesp2get:Shelf-unvegetated-sediments-a",
+    "@id" : "nesp2get:002",
     "@type" : "sssom:Mapping",
     "created" : "2024-01-01",
     "creator" : "orcid:0009-0001-6090-9959",
@@ -27,7 +27,7 @@
     "reviewer_id" : [ "orcid:0000-0002-2568-5945", "orcid:0000-0003-4254-8683" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
-    "@id" : "nesp2get:Shelf-unvegetated-sediments-b",
+    "@id" : "nesp2get:003",
     "@type" : "sssom:Mapping",
     "created" : "2024-01-01",
     "creator" : "orcid:0009-0001-6090-9959",
@@ -43,10 +43,10 @@
     "creator_label" : "Craig Macfarlane",
     "mapping_justification" : "semapv:ManualMappingCuration",
     "object_label" : "Subtidal sand beds",
-    "reviewer_id" : [ "orcid:0000-0002-2568-5945", "orcid:0000-0003-4254-8683" ],
+    "reviewer_id" : [ "orcid:0000-0003-4254-8683", "orcid:0000-0002-2568-5945" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
-    "@id" : "nesp2get:Shelf-unvegetated-sediments-c",
+    "@id" : "nesp2get:004",
     "@type" : "sssom:Mapping",
     "created" : "2024-01-01",
     "creator" : "orcid:0009-0001-6090-9959",
@@ -65,7 +65,7 @@
     "reviewer_id" : [ "orcid:0000-0002-2568-5945", "orcid:0000-0003-4254-8683" ],
     "subject_label" : "Shelf unvegetated sediments"
   }, {
-    "@id" : "nesp2get:Shelf-unvegetated-sediments-d",
+    "@id" : "nesp2get:005",
     "@type" : "sssom:Mapping",
     "created" : "2024-01-01",
     "creator" : "orcid:0009-0001-6090-9959",
@@ -107,45 +107,45 @@
       "@id" : "http://purl.org/dc/terms/created",
       "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
-    "reviewer_id" : {
-      "@id" : "https://w3id.org/sssom/reviewer_id",
+    "predicate" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
       "@type" : "@id"
-    },
-    "confidence" : {
-      "@id" : "https://w3id.org/sssom/confidence",
-      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
     },
     "status" : "https://w3id.org/sssom/status/",
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    "object_label" : {
+      "@id" : "https://w3id.org/sssom/object_label"
     },
-    "mapping_justification" : {
-      "@id" : "https://w3id.org/sssom/mapping_justification",
+    "object" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
       "@type" : "@id"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "subject_label" : {
       "@id" : "https://w3id.org/sssom/subject_label"
     },
-    "object_label" : {
-      "@id" : "https://w3id.org/sssom/object_label"
-    },
-    "creator_label" : {
-      "@id" : "https://w3id.org/sssom/creator_label"
-    },
-    "predicate" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
-      "@type" : "@id"
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "subject" : {
       "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
       "@type" : "@id"
     },
-    "object" : {
-      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "creator_label" : {
+      "@id" : "https://w3id.org/sssom/creator_label"
+    },
+    "mapping_justification" : {
+      "@id" : "https://w3id.org/sssom/mapping_justification",
       "@type" : "@id"
+    },
+    "reviewer_id" : {
+      "@id" : "https://w3id.org/sssom/reviewer_id",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "confidence" : {
+      "@id" : "https://w3id.org/sssom/confidence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
     },
     "pav" : "http://purl.org/pav/",
     "owl" : "http://www.w3.org/2002/07/owl#",

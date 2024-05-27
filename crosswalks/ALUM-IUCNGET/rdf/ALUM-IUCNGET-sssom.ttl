@@ -1,0 +1,106 @@
+# baseURI: http://w3id.org/env/crosswalk/ALUM2GET
+# imports: http://purl.org/dc/elements/1.1/
+# imports: https://w3id.org/sssom/schema/
+
+@prefix crosswalk: <https://w3id.org/env/crosswalk/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix get: <https://global-ecosystems.org/explore/> .
+@prefix group: <https://global-ecosystems.org/explore/groups/> .
+@prefix alum: <https://w3id.org/env/alum/> .
+@prefix alum2get: <http://w3id.org/env/crosswalk/ALUM2GET/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix status: <https://w3id.org/sssom/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/env/crosswalk/ALUM2GET>
+  a owl:Ontology ;
+  a sssom:MappingSet ;
+  dcterms:created "2024-05-27"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:title "Crosswalk - ALUMv8 to IUCN GET" ;
+  owl:imports <http://purl.org/dc/elements/1.1/> ;
+  owl:imports <https://w3id.org/sssom/schema/> ;
+  sssom:mappings alum2get:101 ;
+  sssom:mappings alum2get:102 ;
+  sssom:mappings alum2get:103 ;
+  sssom:mappings alum2get:104 ;
+.
+alum2get:101
+  a sssom:Mapping ;
+  dcterms:created "2024-05-01"^^xsd:date ;
+  dcterms:creator orcid:0000-0002-4048-6792 ;
+  rdf:object <https://global-ecosystems.org/explore/groups/T7.4> ;
+  rdf:predicate skos:broadMatch ;
+  rdf:subject alum:Intensive-horticulture ;
+  rdfs:comment "" ;
+  rdfs:label "5.1.0 Intensive horticulture - mapping to IUCN GET" ;
+  sssom:confidence 1.0 ;
+  sssom:creator_label "Rebecca Jordan" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "T7.4 Urban and industrial ecosystems" ;
+  sssom:reviewer_id orcid:0000-0000-0000-0000 ;
+  crosswalk:status status:draft ;
+  sssom:subject_label "5.1.0 Intensive horticulture" ;
+.
+alum2get:102
+  a sssom:Mapping ;
+  dcterms:created "2023-12-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/T7.4> ;
+  rdf:predicate skos:broadMatch ;
+  rdf:subject alum:Production-nurseries ;
+  rdfs:comment "" ;
+  rdfs:label "5.1.1 Production nurseries - mapping to IUCN GET" ;
+  sssom:confidence 1.0 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "T7.4 Urban and industrial ecosystems" ;
+  sssom:reviewer_id orcid:0000-0000-0000-0000 ;
+  crosswalk:status status:draft ;
+  sssom:subject_label "5.1.1 Production nurseries" ;
+.
+alum2get:103
+  a sssom:Mapping ;
+  dcterms:created "2023-12-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/T7.4> ;
+  rdf:predicate skos:broadMatch ;
+  rdf:subject alum:Shadehouses ;
+  rdfs:comment "" ;
+  rdfs:label "5.1.2 Shadehouses - mapping to IUCN GET" ;
+  sssom:confidence 1.0 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "T7.4 Urban and industrial ecosystems" ;
+  sssom:reviewer_id orcid:0000-0000-0000-0000 ;
+  crosswalk:status status:draft ;
+  sssom:subject_label "5.1.2 Shadehouses" ;
+.
+alum2get:104
+  a sssom:Mapping ;
+  dcterms:created "2023-12-01"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
+  rdf:object <https://global-ecosystems.org/explore/groups/T7.4> ;
+  rdf:predicate skos:broadMatch ;
+  rdf:subject alum:Glasshouses ;
+  rdfs:comment "" ;
+  rdfs:label "5.1.3 Glasshouses - mapping to IUCN GET" ;
+  sssom:confidence 1.0 ;
+  sssom:creator_label "Craig Macfarlane" ;
+  sssom:mapping_justification semapv:ManualMappingCuration ;
+  sssom:object_label "T7.4 Urban and industrial ecosystems" ;
+  sssom:reviewer_id orcid:0000-0000-0000-0000 ;
+  crosswalk:status status:draft ;
+  sssom:subject_label "5.1.3 Glasshouses" ;
+.
+crosswalk:status
+  a owl:ObjectProperty ;
+.

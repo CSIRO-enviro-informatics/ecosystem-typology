@@ -33,7 +33,7 @@
   sssom:mappings nesp2get:Shelf-unvegetated-sediments-c ;
   sssom:mappings nesp2get:Shelf-unvegetated-sediments-d ;
 .
-nesp2get:Shelf-unvegetated-sediments-a
+nesp2get:002
   a sssom:Mapping ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -51,7 +51,7 @@ nesp2get:Shelf-unvegetated-sediments-a
   crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
-nesp2get:Shelf-unvegetated-sediments-b
+nesp2get:003
   a sssom:Mapping ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -69,7 +69,7 @@ nesp2get:Shelf-unvegetated-sediments-b
   crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
-nesp2get:Shelf-unvegetated-sediments-c
+nesp2get:004
   a sssom:Mapping ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -87,7 +87,7 @@ nesp2get:Shelf-unvegetated-sediments-c
   crosswalk:status status:reviewed ;
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
-nesp2get:Shelf-unvegetated-sediments-d
+nesp2get:005
   a sssom:Mapping ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
