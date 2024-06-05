@@ -22,7 +22,7 @@
 
 <http://w3id.org/env/crosswalk/NESP2GET>
   a owl:Ontology ;
-  a sssom:MappingSet ;
+  a sssom:Mapping , rdf:StatementSet ;
   dcterms:created "2024-05-08"^^xsd:date ;
   dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:title "Crosswalk - Marine/Coastal to IUCN GET" ;
@@ -34,7 +34,7 @@
   sssom:mappings nesp2get:Shelf-unvegetated-sediments-d ;
 .
 nesp2get:002
-  a sssom:Mapping ;
+  a sssom:Mapping , rdf:Statement ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
   rdf:object <https://global-ecosystems.org/explore/groups/M1.4> ;
@@ -52,7 +52,7 @@ nesp2get:002
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:003
-  a sssom:Mapping ;
+  a sssom:Mapping , rdf:Statement ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
   rdf:object <https://global-ecosystems.org/explore/groups/M1.7> ;
@@ -70,7 +70,7 @@ nesp2get:003
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:004
-  a sssom:Mapping ;
+  a sssom:Mapping , rdf:Statement ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
   rdf:object <https://global-ecosystems.org/explore/groups/M1.8> ;
@@ -88,7 +88,7 @@ nesp2get:004
   sssom:subject_label "Shelf unvegetated sediments" ;
 .
 nesp2get:005
-  a sssom:Mapping ;
+  a sssom:Mapping , rdf:Statement ;
   dcterms:created "2024-01-01"^^xsd:date ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
   rdf:object <https://global-ecosystems.org/explore/groups/M1.10> ;
