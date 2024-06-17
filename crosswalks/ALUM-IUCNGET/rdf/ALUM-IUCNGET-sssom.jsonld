@@ -1,0 +1,167 @@
+{
+  "@graph" : [ {
+    "@id" : "http://w3id.org/env/crosswalk/ALUM2GET",
+    "@type" : [ "sssom:MappingSet", "owl:Ontology" ],
+    "created" : "2024-05-27",
+    "creator" : "orcid:0000-0002-3884-3420",
+    "title" : "Crosswalk - ALUMv8 to IUCN GET",
+    "imports" : [ "http://purl.org/dc/elements/1.1/", "sssom:schema/" ],
+    "mappings" : [ "alum2get:103", "alum2get:102", "alum2get:104", "alum2get:101" ]
+  }, {
+    "@id" : "alum2get:101",
+    "@type" : "sssom:Mapping",
+    "created" : "2024-05-01",
+    "creator" : "orcid:0000-0002-4048-6792",
+    "object" : "group:T7.4",
+    "predicate" : "skos:broadMatch",
+    "subject" : "alum:Intensive-horticulture",
+    "comment" : "",
+    "label" : "5.1.0 Intensive horticulture - mapping to IUCN GET",
+    "crosswalk:status" : {
+      "@id" : "status:draft"
+    },
+    "confidence" : "1.0",
+    "creator_label" : "Rebecca Jordan",
+    "mapping_justification" : "semapv:ManualMappingCuration",
+    "object_label" : "T7.4 Urban and industrial ecosystems",
+    "reviewer_id" : "orcid:0000-0000-0000-0000",
+    "subject_label" : "5.1.0 Intensive horticulture"
+  }, {
+    "@id" : "alum2get:102",
+    "@type" : "sssom:Mapping",
+    "created" : "2023-12-01",
+    "creator" : "orcid:0009-0001-6090-9959",
+    "object" : "group:T7.4",
+    "predicate" : "skos:broadMatch",
+    "subject" : "alum:Production-nurseries",
+    "comment" : "",
+    "label" : "5.1.1 Production nurseries - mapping to IUCN GET",
+    "crosswalk:status" : {
+      "@id" : "status:draft"
+    },
+    "confidence" : "1.0",
+    "creator_label" : "Craig Macfarlane",
+    "mapping_justification" : "semapv:ManualMappingCuration",
+    "object_label" : "T7.4 Urban and industrial ecosystems",
+    "reviewer_id" : "orcid:0000-0000-0000-0000",
+    "subject_label" : "5.1.1 Production nurseries"
+  }, {
+    "@id" : "alum2get:103",
+    "@type" : "sssom:Mapping",
+    "created" : "2023-12-01",
+    "creator" : "orcid:0009-0001-6090-9959",
+    "object" : "group:T7.4",
+    "predicate" : "skos:broadMatch",
+    "subject" : "alum:Shadehouses",
+    "comment" : "",
+    "label" : "5.1.2 Shadehouses - mapping to IUCN GET",
+    "crosswalk:status" : {
+      "@id" : "status:draft"
+    },
+    "confidence" : "1.0",
+    "creator_label" : "Craig Macfarlane",
+    "mapping_justification" : "semapv:ManualMappingCuration",
+    "object_label" : "T7.4 Urban and industrial ecosystems",
+    "reviewer_id" : "orcid:0000-0000-0000-0000",
+    "subject_label" : "5.1.2 Shadehouses"
+  }, {
+    "@id" : "alum2get:104",
+    "@type" : "sssom:Mapping",
+    "created" : "2023-12-01",
+    "creator" : "orcid:0009-0001-6090-9959",
+    "object" : "group:T7.4",
+    "predicate" : "skos:broadMatch",
+    "subject" : "alum:Glasshouses",
+    "comment" : "",
+    "label" : "5.1.3 Glasshouses - mapping to IUCN GET",
+    "crosswalk:status" : {
+      "@id" : "status:draft"
+    },
+    "confidence" : "1.0",
+    "creator_label" : "Craig Macfarlane",
+    "mapping_justification" : "semapv:ManualMappingCuration",
+    "object_label" : "T7.4 Urban and industrial ecosystems",
+    "reviewer_id" : "orcid:0000-0000-0000-0000",
+    "subject_label" : "5.1.3 Glasshouses"
+  }, {
+    "@id" : "crosswalk:status",
+    "@type" : "owl:ObjectProperty"
+  } ],
+  "@context" : {
+    "creator_label" : {
+      "@id" : "https://w3id.org/sssom/creator_label"
+    },
+    "confidence" : {
+      "@id" : "https://w3id.org/sssom/confidence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "status" : "https://w3id.org/sssom/status/",
+    "predicate" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+      "@type" : "@id"
+    },
+    "reviewer_id" : {
+      "@id" : "https://w3id.org/sssom/reviewer_id",
+      "@type" : "@id"
+    },
+    "mapping_justification" : {
+      "@id" : "https://w3id.org/sssom/mapping_justification",
+      "@type" : "@id"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "subject" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+      "@type" : "@id"
+    },
+    "object" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "subject_label" : {
+      "@id" : "https://w3id.org/sssom/subject_label"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "object_label" : {
+      "@id" : "https://w3id.org/sssom/object_label"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "mappings" : {
+      "@id" : "https://w3id.org/sssom/mappings",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "pav" : "http://purl.org/pav/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "orcid" : "https://orcid.org/",
+    "alum" : "https://w3id.org/env/alum/",
+    "crosswalk" : "https://w3id.org/env/crosswalk/",
+    "semapv" : "https://w3id.org/semapv/vocab/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "alum2get" : "http://w3id.org/env/crosswalk/ALUM2GET/",
+    "get" : "https://global-ecosystems.org/explore/",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "sssom" : "https://w3id.org/sssom/",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "group" : "https://global-ecosystems.org/explore/groups/"
+  }
+}
