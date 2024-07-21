@@ -1,0 +1,39 @@
+@prefix crosswalk: <https://w3id.org/env/neap/crosswalk/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix estuarine: <https://w3id.org/env/neap/estuarine/> .
+@prefix map: <http://w3id.org/env/neap/estuarine-get/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix status: <https://w3id.org/env/neap/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+map:1 a sssom:Mapping ;
+    rdfs:label "Estuarine, delta - mapping to IUCN GET - 1" ;
+    dcterms:created "2024-05-10T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.3> ;
+    rdf:predicate skos:narrowmatch ;
+    rdf:subject estuarine:Estuarine ;
+    crosswalk:status status:draft ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "FM1.3 Intermittently closed and open lakes and lagoons" ;
+    sssom:subject_label "Estuarine, delta" .
+
+map:2 a sssom:Mapping ;
+    rdfs:label "Estuarine, delta - mapping to IUCN GET - 2" ;
+    dcterms:created "2024-05-10T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.2> ;
+    rdf:predicate skos:narrowmatch ;
+    rdf:subject estuarine:Estuarine ;
+    crosswalk:status status:draft ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "FM1.2 Permanently open riverine estuaries and bays" ;
+    sssom:subject_label "Estuarine, delta" .
+
