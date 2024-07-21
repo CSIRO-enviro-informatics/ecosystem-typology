@@ -1,0 +1,408 @@
+@prefix crosswalk: <https://w3id.org/env/neap/crosswalk/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix map: <http://w3id.org/env/neap/nesp-get/> .
+@prefix nesp: <https://w3id.org/env/neap/nesp/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix status: <https://w3id.org/env/neap/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+map:1 a sssom:Mapping ;
+    rdfs:label "Shelf unvegetated sediments - mapping to IUCN GET - 1" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.4> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shelf-unvegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.4 Shellfish beds and reefs" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf unvegetated sediments" .
+
+map:10 a sssom:Mapping ;
+    rdfs:label "Seamount reefs - mapping to IUCN GET - 10" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.4> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Seamount-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.4 Seamounts, ridges and plateaus" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Seamount reefs" .
+
+map:11 a sssom:Mapping ;
+    rdfs:label "Shelf incised canyons - mapping to IUCN GET - 11" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.2> ;
+    rdf:predicate skos:exactMatch ;
+    rdf:subject nesp:Shelf-incised-canyons ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.2 Submarine canyons" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf incised canyons" .
+
+map:12 a sssom:Mapping ;
+    rdfs:label "Shelf vegetated sediments - mapping to IUCN GET - 12" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Shelf-vegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.1 Seagrass meadows" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf vegetated sediments" .
+
+map:13 a sssom:Mapping ;
+    rdfs:label "Mesophotic coral reefs - mapping to IUCN GET - 13" ;
+    dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0000-0002-4048-6792 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.3> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Mesophotic-coral-reefs ;
+    crosswalk:status status:draft ;
+    sssom:creator_label "Rebecca Jordan" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.3 Photic coral reefs" ;
+    sssom:subject_label "Mesophotic coral reefs" .
+
+map:14 a sssom:Mapping ;
+    rdfs:label "Oceanic shallow coral reefs - mapping to IUCN GET - 14" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.3> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Oceanic-mesophotic-coral-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.3 Photic coral reefs" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Oceanic shallow coral reefs" .
+
+map:15 a sssom:Mapping ;
+    rdfs:label "Shallow coral reefs - mapping to IUCN GET - 15" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.3> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Oceanic-shallow-coral-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.3 Photic coral reefs" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shallow coral reefs" .
+
+map:16 a sssom:Mapping ;
+    rdfs:label "Shallow rocky reefs - mapping to IUCN GET - 16" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.6> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shallow-rocky-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.6 Subtidal rocky reefs" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shallow rocky reefs" .
+
+map:17 a sssom:Mapping ;
+    rdfs:label "Shallow rocky reefs - mapping to IUCN GET - 17" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.4> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shallow-rocky-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.4 Shellfish beds and reefs" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shallow rocky reefs" .
+
+map:18 a sssom:Mapping ;
+    rdfs:label "Shallow rocky reefs - mapping to IUCN GET - 18" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.2> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shallow-rocky-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.2 Kelp forests" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shallow rocky reefs" .
+
+map:19 a sssom:Mapping ;
+    rdfs:label "Oceanic mesophotic coral reefs - mapping to IUCN GET - 19" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.5> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Mesophotic-coral-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.5 Photo-limited marine animal forests" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Oceanic mesophotic coral reefs" .
+
+map:2 a sssom:Mapping ;
+    rdfs:label "Shelf unvegetated sediments - mapping to IUCN GET - 2" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.7> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shelf-unvegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.7 Subtidal sand beds" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf unvegetated sediments" .
+
+map:20 a sssom:Mapping ;
+    rdfs:label "Mesophotic rocky reefs - mapping to IUCN GET - 20" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.5> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Mesophotic-rocky-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.5 Photo-limited marine animal forests" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Mesophotic rocky reefs" .
+
+map:21 a sssom:Mapping ;
+    rdfs:label "Oceanic mesophotic coral reefs - mapping to IUCN GET - 21" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.5> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Oceanic-mesophotic-coral-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.5 Photo-limited marine animal forests" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Oceanic mesophotic coral reefs" .
+
+map:22 a sssom:Mapping ;
+    rdfs:label "Rariophotic shelf reefs - mapping to IUCN GET - 22" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.5> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Rariophotic-shelf-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.5 Photo-limited marine animal forests" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Rariophotic shelf reefs" .
+
+map:23 a sssom:Mapping ;
+    rdfs:label "Upper slope reefs - mapping to IUCN GET - 23" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Upper-slope-reefs ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.1 Continental and island slopes" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Upper slope reefs" .
+
+map:24 a sssom:Mapping ;
+    rdfs:label "Mid slope reef - mapping to IUCN GET - 24" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Mid-slope-reef ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.1 Continental and island slopes" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Mid slope reef" .
+
+map:25 a sssom:Mapping ;
+    rdfs:label "Islands (including cays and islets) - mapping to IUCN GET - 25" ;
+    dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0000-0002-4048-6792 ;
+    rdf:object owl:Nothing ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Islands-including-cays-and-islets ;
+    crosswalk:status status:draft ;
+    sssom:creator_label "Rebecca Jordan" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "Unclassified" ;
+    sssom:subject_label "Islands (including cays and islets)" .
+
+map:3 a sssom:Mapping ;
+    rdfs:label "Shelf unvegetated sediments - mapping to IUCN GET - 3" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.8> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shelf-unvegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.8 Subtidal mud plains" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf unvegetated sediments" .
+
+map:4 a sssom:Mapping ;
+    rdfs:label "Shelf unvegetated sediments - mapping to IUCN GET - 4" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M1.10> ;
+    rdf:predicate skos:narrowMatch ;
+    rdf:subject nesp:Shelf-unvegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M1.10 Rhodolith/Maërl beds" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Shelf unvegetated sediments" .
+
+map:5 a sssom:Mapping ;
+    rdfs:label "Upper slope unvegetated sediments - mapping to IUCN GET - 5" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Upper-slope-unvegetated-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.1 Continental and island slopes" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Upper slope unvegetated sediments" .
+
+map:6 a sssom:Mapping ;
+    rdfs:label "Mid slope sediments - mapping to IUCN GET - 6" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Mid-slope-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.1 Continental and island slopes" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Mid slope sediments" .
+
+map:7 a sssom:Mapping ;
+    rdfs:label "Lower slope reef and soft sediments - mapping to IUCN GET - 7" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.1> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Lower-slope-reef-and-soft-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.1 Continental and island slopes" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Lower slope reef and soft sediments" .
+
+map:8 a sssom:Mapping ;
+    rdfs:label "Abyssal reef and sediments - mapping to IUCN GET - 8" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.3> ;
+    rdf:predicate skos:exactMatch ;
+    rdf:subject nesp:Abyssal-reef-and-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.3 Abyssal plains" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Abyssal reef and sediments" .
+
+map:9 a sssom:Mapping ;
+    rdfs:label "Seamount sediments - mapping to IUCN GET - 9" ;
+    dcterms:created "2024-01-01T00:00:00"^^xsd:dateTime ;
+    dcterms:creator orcid:0009-0001-6090-9959 ;
+    rdf:object <https://global-ecosystems.org/explore/groups/M3.4> ;
+    rdf:predicate skos:broadMatch ;
+    rdf:subject nesp:Seamount-sediments ;
+    rdfs:comment "see email from Toni Cannard for review comments" ;
+    crosswalk:status status:reviewed ;
+    sssom:creator_label "Craig Macfarlane" ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "M3.4 Seamounts, ridges and plateaus" ;
+    sssom:reviewer_id orcid:0000-0002-2568-5945 ;
+    sssom:reviewer_id.1 orcid:0000-0003-4254-8683 ;
+    sssom:subject_label "Seamount sediments" .
+
