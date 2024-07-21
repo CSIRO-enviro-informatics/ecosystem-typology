@@ -6,14 +6,19 @@ from rdflib.namespace import NamespaceManager
 # from rdflib.namespace import RDF
 from rdflib import Literal, URIRef
 
-crosswalk_url = 'https://github.com/CSIRO-enviro-informatics/ecosystem-typology/raw/main/crosswalks/ALUM-IUCNGET/ALUM-IUCNGET.xlsx'
-#crosswalk_url = "./ALUM-IUCNGET.xlsx"
+crosswalk_name = 'Coastal-IUCNGET'  # set this before running 
+crosswalk_dir = 'Coastal-IUCNGET' + '/' # tweak this before running when necessary
+crosswalk_xlsx = crosswalk_name + '.xlsx'
+# crosswalk_url = 'https://github.com/CSIRO-enviro-informatics/ecosystem-typology/raw/main/crosswalks/' + crosswalk_name + '/' + crosswalk_xlsx # uses Excel file from GitHub
+crosswalk_url = './crosswalks/' + crosswalk_dir + crosswalk_xlsx # uses local copy of excel file
 crosswalk_sheet = 'SSSOM'
 header_sheet = 'header'
 
-outformat_index = 1
+crosswalk_json = crosswalk_name + '.json'
+crosswalk_ttl = crosswalk_name + '.ttl'
+outformat_index = 0  # choose this before running
 output_format = ['turtle', 'json-ld'][outformat_index]
-output_file = ['./NLUM_to_GET.ttl', './NLUM_to_GET.json'][outformat_index]
+output_file = [ './crosswalks/' + crosswalk_ttl , './crosswalks/' + crosswalk_json ][outformat_index]
 
 # Read the crosswalk into a table
 crosswalk_df = pd.read_excel(crosswalk_url, sheet_name=crosswalk_sheet)
