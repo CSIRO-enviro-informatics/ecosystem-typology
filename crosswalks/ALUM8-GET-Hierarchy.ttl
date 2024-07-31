@@ -1,0 +1,186 @@
+@prefix alum: <https://w3id.org/env/neap/alum8/> .
+@prefix crosswalk: <https://w3id.org/env/neap/crosswalk/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix map: <http://w3id.org/env/neap/alum8-get/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix status: <https://w3id.org/env/neap/status/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+alum:1 a skos:Concept ;
+    rdfs:label "1 Conservation and natural environments" ;
+    skos:narrower alum:1.1 , alum:1.2 , alum:1.3 .
+
+alum:1.1 a skos:Concept ;
+    rdfs:label "1.1 Nature conservation" ;
+    skos:narrower map:1 , map:2 , map:3 , map:4 , map:5 , map:6 , map:7 .
+    
+alum:1.2 a skos:Concept ;
+    rdfs:label "1.2 Managed resource protection" ;
+    skos:narrower map:8 , map:9 , map:10 , map:11 , map:12 , map:13 .
+    
+alum:1.2 a skos:Concept ;
+    rdfs:label "1.3 Other minimal use" ;  
+    skos:narrower map:14 , map:15 , map:16 , map:17 , map:18 . 
+
+alum:2 a skos:Concept ;
+    rdfs:label "2 Production from relatively natural environments" ;
+    skos:narrower alum:2.1 , alum:2.2 . 
+
+alum:2.1 a skos:Concept ;
+    rdfs:label "2.1 Grazing native vegetation" ;
+    skos:narrower map:19 . 
+
+alum:2.2 a skos:Concept ;
+    rdfs:label "2.2 Production native forests" ;
+    skos:narrower map:20 , map:21 , map:22 . 
+
+alum:3 a skos:Concept ;
+    rdfs:label "3 Production from dryland agriculture and plantations" ;
+    skos:narrower alum:3.1 , alum:3.2 , alum:3.3 , alum:3.4 , alum:3.5 , alum:3.6 . 
+
+alum:3.1 a skos:Concept ;
+    rdfs:label "3.1 Plantation forests" ;
+    skos:narrower map:23 , map:24, map:25 , map:26 , map:27 . 
+
+alum:3.2 a skos:Concept ;
+    rdfs:label "3.2 Grazing modified pastures" ;
+    skos:narrower map:28 , map:29 , map:30 , map:31 , map:32 , map:33 . 
+
+alum:3.3 a skos:Concept ;
+    rdfs:label "3.3 Cropping" ;
+    skos:narrower map:34 , map:35 , map:36 , map:37 , map:38 , map:39 , map:40 , map:41 , map:42 . 
+
+alum:3.4 a skos:Concept ;
+    rdfs:label "3.4 Perennial horticulture" ;
+    skos:narrower map:43 , map:44 , map:45 , map:46 , map:47 , map:48 , map:49 ,map:50 , map:51 , map:52 . 
+
+alum:3.5 a skos:Concept ;
+    rdfs:label "3.5 Seasonal horticulture" ;
+    skos:narrower map:53 , map:54 , map:55 . 
+
+alum:3.6 a skos:Concept ;
+    rdfs:label "3.6 Land in transition" ;
+    skos:narrower map:56 , map:57 , map:58 , map:59 , map:60 . 
+
+alum:4 a skos:Concept ;
+    rdfs:label "4 Production from irrigated agriculture and plantations" ;
+    skos:narrower alum:4.1 , alum:4.2 , alum:4.3 , alum:4.4 , alum:4.5 , alum:4.6 . 
+
+alum:4.1 a skos:Concept ;
+    rdfs:label "4.1 Irrigated plantation forests" ;
+    skos:narrower map:61 ;
+    skos:narrower map:62, map:63 , map:64 , map:65 . 
+
+alum:4.2 a skos:Concept ;
+    rdfs:label "4.2 Grazing irrigated modified pastures" ;
+    skos:narrower map:66 ;
+    skos:narrower map:67 , map:68 , map:69 , map:70 . 
+
+alum:4.3 a skos:Concept ;
+    rdfs:label "4.3 Irrigated cropping" ;
+    skos:narrower map:71 ;
+    skos:narrower map:72 , map:73 , map:74 , map:75 , map:76 , map:77 , map:78 , map:79 , map:80 . 
+
+alum:4.4 a skos:Concept ;
+    rdfs:label "4.4 Irrigated perennial horticulture" ;
+    skos:narrower map:81 ;
+    skos:narrower map:82 , map:83 , map:84 , map:85 , map:86 , map:87 , map:88 , map:89 , map:90 . 
+
+alum:4.5 a skos:Concept ;
+    rdfs:label "4.5 Irrigated seasonal horticulture" ;
+    skos:narrower map:91 , map:92 , map:93 , map:94 . 
+
+alum:4.6 a skos:Concept ;
+    rdfs:label "4.6 Irrigated land in transition" ;
+    skos:narrower map:95 , map:96 , map:97 , map:98 , map:99 . 
+
+alum:5 a skos:Concept ;
+    rdfs:label "5 Intensive uses" ;
+    skos:narrower map:100 ;
+    skos:narrower alum:5.1 , alum:5.2 , alum:5.3 , alum:5.4 , alum:5.5 , alum:5.6 , alum:5.7 , alum:5.8 , alum:5.9 . 
+
+alum:5.1 a skos:Concept ;
+    rdfs:label "5.1 Intensive horticulture" ;
+    skos:narrower map:101 ;
+    skos:narrower map:102, map:103 , map:104 , map:105 , map:106 . 
+
+alum:5.2 a skos:Concept ;
+    rdfs:label "5.2 Intensive animal production" ;
+    skos:narrower map:107 ;
+    skos:narrower map:108 , map:109 , map:110 , map:111 , map:112 , map:113 , map:114 , map:115 . 
+
+alum:5.3 a skos:Concept ;
+    rdfs:label "5.3 Manufacturing and industrial" ;
+    skos:narrower map:116 ;
+    skos:narrower map:117 , map:118 , map:119 , map:120 , map:121 , map:122 , map:123 , map:124 . 
+
+alum:5.4 a skos:Concept ;
+    rdfs:label "5.4 Residential and farm infrastructure" ;
+    skos:narrower map:125 ;
+    skos:narrower map:126 , map:127 , map:128 , map:129 , map:130 . 
+
+alum:5.5 a skos:Concept ;
+    rdfs:label "5.5 Services" ;
+    skos:narrower map:131 ;
+    skos:narrower map:132 , map:133 , map:134 , map:135 , map:136 . 
+
+alum:5.6 a skos:Concept ;
+    rdfs:label "5.6 Utilities" ;
+    skos:narrower map:137 ;
+    skos:narrower map:138 , map:139 , map:140 , map:141 , map:142 , map:143 , map:144 . 
+
+alum:5.7 a skos:Concept ;
+    rdfs:label "5.7 Transport and communication" ;
+    skos:narrower map:145 ;
+    skos:narrower map:146 , map:147 , map:148 , map:149 , map:150 . 
+
+alum:5.8 a skos:Concept ;
+    rdfs:label "5.8 Mining" ;
+    skos:narrower map:151 ;
+    skos:narrower map:152 , map:153 , map:154 , map:155 . 
+
+alum:5.9 a skos:Concept ;
+    rdfs:label "5.9 Waste treatment and disposal" ;
+    skos:narrower map:156 ;
+    skos:narrower map:157 , map:158 , map:159 , map:160 , map:161 . 
+
+alum:6 a skos:Concept ;
+    rdfs:label "6 Water" ;
+    skos:narrower map:162 ;
+    skos:narrower alum:6.1 , alum:6.2 , alum:6.3 , alum:6.4 , alum:6.5 , alum:6.6 . 
+
+alum:6.1 a skos:Concept ;
+    rdfs:label "6.1 Lake" ;
+    skos:narrower map:163 ;
+    skos:narrower map:164, map:165 , map:166 , map:167 . 
+
+alum:6.2 a skos:Concept ;
+    rdfs:label "6.2 Reservoir or dam" ;
+    skos:narrower map:168 ;
+    skos:narrower map:169 , map:170 , map:171 . 
+
+alum:6.3 a skos:Concept ;
+    rdfs:label "6.3 River" ;
+    skos:narrower map:172 ;
+    skos:narrower map:173 , map:174 , map:175 . 
+
+alum:6.4 a skos:Concept ;
+    rdfs:label "6.4 Channel or aqueduct" ;
+    skos:narrower map:176 ;
+    skos:narrower map:177 , map:178 , map:179 . 
+
+alum:6.5 a skos:Concept ;
+    rdfs:label "6.5 Marsh or wetland" ;
+    skos:narrower map:180 ;
+    skos:narrower map:181 , map:182 , map:183 , map:184 . 
+
+alum:6.6 a skos:Concept ;
+    rdfs:label "6.6 Estuary or coastal waters" ;
+    skos:narrower map:185 ;
+    skos:narrower map:186 , map:187 , map:188 . 

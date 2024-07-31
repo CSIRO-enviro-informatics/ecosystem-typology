@@ -12,7 +12,180 @@
 @prefix status: <https://w3id.org/env/neap/status/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-map:1 a sssom:Mapping ;
+alum:1 a skos:Concept ;
+    rdfs:label "1 Conservation and natural environments" ;
+    skos:narrower alum:1.1 , alum:1.2 , alum:1.3 .
+
+alum:1.1 a skos:Concept ;
+    rdfs:label "1.1 Nature conservation" ;
+    skos:narrower map:1 , map:2 , map:3 , map:4 , map:5 , map:6 , map:7 .
+    
+alum:1.2 a skos:Concept ;
+    rdfs:label "1.2 Managed resource protection" ;
+    skos:narrower map:8 , map:9 , map:10 , map:11 , map:12 , map:13 .
+    
+alum:1.2 a skos:Concept ;
+    rdfs:label "1.3 Other minimal use" ;  
+    skos:narrower map:14 , map:15 , map:16 , map:17 , map:18 . 
+
+alum:2 a skos:Concept ;
+    rdfs:label "2 Production from relatively natural environments" ;
+    skos:narrower alum:2.1 , alum:2.2 . 
+
+alum:2.1 a skos:Concept ;
+    rdfs:label "2.1 Grazing native vegetation" ;
+    skos:narrower map:19 . 
+
+alum:2.2 a skos:Concept ;
+    rdfs:label "2.2 Production native forests" ;
+    skos:narrower map:20 , map:21 , map:22 . 
+
+alum:3 a skos:Concept ;
+    rdfs:label "3 Production from dryland agriculture and plantations" ;
+    skos:narrower alum:3.1 , alum:3.2 , alum:3.3 , alum:3.4 , alum:3.5 , alum:3.6 . 
+
+alum:3.1 a skos:Concept ;
+    rdfs:label "3.1 Plantation forests" ;
+    skos:narrower map:23 , map:24, map:25 , map:26 , map:27 . 
+
+alum:3.2 a skos:Concept ;
+    rdfs:label "3.2 Grazing modified pastures" ;
+    skos:narrower map:28 , map:29 , map:30 , map:31 , map:32 , map:33 . 
+
+alum:3.3 a skos:Concept ;
+    rdfs:label "3.3 Cropping" ;
+    skos:narrower map:34 , map:35 , map:36 , map:37 , map:38 , map:39 , map:40 , map:41 , map:42 . 
+
+alum:3.4 a skos:Concept ;
+    rdfs:label "3.4 Perennial horticulture" ;
+    skos:narrower map:43 , map:44 , map:45 , map:46 , map:47 , map:48 , map:49 ,map:50 , map:51 , map:52 . 
+
+alum:3.5 a skos:Concept ;
+    rdfs:label "3.5 Seasonal horticulture" ;
+    skos:narrower map:53 , map:54 , map:55 . 
+
+alum:3.6 a skos:Concept ;
+    rdfs:label "3.6 Land in transition" ;
+    skos:narrower map:56 , map:57 , map:58 , map:59 , map:60 . 
+
+alum:4 a skos:Concept ;
+    rdfs:label "4 Production from irrigated agriculture and plantations" ;
+    skos:narrower alum:4.1 , alum:4.2 , alum:4.3 , alum:4.4 , alum:4.5 , alum:4.6 . 
+
+alum:4.1 a skos:Concept ;
+    rdfs:label "4.1 Irrigated plantation forests" ;
+    skos:narrower map:61 ;
+    skos:narrower map:62, map:63 , map:64 , map:65 . 
+
+alum:4.2 a skos:Concept ;
+    rdfs:label "4.2 Grazing irrigated modified pastures" ;
+    skos:narrower map:66 ;
+    skos:narrower map:67 , map:68 , map:69 , map:70 . 
+
+alum:4.3 a skos:Concept ;
+    rdfs:label "4.3 Irrigated cropping" ;
+    skos:narrower map:71 ;
+    skos:narrower map:72 , map:73 , map:74 , map:75 , map:76 , map:77 , map:78 , map:79 , map:80 . 
+
+alum:4.4 a skos:Concept ;
+    rdfs:label "4.4 Irrigated perennial horticulture" ;
+    skos:narrower map:81 ;
+    skos:narrower map:82 , map:83 , map:84 , map:85 , map:86 , map:87 , map:88 , map:89 , map:90 . 
+
+alum:4.5 a skos:Concept ;
+    rdfs:label "4.5 Irrigated seasonal horticulture" ;
+    skos:narrower map:91 , map:92 , map:93 , map:94 . 
+
+alum:4.6 a skos:Concept ;
+    rdfs:label "4.6 Irrigated land in transition" ;
+    skos:narrower map:95 , map:96 , map:97 , map:98 , map:99 . 
+
+alum:5 a skos:Concept ;
+    rdfs:label "5 Intensive uses" ;
+    skos:narrower map:100 ;
+    skos:narrower alum:5.1 , alum:5.2 , alum:5.3 , alum:5.4 , alum:5.5 , alum:5.6 , alum:5.7 , alum:5.8 , alum:5.9 . 
+
+alum:5.1 a skos:Concept ;
+    rdfs:label "5.1 Intensive horticulture" ;
+    skos:narrower map:101 ;
+    skos:narrower map:102, map:103 , map:104 , map:105 , map:106 . 
+
+alum:5.2 a skos:Concept ;
+    rdfs:label "5.2 Intensive animal production" ;
+    skos:narrower map:107 ;
+    skos:narrower map:108 , map:109 , map:110 , map:111 , map:112 , map:113 , map:114 , map:115 . 
+
+alum:5.3 a skos:Concept ;
+    rdfs:label "5.3 Manufacturing and industrial" ;
+    skos:narrower map:116 ;
+    skos:narrower map:117 , map:118 , map:119 , map:120 , map:121 , map:122 , map:123 , map:124 . 
+
+alum:5.4 a skos:Concept ;
+    rdfs:label "5.4 Residential and farm infrastructure" ;
+    skos:narrower map:125 ;
+    skos:narrower map:126 , map:127 , map:128 , map:129 , map:130 . 
+
+alum:5.5 a skos:Concept ;
+    rdfs:label "5.5 Services" ;
+    skos:narrower map:131 ;
+    skos:narrower map:132 , map:133 , map:134 , map:135 , map:136 . 
+
+alum:5.6 a skos:Concept ;
+    rdfs:label "5.6 Utilities" ;
+    skos:narrower map:137 ;
+    skos:narrower map:138 , map:139 , map:140 , map:141 , map:142 , map:143 , map:144 . 
+
+alum:5.7 a skos:Concept ;
+    rdfs:label "5.7 Transport and communication" ;
+    skos:narrower map:145 ;
+    skos:narrower map:146 , map:147 , map:148 , map:149 , map:150 . 
+
+alum:5.8 a skos:Concept ;
+    rdfs:label "5.8 Mining" ;
+    skos:narrower map:151 ;
+    skos:narrower map:152 , map:153 , map:154 , map:155 . 
+
+alum:5.9 a skos:Concept ;
+    rdfs:label "5.9 Waste treatment and disposal" ;
+    skos:narrower map:156 ;
+    skos:narrower map:157 , map:158 , map:159 , map:160 , map:161 . 
+
+alum:6 a skos:Concept ;
+    rdfs:label "6 Water" ;
+    skos:narrower map:162 ;
+    skos:narrower alum:6.1 , alum:6.2 , alum:6.3 , alum:6.4 , alum:6.5 , alum:6.6 . 
+
+alum:6.1 a skos:Concept ;
+    rdfs:label "6.1 Lake" ;
+    skos:narrower map:163 ;
+    skos:narrower map:164, map:165 , map:166 , map:167 . 
+
+alum:6.2 a skos:Concept ;
+    rdfs:label "6.2 Reservoir or dam" ;
+    skos:narrower map:168 ;
+    skos:narrower map:169 , map:170 , map:171 . 
+
+alum:6.3 a skos:Concept ;
+    rdfs:label "6.3 River" ;
+    skos:narrower map:172 ;
+    skos:narrower map:173 , map:174 , map:175 . 
+
+alum:6.4 a skos:Concept ;
+    rdfs:label "6.4 Channel or aqueduct" ;
+    skos:narrower map:176 ;
+    skos:narrower map:177 , map:178 , map:179 . 
+
+alum:6.5 a skos:Concept ;
+    rdfs:label "6.5 Marsh or wetland" ;
+    skos:narrower map:180 ;
+    skos:narrower map:181 , map:182 , map:183 , map:184 . 
+
+alum:6.6 a skos:Concept ;
+    rdfs:label "6.6 Estuary or coastal waters" ;
+    skos:narrower map:185 ;
+    skos:narrower map:186 , map:187 , map:188 . 
+
+map:1 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.1 Strict nature reserves - mapping to IUCN GET - 1" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -26,7 +199,7 @@ map:1 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.1 Strict nature reserves" .
 
-map:10 a sssom:Mapping ;
+map:10 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.2 Surface water supply - mapping to IUCN GET - 10" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -40,7 +213,7 @@ map:10 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.2 Surface water supply" .
 
-map:100 a sssom:Mapping ;
+map:100 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.0.0 Intensive uses - mapping to IUCN GET - 100" ;
     dcterms:created "2024-07-18T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -53,7 +226,7 @@ map:100 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.0.0 Intensive uses" .
 
-map:101 a sssom:Mapping ;
+map:101 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.0 Intensive horticulture - mapping to IUCN GET - 101" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -66,7 +239,7 @@ map:101 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.0 Intensive horticulture" .
 
-map:102 a sssom:Mapping ;
+map:102 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.1 Production nurseries - mapping to IUCN GET - 102" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -79,7 +252,7 @@ map:102 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.1 Production nurseries" .
 
-map:103 a sssom:Mapping ;
+map:103 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.2 Shadehouses - mapping to IUCN GET - 103" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -92,7 +265,7 @@ map:103 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.2 Shadehouses" .
 
-map:104 a sssom:Mapping ;
+map:104 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.3 Glasshouses - mapping to IUCN GET - 104" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -105,7 +278,7 @@ map:104 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.3 Glasshouses" .
 
-map:105 a sssom:Mapping ;
+map:105 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.4 Glasshouses (hydroponic) - mapping to IUCN GET - 105" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -118,7 +291,7 @@ map:105 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.4 Glasshouses (hydroponic)" .
 
-map:106 a sssom:Mapping ;
+map:106 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.1.5 Abandoned intensive horticulture - mapping to IUCN GET - 106" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -131,7 +304,7 @@ map:106 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.1.5 Abandoned intensive horticulture" .
 
-map:107 a sssom:Mapping ;
+map:107 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.0 Intensive animal production - mapping to IUCN GET - 107" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -144,7 +317,7 @@ map:107 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.0 Intensive animal production" .
 
-map:108 a sssom:Mapping ;
+map:108 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.1 Dairy sheds and yards - mapping to IUCN GET - 108" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -157,7 +330,7 @@ map:108 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.1 Dairy sheds and yards" .
 
-map:109 a sssom:Mapping ;
+map:109 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.2 Feedlots - mapping to IUCN GET - 109" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -170,7 +343,7 @@ map:109 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.2 Feedlots" .
 
-map:11 a sssom:Mapping ;
+map:11 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.3 Groundwater - mapping to IUCN GET - 11" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -184,7 +357,7 @@ map:11 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.3 Groundwater" .
 
-map:110 a sssom:Mapping ;
+map:110 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.3 Poultry farms - mapping to IUCN GET - 110" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -197,7 +370,7 @@ map:110 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.3 Poultry farms" .
 
-map:111 a sssom:Mapping ;
+map:111 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.4 Piggeries - mapping to IUCN GET - 111" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -210,7 +383,7 @@ map:111 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.4 Piggeries" .
 
-map:112 a sssom:Mapping ;
+map:112 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.5 Aquaculture - mapping to IUCN GET - 112" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -223,7 +396,7 @@ map:112 a sssom:Mapping ;
     sssom:object_label "F3.4 Freshwater aquafarms" ;
     sssom:subject_label "5.2.5 Aquaculture" .
 
-map:113 a sssom:Mapping ;
+map:113 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.6 Horse studs - mapping to IUCN GET - 113" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -236,7 +409,7 @@ map:113 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.6 Horse studs" .
 
-map:114 a sssom:Mapping ;
+map:114 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.7 Saleyards/stockyards - mapping to IUCN GET - 114" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -249,7 +422,7 @@ map:114 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.7 Saleyards/stockyards" .
 
-map:115 a sssom:Mapping ;
+map:115 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.2.8 Abandoned intensive animal production - mapping to IUCN GET - 115" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -262,7 +435,7 @@ map:115 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.2.8 Abandoned intensive animal production" .
 
-map:116 a sssom:Mapping ;
+map:116 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.0 Manufacturing and industrial - mapping to IUCN GET - 116" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -275,7 +448,7 @@ map:116 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.0 Manufacturing and industrial" .
 
-map:117 a sssom:Mapping ;
+map:117 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.1 General purpose factory - mapping to IUCN GET - 117" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -288,7 +461,7 @@ map:117 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.1 General purpose factory" .
 
-map:118 a sssom:Mapping ;
+map:118 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.2 Food processing factory - mapping to IUCN GET - 118" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -301,7 +474,7 @@ map:118 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.2 Food processing factory" .
 
-map:119 a sssom:Mapping ;
+map:119 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.3 Major industrial complex - mapping to IUCN GET - 119" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -314,7 +487,7 @@ map:119 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.3 Major industrial complex" .
 
-map:12 a sssom:Mapping ;
+map:12 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.4 Landscape - mapping to IUCN GET - 12" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -328,7 +501,7 @@ map:12 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.4 Landscape" .
 
-map:120 a sssom:Mapping ;
+map:120 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.4 Bulk grain storage - mapping to IUCN GET - 120" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -341,7 +514,7 @@ map:120 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.4 Bulk grain storage" .
 
-map:121 a sssom:Mapping ;
+map:121 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.5 Abattoirs - mapping to IUCN GET - 121" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -354,7 +527,7 @@ map:121 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.5 Abattoirs" .
 
-map:122 a sssom:Mapping ;
+map:122 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.6 Oil refinery - mapping to IUCN GET - 122" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -367,7 +540,7 @@ map:122 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.6 Oil refinery" .
 
-map:123 a sssom:Mapping ;
+map:123 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.7 Sawmill - mapping to IUCN GET - 123" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -380,7 +553,7 @@ map:123 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.7 Sawmill" .
 
-map:124 a sssom:Mapping ;
+map:124 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.3.8 Abandoned manufacturing and industrial - mapping to IUCN GET - 124" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -393,7 +566,7 @@ map:124 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.3.8 Abandoned manufacturing and industrial" .
 
-map:125 a sssom:Mapping ;
+map:125 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.0 Residential and farm infrastructure - mapping to IUCN GET - 125" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -406,7 +579,7 @@ map:125 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.0 Residential and farm infrastructure" .
 
-map:126 a sssom:Mapping ;
+map:126 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.1 Urban residential - mapping to IUCN GET - 126" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -419,7 +592,7 @@ map:126 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.1 Urban residential" .
 
-map:127 a sssom:Mapping ;
+map:127 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.2 Rural residential with agriculture - mapping to IUCN GET - 127" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -432,7 +605,7 @@ map:127 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.2 Rural residential with agriculture" .
 
-map:128 a sssom:Mapping ;
+map:128 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.3 Rural residential without agriculture - mapping to IUCN GET - 128" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -445,7 +618,7 @@ map:128 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.3 Rural residential without agriculture" .
 
-map:129 a sssom:Mapping ;
+map:129 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.4 Remote communities - mapping to IUCN GET - 129" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -458,7 +631,7 @@ map:129 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.4 Remote communities" .
 
-map:13 a sssom:Mapping ;
+map:13 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.5 Traditional indigenous uses - mapping to IUCN GET - 13" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -472,7 +645,7 @@ map:13 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.5 Traditional indigenous uses" .
 
-map:130 a sssom:Mapping ;
+map:130 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.4.5 Farm buildings/infrastructure - mapping to IUCN GET - 130" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -485,7 +658,7 @@ map:130 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.4.5 Farm buildings/infrastructure" .
 
-map:131 a sssom:Mapping ;
+map:131 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.0 Services - mapping to IUCN GET - 131" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -498,7 +671,7 @@ map:131 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.0 Services" .
 
-map:132 a sssom:Mapping ;
+map:132 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.1 Commercial services - mapping to IUCN GET - 132" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -511,7 +684,7 @@ map:132 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.1 Commercial services" .
 
-map:133 a sssom:Mapping ;
+map:133 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.2 Public services - mapping to IUCN GET - 133" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -524,7 +697,7 @@ map:133 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.2 Public services" .
 
-map:134 a sssom:Mapping ;
+map:134 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.3 Recreation and culture - mapping to IUCN GET - 134" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -537,7 +710,7 @@ map:134 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.3 Recreation and culture" .
 
-map:135 a sssom:Mapping ;
+map:135 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.4 Defence facilities - urban - mapping to IUCN GET - 135" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -550,7 +723,7 @@ map:135 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.4 Defence facilities - urban" .
 
-map:136 a sssom:Mapping ;
+map:136 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.5.5 Research facilities - mapping to IUCN GET - 136" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -563,7 +736,7 @@ map:136 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.5.5 Research facilities" .
 
-map:137 a sssom:Mapping ;
+map:137 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.0 Utilities - mapping to IUCN GET - 137" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -576,7 +749,7 @@ map:137 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.0 Utilities" .
 
-map:138 a sssom:Mapping ;
+map:138 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.1 Fuel powered electricity generation - mapping to IUCN GET - 138" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -589,7 +762,7 @@ map:138 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.1 Fuel powered electricity generation" .
 
-map:139 a sssom:Mapping ;
+map:139 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.2 Hydro electricity generation - mapping to IUCN GET - 139" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -602,7 +775,7 @@ map:139 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.2 Hydro electricity generation" .
 
-map:14 a sssom:Mapping ;
+map:14 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.3.0 Other minimal use - mapping to IUCN GET - 14" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -615,7 +788,7 @@ map:14 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.3.0 Other minimal use" .
 
-map:140 a sssom:Mapping ;
+map:140 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.3 Wind electricity generation - mapping to IUCN GET - 140" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -628,7 +801,7 @@ map:140 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.3 Wind electricity generation" .
 
-map:141 a sssom:Mapping ;
+map:141 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.4 Solar electricity generation - mapping to IUCN GET - 141" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -641,7 +814,7 @@ map:141 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.4 Solar electricity generation" .
 
-map:142 a sssom:Mapping ;
+map:142 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.5 Electricity substations and transmission - mapping to IUCN GET - 142" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -654,7 +827,7 @@ map:142 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.5 Electricity substations and transmission" .
 
-map:143 a sssom:Mapping ;
+map:143 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.6 Gas treatment, storage and transmission - mapping to IUCN GET - 143" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -667,7 +840,7 @@ map:143 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.6 Gas treatment, storage and transmission" .
 
-map:144 a sssom:Mapping ;
+map:144 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.6.7 Water extraction and transmission - mapping to IUCN GET - 144" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -680,7 +853,7 @@ map:144 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.6.7 Water extraction and transmission" .
 
-map:145 a sssom:Mapping ;
+map:145 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.0 Transport and communication - mapping to IUCN GET - 145" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -693,7 +866,7 @@ map:145 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.0 Transport and communication" .
 
-map:146 a sssom:Mapping ;
+map:146 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.1 Airports/aerodromes - mapping to IUCN GET - 146" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -706,7 +879,7 @@ map:146 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.1 Airports/aerodromes" .
 
-map:147 a sssom:Mapping ;
+map:147 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.2 Roads - mapping to IUCN GET - 147" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -719,7 +892,7 @@ map:147 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.2 Roads" .
 
-map:148 a sssom:Mapping ;
+map:148 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.3 Railways - mapping to IUCN GET - 148" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -732,7 +905,7 @@ map:148 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.3 Railways" .
 
-map:149 a sssom:Mapping ;
+map:149 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.4 Ports and water transport - mapping to IUCN GET - 149" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -745,7 +918,7 @@ map:149 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.4 Ports and water transport" .
 
-map:15 a sssom:Mapping ;
+map:15 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.3.1 Defence land - natural areas - mapping to IUCN GET - 15" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -759,7 +932,7 @@ map:15 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.3.1 Defence land - natural areas" .
 
-map:150 a sssom:Mapping ;
+map:150 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.7.5 Navigation and communication - mapping to IUCN GET - 150" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -772,7 +945,7 @@ map:150 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.7.5 Navigation and communication" .
 
-map:151 a sssom:Mapping ;
+map:151 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.8.0 Mining - mapping to IUCN GET - 151" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -785,7 +958,7 @@ map:151 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.8.0 Mining" .
 
-map:152 a sssom:Mapping ;
+map:152 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.8.1 Mines - mapping to IUCN GET - 152" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -798,7 +971,7 @@ map:152 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.8.1 Mines" .
 
-map:153 a sssom:Mapping ;
+map:153 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.8.2 Quarries - mapping to IUCN GET - 153" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -811,7 +984,7 @@ map:153 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.8.2 Quarries" .
 
-map:154 a sssom:Mapping ;
+map:154 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.8.3 Tailings - mapping to IUCN GET - 154" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -824,7 +997,7 @@ map:154 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.8.3 Tailings" .
 
-map:155 a sssom:Mapping ;
+map:155 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.8.4 Extractive industry not in use - mapping to IUCN GET - 155" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -837,7 +1010,7 @@ map:155 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.8.4 Extractive industry not in use" .
 
-map:156 a sssom:Mapping ;
+map:156 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.0 Waste treatment and disposal - mapping to IUCN GET - 156" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -850,7 +1023,7 @@ map:156 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.0 Waste treatment and disposal" .
 
-map:157 a sssom:Mapping ;
+map:157 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.1 Effluent pond - mapping to IUCN GET - 157" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -863,7 +1036,7 @@ map:157 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.1 Effluent pond" .
 
-map:158 a sssom:Mapping ;
+map:158 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.2 Landfill - mapping to IUCN GET - 158" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -876,7 +1049,7 @@ map:158 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.2 Landfill" .
 
-map:159 a sssom:Mapping ;
+map:159 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.3 Solid garbage - mapping to IUCN GET - 159" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -889,7 +1062,7 @@ map:159 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.3 Solid garbage" .
 
-map:16 a sssom:Mapping ;
+map:16 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.3.2 Stock route - mapping to IUCN GET - 16" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -903,7 +1076,7 @@ map:16 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.3.2 Stock route" .
 
-map:160 a sssom:Mapping ;
+map:160 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.4 Incinerators - mapping to IUCN GET - 160" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -916,7 +1089,7 @@ map:160 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.4 Incinerators" .
 
-map:161 a sssom:Mapping ;
+map:161 a sssom:Mapping , skos:Concept ;
     rdfs:label "5.9.5 Sewage/sewerage - mapping to IUCN GET - 161" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -929,7 +1102,7 @@ map:161 a sssom:Mapping ;
     sssom:object_label "T7.4 Urban and industrial ecosystems" ;
     sssom:subject_label "5.9.5 Sewage/sewerage" .
 
-map:162 a sssom:Mapping ;
+map:162 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.0.0 Water - mapping to IUCN GET - 162" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -942,7 +1115,7 @@ map:162 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.0.0 Water" .
 
-map:163 a sssom:Mapping ;
+map:163 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.1.0 Lake - mapping to IUCN GET - 163" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -955,7 +1128,7 @@ map:163 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.1.0 Lake" .
 
-map:164 a sssom:Mapping ;
+map:164 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.1.1 Lake - conservation - mapping to IUCN GET - 164" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -969,7 +1142,7 @@ map:164 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.1.1 Lake - conservation" .
 
-map:165 a sssom:Mapping ;
+map:165 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.1.2 Lake - production - mapping to IUCN GET - 165" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -983,7 +1156,7 @@ map:165 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.1.2 Lake - production" .
 
-map:166 a sssom:Mapping ;
+map:166 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.1.3 Lake - intensive use - mapping to IUCN GET - 166" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -997,7 +1170,7 @@ map:166 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.1.3 Lake - intensive use" .
 
-map:167 a sssom:Mapping ;
+map:167 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.1.4 Lake - saline - mapping to IUCN GET - 167" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1010,7 +1183,7 @@ map:167 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.1.4 Lake - saline" .
 
-map:168 a sssom:Mapping ;
+map:168 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.2.0 Reservoir/dam - mapping to IUCN GET - 168" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1023,7 +1196,7 @@ map:168 a sssom:Mapping ;
     sssom:object_label "F3.1 Large reservoirs" ;
     sssom:subject_label "6.2.0 Reservoir/dam" .
 
-map:169 a sssom:Mapping ;
+map:169 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.2.1 Reservoir - mapping to IUCN GET - 169" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1036,7 +1209,7 @@ map:169 a sssom:Mapping ;
     sssom:object_label "F3.1 Large reservoirs" ;
     sssom:subject_label "6.2.1 Reservoir" .
 
-map:17 a sssom:Mapping ;
+map:17 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.3.3 Residual native cover - mapping to IUCN GET - 17" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1050,7 +1223,7 @@ map:17 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.3.3 Residual native cover" .
 
-map:170 a sssom:Mapping ;
+map:170 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.2.2 Water storage - intensive use/farm dams - mapping to IUCN GET - 170" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1060,10 +1233,10 @@ map:170 a sssom:Mapping ;
     crosswalk:status status:draft ;
     sssom:creator_label "Craig Macfarlane" ;
     sssom:mapping_justification semapv:ManualMappingCuration ;
-    sssom:object_label "F3.1 Large reservoirs" ;
+    sssom:object_label "F3.2 Constructed lacustrine wetlands" ;
     sssom:subject_label "6.2.2 Water storage - intensive use/farm dams" .
 
-map:171 a sssom:Mapping ;
+map:171 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.2.3 Evaporation basin - mapping to IUCN GET - 171" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1076,7 +1249,7 @@ map:171 a sssom:Mapping ;
     sssom:object_label "F3.1 Large reservoirs" ;
     sssom:subject_label "6.2.3 Evaporation basin" .
 
-map:172 a sssom:Mapping ;
+map:172 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.3.0 River - mapping to IUCN GET - 172" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1089,7 +1262,7 @@ map:172 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.3.0 River" .
 
-map:173 a sssom:Mapping ;
+map:173 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.3.1 River - conservation - mapping to IUCN GET - 173" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1103,7 +1276,7 @@ map:173 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.3.1 River - conservation" .
 
-map:174 a sssom:Mapping ;
+map:174 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.3.2 River - production - mapping to IUCN GET - 174" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1117,7 +1290,7 @@ map:174 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.3.2 River - production" .
 
-map:175 a sssom:Mapping ;
+map:175 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.3.3 River - intensive use - mapping to IUCN GET - 175" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1131,7 +1304,7 @@ map:175 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.3.3 River - intensive use" .
 
-map:176 a sssom:Mapping ;
+map:176 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.4.0 Channel/aqueduct - mapping to IUCN GET - 176" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1144,7 +1317,7 @@ map:176 a sssom:Mapping ;
     sssom:object_label "F3.5 Canals, ditches and drains" ;
     sssom:subject_label "6.4.0 Channel/aqueduct" .
 
-map:177 a sssom:Mapping ;
+map:177 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.4.1 Supply channel/aqueduct - mapping to IUCN GET - 177" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1157,7 +1330,7 @@ map:177 a sssom:Mapping ;
     sssom:object_label "F3.5 Canals, ditches and drains" ;
     sssom:subject_label "6.4.1 Supply channel/aqueduct" .
 
-map:178 a sssom:Mapping ;
+map:178 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.4.2 Drainage channel/aqueduct - mapping to IUCN GET - 178" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1170,7 +1343,7 @@ map:178 a sssom:Mapping ;
     sssom:object_label "F3.5 Canals, ditches and drains" ;
     sssom:subject_label "6.4.2 Drainage channel/aqueduct" .
 
-map:179 a sssom:Mapping ;
+map:179 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.4.3 Stormwater - mapping to IUCN GET - 179" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1183,7 +1356,7 @@ map:179 a sssom:Mapping ;
     sssom:object_label "F3.5 Canals, ditches and drains" ;
     sssom:subject_label "6.4.3 Stormwater" .
 
-map:18 a sssom:Mapping ;
+map:18 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.3.4 Rehabilitation - mapping to IUCN GET - 18" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1197,7 +1370,7 @@ map:18 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.3.4 Rehabilitation" .
 
-map:180 a sssom:Mapping ;
+map:180 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.5.0 Marsh/wetland - mapping to IUCN GET - 180" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1210,7 +1383,7 @@ map:180 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.5.0 Marsh/wetland" .
 
-map:181 a sssom:Mapping ;
+map:181 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.5.1 Marsh/wetland - conservation - mapping to IUCN GET - 181" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1224,7 +1397,7 @@ map:181 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.5.1 Marsh/wetland - conservation" .
 
-map:182 a sssom:Mapping ;
+map:182 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.5.2 Marsh/wetland - production - mapping to IUCN GET - 182" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1238,7 +1411,7 @@ map:182 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.5.2 Marsh/wetland - production" .
 
-map:183 a sssom:Mapping ;
+map:183 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.5.3 Marsh/wetland - intensive use - mapping to IUCN GET - 183" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1252,7 +1425,7 @@ map:183 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.5.3 Marsh/wetland - intensive use" .
 
-map:184 a sssom:Mapping ;
+map:184 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.5.4 Marsh/wetland - saline - mapping to IUCN GET - 184" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1265,7 +1438,7 @@ map:184 a sssom:Mapping ;
     sssom:object_label "MFT1.3 Coastal saltmarshes and reedbeds" ;
     sssom:subject_label "6.5.4 Marsh/wetland - saline" .
 
-map:185 a sssom:Mapping ;
+map:185 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.6.0 Estuary/coastal waters - mapping to IUCN GET - 185" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1278,7 +1451,7 @@ map:185 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.6.0 Estuary/coastal waters" .
 
-map:186 a sssom:Mapping ;
+map:186 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.6.1 Estuary/coastal waters - conservation - mapping to IUCN GET - 186" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1292,7 +1465,7 @@ map:186 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.6.1 Estuary/coastal waters - conservation" .
 
-map:187 a sssom:Mapping ;
+map:187 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.6.2 Estuary/coastal waters - production - mapping to IUCN GET - 187" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1306,7 +1479,7 @@ map:187 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.6.2 Estuary/coastal waters - production" .
 
-map:188 a sssom:Mapping ;
+map:188 a sssom:Mapping , skos:Concept ;
     rdfs:label "6.6.3 Estuary/coastal waters - intensive use - mapping to IUCN GET - 188" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1320,7 +1493,7 @@ map:188 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "6.6.3 Estuary/coastal waters - intensive use" .
 
-map:19 a sssom:Mapping ;
+map:19 a sssom:Mapping , skos:Concept ;
     rdfs:label "2.1.0 Grazing native vegetation - mapping to IUCN GET - 19" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1333,7 +1506,7 @@ map:19 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "2.1.0 Grazing native vegetation" .
 
-map:2 a sssom:Mapping ;
+map:2 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.2 Wilderness area - mapping to IUCN GET - 2" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1347,7 +1520,7 @@ map:2 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.2 Wilderness area" .
 
-map:20 a sssom:Mapping ;
+map:20 a sssom:Mapping , skos:Concept ;
     rdfs:label "2.2.0 Production native forests - mapping to IUCN GET - 20" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1360,7 +1533,7 @@ map:20 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "2.2.0 Production native forests" .
 
-map:21 a sssom:Mapping ;
+map:21 a sssom:Mapping , skos:Concept ;
     rdfs:label "2.2.1 Wood production forestry - mapping to IUCN GET - 21" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1374,7 +1547,7 @@ map:21 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "2.2.1 Wood production forestry" .
 
-map:22 a sssom:Mapping ;
+map:22 a sssom:Mapping , skos:Concept ;
     rdfs:label "2.2.2 Other forest production - mapping to IUCN GET - 22" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1388,7 +1561,7 @@ map:22 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "2.2.2 Other forest production" .
 
-map:23 a sssom:Mapping ;
+map:23 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.1.0 Plantation forests - mapping to IUCN GET - 23" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1401,7 +1574,7 @@ map:23 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "3.1.0 Plantation forests" .
 
-map:24 a sssom:Mapping ;
+map:24 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.1.1 Hardwood plantation forestry - mapping to IUCN GET - 24" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1414,7 +1587,7 @@ map:24 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "3.1.1 Hardwood plantation forestry" .
 
-map:25 a sssom:Mapping ;
+map:25 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.1.2 Softwood plantation forestry - mapping to IUCN GET - 25" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1427,7 +1600,7 @@ map:25 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "3.1.2 Softwood plantation forestry" .
 
-map:26 a sssom:Mapping ;
+map:26 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.1.3 Other forest plantation - mapping to IUCN GET - 26" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1440,7 +1613,7 @@ map:26 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "3.1.3 Other forest plantation" .
 
-map:27 a sssom:Mapping ;
+map:27 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.1.4 Environmental forest plantation - mapping to IUCN GET - 27" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1453,7 +1626,7 @@ map:27 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "3.1.4 Environmental forest plantation" .
 
-map:28 a sssom:Mapping ;
+map:28 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.0 Grazing modified pastures - mapping to IUCN GET - 28" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1466,7 +1639,7 @@ map:28 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.0 Grazing modified pastures" .
 
-map:29 a sssom:Mapping ;
+map:29 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.1 Native/exotic pasture mosaic - mapping to IUCN GET - 29" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1479,7 +1652,7 @@ map:29 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.1 Native/exotic pasture mosaic" .
 
-map:3 a sssom:Mapping ;
+map:3 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.3 National park - mapping to IUCN GET - 3" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1493,7 +1666,7 @@ map:3 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.3 National park" .
 
-map:30 a sssom:Mapping ;
+map:30 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.2 Woody fodder plants - mapping to IUCN GET - 30" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1506,7 +1679,7 @@ map:30 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.2 Woody fodder plants" .
 
-map:31 a sssom:Mapping ;
+map:31 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.3 Pasture legumes - mapping to IUCN GET - 31" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1519,7 +1692,7 @@ map:31 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.3 Pasture legumes" .
 
-map:32 a sssom:Mapping ;
+map:32 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.4 Pasture legume/grass mixtures - mapping to IUCN GET - 32" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1532,7 +1705,7 @@ map:32 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.4 Pasture legume/grass mixtures" .
 
-map:33 a sssom:Mapping ;
+map:33 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.2.5 Sown grasses - mapping to IUCN GET - 33" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1545,7 +1718,7 @@ map:33 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "3.2.5 Sown grasses" .
 
-map:34 a sssom:Mapping ;
+map:34 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.0 Cropping - mapping to IUCN GET - 34" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1558,7 +1731,7 @@ map:34 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.0 Cropping" .
 
-map:35 a sssom:Mapping ;
+map:35 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.1 Cereals - mapping to IUCN GET - 35" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1571,7 +1744,7 @@ map:35 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.1 Cereals" .
 
-map:36 a sssom:Mapping ;
+map:36 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.2 Beverage and spice crops - mapping to IUCN GET - 36" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1584,7 +1757,7 @@ map:36 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.2 Beverage and spice crops" .
 
-map:37 a sssom:Mapping ;
+map:37 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.3 Hay and silage - mapping to IUCN GET - 37" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1597,7 +1770,7 @@ map:37 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.3 Hay and silage" .
 
-map:38 a sssom:Mapping ;
+map:38 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.4 Oilseeds - mapping to IUCN GET - 38" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1610,7 +1783,7 @@ map:38 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.4 Oilseeds" .
 
-map:39 a sssom:Mapping ;
+map:39 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.5 Sugar - mapping to IUCN GET - 39" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1623,7 +1796,7 @@ map:39 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.5 Sugar" .
 
-map:4 a sssom:Mapping ;
+map:4 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.4 Natural feature protection - mapping to IUCN GET - 4" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1637,7 +1810,7 @@ map:4 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.4 Natural feature protection" .
 
-map:40 a sssom:Mapping ;
+map:40 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.6 Cotton - mapping to IUCN GET - 40" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1650,7 +1823,7 @@ map:40 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.6 Cotton" .
 
-map:41 a sssom:Mapping ;
+map:41 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.7 Alkaloid poppies - mapping to IUCN GET - 41" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1663,7 +1836,7 @@ map:41 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.7 Alkaloid poppies" .
 
-map:42 a sssom:Mapping ;
+map:42 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.3.8 Pulses - mapping to IUCN GET - 42" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1676,7 +1849,7 @@ map:42 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.3.8 Pulses" .
 
-map:43 a sssom:Mapping ;
+map:43 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.0 Perennial horticulture - mapping to IUCN GET - 43" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1689,7 +1862,7 @@ map:43 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.0 Perennial horticulture" .
 
-map:44 a sssom:Mapping ;
+map:44 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.1 Tree fruits - mapping to IUCN GET - 44" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1702,7 +1875,7 @@ map:44 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.1 Tree fruits" .
 
-map:45 a sssom:Mapping ;
+map:45 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.2 Olives - mapping to IUCN GET - 45" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1715,7 +1888,7 @@ map:45 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.2 Olives" .
 
-map:46 a sssom:Mapping ;
+map:46 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.3 Tree nuts - mapping to IUCN GET - 46" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1728,7 +1901,7 @@ map:46 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.3 Tree nuts" .
 
-map:47 a sssom:Mapping ;
+map:47 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.4 Vine fruits - mapping to IUCN GET - 47" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1741,7 +1914,7 @@ map:47 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.4 Vine fruits" .
 
-map:48 a sssom:Mapping ;
+map:48 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.5 Shrub berries and fruits - mapping to IUCN GET - 48" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1754,7 +1927,7 @@ map:48 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.5 Shrub berries and fruits" .
 
-map:49 a sssom:Mapping ;
+map:49 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.6 Perennial flowers and bulbs - mapping to IUCN GET - 49" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1767,7 +1940,7 @@ map:49 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.6 Perennial flowers and bulbs" .
 
-map:5 a sssom:Mapping ;
+map:5 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.5 Habitat/species management area - mapping to IUCN GET - 5" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1781,7 +1954,7 @@ map:5 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.5 Habitat/species management area" .
 
-map:50 a sssom:Mapping ;
+map:50 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.7 Perennial vegetables and herbs - mapping to IUCN GET - 50" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1794,7 +1967,7 @@ map:50 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.7 Perennial vegetables and herbs" .
 
-map:51 a sssom:Mapping ;
+map:51 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.8 Citrus - mapping to IUCN GET - 51" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1807,7 +1980,7 @@ map:51 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.8 Citrus" .
 
-map:52 a sssom:Mapping ;
+map:52 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.4.9 Grapes - mapping to IUCN GET - 52" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1820,7 +1993,7 @@ map:52 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.4.9 Grapes" .
 
-map:53 a sssom:Mapping ;
+map:53 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.5.1 Seasonal fruits - mapping to IUCN GET - 53" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1833,7 +2006,7 @@ map:53 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.5.1 Seasonal fruits" .
 
-map:54 a sssom:Mapping ;
+map:54 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.5.2 Seasonal flowers and bulbs - mapping to IUCN GET - 54" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1846,7 +2019,7 @@ map:54 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.5.2 Seasonal flowers and bulbs" .
 
-map:55 a sssom:Mapping ;
+map:55 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.5.4 Seasonal vegetables and herbs - mapping to IUCN GET - 55" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1859,7 +2032,7 @@ map:55 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "3.5.4 Seasonal vegetables and herbs" .
 
-map:56 a sssom:Mapping ;
+map:56 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.6.1 Degraded land - mapping to IUCN GET - 56" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1873,7 +2046,7 @@ map:56 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "3.6.1 Degraded land" .
 
-map:57 a sssom:Mapping ;
+map:57 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.6.2 Abandoned land - mapping to IUCN GET - 57" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1887,7 +2060,7 @@ map:57 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "3.6.2 Abandoned land" .
 
-map:58 a sssom:Mapping ;
+map:58 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.6.3 Land under rehabilitation - mapping to IUCN GET - 58" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1901,7 +2074,7 @@ map:58 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "3.6.3 Land under rehabilitation" .
 
-map:59 a sssom:Mapping ;
+map:59 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.6.4 No defined use - mapping to IUCN GET - 59" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1915,7 +2088,7 @@ map:59 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "3.6.4 No defined use" .
 
-map:6 a sssom:Mapping ;
+map:6 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.6 Protected landscape - mapping to IUCN GET - 6" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1929,7 +2102,7 @@ map:6 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.6 Protected landscape" .
 
-map:60 a sssom:Mapping ;
+map:60 a sssom:Mapping , skos:Concept ;
     rdfs:label "3.6.5 Abandoned perennial horticulture - mapping to IUCN GET - 60" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1943,7 +2116,7 @@ map:60 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "3.6.5 Abandoned perennial horticulture" .
 
-map:61 a sssom:Mapping ;
+map:61 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.1.0 Irrigated plantation forests - mapping to IUCN GET - 61" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -1956,7 +2129,7 @@ map:61 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "4.1.0 Irrigated plantation forests" .
 
-map:62 a sssom:Mapping ;
+map:62 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.1.1 Irrigated hardwood plantation forestry - mapping to IUCN GET - 62" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1969,7 +2142,7 @@ map:62 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "4.1.1 Irrigated hardwood plantation forestry" .
 
-map:63 a sssom:Mapping ;
+map:63 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.1.2 Irrigated softwood plantation forestry - mapping to IUCN GET - 63" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1982,7 +2155,7 @@ map:63 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "4.1.2 Irrigated softwood plantation forestry" .
 
-map:64 a sssom:Mapping ;
+map:64 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.1.3 Irrigated other forest production - mapping to IUCN GET - 64" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -1995,7 +2168,7 @@ map:64 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "4.1.3 Irrigated other forest production" .
 
-map:65 a sssom:Mapping ;
+map:65 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.1.4 Irrigated environmental forest plantation - mapping to IUCN GET - 65" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2008,7 +2181,7 @@ map:65 a sssom:Mapping ;
     sssom:object_label "T7.3 Plantations" ;
     sssom:subject_label "4.1.4 Irrigated environmental forest plantation" .
 
-map:66 a sssom:Mapping ;
+map:66 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.2.0 Grazing irrigated modified pastures - mapping to IUCN GET - 66" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -2021,7 +2194,7 @@ map:66 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "4.2.0 Grazing irrigated modified pastures" .
 
-map:67 a sssom:Mapping ;
+map:67 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.2.1 Irrigated woody fodder plants - mapping to IUCN GET - 67" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2034,7 +2207,7 @@ map:67 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "4.2.1 Irrigated woody fodder plants" .
 
-map:68 a sssom:Mapping ;
+map:68 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.2.2 Irrigated pasture legumes - mapping to IUCN GET - 68" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2047,7 +2220,7 @@ map:68 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "4.2.2 Irrigated pasture legumes" .
 
-map:69 a sssom:Mapping ;
+map:69 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.2.3 Irrigated legume/grass mixtures - mapping to IUCN GET - 69" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2060,7 +2233,7 @@ map:69 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "4.2.3 Irrigated legume/grass mixtures" .
 
-map:7 a sssom:Mapping ;
+map:7 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.1.7 Other conserved area - mapping to IUCN GET - 7" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2074,7 +2247,7 @@ map:7 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.1.7 Other conserved area" .
 
-map:70 a sssom:Mapping ;
+map:70 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.2.4 Irrigated sown grasses - mapping to IUCN GET - 70" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2087,7 +2260,7 @@ map:70 a sssom:Mapping ;
     sssom:object_label "T7.2 Sown pastures and fields" ;
     sssom:subject_label "4.2.4 Irrigated sown grasses" .
 
-map:71 a sssom:Mapping ;
+map:71 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.0 Irrigated cropping - mapping to IUCN GET - 71" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -2100,7 +2273,7 @@ map:71 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.0 Irrigated cropping" .
 
-map:72 a sssom:Mapping ;
+map:72 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.1 Irrigated cereals - mapping to IUCN GET - 72" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2113,7 +2286,7 @@ map:72 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.1 Irrigated cereals" .
 
-map:73 a sssom:Mapping ;
+map:73 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.2 Irrigated beverage and spice crops - mapping to IUCN GET - 73" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2126,7 +2299,7 @@ map:73 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.2 Irrigated beverage and spice crops" .
 
-map:74 a sssom:Mapping ;
+map:74 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.3 Irrigated hay and silage - mapping to IUCN GET - 74" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2139,7 +2312,7 @@ map:74 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.3 Irrigated hay and silage" .
 
-map:75 a sssom:Mapping ;
+map:75 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.4 Irrigated oilseeds - mapping to IUCN GET - 75" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2152,7 +2325,7 @@ map:75 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.4 Irrigated oilseeds" .
 
-map:76 a sssom:Mapping ;
+map:76 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.5 Irrigated sugar - mapping to IUCN GET - 76" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2165,7 +2338,7 @@ map:76 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.5 Irrigated sugar" .
 
-map:77 a sssom:Mapping ;
+map:77 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.6 Irrigated cotton - mapping to IUCN GET - 77" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2178,7 +2351,7 @@ map:77 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.6 Irrigated cotton" .
 
-map:78 a sssom:Mapping ;
+map:78 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.7 Irrigated alkaloid poppies - mapping to IUCN GET - 78" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2191,7 +2364,7 @@ map:78 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.7 Irrigated alkaloid poppies" .
 
-map:79 a sssom:Mapping ;
+map:79 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.8 Irrigated pulses - mapping to IUCN GET - 79" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2204,7 +2377,7 @@ map:79 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.3.8 Irrigated pulses" .
 
-map:8 a sssom:Mapping ;
+map:8 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.0 Managed resource protection - mapping to IUCN GET - 8" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -2217,7 +2390,7 @@ map:8 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.0 Managed resource protection" .
 
-map:80 a sssom:Mapping ;
+map:80 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.3.9 Irrigated rice - mapping to IUCN GET - 80" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2230,7 +2403,7 @@ map:80 a sssom:Mapping ;
     sssom:object_label "F3.3 Rice paddies" ;
     sssom:subject_label "4.3.9 Irrigated rice" .
 
-map:81 a sssom:Mapping ;
+map:81 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.0 Irrigated perennial horticulture - mapping to IUCN GET - 81" ;
     dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0000-0002-4048-6792 ;
@@ -2243,7 +2416,7 @@ map:81 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.0 Irrigated perennial horticulture" .
 
-map:82 a sssom:Mapping ;
+map:82 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.1 Irrigated tree fruits - mapping to IUCN GET - 82" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2256,7 +2429,7 @@ map:82 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.1 Irrigated tree fruits" .
 
-map:83 a sssom:Mapping ;
+map:83 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.2 Irrigated olives - mapping to IUCN GET - 83" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2269,7 +2442,7 @@ map:83 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.2 Irrigated olives" .
 
-map:84 a sssom:Mapping ;
+map:84 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.3 Irrigated tree nuts - mapping to IUCN GET - 84" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2282,7 +2455,7 @@ map:84 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.3 Irrigated tree nuts" .
 
-map:85 a sssom:Mapping ;
+map:85 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.4 Irrigated vine fruits - mapping to IUCN GET - 85" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2295,7 +2468,7 @@ map:85 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.4 Irrigated vine fruits" .
 
-map:86 a sssom:Mapping ;
+map:86 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.5 Irrigated shrub berries and fruits - mapping to IUCN GET - 86" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2308,7 +2481,7 @@ map:86 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.5 Irrigated shrub berries and fruits" .
 
-map:87 a sssom:Mapping ;
+map:87 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.6 Irrigated  perennial flowers and bulbs - mapping to IUCN GET - 87" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2321,7 +2494,7 @@ map:87 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.6 Irrigated  perennial flowers and bulbs" .
 
-map:88 a sssom:Mapping ;
+map:88 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.7 Irrigated perennial vegetables and herbs - mapping to IUCN GET - 88" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2334,7 +2507,7 @@ map:88 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.7 Irrigated perennial vegetables and herbs" .
 
-map:89 a sssom:Mapping ;
+map:89 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.8 Irrigated citrus - mapping to IUCN GET - 89" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2347,7 +2520,7 @@ map:89 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.8 Irrigated citrus" .
 
-map:9 a sssom:Mapping ;
+map:9 a sssom:Mapping , skos:Concept ;
     rdfs:label "1.2.1 Biodiversity - mapping to IUCN GET - 9" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2361,7 +2534,7 @@ map:9 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "1.2.1 Biodiversity" .
 
-map:90 a sssom:Mapping ;
+map:90 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.4.9 Irrigated grapes - mapping to IUCN GET - 90" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2374,7 +2547,7 @@ map:90 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.4.9 Irrigated grapes" .
 
-map:91 a sssom:Mapping ;
+map:91 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.5.1 Irrigated seasonal fruits - mapping to IUCN GET - 91" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2387,7 +2560,7 @@ map:91 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.5.1 Irrigated seasonal fruits" .
 
-map:92 a sssom:Mapping ;
+map:92 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.5.2 Irrigated seasonal flowers and bulbs - mapping to IUCN GET - 92" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2400,7 +2573,7 @@ map:92 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.5.2 Irrigated seasonal flowers and bulbs" .
 
-map:93 a sssom:Mapping ;
+map:93 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.5.3 Irrigated seasonal vegetables and herbs - mapping to IUCN GET - 93" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2413,7 +2586,7 @@ map:93 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.5.3 Irrigated seasonal vegetables and herbs" .
 
-map:94 a sssom:Mapping ;
+map:94 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.5.4 Irrigated turf farming - mapping to IUCN GET - 94" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2426,7 +2599,7 @@ map:94 a sssom:Mapping ;
     sssom:object_label "T7.1 Annual croplands" ;
     sssom:subject_label "4.5.4 Irrigated turf farming" .
 
-map:95 a sssom:Mapping ;
+map:95 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.6.1 Degraded irrigated land - mapping to IUCN GET - 95" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2440,7 +2613,7 @@ map:95 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "4.6.1 Degraded irrigated land" .
 
-map:96 a sssom:Mapping ;
+map:96 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.6.2 Abandoned irrigated land - mapping to IUCN GET - 96" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2454,7 +2627,7 @@ map:96 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "4.6.2 Abandoned irrigated land" .
 
-map:97 a sssom:Mapping ;
+map:97 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.6.3 Irrigated land under rehabilitation - mapping to IUCN GET - 97" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2468,7 +2641,7 @@ map:97 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "4.6.3 Irrigated land under rehabilitation" .
 
-map:98 a sssom:Mapping ;
+map:98 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.6.4 No defined use - irrigation - mapping to IUCN GET - 98" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
@@ -2482,7 +2655,7 @@ map:98 a sssom:Mapping ;
     sssom:object_label "Unclassified" ;
     sssom:subject_label "4.6.4 No defined use - irrigation" .
 
-map:99 a sssom:Mapping ;
+map:99 a sssom:Mapping , skos:Concept ;
     rdfs:label "4.6.5 Abandoned irrigated perennial horticulture - mapping to IUCN GET - 99" ;
     dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
     dcterms:creator orcid:0009-0001-6090-9959 ;
