@@ -1,0 +1,127 @@
+UID,Ecosystem_functional_group,Realm,Realm ID,Biome,Biome ID,Group,Group_ID,Data source,Notes,Domain Expert
+1,F1.1 Permanent upland streams,Freshwater,F,Rivers and streams biome,F1,Permanent upland streams,F1.1,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+2,F1.2 Permanent lowland rivers,Freshwater,F,Rivers and streams biome,F1,Permanent lowland rivers,F1.2,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+3,F1.3 Freeze-thaw rivers and streams,Freshwater,F,Rivers and streams biome,F1,Freeze-thaw rivers and streams,F1.3,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+4,F1.4 Seasonal upland streams,Freshwater,F,Rivers and streams biome,F1,Seasonal upland streams,F1.4,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+5,F1.5 Seasonal lowland rivers,Freshwater,F,Rivers and streams biome,F1,Seasonal lowland rivers,F1.5,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+6,F1.6 Episodic arid rivers,Freshwater,F,Rivers and streams biome,F1,Episodic arid rivers,F1.6,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+7,F1.7 Large lowland rivers,Freshwater,F,Rivers and streams biome,F1,Large lowland rivers,F1.7,not present in EEZ,,
+8,F2.1 Large permanent freshwater lakes,Freshwater,F,Lakes biome,F2,Large permanent freshwater lakes,F2.1,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+9,F2.2 Small permanent freshwater lakes,Freshwater,F,Lakes biome,F2,Small permanent freshwater lakes,F2.2,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+10,F2.3 Seasonal freshwater lakes,Freshwater,F,Lakes biome,F2,Seasonal freshwater lakes,F2.3,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+11,F2.4 Freeze-thaw freshwater lakes,Freshwater,F,Lakes biome,F2,Freeze-thaw freshwater lakes,F2.4,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+12,F2.5 Ephemeral freshwater lakes,Freshwater,F,Lakes biome,F2,Ephemeral freshwater lakes,F2.5,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+13,F2.6 Permanent salt and soda lakes,Freshwater,F,Lakes biome,F2,Permanent salt and soda lakes,F2.6,"NEAP-Geofabric
+NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+14,F2.7 Ephemeral salt lakes,Freshwater,F,Lakes biome,F2,Ephemeral salt lakes,F2.7,"NEAP-Geofabric
+NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+15,F2.8 Artesian springs and oases,Freshwater,F,Lakes biome,F2,Artesian springs and oases,F2.8,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+16,F2.9 Geothermal pools and wetlands,Freshwater,F,Lakes biome,F2,Geothermal pools and wetlands,F2.9,not present in EEZ,,
+17,F2.10 Subglacial lakes,Freshwater,F,Lakes biome,F2,Subglacial lakes,F2.10,not present in EEZ,,
+18,F3.1 Large reservoirs,Freshwater,F,Artificial wetlands biome,F3,Large reservoirs,F3.1,ALUM,,None
+19,F3.2 Constructed lacustrine wetlands,Freshwater,F,Artificial wetlands biome,F3,Constructed lacustrine wetlands,F3.2,ALUM,,None
+20,F3.3 Rice paddies,Freshwater,F,Artificial wetlands biome,F3,Rice paddies,F3.3,ALUM,,None
+21,F3.4 Freshwater aquafarms,Freshwater,F,Artificial wetlands biome,F3,Freshwater aquafarms,F3.4,ALUM,,None
+22,"F3.5 Canals, ditches and drains",Freshwater,F,Artificial wetlands biome,F3,"Canals, ditches and drains",F3.5,ALUM,,None
+23,FM1.1 Deepwater coastal inlets ,Freshwater-Marine,FM,Semi-confined transitional waters biome,FM1,Deepwater coastal inlets ,FM1.1,not present in EEZ,,
+24,FM1.2 Permanently open riverine estuaries and bays,Freshwater-Marine,FM,Semi-confined transitional waters biome,FM1,Permanently open riverine estuaries and bays,FM1.2,OzEstuaries100K,"Estuarine, Delta layer only",Richard Kingsford
+25,FM1.3 Intermittently closed and open lakes and lagoons,Freshwater-Marine,FM,Semi-confined transitional waters biome,FM1,Intermittently closed and open lakes and lagoons,FM1.3,OzEstuaries100K,Will be lumped in with FM1.2 unless Roxanne sorts something out.,Richard Kingsford
+26,MFT1.1 Coastal river deltas,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Coastal river deltas,MFT1.1,not present in EEZ,,
+27,MFT1.2 Intertidal forests and shrublands,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Intertidal forests and shrublands,MFT1.2,"GA Coastal product
+NEAP-NVIS",,"David Keith
+Steve Sagar"
+28,MFT1.3 Coastal saltmarshes and reedbeds,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Coastal saltmarshes and reedbeds,MFT1.3,"GA Coastal product
+NEAP-NVIS",,Steve Sagar
+29,MT1.1 Rocky Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Rocky Shorelines,MT1.1,GA Smartline,"Stability classes (Line vector): Undifferentiated rock shores, Hard rock shores, Soft rock shores",Steve Sagar
+30,MT1.2 Muddy Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Muddy Shorelines,MT1.2,GA Coastal product,,Steve Sagar
+31,MT1.3 Sandy Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Sandy Shorelines,MT1.3,GA Smartline,"Stability classes (Line vector): Sandy shores, Sand dune and beach ridge coast.",Steve Sagar
+32,MT1.4 Boulder and cobble shores,Marine-Terrestrial,MT,Shorelines biome,MT1,Boulder and cobble shores,MT1.4,data gap,Knowledge gap - DK,
+33,MT2.1 Coastal shrublands and grasslands,Marine-Terrestrial,MT,Supralittoral coastal biome,MT2,Coastal shrublands and grasslands,MT2.1,NEAP-NVIS,,David Keith
+34,MT2.2 Large seabird and pinniped colonies ,Marine-Terrestrial,MT,Supralittoral coastal biome,MT2,Large seabird and pinniped colonies ,MT2.2,data gap,,
+35,MT3.1 Artificial shorelines,Marine-Terrestrial,MT,Anthropogenic shorelines biome,MT3,Artificial shorelines,MT3.1,data gap,,None
+36,T1.1 Tropical/Subtropical lowland rainforests,Terrestrial,T,Tropical-subtropical forests biome,T1,Tropical/Subtropical lowland rainforests,T1.1,NEAP-NVIS,,David Keith
+37,T1.2 Tropical/Subtropical dry forests and thickets,Terrestrial,T,Tropical-subtropical forests biome,T1,Tropical/Subtropical dry forests and thickets,T1.2,NEAP-NVIS,,David Keith
+38,T1.3 Tropical/Subtropical montane rainforests,Terrestrial,T,Tropical-subtropical forests biome,T1,Tropical/Subtropical montane rainforests,T1.3,NEAP-NVIS,,David Keith
+39,T1.4 Tropical heath forests,Terrestrial,T,Tropical-subtropical forests biome,T1,Tropical heath forests,T1.4,not present in EEZ,,
+40,T2.1 Boreal and temperate high montane forests and woodlands,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Boreal and temperate high montane forests and woodlands,T2.1,not present in EEZ,,
+41,T2.2 Deciduous temperate forests,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Deciduous temperate forests,T2.2,not present in EEZ,,
+42,T2.3 Oceanic cool temperate rainforests,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Oceanic cool temperate rainforests,T2.3,NEAP-NVIS,,David Keith
+43,T2.4 Warm temperate laurophyll forests,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Warm temperate laurophyll forests,T2.4,NEAP-NVIS,,David Keith
+44,T2.5 Temperate pyric humid forests,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Temperate pyric humid forests,T2.5,NEAP-NVIS,,David Keith
+45,T2.6 Temperate pyric sclerophyll forests and woodlands,Terrestrial,T,Temperate-boreal forests and woodlands biome,T2,Temperate pyric sclerophyll forests and woodlands,T2.6,NEAP-NVIS,,David Keith
+46,T3.1 Seasonally dry tropical shrublands,Terrestrial,T,Shrublands and shrubby woodlands biome,T3,Seasonally dry tropical shrublands,T3.1,NEAP-NVIS,,David Keith
+47,T3.2 Seasonally dry temperate heath and shrublands,Terrestrial,T,Shrublands and shrubby woodlands biome,T3,Seasonally dry temperate heath and shrublands,T3.2,NEAP-NVIS,,David Keith
+48,T3.3 Cool temperate heathlands,Terrestrial,T,Shrublands and shrubby woodlands biome,T3,Cool temperate heathlands,T3.3,not present in EEZ,,
+49,"T3.4 Young rocky pavements, lava flows and screes",Terrestrial,T,Shrublands and shrubby woodlands biome,T3,"Young rocky pavements, lava flows and screes",T3.4,not present in EEZ,,
+50,T4.1 Trophic savannas,Terrestrial,T,Savannas and grasslands biome,T4,Trophic savannas,T4.1,not present in EEZ,,
+51,T4.2 Pyric tussock savannas,Terrestrial,T,Savannas and grasslands biome,T4,Pyric tussock savannas,T4.2,NEAP-NVIS,,David Keith
+52,T4.3 Hummock savannas,Terrestrial,T,Savannas and grasslands biome,T4,Hummock savannas,T4.3,NEAP-NVIS,,David Keith
+53,T4.4 Temperate woodlands,Terrestrial,T,Savannas and grasslands biome,T4,Temperate woodlands,T4.4,NEAP-NVIS,,David Keith
+54,T4.5 Temperate subhumid grasslands,Terrestrial,T,Savannas and grasslands biome,T4,Temperate subhumid grasslands,T4.5,NEAP-NVIS,,David Keith
+55,T5.1 Semi-desert steppe,Terrestrial,T,Deserts and semi-deserts biome,T5,Semi-desert steppe,T5.1,NEAP-NVIS,,David Keith
+56,T5.2 Succulent or Thorny deserts and semi-deserts,Terrestrial,T,Deserts and semi-deserts biome,T5,Succulent or Thorny deserts and semi-deserts,T5.2,not present in EEZ,,
+57,T5.3 Sclerophyll hot deserts and semi-deserts,Terrestrial,T,Deserts and semi-deserts biome,T5,Sclerophyll hot deserts and semi-deserts,T5.3,NEAP-NVIS,,David Keith
+58,T5.4 Cool deserts and semi-deserts,Terrestrial,T,Deserts and semi-deserts biome,T5,Cool deserts and semi-deserts,T5.4,not present in EEZ,,
+59,T5.5 Hyper-arid deserts,Terrestrial,T,Deserts and semi-deserts biome,T5,Hyper-arid deserts,T5.5,not present in EEZ,,
+60,T5.6 Semi-arid woodlands,Terrestrial,T,Deserts and semi-deserts biome,T5,Semi-arid woodlands,T5.6,NEAP-NVIS,Extra class from IUCNGET added by D. Keith,David Keith
+61,"T6.1 Ice sheets, glaciers and perennial snowfields",Terrestrial,T,Polar/alpine (cryogenic) biome,T6,"Ice sheets, glaciers and perennial snowfields",T6.1,not present in EEZ,,
+62,"T6.2 Polar/alpine cliffs, screes, outcrops and lava flows",Terrestrial,T,Polar/alpine (cryogenic) biome,T6,"Polar/alpine cliffs, screes, outcrops and lava flows",T6.2,not present in EEZ,,
+63,T6.3 Polar tundra and deserts,Terrestrial,T,Polar/alpine (cryogenic) biome,T6,Polar tundra and deserts,T6.3,NEAP-NVIS,,David Keith
+64,T6.4 Temperate alpine grasslands and shrublands,Terrestrial,T,Polar/alpine (cryogenic) biome,T6,Temperate alpine grasslands and shrublands,T6.4,NEAP-NVIS,,David Keith
+65,T6.5 Tropical alpine grasslands and herbfields,Terrestrial,T,Polar/alpine (cryogenic) biome,T6,Tropical alpine grasslands and herbfields,T6.5,not present in EEZ,,
+66,T7.1 Annual croplands,Terrestrial,T,Intensive land-use biome,T7,Annual croplands,T7.1,ALUM,,None
+67,T7.2 Sown pastures and fields,Terrestrial,T,Intensive land-use biome,T7,Sown pastures and fields,T7.2,ALUM,,None
+68,T7.3 Plantations,Terrestrial,T,Intensive land-use biome,T7,Plantations,T7.3,ALUM,,None
+69,T7.4 Urban and industrial ecosystems,Terrestrial,T,Intensive land-use biome,T7,Urban and industrial ecosystems,T7.4,ALUM,,None
+70,T7.5 Derived semi-natural pastures and old fields,Terrestrial,T,Intensive land-use biome,T7,Derived semi-natural pastures and old fields,T7.5,ALUM,,None
+71,TF1.1 Tropical flooded forests and peat forests,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Tropical flooded forests and peat forests,TF1.1,not present in EEZ,,
+72,TF1.2 Subtropical/temperate forested wetlands,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Subtropical/temperate forested wetlands,TF1.2,NEAP-NVIS,,David Keith
+73,TF1.3 Permanent marshes,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Permanent marshes,TF1.3,NEAP-NVIS,,David Keith
+74,TF1.4 Seasonal floodplain marshes,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Seasonal floodplain marshes,TF1.4,NEAP-NVIS,,David Keith
+75,TF1.5 Episodic arid floodplains,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Episodic arid floodplains,TF1.5,NEAP-NVIS,,David Keith
+76,"TF1.6 Boreal, temperate and montane peat bogs",Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,"Boreal, temperate and montane peat bogs",TF1.6,NEAP-NVIS,,David Keith
+77,TF1.7 Boreal and temperate fens ,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Boreal and temperate fens ,TF1.7,not present in EEZ,,
+78,M1.1 Seagrass meadows,Marine,M,Marine shelf biome,M1,Seagrass meadows,M1.1,"NVE - Benthic
+GA Coastal product",,"Rowan Trebilco
+Piers Dunstan
+Steve Sagar"
+79,M1.2 Kelp forests,Marine,M,Marine shelf biome,M1,Kelp forests,M1.2,data gap,knowledge gap - ABS,
+80,M1.3 Photic coral reefs,Marine,M,Marine shelf biome,M1,Photic coral reefs,M1.3,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+81,M1.4 Shellfish beds and reefs,Marine,M,Marine shelf biome,M1,Shellfish beds and reefs,M1.4,data gap,knowledge gap - Rowan Trebilco,
+82,M1.5 Photo-limited marine animal forests,Marine,M,Marine shelf biome,M1,Photo-limited marine animal forests,M1.5,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+83,M1.6 Subtidal rocky reefs,Marine,M,Marine shelf biome,M1,Subtidal rocky reefs,M1.6,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+84,M1.7 Subtidal sand beds,Marine,M,Marine shelf biome,M1,Subtidal sand beds,M1.7,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+85,M1.8 Subtidal mud plains,Marine,M,Marine shelf biome,M1,Subtidal mud plains,M1.8,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+86,M1.9 Upwelling zones,Marine,M,Marine shelf biome,M1,Upwelling zones,M1.9,dat gap,,
+87,M1.10 Rhodolith/Maërl beds,Marine,M,Marine shelf biome,M1,Rhodolith/Maërl beds,M1.10,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+88,M2.1 Epipelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Epipelagic ocean waters,M2.1,NVE - Pelagic,,"Rowan Trebilco
+Piers Dunstan"
+89,M2.2 Mesopelagic ocean water,Marine,M,Pelagic ocean waters biome,M2,Mesopelagic ocean water,M2.2,NVE - Pelagic,,"Rowan Trebilco
+Piers Dunstan"
+90,M2.3 Bathypelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Bathypelagic ocean waters,M2.3,NVE - Pelagic,,"Rowan Trebilco
+Piers Dunstan"
+91,M2.4 Abyssopelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Abyssopelagic ocean waters,M2.4,NVE - Pelagic,,"Rowan Trebilco
+Piers Dunstan"
+92,M2.5 Sea ice,Marine,M,Pelagic ocean waters biome,M2,Abyssopelagic ocean waters,M2.5,not present in EEZ,,
+93,M3.1 Continental and island slopes,Marine,M,Deep sea floors biome,M3,Continental and island slopes,M3.1,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+94,M3.2 Submarine canyons,Marine,M,Deep sea floors biome,M3,Submarine canyons,M3.2,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+95,M3.3 Abyssal plains,Marine,M,Deep sea floors biome,M3,Abyssal plains,M3.3,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+96,"M3.4 Seamounts, ridges and plateaus",Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.4,NVE - Benthic,,"Rowan Trebilco
+Piers Dunstan"
+97,M3.5 Deepwater biogenic beds,Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.5,data gap,,
+98,M3.6 Hadal trenches and troughs,Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.6,data gap,,
+99,M3.7 Chemosynthetic-based-ecosystems (CBE),Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.7,data gap,,
+100,M4.1 Submerged artificial structures,Marine,M,Anthropogenic marine biome,M4,Submerged artificial structures,M4.1,SeaMap,Pressures & Activities: Structures and works?,"Rowan Trebilco
+Piers Dunstan"
+101,M4.2 Marine aquafarms,Marine,M,Anthropogenic marine biome,M4,Marine aquafarms,M4.2,SeaMap,Pressures & Activities: Commercial aquaculture including pearling?,"Rowan Trebilco
+Piers Dunstan"
+255, Unclassified,Unclassified,,Unclassified,,Unclassified,,,,
