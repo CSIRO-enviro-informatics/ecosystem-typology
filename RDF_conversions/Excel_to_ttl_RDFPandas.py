@@ -42,8 +42,10 @@ rdf_type = []
 for idx in crosswalk_df.index:
     subj_list.append(f"{map_ns}{str(idx+1)}")
     rdf_type.append(f"{sssom_ns}Mapping")
-#                        For RVA we need to add a second 'type' for each entry, so in TTL they are 
+#                    For RVA each entry must be a SKOS Concept, Collection, or ConceptScheme, in addition to any other 'type' 
+#                    So we need the script to add a second 'type' value for each entry, so in TTL they are 
 #                        map:116 a sssom:Mapping , skos:Concept ;
+#                    Haven't been able to figure out how to inject that 
 # for idx in crosswalk_df.index:
 #     subj_list.append(f"{map_ns}{str(idx+1)}")
 #     rdf_type.append(f"{skos_ns}Concept")
