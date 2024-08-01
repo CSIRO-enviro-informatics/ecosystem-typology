@@ -11,10 +11,8 @@ UID,Ecosystem_functional_group,Realm,Realm ID,Biome,Biome ID,Group,Group_ID,Data
 10,F2.3 Seasonal freshwater lakes,Freshwater,F,Lakes biome,F2,Seasonal freshwater lakes,F2.3,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
 11,F2.4 Freeze-thaw freshwater lakes,Freshwater,F,Lakes biome,F2,Freeze-thaw freshwater lakes,F2.4,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
 12,F2.5 Ephemeral freshwater lakes,Freshwater,F,Lakes biome,F2,Ephemeral freshwater lakes,F2.5,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
-13,F2.6 Permanent salt and soda lakes,Freshwater,F,Lakes biome,F2,Permanent salt and soda lakes,F2.6,"NEAP-Geofabric
-NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
-14,F2.7 Ephemeral salt lakes,Freshwater,F,Lakes biome,F2,Ephemeral salt lakes,F2.7,"NEAP-Geofabric
-NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+13,F2.6 Permanent salt and soda lakes,Freshwater,F,Lakes biome,F2,Permanent salt and soda lakes,F2.6,"NEAP-Geofabric NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
+14,F2.7 Ephemeral salt lakes,Freshwater,F,Lakes biome,F2,Ephemeral salt lakes,F2.7,"NEAP-Geofabric NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
 15,F2.8 Artesian springs and oases,Freshwater,F,Lakes biome,F2,Artesian springs and oases,F2.8,NEAP-Geofabric,"Geofabric3.3-derived data set that also requires DEM, rainfall data and Water Regions",Richard Kingsford
 16,F2.9 Geothermal pools and wetlands,Freshwater,F,Lakes biome,F2,Geothermal pools and wetlands,F2.9,not present in EEZ,,
 17,F2.10 Subglacial lakes,Freshwater,F,Lakes biome,F2,Subglacial lakes,F2.10,not present in EEZ,,
@@ -27,11 +25,8 @@ NEAP-NVIS","Geofabric3.3-derived data set that also requires DEM, rainfall data 
 24,FM1.2 Permanently open riverine estuaries and bays,Freshwater-Marine,FM,Semi-confined transitional waters biome,FM1,Permanently open riverine estuaries and bays,FM1.2,OzEstuaries100K,"Estuarine, Delta layer only",Richard Kingsford
 25,FM1.3 Intermittently closed and open lakes and lagoons,Freshwater-Marine,FM,Semi-confined transitional waters biome,FM1,Intermittently closed and open lakes and lagoons,FM1.3,OzEstuaries100K,Will be lumped in with FM1.2 unless Roxanne sorts something out.,Richard Kingsford
 26,MFT1.1 Coastal river deltas,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Coastal river deltas,MFT1.1,not present in EEZ,,
-27,MFT1.2 Intertidal forests and shrublands,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Intertidal forests and shrublands,MFT1.2,"GA Coastal product
-NEAP-NVIS",,"David Keith
-Steve Sagar"
-28,MFT1.3 Coastal saltmarshes and reedbeds,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Coastal saltmarshes and reedbeds,MFT1.3,"GA Coastal product
-NEAP-NVIS",,Steve Sagar
+27,MFT1.2 Intertidal forests and shrublands,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Intertidal forests and shrublands,MFT1.2,"GA Coastal product NEAP-NVIS",,"David Keith Steve Sagar"
+28,MFT1.3 Coastal saltmarshes and reedbeds,Marine-Freshwater-Terrestrial,MFT,Brackish tidal biome,MFT1,Coastal saltmarshes and reedbeds,MFT1.3,"GA Coastal product NEAP-NVIS",,Steve Sagar
 29,MT1.1 Rocky Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Rocky Shorelines,MT1.1,GA Smartline,"Stability classes (Line vector): Undifferentiated rock shores, Hard rock shores, Soft rock shores",Steve Sagar
 30,MT1.2 Muddy Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Muddy Shorelines,MT1.2,GA Coastal product,,Steve Sagar
 31,MT1.3 Sandy Shorelines,Marine-Terrestrial,MT,Shorelines biome,MT1,Sandy Shorelines,MT1.3,GA Smartline,"Stability classes (Line vector): Sandy shores, Sand dune and beach ridge coast.",Steve Sagar
@@ -81,47 +76,28 @@ NEAP-NVIS",,Steve Sagar
 75,TF1.5 Episodic arid floodplains,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Episodic arid floodplains,TF1.5,NEAP-NVIS,,David Keith
 76,"TF1.6 Boreal, temperate and montane peat bogs",Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,"Boreal, temperate and montane peat bogs",TF1.6,NEAP-NVIS,,David Keith
 77,TF1.7 Boreal and temperate fens ,Terrestrial-Freshwater,TF,Palustrine wetlands biome,TF1,Boreal and temperate fens ,TF1.7,not present in EEZ,,
-78,M1.1 Seagrass meadows,Marine,M,Marine shelf biome,M1,Seagrass meadows,M1.1,"NVE - Benthic
-GA Coastal product",,"Rowan Trebilco
-Piers Dunstan
-Steve Sagar"
+78,M1.1 Seagrass meadows,Marine,M,Marine shelf biome,M1,Seagrass meadows,M1.1,"NVE - Benthic GA Coastal product",,"Rowan Trebilco Piers Dunstan Steve Sagar"
 79,M1.2 Kelp forests,Marine,M,Marine shelf biome,M1,Kelp forests,M1.2,data gap,knowledge gap - ABS,
-80,M1.3 Photic coral reefs,Marine,M,Marine shelf biome,M1,Photic coral reefs,M1.3,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
+80,M1.3 Photic coral reefs,Marine,M,Marine shelf biome,M1,Photic coral reefs,M1.3,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 81,M1.4 Shellfish beds and reefs,Marine,M,Marine shelf biome,M1,Shellfish beds and reefs,M1.4,data gap,knowledge gap - Rowan Trebilco,
-82,M1.5 Photo-limited marine animal forests,Marine,M,Marine shelf biome,M1,Photo-limited marine animal forests,M1.5,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-83,M1.6 Subtidal rocky reefs,Marine,M,Marine shelf biome,M1,Subtidal rocky reefs,M1.6,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-84,M1.7 Subtidal sand beds,Marine,M,Marine shelf biome,M1,Subtidal sand beds,M1.7,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-85,M1.8 Subtidal mud plains,Marine,M,Marine shelf biome,M1,Subtidal mud plains,M1.8,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
+82,M1.5 Photo-limited marine animal forests,Marine,M,Marine shelf biome,M1,Photo-limited marine animal forests,M1.5,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+83,M1.6 Subtidal rocky reefs,Marine,M,Marine shelf biome,M1,Subtidal rocky reefs,M1.6,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+84,M1.7 Subtidal sand beds,Marine,M,Marine shelf biome,M1,Subtidal sand beds,M1.7,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+85,M1.8 Subtidal mud plains,Marine,M,Marine shelf biome,M1,Subtidal mud plains,M1.8,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 86,M1.9 Upwelling zones,Marine,M,Marine shelf biome,M1,Upwelling zones,M1.9,dat gap,,
-87,M1.10 Rhodolith/Maërl beds,Marine,M,Marine shelf biome,M1,Rhodolith/Maërl beds,M1.10,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-88,M2.1 Epipelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Epipelagic ocean waters,M2.1,NVE - Pelagic,,"Rowan Trebilco
-Piers Dunstan"
-89,M2.2 Mesopelagic ocean water,Marine,M,Pelagic ocean waters biome,M2,Mesopelagic ocean water,M2.2,NVE - Pelagic,,"Rowan Trebilco
-Piers Dunstan"
-90,M2.3 Bathypelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Bathypelagic ocean waters,M2.3,NVE - Pelagic,,"Rowan Trebilco
-Piers Dunstan"
-91,M2.4 Abyssopelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Abyssopelagic ocean waters,M2.4,NVE - Pelagic,,"Rowan Trebilco
-Piers Dunstan"
+87,M1.10 Rhodolith/Maërl beds,Marine,M,Marine shelf biome,M1,Rhodolith/Maërl beds,M1.10,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+88,M2.1 Epipelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Epipelagic ocean waters,M2.1,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
+89,M2.2 Mesopelagic ocean water,Marine,M,Pelagic ocean waters biome,M2,Mesopelagic ocean water,M2.2,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
+90,M2.3 Bathypelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Bathypelagic ocean waters,M2.3,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
+91,M2.4 Abyssopelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Abyssopelagic ocean waters,M2.4,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
 92,M2.5 Sea ice,Marine,M,Pelagic ocean waters biome,M2,Abyssopelagic ocean waters,M2.5,not present in EEZ,,
-93,M3.1 Continental and island slopes,Marine,M,Deep sea floors biome,M3,Continental and island slopes,M3.1,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-94,M3.2 Submarine canyons,Marine,M,Deep sea floors biome,M3,Submarine canyons,M3.2,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-95,M3.3 Abyssal plains,Marine,M,Deep sea floors biome,M3,Abyssal plains,M3.3,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
-96,"M3.4 Seamounts, ridges and plateaus",Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.4,NVE - Benthic,,"Rowan Trebilco
-Piers Dunstan"
+93,M3.1 Continental and island slopes,Marine,M,Deep sea floors biome,M3,Continental and island slopes,M3.1,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+94,M3.2 Submarine canyons,Marine,M,Deep sea floors biome,M3,Submarine canyons,M3.2,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+95,M3.3 Abyssal plains,Marine,M,Deep sea floors biome,M3,Abyssal plains,M3.3,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+96,"M3.4 Seamounts, ridges and plateaus",Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.4,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 97,M3.5 Deepwater biogenic beds,Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.5,data gap,,
 98,M3.6 Hadal trenches and troughs,Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.6,data gap,,
 99,M3.7 Chemosynthetic-based-ecosystems (CBE),Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.7,data gap,,
-100,M4.1 Submerged artificial structures,Marine,M,Anthropogenic marine biome,M4,Submerged artificial structures,M4.1,SeaMap,Pressures & Activities: Structures and works?,"Rowan Trebilco
-Piers Dunstan"
-101,M4.2 Marine aquafarms,Marine,M,Anthropogenic marine biome,M4,Marine aquafarms,M4.2,SeaMap,Pressures & Activities: Commercial aquaculture including pearling?,"Rowan Trebilco
-Piers Dunstan"
+100,M4.1 Submerged artificial structures,Marine,M,Anthropogenic marine biome,M4,Submerged artificial structures,M4.1,SeaMap,Pressures & Activities: Structures and works?,"Rowan Trebilco Piers Dunstan"
+101,M4.2 Marine aquafarms,Marine,M,Anthropogenic marine biome,M4,Marine aquafarms,M4.2,SeaMap,Pressures & Activities: Commercial aquaculture including pearling?,"Rowan Trebilco Piers Dunstan"
 255, Unclassified,Unclassified,,Unclassified,,Unclassified,,,,
