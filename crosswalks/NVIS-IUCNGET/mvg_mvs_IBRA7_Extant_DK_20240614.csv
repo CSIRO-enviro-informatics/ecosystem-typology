@@ -251,8 +251,8 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 275,Central Ranges,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
 276,Channel Country,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
 277,Central Mackay Coast,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.2
-278,Coolgardie,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,"T4.4, 0.7; T4.4a, 0.3"
-279,Cobar Peneplain,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.4a
+278,Coolgardie,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,"T4.4, 0.7; T5.6, 0.3"
+279,Cobar Peneplain,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T5.6
 280,Cape York Peninsula,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.2
 281,Daly Basin,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.3
 282,Darwin Coastal,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.3
@@ -271,12 +271,12 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 295,Gulf Fall and Uplands,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.3
 296,Gulf Coastal,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.3
 297,Gulf Plains,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.2
-298,Great Victoria Desert,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.4a
+298,Great Victoria Desert,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T5.6
 299,Jarrah Forest,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 300,Kanmantoo,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 301,King,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 302,Little Sandy Desert,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
-303,Mallee,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.4a
+303,Mallee,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T5.6
 304,Murray Darling Depression,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
 305,Mitchell Grass Downs,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.2
 306,Mount Isa Inlier,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
@@ -288,13 +288,13 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 312,NSW North Coast,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 313,Northern Kimberley,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.2
 314,NSW South Western Slopes,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
-315,Nullarbor,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.4a
+315,Nullarbor,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T5.6
 316,Ord Victoria Plain,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
 317,Pine Creek,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T4.3
 318,Pilbara,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
 319,Riverina,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
-320,South East Coastal Plain,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 321,South East Corner,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
+320,South East Coastal Plain,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 322,South Eastern Highlands,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 323,South Eastern Queensland,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,T2.6
 324,Simpson Strzelecki Dunefields,Eucalypt Woodlands,Eucalyptus woodlands with a shrubby understorey,TF1.5
@@ -325,14 +325,14 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 356,Central Kimberley,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 357,Channel Country,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,TF1.5
 358,Central Mackay Coast,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
-359,Cobar Peneplain,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.4a
+359,Cobar Peneplain,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T5.6
 360,Cape York Peninsula,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 361,Daly Basin,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 362,Darwin Coastal,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 363,Dampierland,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,TF1.5
 364,Desert Uplands,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 365,Davenport Murchison Ranges,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
-366,Darling Riverine Plains,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.4a
+366,Darling Riverine Plains,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T5.6
 367,Einasleigh Uplands,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.2
 368,Eyre Yorke Block,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.4
 369,Flinders Lofty Block,Eucalypt Woodlands,Eucalyptus woodlands with a tussock grass understorey,T4.4
@@ -417,77 +417,77 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 448,Wet Tropics,Other Forests and Woodlands,Tropical mixed spp forests and woodlands,T1.2
 450,Brigalow Belt South,Callitris Forests and Woodlands,Callitris forests and woodlands,T2.6
 451,Broken Hill Complex,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.3
-453,Cobar Peneplain,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
+453,Cobar Peneplain,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
 454,Desert Uplands,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.2
-455,Darling Riverine Plains,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
+455,Darling Riverine Plains,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
 456,Einasleigh Uplands,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.2
-458,Flinders Lofty Block,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
-460,Gawler,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
-464,Murray Darling Depression,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
+458,Flinders Lofty Block,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
+460,Gawler,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
+464,Murray Darling Depression,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
 466,Mulga Lands,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.3
 467,Nandewar,Callitris Forests and Woodlands,Callitris forests and woodlands,T2.6
 468,New England Tablelands,Callitris Forests and Woodlands,Callitris forests and woodlands,T2.6
 470,NSW South Western Slopes,Callitris Forests and Woodlands,Callitris forests and woodlands,T2.6
-471,Riverina,Callitris Forests and Woodlands,Callitris forests and woodlands,T4.4a
+471,Riverina,Callitris Forests and Woodlands,Callitris forests and woodlands,T5.6
 472,South Eastern Highlands,Callitris Forests and Woodlands,Callitris forests and woodlands,T2.6
 477,Brigalow Belt North,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.6; T4.3, 0.4"
 478,Brigalow Belt South,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,T1.2
-479,Desert Uplands,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
-480,Darling Riverine Plains,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
-481,Mitchell Grass Downs,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
-482,Mulga Lands,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
+479,Desert Uplands,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
+480,Darling Riverine Plains,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
+481,Mitchell Grass Downs,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
+482,Mulga Lands,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
 483,Nandewar,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,T1.2
 484,South Eastern Queensland,Acacia Forests and Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,T1.2
-485,Desert Uplands,Acacia Open Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
+485,Desert Uplands,Acacia Open Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
 486,Einasleigh Uplands,Acacia Open Woodlands,Brigalow (Acacia harpophylla) forests and woodlands,T5.3
 487,Arnhem Plateau,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 488,Australian Alps,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
 489,Avon Wheatbelt,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
-490,Brigalow Belt North,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
-491,Brigalow Belt South,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.4a, 0.6; T2.6, 0.4"
-492,Broken Hill Complex,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+490,Brigalow Belt North,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
+491,Brigalow Belt South,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T5.6, 0.6; T2.6, 0.4"
+492,Broken Hill Complex,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 493,Carnarvon,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
 494,Central Arnhem,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
-495,Channel Country,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.4a, 0.4; TF1.5, 0.6"
+495,Channel Country,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T5.6, 0.4; TF1.5, 0.6"
 496,Central Mackay Coast,Acacia Forests and Woodlands,Other Acacia forests and woodlands,MT2.1
 497,Coolgardie,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
-498,Cobar Peneplain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+498,Cobar Peneplain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 499,Cape York Peninsula,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T1.2, 0.8; MT2.1, 0.1; TF1.1, 0.1"
 500,Daly Basin,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
-501,Desert Uplands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
-502,Darling Riverine Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
-503,Einasleigh Uplands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.3, 0.51; T4.4a, 0.49"
-504,Eyre Yorke Block,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
-505,Flinders Lofty Block,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+501,Desert Uplands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
+502,Darling Riverine Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
+503,Einasleigh Uplands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.3, 0.51; T5.6, 0.49"
+504,Eyre Yorke Block,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
+505,Flinders Lofty Block,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 506,Gascoyne,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
-507,Gawler,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+507,Gawler,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 508,Geraldton Sandplains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T3.2
 509,Gulf Fall and Uplands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 510,Gulf Coastal,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
-511,Gulf Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.3, 0.51; T4.4a, 0.49"
-512,Great Victoria Desert,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+511,Gulf Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.3, 0.51; T5.6, 0.49"
+512,Great Victoria Desert,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 513,Kanmantoo,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
-514,Murray Darling Depression,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+514,Murray Darling Depression,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 515,Mitchell Grass Downs,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 516,Mount Isa Inlier,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
-517,Mulga Lands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+517,Mulga Lands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 518,Murchison,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 519,Nandewar,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T4.4, 0.6; T1.2, 0.2; T2.6, 0.2"
 520,Naracoorte Coastal Plain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,MT2.1
 521,New England Tablelands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.5
 522,NSW North Coast,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.5
-523,NSW South Western Slopes,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
-524,Nullarbor,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+523,NSW South Western Slopes,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
+524,Nullarbor,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 525,Ord Victoria Plain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 526,Pine Creek,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 527,Pilbara,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
-528,Riverina,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+528,Riverina,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 529,South East Coastal Plain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T2.6, 0.6; T4.4, 0.4"
 530,South East Corner,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
 531,South Eastern Highlands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
 532,South Eastern Queensland,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
 533,Simpson Strzelecki Dunefields,Acacia Forests and Woodlands,Other Acacia forests and woodlands,TF1.5
-534,Stony Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4a
+534,Stony Plains,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.6
 535,Sturt Plateau,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.3
 536,Southern Volcanic Plain,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4
 537,Sydney Basin,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T2.6
@@ -495,8 +495,8 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 539,Victorian Midlands,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T4.4
 540,Wet Tropics,Acacia Forests and Woodlands,Other Acacia forests and woodlands,"T1.2, 0.6; MT2.1, 0.4"
 541,Yalgoo,Acacia Forests and Woodlands,Other Acacia forests and woodlands,T5.3
-542,Desert Uplands,Acacia Open Woodlands,Other Acacia forests and woodlands,T4.4a
-543,Mitchell Grass Downs,Acacia Open Woodlands,Other Acacia forests and woodlands,T4.4a
+542,Desert Uplands,Acacia Open Woodlands,Other Acacia forests and woodlands,T5.6
+543,Mitchell Grass Downs,Acacia Open Woodlands,Other Acacia forests and woodlands,T5.6
 544,Brigalow Belt South,Acacia Shrublands,Other Acacia forests and woodlands,T2.6
 545,NSW South Western Slopes,Acacia Shrublands,Other Acacia forests and woodlands,T2.6
 546,Arnhem Coast,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
@@ -513,7 +513,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 558,Desert Uplands,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 559,Einasleigh Uplands,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,"TF1.2, 0.8; T4.2, 0.2"
 560,Esperance Plains,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,TF1.2
-561,Eyre Yorke Block,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,T4.4a
+561,Eyre Yorke Block,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,T5.6
 562,Furneaux,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,TF1.2
 563,Gulf Fall and Uplands,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 564,Gulf Coastal,Melaleuca Forests and Woodlands,Melaleuca open forests and woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
@@ -559,25 +559,25 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 605,Darling Riverine Plains,Other Forests and Woodlands,Other forests and woodlands,T4.5
 606,Einasleigh Uplands,Other Forests and Woodlands,Other forests and woodlands,T4.2
 607,Esperance Plains,Other Forests and Woodlands,Other forests and woodlands,T3.2
-608,Eyre Yorke Block,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+608,Eyre Yorke Block,Other Forests and Woodlands,Other forests and woodlands,T5.6
 609,Finke,Other Forests and Woodlands,Other forests and woodlands,T5.3
-610,Flinders Lofty Block,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+610,Flinders Lofty Block,Other Forests and Woodlands,Other forests and woodlands,T5.6
 611,Furneaux,Other Forests and Woodlands,Other forests and woodlands,T2.6
-612,Gawler,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+612,Gawler,Other Forests and Woodlands,Other forests and woodlands,T5.6
 613,Geraldton Sandplains,Other Forests and Woodlands,Other forests and woodlands,T3.2
 614,Gulf Fall and Uplands,Other Forests and Woodlands,Other forests and woodlands,"T4.2, 0.6; T4.3, 0.4"
 615,Gulf Plains,Other Forests and Woodlands,Other forests and woodlands,TF1.4
-616,Great Victoria Desert,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+616,Great Victoria Desert,Other Forests and Woodlands,Other forests and woodlands,T5.6
 617,Jarrah Forest,Other Forests and Woodlands,Other forests and woodlands,"T2.6, 0.8; T3.2, 0.2"
 618,Kanmantoo,Other Forests and Woodlands,Other forests and woodlands,T2.6
-619,Murray Darling Depression,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+619,Murray Darling Depression,Other Forests and Woodlands,Other forests and woodlands,T5.6
 620,Mitchell Grass Downs,Other Forests and Woodlands,Other forests and woodlands,T5.3
 621,Mount Isa Inlier,Other Forests and Woodlands,Other forests and woodlands,T4.2
-622,Mulga Lands,Other Forests and Woodlands,Other forests and woodlands,"T1.2, 0.49; T4.4a, 0.51"
+622,Mulga Lands,Other Forests and Woodlands,Other forests and woodlands,"T1.2, 0.49; T5.6, 0.51"
 623,Nandewar,Other Forests and Woodlands,Other forests and woodlands,T1.2
 624,New England Tablelands,Other Forests and Woodlands,Other forests and woodlands,T1.2
 625,Northern Kimberley,Other Forests and Woodlands,Other forests and woodlands,T1.2
-626,Nullarbor,Other Forests and Woodlands,Other forests and woodlands,T4.4a
+626,Nullarbor,Other Forests and Woodlands,Other forests and woodlands,T5.6
 627,Ord Victoria Plain,Other Forests and Woodlands,Other forests and woodlands,T4.2
 628,Riverina,Other Forests and Woodlands,Other forests and woodlands,TF1.5
 629,South Eastern Highlands,Other Forests and Woodlands,Other forests and woodlands,T2.6
@@ -638,7 +638,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 685,Broken Hill Complex,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
 686,Burt Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
 687,Central Arnhem,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
-688,Central Ranges,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.4a
+688,Central Ranges,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T5.6
 689,Channel Country,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
 690,Cape York Peninsula,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 691,Daly Basin,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
@@ -647,7 +647,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 694,Davenport Murchison Ranges,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 695,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 696,Einasleigh Uplands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
-697,Eyre Yorke Block,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.4, 0.6; T4.4a, 0.4"
+697,Eyre Yorke Block,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.4, 0.6; T5.6, 0.4"
 698,Finke,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
 699,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
 700,Gulf Fall and Uplands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
@@ -660,14 +660,14 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 707,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"TF1.2, 0.4; TF1.5, 0.6"
 708,Mitchell Grass Downs,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"TF1.5, 0.6; TF1.2, 0.4"
 709,Mount Isa Inlier,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.3, 0.7; T4.2, 0.3"
-710,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5 (Qld); T4.4a (NSW)
-711,Naracoorte Coastal Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.4, 0.6; T4.4a, 0.4"
+710,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5 (Qld); T5.6 (NSW)
+711,Naracoorte Coastal Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.4, 0.6; T5.6, 0.4"
 712,NSW South Western Slopes,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.4
 713,Ord Victoria Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 714,Pine Creek,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 715,South Eastern Queensland,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,"T4.2, 0.4; T4.4, 0.6"
 716,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
-717,Stony Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.4a
+717,Stony Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T5.6
 718,Sturt Plateau,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T4.2
 719,Sydney Basin,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,T2.6
 720,Tanami,Eucalypt Open Woodlands,Eucalyptus low open woodlands with tussock grass,TF1.5
@@ -745,10 +745,10 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 792,Coolgardie,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 793,Dampierland,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
 794,Desert Uplands,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
-795,Darling Riverine Plains,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T4.4a, 0.6; TF1.5, 0.4"
+795,Darling Riverine Plains,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T5.6, 0.6; TF1.5, 0.4"
 796,Einasleigh Uplands,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
 797,Esperance Plains,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T3.2
-798,Eyre Yorke Block,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
+798,Eyre Yorke Block,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
 799,Finke,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 800,Flinders Lofty Block,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 801,Furneaux,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,TF1.2
@@ -759,22 +759,22 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 806,Gibson Desert,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 807,Great Sandy Desert,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 808,Gulf Plains,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
-809,Great Victoria Desert,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T5.3, 0.9; T4.4a, 0.1"
+809,Great Victoria Desert,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T5.3, 0.9; T5.6, 0.1"
 810,Jarrah Forest,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T3.2
 811,Kanmantoo,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T2.6
 812,MacDonnell Ranges,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 813,Mallee,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T3.2
-814,Murray Darling Depression,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
-815,Mitchell Grass Downs,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
-816,Mount Isa Inlier,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
+814,Murray Darling Depression,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
+815,Mitchell Grass Downs,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
+816,Mount Isa Inlier,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
 817,Mulga Lands,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
 818,Murchison,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T5.3, 0.9; T5.1, 0.1"
-819,Naracoorte Coastal Plain,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
+819,Naracoorte Coastal Plain,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
 820,NSW South Western Slopes,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,TF1.2
-821,Nullarbor,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
+821,Nullarbor,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
 822,Ord Victoria Plain,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
 823,Pilbara,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.3
-824,Riverina,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.4a
+824,Riverina,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T5.6
 825,South East Coastal Plain,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,TF1.2
 826,South East Corner,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"TF1.2 (Vic); T2.6, 0.8 (NSW); MT2.1, 0.2 (NSW)"
 827,South Eastern Highlands,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"TF1.2, 0.9 (Vic); T2.6, 0.1 (Vic); T2.6 (NSW)"
@@ -789,34 +789,34 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 836,Victorian Midlands,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T2.6
 837,Warren,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T3.2
 838,Wet Tropics,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,T4.3
-839,Yalgoo,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T3.2, 0.4; T4.4a, 0.5; T5.3, 0.1"
-840,Murchison,Acacia Forests and Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-841,Riverina,Acacia Forests and Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-842,Broken Hill Complex,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,"T4.4a, 0.6; T5.3, 0.4"
-843,Channel Country,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-844,Coolgardie,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-845,Finke,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-846,Flinders Lofty Block,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-847,Gawler,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-848,Great Victoria Desert,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-849,Murchison,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-850,Nullarbor,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-851,Simpson Strzelecki Dunefields,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
-852,Stony Plains,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
+839,Yalgoo,Acacia Shrublands,Other Acacia tall open shrublands and [tall] shrublands,"T3.2, 0.4; T5.6, 0.5; T5.3, 0.1"
+840,Murchison,Acacia Forests and Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+841,Riverina,Acacia Forests and Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+842,Broken Hill Complex,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,"T5.6, 0.6; T5.3, 0.4"
+843,Channel Country,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+844,Coolgardie,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+845,Finke,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+846,Flinders Lofty Block,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+847,Gawler,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+848,Great Victoria Desert,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+849,Murchison,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+850,Nullarbor,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+851,Simpson Strzelecki Dunefields,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
+852,Stony Plains,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
 853,Broken Hill Complex,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.8; T5.3, 0.2"
 854,Carnarvon,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.3
 855,Channel Country,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.8; T5.3, 0.2"
 856,Coolgardie,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.1
-857,Eyre Yorke Block,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
+857,Eyre Yorke Block,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
 858,Flinders Lofty Block,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.8; T5.3, 0.2"
 859,Gascoyne,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.3
-860,Gawler,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
+860,Gawler,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
 861,Great Sandy Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.1
-862,Great Victoria Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
+862,Great Victoria Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
 863,Murray Darling Depression,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.1
 864,Mulga Lands,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.3
 865,Murchison,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.51; T5.1,0.49"
-866,Nullarbor,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T4.4a
+866,Nullarbor,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.6
 867,Simpson Strzelecki Dunefields,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,T5.3
 868,Stony Plains,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.6; T5.3, 0.4"
 869,Yalgoo,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands with chenopods,"TF1.5, 0.51; T5.1,0.49"
@@ -855,15 +855,15 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 903,Great Victoria Desert,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 904,Kanmantoo,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 905,MacDonnell Ranges,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
-906,Murray Darling Depression,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4a
-907,Mitchell Grass Downs,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.3 (Qld); T4.4a (NT)
+906,Murray Darling Depression,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.6
+907,Mitchell Grass Downs,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.3 (Qld); T5.6 (NT)
 908,Mount Isa Inlier,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.3
 909,Mulga Lands,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 910,New England Tablelands,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4
 911,NSW South Western Slopes,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4
-912,Nullarbor,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4a
+912,Nullarbor,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.6
 913,Ord Victoria Plain,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.3
-914,Riverina,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,"T4.4, 0.1; T4.4a, 0.4; TF1.2, 0.5"
+914,Riverina,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,"T4.4, 0.1; T5.6, 0.4; TF1.2, 0.5"
 915,Simpson Strzelecki Dunefields,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 916,Stony Plains,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 917,Sturt Plateau,Acacia Open Woodlands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.3
@@ -885,8 +885,8 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 933,Great Victoria Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 934,MacDonnell Ranges,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 935,Murray Darling Depression,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
-936,Mitchell Grass Downs,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4a
-937,Mount Isa Inlier,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T4.4a
+936,Mitchell Grass Downs,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.6
+937,Mount Isa Inlier,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.6
 938,Mulga Lands,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 939,Murchison,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
 940,Pilbara,Acacia Shrublands,Acacia (+/- low) open woodlands and shrublands +/- tussock grass,T5.3
@@ -907,7 +907,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 955,Gulf Plains,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 956,Great Victoria Desert,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 957,Little Sandy Desert,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
-958,Mitchell Grass Downs,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T4.4a
+958,Mitchell Grass Downs,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.6
 959,Mount Isa Inlier,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 960,Mulga Lands,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 961,Murchison,Acacia Open Woodlands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
@@ -924,7 +924,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 972,Great Victoria Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 973,Kanmantoo,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T3.2
 974,Little Sandy Desert,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
-975,Mitchell Grass Downs,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T4.4a
+975,Mitchell Grass Downs,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.6
 976,Murchison,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
 977,New England Tablelands,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T2.6
 978,Pilbara,Acacia Shrublands,Acacia (+/- low) open woodlands and sparse shrublands with a shrubby understorey,T5.3
@@ -932,76 +932,76 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 980,Avon Wheatbelt,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T2.6, 0.6; T4.4, 0.4"
 981,Brigalow Belt North,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T4.2, 0.9; TF1.2, 0.09; MT2.1, 0.01"
 982,Brigalow Belt South,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,TF1.2
-983,Broken Hill Complex,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-984,Central Ranges,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+983,Broken Hill Complex,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+984,Central Ranges,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 985,Central Mackay Coast,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T2.6, 0.6; MT2.1, 0.4"
-986,Coolgardie,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-987,Cobar Peneplain,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+986,Coolgardie,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+987,Cobar Peneplain,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 988,Cape York Peninsula,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T4.2, 0.55; T4.3,0.4;  T3.1, 0.05"
 989,Darwin Coastal,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
-990,Desert Uplands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T1.2, 0.2; T4.4a, 0.8"
+990,Desert Uplands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T1.2, 0.2; T5.6, 0.8"
 991,Darling Riverine Plains,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4
 992,Einasleigh Uplands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"TF1.2, 0.98; T4.3, 0.02"
 993,Eyre Yorke Block,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
 994,Flinders Lofty Block,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
 995,Furneaux,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
-996,Gascoyne,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-997,Gawler,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-998,Gibson Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-999,Great Sandy Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+996,Gascoyne,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+997,Gawler,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+998,Gibson Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+999,Great Sandy Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1000,Gulf Coastal,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
 1001,Gulf Plains,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
-1002,Great Victoria Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+1002,Great Victoria Desert,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1003,Jarrah Forest,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T2.6, 0.6; T4.4, 0.4"
 1004,Kanmantoo,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
-1005,Mallee,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-1006,Murray Darling Depression,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-1007,Mulga Lands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-1008,Murchison,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+1005,Mallee,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+1006,Murray Darling Depression,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+1007,Mulga Lands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+1008,Murchison,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1009,Nandewar,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,TF1.2
 1010,Naracoorte Coastal Plain,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
 1011,New England Tablelands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,TF1.2
 1012,NSW North Coast,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,TF1.2
 1013,NSW South Western Slopes,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T4.4, 0.4; TF1.2, 0.6"
-1014,Nullarbor,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
-1015,Riverina,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+1014,Nullarbor,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
+1015,Riverina,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1016,South East Coastal Plain,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
 1017,South East Corner,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
 1018,South Eastern Highlands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T2.6
 1019,South Eastern Queensland,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"TF1.2, 0.4; MT2.1, 0.6"
 1020,Southern Volcanic Plain,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T4.4, 0.6; T2.6, 0.4"
 1021,Sydney Basin,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"T3.2, 0.4; TF1.2, 0.6"
-1022,Tanami,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+1022,Tanami,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1023,Tiwi Cobourg,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,MT2.1
-1024,Victorian Midlands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T4.4a
+1024,Victorian Midlands,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,T5.6
 1025,Wet Tropics,Casuarina Forests and Woodlands,Casuarina and Allocasuarina forests and woodlands,"TF1.2, 0.7; T3.1, 0.3"
-1026,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
+1026,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
 1027,Brigalow Belt South,Mallee Woodlands and Shrublands,Mallee with hummock grass,T2.6
-1028,Coolgardie,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1029,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1030,Darling Riverine Plains,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1031,Esperance Plains,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T4.4a, 0.6; T3.2, 0.4"
-1032,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1033,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1034,Gawler,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1035,Geraldton Sandplains,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T3.2, 0.8; T4.4a, 0.2"
-1036,Gulf Fall and Uplands,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1037,Gibson Desert,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1038,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
+1028,Coolgardie,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1029,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1030,Darling Riverine Plains,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1031,Esperance Plains,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T5.6, 0.6; T3.2, 0.4"
+1032,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1033,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1034,Gawler,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1035,Geraldton Sandplains,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T3.2, 0.8; T5.6, 0.2"
+1036,Gulf Fall and Uplands,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1037,Gibson Desert,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1038,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
 1039,Jarrah Forest,Mallee Woodlands and Shrublands,Mallee with hummock grass,T3.2
-1040,Kanmantoo,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1041,Mallee,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1042,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
+1040,Kanmantoo,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1041,Mallee,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1042,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
 1043,Mitchell Grass Downs,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.3
 1044,Mount Isa Inlier,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.3
-1045,Murchison,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
+1045,Murchison,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
 1046,Nandewar,Mallee Woodlands and Shrublands,Mallee with hummock grass,T2.6
-1047,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
+1047,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
 1048,NSW South Western Slopes,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4
-1049,Nullarbor,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1050,Riverina,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1051,Swan Coastal Plain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T4.4a
-1052,Yalgoo,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T4.4a, 0.6; T4.4, 0.4"
+1049,Nullarbor,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1050,Riverina,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1051,Swan Coastal Plain,Mallee Woodlands and Shrublands,Mallee with hummock grass,T5.6
+1052,Yalgoo,Mallee Woodlands and Shrublands,Mallee with hummock grass,"T5.6, 0.6; T4.4, 0.4"
 1053,Avon Wheatbelt,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)","T5.3, 0.4; T3.2, 0.6"
 1054,Brigalow Belt North,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)","T3.2, 0.6; MT2.1, 0.4"
 1055,Brigalow Belt South,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T2.6
@@ -1014,7 +1014,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1062,Eyre Yorke Block,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T2.6
 1063,Flinders Lofty Block,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T2.6
 1064,Furneaux,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)","T3.2, 0.7; T2.6, 0.3"
-1065,Gawler,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T4.4a
+1065,Gawler,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T5.6
 1066,Geraldton Sandplains,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T3.2
 1067,Great Victoria Desert,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T5.3
 1068,Kanmantoo,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T2.6
@@ -1023,7 +1023,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1071,Murray Darling Depression,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
 1072,Murchison,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T3.2
 1073,Naracoorte Coastal Plain,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
-1074,Nullarbor,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T4.4a
+1074,Nullarbor,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T5.6
 1075,Riverina,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
 1076,South East Coastal Plain,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
 1077,South East Corner,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
@@ -1039,33 +1039,33 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1087,Victorian Midlands,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",TF1.2
 1088,Wet Tropics,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T3.2
 1089,Yalgoo,Low Closed Forests and Tall Closed Shrublands,"Low closed forest or tall closed shrublands (including Acacia, Melaleuca and Banksia)",T3.2
-1090,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T4.4a, 0.9; T3.2, 0.1"
-1091,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1092,Coolgardie,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1093,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1094,Darling Riverine Plains,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1090,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T5.6, 0.9; T3.2, 0.1"
+1091,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1092,Coolgardie,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1093,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1094,Darling Riverine Plains,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1095,Esperance Plains,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
-1096,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T3.2, 0.51; T4.4a, 0.49"
-1097,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1098,Gawler,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1096,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T3.2, 0.51; T5.6, 0.49"
+1097,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1098,Gawler,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1099,Geraldton Sandplains,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
-1100,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1101,Hampton,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1100,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1101,Hampton,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1102,Jarrah Forest,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
 1103,Kanmantoo,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
-1104,Mallee,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T4.4a, 0.9; T3.2, 0.1"
-1105,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1104,Mallee,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,"T5.6, 0.9; T3.2, 0.1"
+1105,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1106,Nandewar,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T2.6
-1107,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1107,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1108,New England Tablelands,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T2.6
 1109,NSW North Coast,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
-1110,Nullarbor,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
-1111,Riverina,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1110,Nullarbor,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
+1111,Riverina,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1112,South Eastern Queensland,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
 1113,Sydney Basin,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T2.6
 1114,Tasmanian South East,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
 1115,Tasmanian Southern Ranges,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
-1116,Victorian Midlands,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T4.4a
+1116,Victorian Midlands,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T5.6
 1117,Yalgoo,Mallee Woodlands and Shrublands,Mallee with a dense shrubby understorey,T3.2
 1118,Australian Alps,Heathlands,Heathlands,T6.4
 1119,Avon Wheatbelt,Heathlands,Heathlands,T3.2
@@ -1081,21 +1081,21 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1129,Eyre Yorke Block,Heathlands,Heathlands,T3.2
 1130,Flinders Lofty Block,Heathlands,Heathlands,T3.2
 1131,Furneaux,Heathlands,Heathlands,T3.2
-1132,Gawler,Heathlands,Heathlands,T4.4a
+1132,Gawler,Heathlands,Heathlands,T5.6
 1133,Geraldton Sandplains,Heathlands,Heathlands,T3.2
 1134,Gulf Plains,Heathlands,Heathlands,T4.2
 1135,Jarrah Forest,Heathlands,Heathlands,"T2.6, 0.6; T3.2, 0.4"
 1136,Kanmantoo,Heathlands,Heathlands,"T3.2, 0.9; TF1.6, 0.1"
 1137,King,Heathlands,Heathlands,T3.2
-1138,Mallee,Heathlands,Heathlands,"T3.2, 0.7; T4.4a, 0.3"
-1139,Murray Darling Depression,Heathlands,Heathlands,"T3.2, 0.8; T4.4a, 0.2"
+1138,Mallee,Heathlands,Heathlands,"T3.2, 0.7; T5.6, 0.3"
+1139,Murray Darling Depression,Heathlands,Heathlands,"T3.2, 0.8; T5.6, 0.2"
 1140,Mitchell Grass Downs,Heathlands,Heathlands,F2.5
 1141,Murchison,Heathlands,Heathlands,T5.3
 1142,Nandewar,Heathlands,Heathlands,"T3.2, 0.7; T2.6, 0.3"
 1143,Naracoorte Coastal Plain,Heathlands,Heathlands,T3.2
 1144,New England Tablelands,Heathlands,Heathlands,"T2.6, 0.9; T3.2, 0.1"
 1145,NSW North Coast,Heathlands,Heathlands,T3.2
-1146,NSW South Western Slopes,Heathlands,Heathlands,"T2.6, 0.6; T4.4a, 0.4"
+1146,NSW South Western Slopes,Heathlands,Heathlands,"T2.6, 0.6; T5.6, 0.4"
 1147,Nullarbor,Heathlands,Heathlands,T3.2
 1148,South East Coastal Plain,Heathlands,Heathlands,T3.2
 1149,South East Corner,Heathlands,Heathlands,T3.2
@@ -1161,7 +1161,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1210,Victorian Midlands,Acacia Shrublands,Other shrublands,TF1.2
 1211,Warren,Acacia Shrublands,Other shrublands,T3.2
 1212,Australian Alps,Other Shrublands,Other shrublands,T6.4
-1213,Avon Wheatbelt,Other Shrublands,Other shrublands,"T3.2, 0.7; T4.4a, 0.3"
+1213,Avon Wheatbelt,Other Shrublands,Other shrublands,"T3.2, 0.7; T5.6, 0.3"
 1214,Brigalow Belt North,Other Shrublands,Other shrublands,T3.2
 1215,Brigalow Belt South,Other Shrublands,Other shrublands,"T2.6, 0.3; T3.2, 0.5, TF1.5, 0.2"
 1216,Ben Lomond,Other Shrublands,Other shrublands,"T3.2, 0.51; T6.4, 0.49"
@@ -1170,16 +1170,16 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1219,Channel Country,Other Shrublands,Other shrublands,T4.3
 1220,Central Mackay Coast,Other Shrublands,Other shrublands,T3.2
 1221,Coolgardie,Other Shrublands,Other shrublands,"T3.2, 0.3; T5.3, 0.7"
-1222,Cobar Peneplain,Other Shrublands,Other shrublands,T4.4a
+1222,Cobar Peneplain,Other Shrublands,Other shrublands,T5.6
 1223,Cape York Peninsula,Other Shrublands,Other shrublands,T1.2
 1224,Darling Riverine Plains,Other Shrublands,Other shrublands,TF1.5
 1225,Einasleigh Uplands,Other Shrublands,Other shrublands,"T4.2, 0.8; T4.3, 0.2"
 1226,Esperance Plains,Other Shrublands,Other shrublands,T3.2
-1227,Eyre Yorke Block,Other Shrublands,Other shrublands,"T3.2, 0.4; T4.4a, 0.6"
+1227,Eyre Yorke Block,Other Shrublands,Other shrublands,"T3.2, 0.4; T5.6, 0.6"
 1228,Flinders Lofty Block,Other Shrublands,Other shrublands,T5.3
 1229,Furneaux,Other Shrublands,Other shrublands,T3.2
 1230,Gascoyne,Other Shrublands,Other shrublands,T5.3
-1231,Gawler,Other Shrublands,Other shrublands,T4.4a
+1231,Gawler,Other Shrublands,Other shrublands,T5.6
 1232,Geraldton Sandplains,Other Shrublands,Other shrublands,T3.2
 1233,Gulf Fall and Uplands,Other Shrublands,Other shrublands,T4.3
 1234,Gulf Plains,Other Shrublands,Other shrublands,"T4.2, 0.8; T4.3, 0.2"
@@ -1189,7 +1189,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1238,Kanmantoo,Other Shrublands,Other shrublands,T3.2
 1239,King,Other Shrublands,Other shrublands,T3.2
 1240,Mallee,Other Shrublands,Other shrublands,T3.2
-1241,Murray Darling Depression,Other Shrublands,Other shrublands,"T3.2, 0.3; T4.4a, 0.1; T5.3, 0.6"
+1241,Murray Darling Depression,Other Shrublands,Other shrublands,"T3.2, 0.3; T5.6, 0.1; T5.3, 0.6"
 1242,Mitchell Grass Downs,Other Shrublands,Other shrublands,T4.3
 1243,Mount Isa Inlier,Other Shrublands,Other shrublands,T4.3
 1244,Mulga Lands,Other Shrublands,Other shrublands,T5.3
@@ -1364,7 +1364,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1413,Great Victoria Desert,Tussock Grasslands,Other tussock grasslands,T5.1
 1414,King,Tussock Grasslands,Other tussock grasslands,"MT2.1, 0.51; MT2.2, 0.49"
 1415,MacDonnell Ranges,Tussock Grasslands,Other tussock grasslands,"T4.5, 0.7; T5.1, 0.3"
-1416,Murray Darling Depression,Tussock Grasslands,Other tussock grasslands,T4.4a
+1416,Murray Darling Depression,Tussock Grasslands,Other tussock grasslands,T5.6
 1417,Mitchell Grass Downs,Tussock Grasslands,Other tussock grasslands,"T4.5, 0.7; T5.1, 0.3"
 1418,Mount Isa Inlier,Tussock Grasslands,Other tussock grasslands,"T4.5, 0.7; T5.1, 0.3"
 1419,Mulga Lands,Tussock Grasslands,Other tussock grasslands,"TF1.5, 0.3; T5.1, 0.5; T5.3, 0.2"
@@ -1600,7 +1600,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1649,Esperance Plains,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat","MT1.3, 0.1, MT2.1, 0.6; T3.2, 0.3"
 1650,Eyre Yorke Block,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat","MT1.3, 0.2, MT2.1, 0.5; T3.2, 0.3"
 1651,Finke,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat","T5.1, 0.4; F2.7, 0.6"
-1652,Flinders Lofty Block,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat",T4.4a
+1652,Flinders Lofty Block,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat",T5.6
 1653,Furneaux,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat","MT1.3, 0.7; MT2.1, 0.3"
 1654,Gascoyne,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat",T5.3
 1655,Gawler,"Naturally bare - sand, rock, claypan, mudflat","Naturally bare, sand, rock, claypan, mudflat","T5.1, 0.8; F2.7, 0.2"
@@ -1807,10 +1807,10 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1859,Australian Alps,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1860,Avon Wheatbelt,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1861,Brigalow Belt North,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.2
-1862,Brigalow Belt South,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T4.2, 0.8 (Qld); T4.4a, 0.2 (Qld); T2.1, 0.51 (NSW); T2.6, 0.49 (NSW)"
+1862,Brigalow Belt South,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T4.2, 0.8 (Qld); T5.6, 0.2 (Qld); T2.6 (NSW)"
 1863,Ben Lomond,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4
 1864,Channel Country,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,TF1.5
-1865,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T4.4a, 0.6; T2.6, 0.4"
+1865,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T5.6, 0.6; T2.6, 0.4"
 1866,Desert Uplands,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T4.2, 0.4; T4.3, 0.6"
 1867,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,TF1.5
 1868,Einasleigh Uplands,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.2
@@ -1818,7 +1818,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1870,Geraldton Sandplains,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1871,Jarrah Forest,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1872,Kanmantoo,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
-1873,Mallee,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4a
+1873,Mallee,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T5.6
 1874,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1875,Mitchell Grass Downs,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,TF1.5
 1876,Mount Isa Inlier,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,"T4.2, 0.2; T4.3, 0.8"
@@ -1829,11 +1829,11 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1881,NSW North Coast,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1882,NSW South Western Slopes,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1883,Pilbara,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,TF1.5
-1884,Riverina,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4a
+1884,Riverina,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T5.6
 1885,South East Corner,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1886,South Eastern Highlands,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1887,South Eastern Queensland,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.2
-1888,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4a
+1888,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T5.6
 1889,Swan Coastal Plain,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1890,Sydney Basin,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T2.6
 1891,Tasmanian Central Highlands,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4
@@ -1843,26 +1843,26 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1895,Tasmanian Southern Ranges,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4
 1896,Victorian Midlands,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,TF1.3
 1897,Wet Tropics,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.2
-1898,Yalgoo,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T4.4a
+1898,Yalgoo,Eucalypt Open Woodlands,Eucalyptus open woodlands with shrubby understorey,T5.6
 1899,Arnhem Coast,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1900,Arnhem Plateau,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1901,Australian Alps,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4
 1902,Brigalow Belt South,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4, 0.51; T2.6, 0.49"
 1903,Central Arnhem,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1904,Central Kimberley,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
-1905,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4, 0.6; T4.4a, 0.4"
+1905,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4, 0.6; T5.6, 0.4"
 1906,Daly Basin,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1907,Darwin Coastal,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1908,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,TF1.5
-1909,Finke,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4a, 0.7; T4.3, 0.3"
+1909,Finke,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T5.6, 0.7; T4.3, 0.3"
 1910,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4
 1911,Gulf Fall and Uplands,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
-1912,Great Sandy Desert,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4a, 0.7; T4.3, 0.3"
+1912,Great Sandy Desert,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T5.6, 0.7; T4.3, 0.3"
 1913,Gulf Coastal,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.2, 0.8; T4.3, 0.2"
 1914,Gulf Plains,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.2
 1915,Kanmantoo,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4
-1916,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4a, 0.6; TF1.5, 0.4"
-1917,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4a
+1916,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T5.6, 0.6; TF1.5, 0.4"
+1917,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T5.6
 1918,Nandewar,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,"T4.4, 0.35; T2.6, 0.65"
 1919,Naracoorte Coastal Plain,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4
 1920,New England Tablelands,Eucalypt Open Woodlands,Eucalyptus open woodlands with a grassy understorey,T4.4
@@ -1887,22 +1887,22 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 1940,Desert Uplands,Other Shrublands,Melaleuca shrublands and open shrublands,T4.2
 1941,Einasleigh Uplands,Other Shrublands,Melaleuca shrublands and open shrublands,T4.2
 1942,Esperance Plains,Other Shrublands,Melaleuca shrublands and open shrublands,T3.2
-1943,Eyre Yorke Block,Other Shrublands,Melaleuca shrublands and open shrublands,"T4.4a, 0.49; T3.2, 0.51"
-1944,Flinders Lofty Block,Other Shrublands,Melaleuca shrublands and open shrublands,T4.4a
+1943,Eyre Yorke Block,Other Shrublands,Melaleuca shrublands and open shrublands,"T5.6, 0.49; T3.2, 0.51"
+1944,Flinders Lofty Block,Other Shrublands,Melaleuca shrublands and open shrublands,T5.6
 1945,Furneaux,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.6
-1946,Gawler,Other Shrublands,Melaleuca shrublands and open shrublands,T4.4a
+1946,Gawler,Other Shrublands,Melaleuca shrublands and open shrublands,T5.6
 1947,Geraldton Sandplains,Other Shrublands,Melaleuca shrublands and open shrublands,T3.2
 1948,Gibson Desert,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.5
 1949,Great Sandy Desert,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.5
 1950,Gulf Plains,Other Shrublands,Melaleuca shrublands and open shrublands,T4.2
-1951,Great Victoria Desert,Other Shrublands,Melaleuca shrublands and open shrublands,T4.4a
+1951,Great Victoria Desert,Other Shrublands,Melaleuca shrublands and open shrublands,T5.6
 1952,Hampton,Other Shrublands,Melaleuca shrublands and open shrublands,T3.2
 1953,Jarrah Forest,Other Shrublands,Melaleuca shrublands and open shrublands,"TF1.2, 0.4; T3.2, 0.6"
 1954,Kanmantoo,Other Shrublands,Melaleuca shrublands and open shrublands,"MT2.1, 0.9; T3.2, 0.1"
 1955,Little Sandy Desert,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.5
 1956,Mallee,Other Shrublands,Melaleuca shrublands and open shrublands,"F2.7, 0.5; TF1.2, 0.1; TF1.5, 0.4"
-1957,Murray Darling Depression,Other Shrublands,Melaleuca shrublands and open shrublands,"T4.4a, 0.7; T3.2, 0.3"
-1958,Naracoorte Coastal Plain,Other Shrublands,Melaleuca shrublands and open shrublands,"T4.4a, 0.7; T3.2, 0.3"
+1957,Murray Darling Depression,Other Shrublands,Melaleuca shrublands and open shrublands,"T5.6, 0.7; T3.2, 0.3"
+1958,Naracoorte Coastal Plain,Other Shrublands,Melaleuca shrublands and open shrublands,"T5.6, 0.7; T3.2, 0.3"
 1959,New England Tablelands,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.2
 1960,NSW North Coast,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.2
 1961,NSW South Western Slopes,Other Shrublands,Melaleuca shrublands and open shrublands,TF1.2
@@ -1970,23 +1970,23 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2025,Channel Country,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,TF1.5
 2026,Cape York Peninsula,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,TF1.2
 2027,Desert Uplands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.2
-2028,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"TF1.5, 0.6; T4.4a, 0.4"
+2028,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"TF1.5, 0.6; T5.6, 0.4"
 2029,Einasleigh Uplands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.3
-2030,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.4a
+2030,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T5.6
 2031,Gulf Fall and Uplands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.3
 2032,Gulf Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"T4.2, 0.7; T4.3, 0.3"
 2033,Kanmantoo,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T2.6
 2034,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"T2.6, 0.6; T3.2, 0.4"
-2035,Mitchell Grass Downs,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"TF1.5, 0.8; T4.4a, 0.2"
+2035,Mitchell Grass Downs,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"TF1.5, 0.8; T5.6, 0.2"
 2036,Mount Isa Inlier,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,"T4.3, 0.9; T4.2, 0.1"
 2037,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T5.3
 2038,Naracoorte Coastal Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T2.6
-2039,Pilbara,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.4a
+2039,Pilbara,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T5.6
 2040,Riverina,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.4
 2041,South East Coastal Plain,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T2.6
 2042,South Eastern Queensland,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T3.2
-2043,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.4a
-2044,Stony Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T4.4a
+2043,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T5.6
+2044,Stony Plains,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T5.6
 2045,Sydney Basin,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T2.6
 2046,Victorian Midlands,Eucalypt Open Woodlands,Eucalyptus low open woodlands with a shrubby understorey,T2.6
 2048,Australian Alps,Eucalypt Tall Open Forests,Eucalyptus tall open forest with a fine-leaved shrubby understorey,T2.5
@@ -2008,47 +2008,47 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2064,Tasmanian Southern Ranges,Eucalypt Tall Open Forests,Eucalyptus tall open forest with a fine-leaved shrubby understorey,T2.5
 2065,Tasmanian West,Eucalypt Tall Open Forests,Eucalyptus tall open forest with a fine-leaved shrubby understorey,T2.5
 2066,Warren,Eucalypt Tall Open Forests,Eucalyptus tall open forest with a fine-leaved shrubby understorey,T2.5
-2069,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T4.4, 0.2; T4.4a, 0.8"
+2069,Avon Wheatbelt,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T4.4, 0.2; T5.6, 0.8"
 2070,Brigalow Belt South,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T2.6
-2071,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2072,Coolgardie,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T4.4, 0.2; T4.4a, 0.8"
-2073,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
+2071,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2072,Coolgardie,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T4.4, 0.2; T5.6, 0.8"
+2073,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
 2074,Esperance Plains,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T3.2
-2075,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T3.2, 0.6; T4.4a, 0.4"
-2076,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2077,Gawler,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
+2075,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T3.2, 0.6; T5.6, 0.4"
+2076,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2077,Gawler,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
 2078,Geraldton Sandplains,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T3.2
-2079,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2080,Hampton,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2081,Mallee,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2082,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T4.4a, 0.95; T3.2, 0.05"
+2079,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2080,Hampton,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2081,Mallee,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2082,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,"T5.6, 0.95; T3.2, 0.05"
 2083,Mitchell Grass Downs,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.3
 2084,Mount Isa Inlier,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.3
 2085,Nandewar,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T2.6
 2086,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T3.2
-2087,NSW South Western Slopes,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2088,Nullarbor,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2089,Riverina,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
-2090,Stony Plains,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T4.4a
+2087,NSW South Western Slopes,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2088,Nullarbor,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2089,Riverina,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
+2090,Stony Plains,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T5.6
 2091,Victorian Midlands,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T2.6
 2092,Yalgoo,Mallee Woodlands and Shrublands,Mallee with an open shrubby understorey,T3.2
-2093,Avon Wheatbelt,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T4.4a, 0.4; T2.6, 0.6"
-2094,Brigalow Belt South,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T4.4a, 0.6; T2.6, 0.4"
-2095,Channel Country,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.6; T4.4a, 0.4"
-2096,Coolgardie,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2097,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.4; T4.4a, 0.6"
+2093,Avon Wheatbelt,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T5.6, 0.4; T2.6, 0.6"
+2094,Brigalow Belt South,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T5.6, 0.6; T2.6, 0.4"
+2095,Channel Country,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.6; T5.6, 0.4"
+2096,Coolgardie,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2097,Cobar Peneplain,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.4; T5.6, 0.6"
 2098,Davenport Murchison Ranges,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,TF1.5
-2099,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.4; T4.4a, 0.6"
-2100,Eyre Yorke Block,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2101,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2102,Gawler,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2103,Mallee,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T4.4a, 0.4; TF1.5, 0.6"
-2104,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
+2099,Darling Riverine Plains,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"TF1.5, 0.4; T5.6, 0.6"
+2100,Eyre Yorke Block,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2101,Flinders Lofty Block,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2102,Gawler,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2103,Mallee,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,"T5.6, 0.4; TF1.5, 0.6"
+2104,Murray Darling Depression,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
 2105,Mitchell Grass Downs,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,TF1.5
 2106,Mulga Lands,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,TF1.5
-2107,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2108,Stony Plains,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
-2109,Yalgoo,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T4.4a
+2107,Simpson Strzelecki Dunefields,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2108,Stony Plains,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
+2109,Yalgoo,Eucalypt Open Woodlands,Eucalyptus (+/- low) open woodlands with a chenopod or samphire understorey,T5.6
 2110,Brigalow Belt South,Other Shrublands,Lignum shrublands and wetlands,TF1.5
 2111,Channel Country,Other Shrublands,Lignum shrublands and wetlands,TF1.5
 2112,Cobar Peneplain,Other Shrublands,Lignum shrublands and wetlands,TF1.5
@@ -2171,17 +2171,17 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2230,Tasmanian Southern Ranges,Eucalypt Open Forests,"Eucalyptus tall open forests and open forests with ferns, herbs, sedges, rushes or wet tussock grasses",T2.5
 2231,Victorian Midlands,Eucalypt Open Forests,"Eucalyptus tall open forests and open forests with ferns, herbs, sedges, rushes or wet tussock grasses",T2.5
 2232,Wet Tropics,Eucalypt Open Forests,"Eucalyptus tall open forests and open forests with ferns, herbs, sedges, rushes or wet tussock grasses",T2.5
-2233,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
+2233,Broken Hill Complex,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
 2234,Cobar Peneplain,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T2.6
-2235,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
-2236,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
-2237,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
+2235,Eyre Yorke Block,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
+2236,Flinders Lofty Block,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
+2237,Great Victoria Desert,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
 2238,Kanmantoo,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T3.2
-2239,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
+2239,Murray Darling Depression,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
 2240,Naracoorte Coastal Plain,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T3.2
 2241,NSW South Western Slopes,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T2.6
-2242,Nullarbor,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,"T4.4a, 0.8; T5.1, 0.2"
-2243,Riverina,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T4.4a
+2242,Nullarbor,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,"T5.6, 0.8; T5.1, 0.2"
+2243,Riverina,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T5.6
 2244,Sydney Basin,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T2.6
 2245,Tasmanian South East,Mallee Woodlands and Shrublands,Mallee with a tussock grass understorey,T2.6
 2246,Arnhem Coast,Rainforests and Vine Thickets,Dry rainforest or vine thickets,T1.2
@@ -2269,114 +2269,114 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2328,Tasmanian South East,"Other Grasslands, Herblands, Sedgelands and Rushlands",Other grasslands,MT2.1
 2329,Avon Wheatbelt,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
 2330,Broken Hill Complex,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
-2331,Coolgardie,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4a
+2331,Coolgardie,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T5.6
 2332,Cobar Peneplain,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4
 2333,Flinders Lofty Block,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
 2334,Geraldton Sandplains,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
-2335,Mallee,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4a
+2335,Mallee,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T5.6
 2336,Murray Darling Depression,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
-2337,Murchison,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4a
+2337,Murchison,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T5.6
 2338,NSW South Western Slopes,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4
-2339,Nullarbor,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4a
+2339,Nullarbor,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T5.6
 2340,Riverina,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,"TF1.2, 0.2; TF1.5, 0.8"
 2341,Stony Plains,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,TF1.5
 2342,Southern Volcanic Plain,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4
 2343,Victorian Midlands,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4
-2344,Yalgoo,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T4.4a
+2344,Yalgoo,Eucalypt Woodlands,Eucalyptus woodlands with a chenopod or samphire understorey,T5.6
 2345,Central Ranges,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.3
-2346,Coolgardie,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
-2347,Darling Riverine Plains,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
-2348,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
+2346,Coolgardie,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
+2347,Darling Riverine Plains,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
+2348,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
 2349,Great Sandy Desert,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.3
-2350,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
-2351,Murchison,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
-2352,Yalgoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T4.4a
-2353,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2354,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2355,Gawler,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2356,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2357,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2358,Naracoorte Coastal Plain,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T4.4a
-2359,Avon Wheatbelt,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
-2360,Carnarvon,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
+2350,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
+2351,Murchison,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
+2352,Yalgoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a hummock grass understorey,T5.6
+2353,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2354,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2355,Gawler,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2356,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2357,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2358,Naracoorte Coastal Plain,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a tussock grass understorey,T5.6
+2359,Avon Wheatbelt,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
+2360,Carnarvon,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
 2361,Cobar Peneplain,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T2.6
-2362,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
-2363,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,"T3.2, 0.8; T4.4a, 0.2"
-2364,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
-2365,Riverina,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
-2366,Yalgoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T4.4a
-2367,Nullarbor,Mallee Woodlands and Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
+2362,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
+2363,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,"T3.2, 0.8; T5.6, 0.2"
+2364,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
+2365,Riverina,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
+2366,Yalgoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with an open shrubby understorey,T5.6
+2367,Nullarbor,Mallee Woodlands and Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
 2368,Esperance Plains,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T3.2
-2369,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
-2370,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
+2369,Eyre Yorke Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
+2370,Flinders Lofty Block,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
 2371,Jarrah Forest,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T3.2
-2372,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
-2373,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
+2372,Kanmantoo,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
+2373,Murray Darling Depression,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
 2374,Naracoorte Coastal Plain,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T3.2
-2375,Riverina,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T4.4a
+2375,Riverina,Mallee Open Woodlands and Sparse Mallee Shrublands,Open mallee woodlands and sparse mallee shrublands with a dense shrubby understorey,T5.6
 2376,Brigalow Belt South,Other Open Woodlands,Callitris open woodlands,T2.6
-2377,Broken Hill Complex,Other Open Woodlands,Callitris open woodlands,T4.4a
-2378,Cobar Peneplain,Other Open Woodlands,Callitris open woodlands,"T2.6, 0.7; T4.4a, 0.3"
-2379,Darling Riverine Plains,Other Open Woodlands,Callitris open woodlands,T4.4a
-2380,Eyre Yorke Block,Other Open Woodlands,Callitris open woodlands,T4.4a
-2381,Flinders Lofty Block,Other Open Woodlands,Callitris open woodlands,T4.4a
-2382,Gawler,Other Open Woodlands,Callitris open woodlands,T4.4a
-2383,Great Victoria Desert,Other Open Woodlands,Callitris open woodlands,T4.4a
-2384,Kanmantoo,Other Open Woodlands,Callitris open woodlands,T4.4a
-2385,Murray Darling Depression,Other Open Woodlands,Callitris open woodlands,T4.4a
+2377,Broken Hill Complex,Other Open Woodlands,Callitris open woodlands,T5.6
+2378,Cobar Peneplain,Other Open Woodlands,Callitris open woodlands,"T2.6, 0.7; T5.6, 0.3"
+2379,Darling Riverine Plains,Other Open Woodlands,Callitris open woodlands,T5.6
+2380,Eyre Yorke Block,Other Open Woodlands,Callitris open woodlands,T5.6
+2381,Flinders Lofty Block,Other Open Woodlands,Callitris open woodlands,T5.6
+2382,Gawler,Other Open Woodlands,Callitris open woodlands,T5.6
+2383,Great Victoria Desert,Other Open Woodlands,Callitris open woodlands,T5.6
+2384,Kanmantoo,Other Open Woodlands,Callitris open woodlands,T5.6
+2385,Murray Darling Depression,Other Open Woodlands,Callitris open woodlands,T5.6
 2386,Nandewar,Other Open Woodlands,Callitris open woodlands,T2.6
 2387,New England Tablelands,Other Open Woodlands,Callitris open woodlands,T2.6
 2388,NSW South Western Slopes,Other Open Woodlands,Callitris open woodlands,T2.6
-2389,Riverina,Other Open Woodlands,Callitris open woodlands,T4.4a
+2389,Riverina,Other Open Woodlands,Callitris open woodlands,T5.6
 2390,South Eastern Highlands,Other Open Woodlands,Callitris open woodlands,T2.6
 2391,Brigalow Belt South,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.2
 2392,Cobar Peneplain,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.5
 2393,Darling Riverine Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.5
-2394,Eyre Yorke Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,T4.4a
+2394,Eyre Yorke Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,T5.6
 2395,Nandewar,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.2
 2396,New England Tablelands,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.2
 2397,South Eastern Highlands,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a tussock grass understorey,TF1.2
-2398,Burt Plain,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2399,Central Ranges,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2400,Finke,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2401,Great Sandy Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2402,Great Victoria Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2403,MacDonnell Ranges,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T4.4a, 0.6; T5.3, 0.4"
-2404,Coolgardie,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2405,Eyre Yorke Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2406,Flinders Lofty Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2407,Gawler,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2408,Great Victoria Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2409,Murchison,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2410,Nullarbor,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2411,Simpson Strzelecki Dunefields,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
-2412,Stony Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T4.4a
+2398,Burt Plain,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2399,Central Ranges,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2400,Finke,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2401,Great Sandy Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2402,Great Victoria Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2403,MacDonnell Ranges,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a hummock grass understorey,"T5.6, 0.6; T5.3, 0.4"
+2404,Coolgardie,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2405,Eyre Yorke Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2406,Flinders Lofty Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2407,Gawler,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2408,Great Victoria Desert,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2409,Murchison,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2410,Nullarbor,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2411,Simpson Strzelecki Dunefields,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
+2412,Stony Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a chenopod shrub understorey,T5.6
 2413,Arnhem Coast,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,MT2.1
 2414,Brigalow Belt South,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4
-2415,Broken Hill Complex,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
-2416,Cobar Peneplain,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
+2415,Broken Hill Complex,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
+2416,Cobar Peneplain,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
 2417,Darwin Coastal,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,MT2.1
-2418,Darling Riverine Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,"T4.4a, 0.9; T4.4, 0.1"
+2418,Darling Riverine Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,"T5.6, 0.9; T4.4, 0.1"
 2419,Eyre Yorke Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T2.6
-2420,Flinders Lofty Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
-2421,Gawler,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
+2420,Flinders Lofty Block,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
+2421,Gawler,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
 2422,Gulf Coastal,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,MT2.1
 2423,Gulf Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,MT2.1
 2424,Kanmantoo,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T2.6
-2425,Murray Darling Depression,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
-2426,Mulga Lands,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
+2425,Murray Darling Depression,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
+2426,Mulga Lands,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
 2427,Nandewar,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4
 2428,NSW South Western Slopes,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4
-2429,Riverina,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
+2429,Riverina,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
 2430,South Eastern Highlands,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4
-2431,Stony Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T4.4a
+2431,Stony Plains,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,T5.6
 2432,Tiwi Cobourg,Other Open Woodlands,Casuarina and Allocasuarina open woodlands with a shrubby understorey,MT2.1
 2433,Arnhem Coast,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2434,Central Arnhem,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2435,Daly Basin,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2436,Darwin Coastal,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
-2437,Eyre Yorke Block,Other Open Woodlands,Melaleuca open woodlands,T4.4a
-2438,Gawler,Other Open Woodlands,Melaleuca open woodlands,T4.4a
+2437,Eyre Yorke Block,Other Open Woodlands,Melaleuca open woodlands,T5.6
+2438,Gawler,Other Open Woodlands,Melaleuca open woodlands,T5.6
 2439,Gulf Fall and Uplands,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2440,Gulf Coastal,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2441,Gulf Plains,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
@@ -2386,25 +2386,25 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2445,Sturt Plateau,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2446,Victoria Bonaparte,Other Open Woodlands,Melaleuca open woodlands,"TF1.2, 0.3; TF1.4, 0.5, T4.2, 0.2"
 2447,Brigalow Belt South,Other Open Woodlands,Other open woodlands,T4.4
-2448,Broken Hill Complex,Other Open Woodlands,Other open woodlands,T4.4a
+2448,Broken Hill Complex,Other Open Woodlands,Other open woodlands,T5.6
 2449,Central Kimberley,Other Open Woodlands,Other open woodlands,T4.2
-2450,Central Ranges,Other Open Woodlands,Other open woodlands,"T4.4a, 0.6; T5.3, 0.4"
+2450,Central Ranges,Other Open Woodlands,Other open woodlands,"T5.6, 0.6; T5.3, 0.4"
 2451,Daly Basin,Other Open Woodlands,Other open woodlands,T4.2
 2452,Darwin Coastal,Other Open Woodlands,Other open woodlands,T4.2
 2453,Dampierland,Other Open Woodlands,Other open woodlands,T4.2
 2454,Davenport Murchison Ranges,Other Open Woodlands,Other open woodlands,T4.2
-2455,Darling Riverine Plains,Other Open Woodlands,Other open woodlands,T4.4a
-2456,Eyre Yorke Block,Other Open Woodlands,Other open woodlands,T4.4a
-2457,Flinders Lofty Block,Other Open Woodlands,Other open woodlands,T4.4a
-2458,Gawler,Other Open Woodlands,Other open woodlands,T4.4a
+2455,Darling Riverine Plains,Other Open Woodlands,Other open woodlands,T5.6
+2456,Eyre Yorke Block,Other Open Woodlands,Other open woodlands,T5.6
+2457,Flinders Lofty Block,Other Open Woodlands,Other open woodlands,T5.6
+2458,Gawler,Other Open Woodlands,Other open woodlands,T5.6
 2459,Gulf Fall and Uplands,Other Open Woodlands,Other open woodlands,T4.2
-2460,Gibson Desert,Other Open Woodlands,Other open woodlands,"T4.4a, 0.6; T5.3, 0.4"
-2461,Great Sandy Desert,Other Open Woodlands,Other open woodlands,"T4.4a, 0.6; T5.3, 0.4"
-2462,Great Victoria Desert,Other Open Woodlands,Other open woodlands,T4.4a
-2463,Murray Darling Depression,Other Open Woodlands,Other open woodlands,T4.4a
+2460,Gibson Desert,Other Open Woodlands,Other open woodlands,"T5.6, 0.6; T5.3, 0.4"
+2461,Great Sandy Desert,Other Open Woodlands,Other open woodlands,"T5.6, 0.6; T5.3, 0.4"
+2462,Great Victoria Desert,Other Open Woodlands,Other open woodlands,T5.6
+2463,Murray Darling Depression,Other Open Woodlands,Other open woodlands,T5.6
 2464,Mitchell Grass Downs,Other Open Woodlands,Other open woodlands,T4.2
 2465,NSW South Western Slopes,Other Open Woodlands,Other open woodlands,T4.4
-2466,Nullarbor,Other Open Woodlands,Other open woodlands,T4.4a
+2466,Nullarbor,Other Open Woodlands,Other open woodlands,T5.6
 2467,Ord Victoria Plain,Other Open Woodlands,Other open woodlands,T4.2
 2468,Sturt Plateau,Other Open Woodlands,Other open woodlands,T4.2
 2469,Tasmanian Central Highlands,Other Open Woodlands,Other open woodlands,"T2.3, 0.51; T6.4, 0.49"
@@ -2418,23 +2418,23 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2478,Desert Uplands,Other Shrublands,Other sparse shrublands and sparse heathlands,F2.5
 2479,Davenport Murchison Ranges,Other Shrublands,Other sparse shrublands and sparse heathlands,"T4.3, 0.3; T5.3, 0.7"
 2480,Darling Riverine Plains,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.3
-2481,Eyre Yorke Block,Other Shrublands,Other sparse shrublands and sparse heathlands,"T3.2, 0.8; T4.4a, 0.2"
+2481,Eyre Yorke Block,Other Shrublands,Other sparse shrublands and sparse heathlands,"T3.2, 0.8; T5.6, 0.2"
 2482,Flinders Lofty Block,Other Shrublands,Other sparse shrublands and sparse heathlands,T2.6
 2483,Furneaux,Other Shrublands,Other sparse shrublands and sparse heathlands,T3.2
 2484,Gascoyne,Other Shrublands,Other sparse shrublands and sparse heathlands,"T5.1, 0.4; T5.3, 0.6"
-2485,Gawler,Other Shrublands,Other sparse shrublands and sparse heathlands,"T4.4a, 0.51; T5.3, 0.49"
+2485,Gawler,Other Shrublands,Other sparse shrublands and sparse heathlands,"T5.6, 0.51; T5.3, 0.49"
 2486,Great Sandy Desert,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.3
-2487,Great Victoria Desert,Other Shrublands,Other sparse shrublands and sparse heathlands,"T4.4a, 0.51; T5.3, 0.49"
-2488,Kanmantoo,Other Shrublands,Other sparse shrublands and sparse heathlands,T4.4a
+2487,Great Victoria Desert,Other Shrublands,Other sparse shrublands and sparse heathlands,"T5.6, 0.51; T5.3, 0.49"
+2488,Kanmantoo,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.6
 2489,MacDonnell Ranges,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.3
-2490,Murray Darling Depression,Other Shrublands,Other sparse shrublands and sparse heathlands,"T4.4a, 0.8; MT2.1, 0.2"
+2490,Murray Darling Depression,Other Shrublands,Other sparse shrublands and sparse heathlands,"T5.6, 0.8; MT2.1, 0.2"
 2491,Mitchell Grass Downs,Other Shrublands,Other sparse shrublands and sparse heathlands,"T4.3, 0.49; T5.3, 0.51"
 2492,Mount Isa Inlier,Other Shrublands,Other sparse shrublands and sparse heathlands,T4.3
 2493,Mulga Lands,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.3
 2494,Murchison,Other Shrublands,Other sparse shrublands and sparse heathlands,"T5.1, 0.4; T5.3, 0.6"
 2495,Nandewar,Other Shrublands,Other sparse shrublands and sparse heathlands,T2.6
 2496,New England Tablelands,Other Shrublands,Other sparse shrublands and sparse heathlands,T2.6
-2497,Nullarbor,Other Shrublands,Other sparse shrublands and sparse heathlands,T4.4a
+2497,Nullarbor,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.6
 2498,Pilbara,Other Shrublands,Other sparse shrublands and sparse heathlands,T5.3
 2499,South East Coastal Plain,Other Shrublands,Other sparse shrublands and sparse heathlands,T3.2
 2500,South Eastern Highlands,Other Shrublands,Other sparse shrublands and sparse heathlands,T3.2
@@ -2449,9 +2449,9 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2510,Ben Lomond,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T2.6, 0.1; T7.2, 0.9"
 2511,Cobar Peneplain,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4, 0.1; T7.1, 0.5; T7.2, 0.4"
 2512,Darling Riverine Plains,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4, 0.1; T7.1, 0.5; T7.2, 0.4"
-2513,Eyre Yorke Block,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4a, 0.1; T7.2, 0.9"
+2513,Eyre Yorke Block,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T5.6, 0.1; T7.2, 0.9"
 2514,Furneaux,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T2.6, 0.1; T7.2, 0.9"
-2515,Gawler,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4a, 0.1; T7.2, 0.9"
+2515,Gawler,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T5.6, 0.1; T7.2, 0.9"
 2516,King,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T2.5, 0.1; T7.2, 0.9"
 2517,Murray Darling Depression,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4, 0.1; T7.2, 0.9"
 2518,Nandewar,"Regrowth, modified native vegetation",Regrowth or modified forests and woodlands,"T4.4, 0.1; T7.2, 0.9"
@@ -2477,7 +2477,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2538,Nandewar,"Regrowth, modified native vegetation",Regrowth or modified graminoids,"T2.6, 0.05; T4.4, 0.04; T7.2, 0.9; TF1.2, 0.01"
 2539,New England Tablelands,"Regrowth, modified native vegetation",Regrowth or modified graminoids,"T2.6, 0.05; T4.4, 0.04; T7.2, 0.9; TF1.2, 0.01"
 2540,NSW South Western Slopes,"Regrowth, modified native vegetation",Regrowth or modified graminoids,"T4.4, 0.06; T7.2, 0.9; TF1.5, 0.04"
-2541,Riverina,"Regrowth, modified native vegetation",Regrowth or modified graminoids,"T4.4a, 0.08; T7.2, 0.9; TF1.3, 0.02"
+2541,Riverina,"Regrowth, modified native vegetation",Regrowth or modified graminoids,"T5.6, 0.08; T7.2, 0.9; TF1.3, 0.02"
 2542,Cobar Peneplain,"Chenopod Shrublands, Samphire Shrublands and Forblands","Regrowth or modified chenopod shrublands, samphire or forblands",T7.1
 2543,Darling Riverine Plains,"Chenopod Shrublands, Samphire Shrublands and Forblands","Regrowth or modified chenopod shrublands, samphire or forblands",T7.1
 2544,NSW South Western Slopes,"Chenopod Shrublands, Samphire Shrublands and Forblands","Regrowth or modified chenopod shrublands, samphire or forblands",T7.1
@@ -2508,7 +2508,7 @@ Value,REG_NAME_7,MVG_NAME,MVS_NAME,EFG_DK
 2569,Tasmanian South East,Unclassified native vegetation,Unclassified native vegetation,"T2.6, 0.1; T7.4, 0.9"
 2570,Tasmanian Southern Ranges,Unclassified native vegetation,Unclassified native vegetation,"T2.5, 0.1; T7.4, 0.9"
 2571,Tasmanian West,Unclassified native vegetation,Unclassified native vegetation,"T2.5, 0.1; T7.4, 0.9"
-2574,Brigalow Belt South,Acacia Open Woodlands,"Cleared, non-native vegetation, buildings","T4.4, 0.51; T4.4a, 0.49"
+2574,Brigalow Belt South,Acacia Open Woodlands,"Cleared, non-native vegetation, buildings","T4.4, 0.51; T5.6, 0.49"
 2575,Australian Alps,"Inland aquatic - freshwater, salt lakes, lagoons","Cleared, non-native vegetation, buildings","T2.4, 0.1; F3.1, 0.9"
 2576,Brigalow Belt South,"Inland aquatic - freshwater, salt lakes, lagoons","Cleared, non-native vegetation, buildings","TF1.3, 0.8; TF1.5, 0.1; F2.2, 0.1"
 2577,Cobar Peneplain,"Inland aquatic - freshwater, salt lakes, lagoons","Cleared, non-native vegetation, buildings","TF1.3, 0.4; TF1.5, 0.6"
