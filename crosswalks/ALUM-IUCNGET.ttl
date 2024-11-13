@@ -16,10 +16,18 @@
 
 <http://w3id.org/env/neap/alum8-get/> 
     a skos:ConceptScheme ;
+    rdfs:label "ALUM v8 to IUCN GET crosswalk" ;
+    dcterms:description "Crosswalk from the Australian Land Use and Management Classification Version 8 (October 2016) to the IUCN Global Ecosystem Typology"@en ;
+    dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+    dcterms:references <https://www.nature.com/articles/s41586-022-05318-4> ;
+    dcterms:references <https://www.agriculture.gov.au/abares/aclump/land-use/alum-classification> ;
+    dcterms:created "2024-07-31"^^xsd:date ;
+    dcterms:modified "2024-11-14"^^xsd:date ;
     .
     
 <http://w3id.org/env/neap/alum8-get/1>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -35,7 +43,8 @@
   sssom:subject_label "1.1.1 Strict nature reserves" ;
 .
 <http://w3id.org/env/neap/alum8-get/10>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -51,7 +60,8 @@
   sssom:subject_label "1.2.2 Surface water supply" ;
 .
 <http://w3id.org/env/neap/alum8-get/100>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-07-18T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -66,7 +76,8 @@
   sssom:subject_label "5.0.0 Intensive uses" ;
 .
 <http://w3id.org/env/neap/alum8-get/101>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -81,7 +92,8 @@
   sssom:subject_label "5.1.0 Intensive horticulture" ;
 .
 <http://w3id.org/env/neap/alum8-get/102>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -96,7 +108,8 @@
   sssom:subject_label "5.1.1 Production nurseries" ;
 .
 <http://w3id.org/env/neap/alum8-get/103>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -111,7 +124,8 @@
   sssom:subject_label "5.1.2 Shadehouses" ;
 .
 <http://w3id.org/env/neap/alum8-get/104>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -126,7 +140,8 @@
   sssom:subject_label "5.1.3 Glasshouses" ;
 .
 <http://w3id.org/env/neap/alum8-get/105>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -141,7 +156,8 @@
   sssom:subject_label "5.1.4 Glasshouses (hydroponic)" ;
 .
 <http://w3id.org/env/neap/alum8-get/106>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -156,7 +172,8 @@
   sssom:subject_label "5.1.5 Abandoned intensive horticulture" ;
 .
 <http://w3id.org/env/neap/alum8-get/107>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -171,7 +188,8 @@
   sssom:subject_label "5.2.0 Intensive animal production" ;
 .
 <http://w3id.org/env/neap/alum8-get/108>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -186,7 +204,8 @@
   sssom:subject_label "5.2.1 Dairy sheds and yards" ;
 .
 <http://w3id.org/env/neap/alum8-get/109>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -201,7 +220,8 @@
   sssom:subject_label "5.2.2 Feedlots" ;
 .
 <http://w3id.org/env/neap/alum8-get/11>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -217,7 +237,8 @@
   sssom:subject_label "1.2.3 Groundwater" ;
 .
 <http://w3id.org/env/neap/alum8-get/110>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -232,7 +253,8 @@
   sssom:subject_label "5.2.3 Poultry farms" ;
 .
 <http://w3id.org/env/neap/alum8-get/111>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -247,7 +269,8 @@
   sssom:subject_label "5.2.4 Piggeries" ;
 .
 <http://w3id.org/env/neap/alum8-get/112>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -262,7 +285,8 @@
   sssom:subject_label "5.2.5 Aquaculture" ;
 .
 <http://w3id.org/env/neap/alum8-get/113>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -277,7 +301,8 @@
   sssom:subject_label "5.2.6 Horse studs" ;
 .
 <http://w3id.org/env/neap/alum8-get/114>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -292,7 +317,8 @@
   sssom:subject_label "5.2.7 Saleyards/stockyards" ;
 .
 <http://w3id.org/env/neap/alum8-get/115>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -307,7 +333,8 @@
   sssom:subject_label "5.2.8 Abandoned intensive animal production" ;
 .
 <http://w3id.org/env/neap/alum8-get/116>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -322,7 +349,8 @@
   sssom:subject_label "5.3.0 Manufacturing and industrial" ;
 .
 <http://w3id.org/env/neap/alum8-get/117>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -337,7 +365,8 @@
   sssom:subject_label "5.3.1 General purpose factory" ;
 .
 <http://w3id.org/env/neap/alum8-get/118>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -352,7 +381,8 @@
   sssom:subject_label "5.3.2 Food processing factory" ;
 .
 <http://w3id.org/env/neap/alum8-get/119>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -367,7 +397,8 @@
   sssom:subject_label "5.3.3 Major industrial complex" ;
 .
 <http://w3id.org/env/neap/alum8-get/12>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -383,7 +414,8 @@
   sssom:subject_label "1.2.4 Landscape" ;
 .
 <http://w3id.org/env/neap/alum8-get/120>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -398,7 +430,8 @@
   sssom:subject_label "5.3.4 Bulk grain storage" ;
 .
 <http://w3id.org/env/neap/alum8-get/121>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -413,7 +446,8 @@
   sssom:subject_label "5.3.5 Abattoirs" ;
 .
 <http://w3id.org/env/neap/alum8-get/122>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -428,7 +462,8 @@
   sssom:subject_label "5.3.6 Oil refinery" ;
 .
 <http://w3id.org/env/neap/alum8-get/123>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -443,7 +478,8 @@
   sssom:subject_label "5.3.7 Sawmill" ;
 .
 <http://w3id.org/env/neap/alum8-get/124>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -458,7 +494,8 @@
   sssom:subject_label "5.3.8 Abandoned manufacturing and industrial" ;
 .
 <http://w3id.org/env/neap/alum8-get/125>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -473,7 +510,8 @@
   sssom:subject_label "5.4.0 Residential and farm infrastructure" ;
 .
 <http://w3id.org/env/neap/alum8-get/126>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -488,7 +526,8 @@
   sssom:subject_label "5.4.1 Urban residential" ;
 .
 <http://w3id.org/env/neap/alum8-get/127>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -503,7 +542,8 @@
   sssom:subject_label "5.4.2 Rural residential with agriculture" ;
 .
 <http://w3id.org/env/neap/alum8-get/128>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -518,7 +558,8 @@
   sssom:subject_label "5.4.3 Rural residential without agriculture" ;
 .
 <http://w3id.org/env/neap/alum8-get/129>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -533,7 +574,8 @@
   sssom:subject_label "5.4.4 Remote communities" ;
 .
 <http://w3id.org/env/neap/alum8-get/13>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -549,7 +591,8 @@
   sssom:subject_label "1.2.5 Traditional indigenous uses" ;
 .
 <http://w3id.org/env/neap/alum8-get/130>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -564,7 +607,8 @@
   sssom:subject_label "5.4.5 Farm buildings/infrastructure" ;
 .
 <http://w3id.org/env/neap/alum8-get/131>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -579,7 +623,8 @@
   sssom:subject_label "5.5.0 Services" ;
 .
 <http://w3id.org/env/neap/alum8-get/132>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -594,7 +639,8 @@
   sssom:subject_label "5.5.1 Commercial services" ;
 .
 <http://w3id.org/env/neap/alum8-get/133>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -609,7 +655,8 @@
   sssom:subject_label "5.5.2 Public services" ;
 .
 <http://w3id.org/env/neap/alum8-get/134>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -624,7 +671,8 @@
   sssom:subject_label "5.5.3 Recreation and culture" ;
 .
 <http://w3id.org/env/neap/alum8-get/135>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -639,7 +687,8 @@
   sssom:subject_label "5.5.4 Defence facilities - urban" ;
 .
 <http://w3id.org/env/neap/alum8-get/136>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -654,7 +703,8 @@
   sssom:subject_label "5.5.5 Research facilities" ;
 .
 <http://w3id.org/env/neap/alum8-get/137>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -669,7 +719,8 @@
   sssom:subject_label "5.6.0 Utilities" ;
 .
 <http://w3id.org/env/neap/alum8-get/138>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -684,7 +735,8 @@
   sssom:subject_label "5.6.1 Fuel powered electricity generation" ;
 .
 <http://w3id.org/env/neap/alum8-get/139>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -699,7 +751,8 @@
   sssom:subject_label "5.6.2 Hydro electricity generation" ;
 .
 <http://w3id.org/env/neap/alum8-get/14>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -714,7 +767,8 @@
   sssom:subject_label "1.3.0 Other minimal use" ;
 .
 <http://w3id.org/env/neap/alum8-get/140>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -729,7 +783,8 @@
   sssom:subject_label "5.6.3 Wind electricity generation" ;
 .
 <http://w3id.org/env/neap/alum8-get/141>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -744,7 +799,8 @@
   sssom:subject_label "5.6.4 Solar electricity generation" ;
 .
 <http://w3id.org/env/neap/alum8-get/142>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -759,7 +815,8 @@
   sssom:subject_label "5.6.5 Electricity substations and transmission" ;
 .
 <http://w3id.org/env/neap/alum8-get/143>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -774,7 +831,8 @@
   sssom:subject_label "5.6.6 Gas treatment, storage and transmission" ;
 .
 <http://w3id.org/env/neap/alum8-get/144>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -789,7 +847,8 @@
   sssom:subject_label "5.6.7 Water extraction and transmission" ;
 .
 <http://w3id.org/env/neap/alum8-get/145>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -804,7 +863,8 @@
   sssom:subject_label "5.7.0 Transport and communication" ;
 .
 <http://w3id.org/env/neap/alum8-get/146>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -819,7 +879,8 @@
   sssom:subject_label "5.7.1 Airports/aerodromes" ;
 .
 <http://w3id.org/env/neap/alum8-get/147>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -834,7 +895,8 @@
   sssom:subject_label "5.7.2 Roads" ;
 .
 <http://w3id.org/env/neap/alum8-get/148>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -849,7 +911,8 @@
   sssom:subject_label "5.7.3 Railways" ;
 .
 <http://w3id.org/env/neap/alum8-get/149>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -864,7 +927,8 @@
   sssom:subject_label "5.7.4 Ports and water transport" ;
 .
 <http://w3id.org/env/neap/alum8-get/15>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -880,7 +944,8 @@
   sssom:subject_label "1.3.1 Defence land - natural areas" ;
 .
 <http://w3id.org/env/neap/alum8-get/150>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -895,7 +960,8 @@
   sssom:subject_label "5.7.5 Navigation and communication" ;
 .
 <http://w3id.org/env/neap/alum8-get/151>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -910,7 +976,8 @@
   sssom:subject_label "5.8.0 Mining" ;
 .
 <http://w3id.org/env/neap/alum8-get/152>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -925,7 +992,8 @@
   sssom:subject_label "5.8.1 Mines" ;
 .
 <http://w3id.org/env/neap/alum8-get/153>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -940,7 +1008,8 @@
   sssom:subject_label "5.8.2 Quarries" ;
 .
 <http://w3id.org/env/neap/alum8-get/154>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -955,7 +1024,8 @@
   sssom:subject_label "5.8.3 Tailings" ;
 .
 <http://w3id.org/env/neap/alum8-get/155>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -970,7 +1040,8 @@
   sssom:subject_label "5.8.4 Extractive industry not in use" ;
 .
 <http://w3id.org/env/neap/alum8-get/156>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -985,7 +1056,8 @@
   sssom:subject_label "5.9.0 Waste treatment and disposal" ;
 .
 <http://w3id.org/env/neap/alum8-get/157>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1000,7 +1072,8 @@
   sssom:subject_label "5.9.1 Effluent pond" ;
 .
 <http://w3id.org/env/neap/alum8-get/158>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1015,7 +1088,8 @@
   sssom:subject_label "5.9.2 Landfill" ;
 .
 <http://w3id.org/env/neap/alum8-get/159>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1030,7 +1104,8 @@
   sssom:subject_label "5.9.3 Solid garbage" ;
 .
 <http://w3id.org/env/neap/alum8-get/16>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1046,7 +1121,8 @@
   sssom:subject_label "1.3.2 Stock route" ;
 .
 <http://w3id.org/env/neap/alum8-get/160>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1061,7 +1137,8 @@
   sssom:subject_label "5.9.4 Incinerators" ;
 .
 <http://w3id.org/env/neap/alum8-get/161>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1076,7 +1153,8 @@
   sssom:subject_label "5.9.5 Sewage/sewerage" ;
 .
 <http://w3id.org/env/neap/alum8-get/162>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1091,7 +1169,8 @@
   sssom:subject_label "6.0.0 Water" ;
 .
 <http://w3id.org/env/neap/alum8-get/163>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1106,7 +1185,8 @@
   sssom:subject_label "6.1.0 Lake" ;
 .
 <http://w3id.org/env/neap/alum8-get/164>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1122,7 +1202,8 @@
   sssom:subject_label "6.1.1 Lake - conservation" ;
 .
 <http://w3id.org/env/neap/alum8-get/165>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1138,7 +1219,8 @@
   sssom:subject_label "6.1.2 Lake - production" ;
 .
 <http://w3id.org/env/neap/alum8-get/166>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1154,7 +1236,8 @@
   sssom:subject_label "6.1.3 Lake - intensive use" ;
 .
 <http://w3id.org/env/neap/alum8-get/167>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1169,7 +1252,8 @@
   sssom:subject_label "6.1.4 Lake - saline" ;
 .
 <http://w3id.org/env/neap/alum8-get/168>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1184,7 +1268,8 @@
   sssom:subject_label "6.2.0 Reservoir/dam" ;
 .
 <http://w3id.org/env/neap/alum8-get/169>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1199,7 +1284,8 @@
   sssom:subject_label "6.2.1 Reservoir" ;
 .
 <http://w3id.org/env/neap/alum8-get/17>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1215,7 +1301,8 @@
   sssom:subject_label "1.3.3 Residual native cover" ;
 .
 <http://w3id.org/env/neap/alum8-get/170>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1230,7 +1317,8 @@
   sssom:subject_label "6.2.2 Water storage - intensive use/farm dams" ;
 .
 <http://w3id.org/env/neap/alum8-get/171>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1245,7 +1333,8 @@
   sssom:subject_label "6.2.3 Evaporation basin" ;
 .
 <http://w3id.org/env/neap/alum8-get/172>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1260,7 +1349,8 @@
   sssom:subject_label "6.3.0 River" ;
 .
 <http://w3id.org/env/neap/alum8-get/173>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1276,7 +1366,8 @@
   sssom:subject_label "6.3.1 River - conservation" ;
 .
 <http://w3id.org/env/neap/alum8-get/174>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1292,7 +1383,8 @@
   sssom:subject_label "6.3.2 River - production" ;
 .
 <http://w3id.org/env/neap/alum8-get/175>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1308,7 +1400,8 @@
   sssom:subject_label "6.3.3 River - intensive use" ;
 .
 <http://w3id.org/env/neap/alum8-get/176>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1323,7 +1416,8 @@
   sssom:subject_label "6.4.0 Channel/aqueduct" ;
 .
 <http://w3id.org/env/neap/alum8-get/177>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1338,7 +1432,8 @@
   sssom:subject_label "6.4.1 Supply channel/aqueduct" ;
 .
 <http://w3id.org/env/neap/alum8-get/178>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1353,7 +1448,8 @@
   sssom:subject_label "6.4.2 Drainage channel/aqueduct" ;
 .
 <http://w3id.org/env/neap/alum8-get/179>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1368,7 +1464,8 @@
   sssom:subject_label "6.4.3 Stormwater" ;
 .
 <http://w3id.org/env/neap/alum8-get/18>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1384,7 +1481,8 @@
   sssom:subject_label "1.3.4 Rehabilitation" ;
 .
 <http://w3id.org/env/neap/alum8-get/180>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1399,7 +1497,8 @@
   sssom:subject_label "6.5.0 Marsh/wetland" ;
 .
 <http://w3id.org/env/neap/alum8-get/181>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1415,7 +1514,8 @@
   sssom:subject_label "6.5.1 Marsh/wetland - conservation" ;
 .
 <http://w3id.org/env/neap/alum8-get/182>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1431,7 +1531,8 @@
   sssom:subject_label "6.5.2 Marsh/wetland - production" ;
 .
 <http://w3id.org/env/neap/alum8-get/183>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1447,7 +1548,8 @@
   sssom:subject_label "6.5.3 Marsh/wetland - intensive use" ;
 .
 <http://w3id.org/env/neap/alum8-get/184>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1462,7 +1564,8 @@
   sssom:subject_label "6.5.4 Marsh/wetland - saline" ;
 .
 <http://w3id.org/env/neap/alum8-get/185>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1477,7 +1580,8 @@
   sssom:subject_label "6.6.0 Estuary/coastal waters" ;
 .
 <http://w3id.org/env/neap/alum8-get/186>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1493,7 +1597,8 @@
   sssom:subject_label "6.6.1 Estuary/coastal waters - conservation" ;
 .
 <http://w3id.org/env/neap/alum8-get/187>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1509,7 +1614,8 @@
   sssom:subject_label "6.6.2 Estuary/coastal waters - production" ;
 .
 <http://w3id.org/env/neap/alum8-get/188>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1525,7 +1631,8 @@
   sssom:subject_label "6.6.3 Estuary/coastal waters - intensive use" ;
 .
 <http://w3id.org/env/neap/alum8-get/19>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1540,7 +1647,8 @@
   sssom:subject_label "2.1.0 Grazing native vegetation" ;
 .
 <http://w3id.org/env/neap/alum8-get/2>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1556,7 +1664,8 @@
   sssom:subject_label "1.1.2 Wilderness area" ;
 .
 <http://w3id.org/env/neap/alum8-get/20>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1571,7 +1680,8 @@
   sssom:subject_label "2.2.0 Production native forests" ;
 .
 <http://w3id.org/env/neap/alum8-get/21>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1587,7 +1697,8 @@
   sssom:subject_label "2.2.1 Wood production forestry" ;
 .
 <http://w3id.org/env/neap/alum8-get/22>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1603,7 +1714,8 @@
   sssom:subject_label "2.2.2 Other forest production" ;
 .
 <http://w3id.org/env/neap/alum8-get/23>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1618,7 +1730,8 @@
   sssom:subject_label "3.1.0 Plantation forests" ;
 .
 <http://w3id.org/env/neap/alum8-get/24>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1633,7 +1746,8 @@
   sssom:subject_label "3.1.1 Hardwood plantation forestry" ;
 .
 <http://w3id.org/env/neap/alum8-get/25>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1648,7 +1762,8 @@
   sssom:subject_label "3.1.2 Softwood plantation forestry" ;
 .
 <http://w3id.org/env/neap/alum8-get/26>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1663,7 +1778,8 @@
   sssom:subject_label "3.1.3 Other forest plantation" ;
 .
 <http://w3id.org/env/neap/alum8-get/27>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1678,7 +1794,8 @@
   sssom:subject_label "3.1.4 Environmental forest plantation" ;
 .
 <http://w3id.org/env/neap/alum8-get/28>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1693,7 +1810,8 @@
   sssom:subject_label "3.2.0 Grazing modified pastures" ;
 .
 <http://w3id.org/env/neap/alum8-get/29>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1708,7 +1826,8 @@
   sssom:subject_label "3.2.1 Native/exotic pasture mosaic" ;
 .
 <http://w3id.org/env/neap/alum8-get/3>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1724,7 +1843,8 @@
   sssom:subject_label "1.1.3 National park" ;
 .
 <http://w3id.org/env/neap/alum8-get/30>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1739,7 +1859,8 @@
   sssom:subject_label "3.2.2 Woody fodder plants" ;
 .
 <http://w3id.org/env/neap/alum8-get/31>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1754,7 +1875,8 @@
   sssom:subject_label "3.2.3 Pasture legumes" ;
 .
 <http://w3id.org/env/neap/alum8-get/32>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1769,7 +1891,8 @@
   sssom:subject_label "3.2.4 Pasture legume/grass mixtures" ;
 .
 <http://w3id.org/env/neap/alum8-get/33>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1784,7 +1907,8 @@
   sssom:subject_label "3.2.5 Sown grasses" ;
 .
 <http://w3id.org/env/neap/alum8-get/34>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1799,7 +1923,8 @@
   sssom:subject_label "3.3.0 Cropping" ;
 .
 <http://w3id.org/env/neap/alum8-get/35>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1814,7 +1939,8 @@
   sssom:subject_label "3.3.1 Cereals" ;
 .
 <http://w3id.org/env/neap/alum8-get/36>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1829,7 +1955,8 @@
   sssom:subject_label "3.3.2 Beverage and spice crops" ;
 .
 <http://w3id.org/env/neap/alum8-get/37>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1844,7 +1971,8 @@
   sssom:subject_label "3.3.3 Hay and silage" ;
 .
 <http://w3id.org/env/neap/alum8-get/38>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1859,7 +1987,8 @@
   sssom:subject_label "3.3.4 Oilseeds" ;
 .
 <http://w3id.org/env/neap/alum8-get/39>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1874,7 +2003,8 @@
   sssom:subject_label "3.3.5 Sugar" ;
 .
 <http://w3id.org/env/neap/alum8-get/4>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1890,7 +2020,8 @@
   sssom:subject_label "1.1.4 Natural feature protection" ;
 .
 <http://w3id.org/env/neap/alum8-get/40>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1905,7 +2036,8 @@
   sssom:subject_label "3.3.6 Cotton" ;
 .
 <http://w3id.org/env/neap/alum8-get/41>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1920,7 +2052,8 @@
   sssom:subject_label "3.3.7 Alkaloid poppies" ;
 .
 <http://w3id.org/env/neap/alum8-get/42>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1935,7 +2068,8 @@
   sssom:subject_label "3.3.8 Pulses" ;
 .
 <http://w3id.org/env/neap/alum8-get/43>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -1950,7 +2084,8 @@
   sssom:subject_label "3.4.0 Perennial horticulture" ;
 .
 <http://w3id.org/env/neap/alum8-get/44>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1965,7 +2100,8 @@
   sssom:subject_label "3.4.1 Tree fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/45>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1980,7 +2116,8 @@
   sssom:subject_label "3.4.2 Olives" ;
 .
 <http://w3id.org/env/neap/alum8-get/46>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -1995,7 +2132,8 @@
   sssom:subject_label "3.4.3 Tree nuts" ;
 .
 <http://w3id.org/env/neap/alum8-get/47>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2010,7 +2148,8 @@
   sssom:subject_label "3.4.4 Vine fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/48>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2025,7 +2164,8 @@
   sssom:subject_label "3.4.5 Shrub berries and fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/49>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2040,7 +2180,8 @@
   sssom:subject_label "3.4.6 Perennial flowers and bulbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/5>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2056,7 +2197,8 @@
   sssom:subject_label "1.1.5 Habitat/species management area" ;
 .
 <http://w3id.org/env/neap/alum8-get/50>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2071,7 +2213,8 @@
   sssom:subject_label "3.4.7 Perennial vegetables and herbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/51>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2086,7 +2229,8 @@
   sssom:subject_label "3.4.8 Citrus" ;
 .
 <http://w3id.org/env/neap/alum8-get/52>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2101,7 +2245,8 @@
   sssom:subject_label "3.4.9 Grapes" ;
 .
 <http://w3id.org/env/neap/alum8-get/53>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2116,7 +2261,8 @@
   sssom:subject_label "3.5.1 Seasonal fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/54>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2131,7 +2277,8 @@
   sssom:subject_label "3.5.2 Seasonal flowers and bulbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/55>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2146,7 +2293,8 @@
   sssom:subject_label "3.5.4 Seasonal vegetables and herbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/56>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2162,7 +2310,8 @@
   sssom:subject_label "3.6.1 Degraded land" ;
 .
 <http://w3id.org/env/neap/alum8-get/57>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2178,7 +2327,8 @@
   sssom:subject_label "3.6.2 Abandoned land" ;
 .
 <http://w3id.org/env/neap/alum8-get/58>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2194,7 +2344,8 @@
   sssom:subject_label "3.6.3 Land under rehabilitation" ;
 .
 <http://w3id.org/env/neap/alum8-get/59>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2210,7 +2361,8 @@
   sssom:subject_label "3.6.4 No defined use" ;
 .
 <http://w3id.org/env/neap/alum8-get/6>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2226,7 +2378,8 @@
   sssom:subject_label "1.1.6 Protected landscape" ;
 .
 <http://w3id.org/env/neap/alum8-get/60>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2242,7 +2395,8 @@
   sssom:subject_label "3.6.5 Abandoned perennial horticulture" ;
 .
 <http://w3id.org/env/neap/alum8-get/61>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -2257,7 +2411,8 @@
   sssom:subject_label "4.1.0 Irrigated plantation forests" ;
 .
 <http://w3id.org/env/neap/alum8-get/62>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2272,7 +2427,8 @@
   sssom:subject_label "4.1.1 Irrigated hardwood plantation forestry" ;
 .
 <http://w3id.org/env/neap/alum8-get/63>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2287,7 +2443,8 @@
   sssom:subject_label "4.1.2 Irrigated softwood plantation forestry" ;
 .
 <http://w3id.org/env/neap/alum8-get/64>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2302,7 +2459,8 @@
   sssom:subject_label "4.1.3 Irrigated other forest production" ;
 .
 <http://w3id.org/env/neap/alum8-get/65>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2317,7 +2475,8 @@
   sssom:subject_label "4.1.4 Irrigated environmental forest plantation" ;
 .
 <http://w3id.org/env/neap/alum8-get/66>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -2332,7 +2491,8 @@
   sssom:subject_label "4.2.0 Grazing irrigated modified pastures" ;
 .
 <http://w3id.org/env/neap/alum8-get/67>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2347,7 +2507,8 @@
   sssom:subject_label "4.2.1 Irrigated woody fodder plants" ;
 .
 <http://w3id.org/env/neap/alum8-get/68>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2362,7 +2523,8 @@
   sssom:subject_label "4.2.2 Irrigated pasture legumes" ;
 .
 <http://w3id.org/env/neap/alum8-get/69>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2377,7 +2539,8 @@
   sssom:subject_label "4.2.3 Irrigated legume/grass mixtures" ;
 .
 <http://w3id.org/env/neap/alum8-get/7>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2393,7 +2556,8 @@
   sssom:subject_label "1.1.7 Other conserved area" ;
 .
 <http://w3id.org/env/neap/alum8-get/70>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2408,7 +2572,8 @@
   sssom:subject_label "4.2.4 Irrigated sown grasses" ;
 .
 <http://w3id.org/env/neap/alum8-get/71>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -2423,7 +2588,8 @@
   sssom:subject_label "4.3.0 Irrigated cropping" ;
 .
 <http://w3id.org/env/neap/alum8-get/72>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2438,7 +2604,8 @@
   sssom:subject_label "4.3.1 Irrigated cereals" ;
 .
 <http://w3id.org/env/neap/alum8-get/73>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2453,7 +2620,8 @@
   sssom:subject_label "4.3.2 Irrigated beverage and spice crops" ;
 .
 <http://w3id.org/env/neap/alum8-get/74>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2468,7 +2636,8 @@
   sssom:subject_label "4.3.3 Irrigated hay and silage" ;
 .
 <http://w3id.org/env/neap/alum8-get/75>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2483,7 +2652,8 @@
   sssom:subject_label "4.3.4 Irrigated oilseeds" ;
 .
 <http://w3id.org/env/neap/alum8-get/76>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2498,7 +2668,8 @@
   sssom:subject_label "4.3.5 Irrigated sugar" ;
 .
 <http://w3id.org/env/neap/alum8-get/77>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2513,7 +2684,8 @@
   sssom:subject_label "4.3.6 Irrigated cotton" ;
 .
 <http://w3id.org/env/neap/alum8-get/78>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2528,7 +2700,8 @@
   sssom:subject_label "4.3.7 Irrigated alkaloid poppies" ;
 .
 <http://w3id.org/env/neap/alum8-get/79>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2543,7 +2716,8 @@
   sssom:subject_label "4.3.8 Irrigated pulses" ;
 .
 <http://w3id.org/env/neap/alum8-get/8>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -2558,7 +2732,8 @@
   sssom:subject_label "1.2.0 Managed resource protection" ;
 .
 <http://w3id.org/env/neap/alum8-get/80>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2573,7 +2748,8 @@
   sssom:subject_label "4.3.9 Irrigated rice" ;
 .
 <http://w3id.org/env/neap/alum8-get/81>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2024-05-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0000-0002-4048-6792> ;
@@ -2588,7 +2764,8 @@
   sssom:subject_label "4.4.0 Irrigated perennial horticulture" ;
 .
 <http://w3id.org/env/neap/alum8-get/82>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2603,7 +2780,8 @@
   sssom:subject_label "4.4.1 Irrigated tree fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/83>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2618,7 +2796,8 @@
   sssom:subject_label "4.4.2 Irrigated olives" ;
 .
 <http://w3id.org/env/neap/alum8-get/84>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2633,7 +2812,8 @@
   sssom:subject_label "4.4.3 Irrigated tree nuts" ;
 .
 <http://w3id.org/env/neap/alum8-get/85>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2648,7 +2828,8 @@
   sssom:subject_label "4.4.4 Irrigated vine fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/86>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2663,7 +2844,8 @@
   sssom:subject_label "4.4.5 Irrigated shrub berries and fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/87>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2678,7 +2860,8 @@
   sssom:subject_label "4.4.6 Irrigated  perennial flowers and bulbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/88>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2693,7 +2876,8 @@
   sssom:subject_label "4.4.7 Irrigated perennial vegetables and herbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/89>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2708,7 +2892,8 @@
   sssom:subject_label "4.4.8 Irrigated citrus" ;
 .
 <http://w3id.org/env/neap/alum8-get/9>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2724,7 +2909,8 @@
   sssom:subject_label "1.2.1 Biodiversity" ;
 .
 <http://w3id.org/env/neap/alum8-get/90>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2739,7 +2925,8 @@
   sssom:subject_label "4.4.9 Irrigated grapes" ;
 .
 <http://w3id.org/env/neap/alum8-get/91>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2754,7 +2941,8 @@
   sssom:subject_label "4.5.1 Irrigated seasonal fruits" ;
 .
 <http://w3id.org/env/neap/alum8-get/92>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2769,7 +2957,8 @@
   sssom:subject_label "4.5.2 Irrigated seasonal flowers and bulbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/93>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2784,7 +2973,8 @@
   sssom:subject_label "4.5.3 Irrigated seasonal vegetables and herbs" ;
 .
 <http://w3id.org/env/neap/alum8-get/94>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2799,7 +2989,8 @@
   sssom:subject_label "4.5.4 Irrigated turf farming" ;
 .
 <http://w3id.org/env/neap/alum8-get/95>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2815,7 +3006,8 @@
   sssom:subject_label "4.6.1 Degraded irrigated land" ;
 .
 <http://w3id.org/env/neap/alum8-get/96>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2831,7 +3023,8 @@
   sssom:subject_label "4.6.2 Abandoned irrigated land" ;
 .
 <http://w3id.org/env/neap/alum8-get/97>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2847,7 +3040,8 @@
   sssom:subject_label "4.6.3 Irrigated land under rehabilitation" ;
 .
 <http://w3id.org/env/neap/alum8-get/98>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
@@ -2863,7 +3057,8 @@
   sssom:subject_label "4.6.4 No defined use - irrigation" ;
 .
 <http://w3id.org/env/neap/alum8-get/99>
-  a skos:Concept ;
+  a skos:Concept ; 
+skos:inScheme <http://w3id.org/env/neap/alum8-get/> ;
   a sssom:Mapping ;
   dcterms:created "2023-12-01T00:00:00"^^xsd:dateTime ;
   dcterms:creator <https://orcid.org/0009-0001-6090-9959> ;
