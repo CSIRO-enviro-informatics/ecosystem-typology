@@ -1,6 +1,6 @@
 {
   "@graph" : [ {
-    "@id" : "http://w3id.org/env/crosswalk/NESP2GET",
+    "@id" : "https://w3id.org/env/crosswalk/NESP2GET",
     "@type" : [ "owl:Ontology", "sssom:MappingSet" ],
     "created" : "2024-05-08",
     "creator" : "orcid:0000-0002-3884-3420",
@@ -154,7 +154,7 @@
     "skos" : "http://www.w3.org/2004/02/skos/core#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "orcid" : "https://orcid.org/",
-    "nesp2get" : "http://w3id.org/env/crosswalk/NESP2GET/",
+    "nesp2get" : "https://w3id.org/env/crosswalk/NESP2GET/",
     "crosswalk" : "https://w3id.org/env/crosswalk/",
     "semapv" : "https://w3id.org/semapv/vocab/",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

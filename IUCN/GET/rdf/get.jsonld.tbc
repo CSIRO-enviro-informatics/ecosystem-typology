@@ -13,7 +13,7 @@
   a visual:Graph ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/AnthropogenicMarine> ;
+      visual:depicts <https://w3id.org/env/iucn-get/AnthropogenicMarine> ;
       visual:height "27"^^xsd:int ;
       visual:width "287"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -21,7 +21,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/AnthropogenicShorelines> ;
+      visual:depicts <https://w3id.org/env/iucn-get/AnthropogenicShorelines> ;
       visual:height "27"^^xsd:int ;
       visual:width "312"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -29,7 +29,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/AnthropogenicSubterranean> ;
+      visual:depicts <https://w3id.org/env/iucn-get/AnthropogenicSubterranean> ;
       visual:height "27"^^xsd:int ;
       visual:width "384"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -37,7 +37,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/AnthropogenicSubterraneanFreshwaters> ;
+      visual:depicts <https://w3id.org/env/iucn-get/AnthropogenicSubterraneanFreshwaters> ;
       visual:height "27"^^xsd:int ;
       visual:width "431"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -45,7 +45,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/ArtificialWetlands> ;
+      visual:depicts <https://w3id.org/env/iucn-get/ArtificialWetlands> ;
       visual:height "27"^^xsd:int ;
       visual:width "247"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -53,7 +53,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/BrackishTidal> ;
+      visual:depicts <https://w3id.org/env/iucn-get/BrackishTidal> ;
       visual:height "27"^^xsd:int ;
       visual:width "212"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -61,7 +61,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Cryogenic> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Cryogenic> ;
       visual:height "27"^^xsd:int ;
       visual:width "293"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -69,7 +69,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/DeepSeaFloors> ;
+      visual:depicts <https://w3id.org/env/iucn-get/DeepSeaFloors> ;
       visual:height "27"^^xsd:int ;
       visual:width "233"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -77,7 +77,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Deserts> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Deserts> ;
       visual:height "27"^^xsd:int ;
       visual:width "309"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -85,7 +85,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/ForestsAndWoodlands> ;
+      visual:depicts <https://w3id.org/env/iucn-get/ForestsAndWoodlands> ;
       visual:height "27"^^xsd:int ;
       visual:width "435"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -93,7 +93,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Freshwater> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Freshwater> ;
       visual:height "27"^^xsd:int ;
       visual:width "138"^^xsd:int ;
       visual:x "650"^^xsd:int ;
@@ -101,7 +101,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/IntensiveLandUse> ;
+      visual:depicts <https://w3id.org/env/iucn-get/IntensiveLandUse> ;
       visual:height "27"^^xsd:int ;
       visual:width "252"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -109,7 +109,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Lakes> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Lakes> ;
       visual:height "27"^^xsd:int ;
       visual:width "152"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -117,7 +117,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Marine> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Marine> ;
       visual:height "27"^^xsd:int ;
       visual:width "107"^^xsd:int ;
       visual:x "650"^^xsd:int ;
@@ -125,7 +125,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/MarineShelf> ;
+      visual:depicts <https://w3id.org/env/iucn-get/MarineShelf> ;
       visual:height "27"^^xsd:int ;
       visual:width "205"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -133,7 +133,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/PalustrineWetlands> ;
+      visual:depicts <https://w3id.org/env/iucn-get/PalustrineWetlands> ;
       visual:height "27"^^xsd:int ;
       visual:width "259"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -141,7 +141,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/PelagicOceanWaters> ;
+      visual:depicts <https://w3id.org/env/iucn-get/PelagicOceanWaters> ;
       visual:height "27"^^xsd:int ;
       visual:width "271"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -149,7 +149,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/RiversStreams> ;
+      visual:depicts <https://w3id.org/env/iucn-get/RiversStreams> ;
       visual:height "27"^^xsd:int ;
       visual:width "258"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -157,7 +157,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Savannas> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Savannas> ;
       visual:height "27"^^xsd:int ;
       visual:width "307"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -165,7 +165,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Shorelines> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Shorelines> ;
       visual:height "27"^^xsd:int ;
       visual:width "190"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -173,7 +173,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Shrublands> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Shrublands> ;
       visual:height "27"^^xsd:int ;
       visual:width "396"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -181,7 +181,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Subterranean> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Subterranean> ;
       visual:height "27"^^xsd:int ;
       visual:width "158"^^xsd:int ;
       visual:x "650"^^xsd:int ;
@@ -189,7 +189,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/SubterraneanFreshwaters> ;
+      visual:depicts <https://w3id.org/env/iucn-get/SubterraneanFreshwaters> ;
       visual:height "27"^^xsd:int ;
       visual:width "309"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -197,7 +197,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/SubterraneanLithic> ;
+      visual:depicts <https://w3id.org/env/iucn-get/SubterraneanLithic> ;
       visual:height "27"^^xsd:int ;
       visual:width "255"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -205,7 +205,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/SubterraneanTidal> ;
+      visual:depicts <https://w3id.org/env/iucn-get/SubterraneanTidal> ;
       visual:height "27"^^xsd:int ;
       visual:width "253"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -213,7 +213,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/SupralittoralCoastal> ;
+      visual:depicts <https://w3id.org/env/iucn-get/SupralittoralCoastal> ;
       visual:height "27"^^xsd:int ;
       visual:width "265"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -221,7 +221,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/Terrestrial> ;
+      visual:depicts <https://w3id.org/env/iucn-get/Terrestrial> ;
       visual:height "27"^^xsd:int ;
       visual:width "127"^^xsd:int ;
       visual:x "650"^^xsd:int ;
@@ -229,7 +229,7 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/TransitionalWaters> ;
+      visual:depicts <https://w3id.org/env/iucn-get/TransitionalWaters> ;
       visual:height "27"^^xsd:int ;
       visual:width "372"^^xsd:int ;
       visual:x "21"^^xsd:int ;
@@ -237,12 +237,12 @@
     ] ;
   visual:child [
       a visual:Box ;
-      visual:depicts <http://w3id.org/env/iucn-get/TropicalSubtropicalForests> ;
+      visual:depicts <https://w3id.org/env/iucn-get/TropicalSubtropicalForests> ;
       visual:height "27"^^xsd:int ;
       visual:width "323"^^xsd:int ;
       visual:x "21"^^xsd:int ;
       visual:y "442"^^xsd:int ;
     ] ;
-  visual:depicts <http://w3id.org/env/iucn-get/Terrestrial> ;
+  visual:depicts <https://w3id.org/env/iucn-get/Terrestrial> ;
   rdfs:label "BiomesGraph" ;
 ].

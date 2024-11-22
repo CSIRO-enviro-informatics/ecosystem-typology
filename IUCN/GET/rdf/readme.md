@@ -6,4 +6,4 @@ Each Realm, Biome and Functional Group is implemented as an SKOS Concept.
 SKOS 'has broader' is used to organize the IUCN hierarchy. 
 The classification levels are managed using XKOS. 
 
-The baseURI is currently set to http://w3id.org/env/iucn-get/ however this is merely a placeholder.
+The baseURI is currently set to https://w3id.org/env/iucn-get/ however this is merely a placeholder.

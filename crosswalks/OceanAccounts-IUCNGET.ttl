@@ -1,6 +1,6 @@
 @prefix crosswalk: <https://w3id.org/env/neap/crosswalk/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix map: <http://w3id.org/env/neap/ocean-get/> .
+@prefix map: <https://w3id.org/env/neap/ocean-get/> .
 @prefix ocean: <https://w3id.org/env/neap/ocean/> .
 @prefix orcid: <https://orcid.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

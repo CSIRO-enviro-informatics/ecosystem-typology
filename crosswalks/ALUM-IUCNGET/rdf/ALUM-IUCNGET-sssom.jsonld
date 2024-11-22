@@ -1,6 +1,6 @@
 {
   "@graph" : [ {
-    "@id" : "http://w3id.org/env/crosswalk/ALUM2GET",
+    "@id" : "https://w3id.org/env/crosswalk/ALUM2GET",
     "@type" : [ "sssom:MappingSet", "owl:Ontology" ],
     "created" : "2024-05-27",
     "creator" : "orcid:0000-0002-3884-3420",
@@ -157,7 +157,7 @@
     "crosswalk" : "https://w3id.org/env/crosswalk/",
     "semapv" : "https://w3id.org/semapv/vocab/",
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "alum2get" : "http://w3id.org/env/crosswalk/ALUM2GET/",
+    "alum2get" : "https://w3id.org/env/crosswalk/ALUM2GET/",
     "get" : "https://global-ecosystems.org/explore/",
     "dcterms" : "http://purl.org/dc/terms/",
     "sssom" : "https://w3id.org/sssom/",

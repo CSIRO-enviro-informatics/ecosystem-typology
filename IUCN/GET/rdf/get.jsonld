@@ -1,10 +1,10 @@
 {
   "@graph" : [ {
-    "@id" : "http://w3id.org/env/iucn-get/",
+    "@id" : "https://w3id.org/env/iucn-get/",
     "@type" : [ "skos:ConceptScheme", "owl:Ontology" ],
     "created" : "2023-11-22",
     "creator" : "https://orcid.org/0000-0002-3884-3420",
-    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 \r\n\r\nEach Realm, Biome and Functional Group is implemented as an SKOS Concept. \r\nSKOS 'has broader' is used to organize the IUCN hierarchy. \r\nThe classification levels are managed using XKOS. \r\n\r\nThe baseURI is currently set to http://w3id.org/env/iucn-get/ however this is merely a placeholder. ",
+    "description" : "RDF implementation of the IUCN Global Ecosystem Typology v2.1, levels 1-3 \r\n\r\nEach Realm, Biome and Functional Group is implemented as an SKOS Concept. \r\nSKOS 'has broader' is used to organize the IUCN hierarchy. \r\nThe classification levels are managed using XKOS. \r\n\r\nThe baseURI is currently set to https://w3id.org/env/iucn-get/ however this is merely a placeholder. ",
     "isFormatOf" : "https://global-ecosystems.org/explore",
     "license" : "https://creativecommons.org/public-domain/cc0/",
     "modified" : "2023-11-23",
@@ -1129,7 +1129,7 @@
     "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "resource" : "http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/",
-    "iucn" : "http://w3id.org/env/iucn-get/",
+    "iucn" : "https://w3id.org/env/iucn-get/",
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "dcterms" : "http://purl.org/dc/terms/",
     "skos" : "http://www.w3.org/2004/02/skos/core#",

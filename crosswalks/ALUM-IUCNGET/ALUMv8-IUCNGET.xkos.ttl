@@ -1,17 +1,17 @@
-# baseURI: http://w3id.org/env/crosswalk/alum2get/
+# baseURI: https://w3id.org/env/crosswalk/alum2get/
 # imports: file:///C:/dev/ecosystem-typology/ABARES/ALUM8/rdf/abares-australian-land-use-and-management-classification-version-8.ttl
 # imports: http://purl.org/dc/terms/
 # imports: http://rdf-vocabulary.ddialliance.org/xkos
-# imports: http://w3id.org/env/iucn-get/
+# imports: https://w3id.org/env/iucn-get/
 # imports: http://www.w3.org/2004/02/skos/core
 # prefix: ag
 
-@prefix ag: <http://w3id.org/env/crosswalk/alum2get/> .
-@prefix alum8: <http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/> .
+@prefix ag: <https://w3id.org/env/crosswalk/alum2get/> .
+@prefix alum8: <https://linked.data.gov.au/def/alum/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix get: <https://global-ecosystems.org/explore/> .
-@prefix getid: <http://w3id.org/env/iucn-get/> .
+@prefix getid: <https://w3id.org/env/iucn-get/> .
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -42,7 +42,7 @@ ag:
   owl:imports <file:///C:/dev/ecosystem-typology/ABARES/ALUM8/rdf/abares-australian-land-use-and-management-classification-version-8.ttl> ;
   owl:imports dcterms: ;
   owl:imports <http://rdf-vocabulary.ddialliance.org/xkos> ;
-  owl:imports <http://w3id.org/env/iucn-get/> ;
+  owl:imports <https://w3id.org/env/iucn-get/> ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
   skos:prefLabel "Correspondence table: ALUMv8 to IUCN GET" ;
 .

@@ -101,7 +101,7 @@ Note that in [RVA](https://vocabs.ardc.edu.au/) the URL for the web-page showing
 is _not_ the term URI, which is shown at the top of the page
 
 ```
-<http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/Marsh-or-wetlandsaline>
+<https://linked.data.gov.au/def/alum/Marsh-or-wetlandsaline>
 ```
 
 or in compact form
@@ -113,5 +113,5 @@ alum8:Marsh-or-wetlandsaline
 where
 
 ```
-alum8: http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/
+alum8: https://linked.data.gov.au/def/alum/
 ```

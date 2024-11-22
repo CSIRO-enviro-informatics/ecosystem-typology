@@ -1,4 +1,4 @@
-# baseURI: http://w3id.org/env/crosswalk/NESP2GET
+# baseURI: https://w3id.org/env/crosswalk/NESP2GET
 # imports: http://purl.org/dc/elements/1.1/
 # imports: https://w3id.org/sssom/schema/
 
@@ -7,7 +7,7 @@
 @prefix get: <https://global-ecosystems.org/explore/> .
 @prefix group: <https://global-ecosystems.org/explore/groups/> .
 @prefix nesp: <https://w3id.org/env/nesp/> .
-@prefix nesp2get: <http://w3id.org/env/crosswalk/NESP2GET/> .
+@prefix nesp2get: <https://w3id.org/env/crosswalk/NESP2GET/> .
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
@@ -20,7 +20,7 @@
 @prefix status: <https://w3id.org/sssom/status/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://w3id.org/env/crosswalk/NESP2GET>
+<https://w3id.org/env/crosswalk/NESP2GET>
   a owl:Ontology ;
   a sssom:Mapping , rdf:StatementSet ;
   dcterms:created "2024-05-08"^^xsd:date ;

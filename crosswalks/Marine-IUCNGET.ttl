@@ -1,6 +1,6 @@
 @prefix crosswalk: <https://w3id.org/env/neap/crosswalk/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix map: <http://w3id.org/env/neap/nesp-get/> .
+@prefix map: <https://w3id.org/env/neap/nesp-get/> .
 @prefix nesp: <https://w3id.org/env/neap/nesp/> .
 @prefix orcid: <https://orcid.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
