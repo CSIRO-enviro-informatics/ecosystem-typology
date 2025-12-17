@@ -85,7 +85,7 @@ UID,Ecosystem_functional_group,Realm,Realm ID,Biome,Biome ID,Group,Group_ID,Data
 84,M1.7 Subtidal sand beds,Marine,M,Marine shelf biome,M1,Subtidal sand beds,M1.7,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 85,M1.8 Subtidal mud plains,Marine,M,Marine shelf biome,M1,Subtidal mud plains,M1.8,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 86,M1.9 Upwelling zones,Marine,M,Marine shelf biome,M1,Upwelling zones,M1.9,dat gap,,
-87,M1.10 Rhodolith/Maërl beds,Marine,M,Marine shelf biome,M1,Rhodolith/Maërl beds,M1.10,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
+87,M1.10 Rhodolith/MaÃ«rl beds,Marine,M,Marine shelf biome,M1,Rhodolith/MaÃ«rl beds,M1.10,NVE - Benthic,,"Rowan Trebilco Piers Dunstan"
 88,M2.1 Epipelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Epipelagic ocean waters,M2.1,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
 89,M2.2 Mesopelagic ocean water,Marine,M,Pelagic ocean waters biome,M2,Mesopelagic ocean water,M2.2,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
 90,M2.3 Bathypelagic ocean waters,Marine,M,Pelagic ocean waters biome,M2,Bathypelagic ocean waters,M2.3,NVE - Pelagic,,"Rowan Trebilco Piers Dunstan"
@@ -100,4 +100,4 @@ UID,Ecosystem_functional_group,Realm,Realm ID,Biome,Biome ID,Group,Group_ID,Data
 99,M3.7 Chemosynthetic-based-ecosystems (CBE),Marine,M,Deep sea floors biome,M3,"Seamounts, ridges and plateaus",M3.7,data gap,,
 100,M4.1 Submerged artificial structures,Marine,M,Anthropogenic marine biome,M4,Submerged artificial structures,M4.1,SeaMap,Pressures & Activities: Structures and works?,"Rowan Trebilco Piers Dunstan"
 101,M4.2 Marine aquafarms,Marine,M,Anthropogenic marine biome,M4,Marine aquafarms,M4.2,SeaMap,Pressures & Activities: Commercial aquaculture including pearling?,"Rowan Trebilco Piers Dunstan"
-255, Unclassified,Unclassified,,Unclassified,,Unclassified,,,,
+255,Unclassified,Unclassified,,Unclassified,,Unclassified,,,,
